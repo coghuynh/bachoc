@@ -1,0 +1,4749 @@
+[
+    {
+        "person": {
+            "id": null,
+            "name": "Nguyễn Thị Khánh Vân",
+            "gender": "female",
+            "date_of_birth": "1969-09-02",
+            "nationality": "Việt Nam",
+            "ethnicity": "Kinh",
+            "religion": "Không",
+            "is_party_member": true,
+            "citizenship_id": null,
+            "aliases": []
+        },
+        "contacts": {
+            "permanent_address": "phòng 304, nhà E5, phường Thanh Xuân Bắc, quận Thanh Xuân, thành phố Hà Nội",
+            "hometown": "Xã Chí Tiên, huyện Thanh Ba, tỉnh Phú Thọ",
+            "mailing_address": "Khoa Khám bệnh, Bệnh viện Tai Mũi Họng Trung ương, 78 đường Giải Phóng, quận Đống Đa, thành phố Hà Nội",
+            "work_address": "Bệnh viện Tai Mũi Họng Trung ương, 78 đường Giải Phóng, Đống Đa, Hà Nội",
+            "phone_mobile": "0915093389",
+            "phone_home": null,
+            "email": "khanhvantmhtw@gmail.com"
+        },
+        "current_affiliation": {
+            "institution_id": "inst:bệnh-viện-tai-mũi-họng-trung-ương",
+            "institution_name": "Bệnh viện Tai Mũi Họng Trung ương",
+            "faculty_or_department": null,
+            "unit": "Khoa Khám bệnh",
+            "position": "Trưởng khoa Khám Bệnh"
+        },
+        "employment_history": [
+            {
+                "from": "1986-09",
+                "to": "1992-07",
+                "position_title": "Học Bác sĩ Đa khoa",
+                "unit": null,
+                "institution_name": "Trường Đại học Y Hà Nội",
+                "institution_id": "inst:trường-đại-học-y-hà-nội",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "from": "1994",
+                "to": "1998-09",
+                "position_title": "Bác sĩ chuyên khoa Tai Mũi Họng",
+                "unit": null,
+                "institution_name": "Trung tâm Y tế, Bộ Xây dựng",
+                "institution_id": "inst:trung-tâm-y-tế-bộ-xây-dựng",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "from": "1998-10",
+                "to": "2002-02",
+                "position_title": "Học Thạc sĩ Tai Mũi Họng",
+                "unit": null,
+                "institution_name": "Trường Đại học Y Hà Nội",
+                "institution_id": "inst:trường-đại-học-y-hà-nội",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "from": "2002-03",
+                "to": "2003-02",
+                "position_title": "Bác sĩ chuyên khoa Tai Mũi Họng",
+                "unit": null,
+                "institution_name": "Trung tâm Y tế, Bộ Xây dựng",
+                "institution_id": "inst:trung-tâm-y-tế-bộ-xây-dựng",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "from": "2003-03",
+                "to": null,
+                "position_title": "Bác sĩ chuyên khoa Tai Mũi Họng",
+                "unit": null,
+                "institution_name": "Bệnh viện Tai Mũi Họng Trung ương",
+                "institution_id": "inst:bệnh-viện-tai-mũi-họng-trung-ương",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "from": "2009-03",
+                "to": "2012-03",
+                "position_title": "Học Tiến sĩ Tai Mũi Họng",
+                "unit": null,
+                "institution_name": "Trường Đại học Y Hà Nội",
+                "institution_id": "inst:trường-đại-học-y-hà-nội",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "from": "2017-05",
+                "to": null,
+                "position_title": "Trưởng khoa Khám bệnh",
+                "unit": null,
+                "institution_name": "Bệnh viện Tai Mũi Họng Trung ương",
+                "institution_id": "inst:bệnh-viện-tai-mũi-họng-trung-ương",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            }
+        ],
+        "visiting_appointments": [
+            {
+                "role": "Giảng viên thỉnh giảng",
+                "institution_name": "Học viện Y - Dược học cổ truyền Việt Nam",
+                "institution_id": "inst:học-viện-y---dược-học-cổ-truyền-việt-nam",
+                "from": null,
+                "to": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "role": "Giảng viên thỉnh giảng",
+                "institution_name": "Trường Đại học Y Dược – Đại học Quốc Gia Hà Nội",
+                "institution_id": "inst:trường-đại-học-y-dược-đại-học-quốc-gia-hà-nội",
+                "from": null,
+                "to": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "role": "Giảng viên thỉnh giảng",
+                "institution_name": "Đại học Y Hà Nội",
+                "institution_id": "inst:đại-học-y-hà-nội",
+                "from": null,
+                "to": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            }
+        ],
+        "education": [
+            {
+                "degree": "Bachelor",
+                "field": "Y học",
+                "specialization": "Đa khoa",
+                "institution_name": "Trường Đại học Y Hà Nội",
+                "institution_id": "inst:trường-đại-học-y-hà-nội",
+                "country": "Việt Nam",
+                "date_awarded": "1992-09-18",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "degree": "Master",
+                "field": "Y học",
+                "specialization": "Tai mũi họng",
+                "institution_name": "Trường Đại học Y Hà Nội",
+                "institution_id": "inst:trường-đại-học-y-hà-nội",
+                "country": "Việt Nam",
+                "date_awarded": "2002-02-22",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "degree": "PhD",
+                "field": "Tai mũi họng",
+                "specialization": "Mũi họng",
+                "institution_name": "Trường Đại học Y Hà Nội",
+                "institution_id": "inst:trường-đại-học-y-hà-nội",
+                "country": "Việt Nam",
+                "date_awarded": "2013-03-25",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            }
+        ],
+        "discipline": {
+            "sector": null,
+            "field": "Y học",
+            "subfield": "Tai Mũi Họng"
+        },
+        "application": {
+            "dossier_code": null,
+            "rank_applied": "Associate Professor",
+            "host_institution": "Học viện Y – Dược học cổ truyền Việt Nam",
+            "field_council": null,
+            "date_submitted": null,
+            "lecturer_type": null
+        },
+        "research_interests": [
+            "Bệnh lý mũi xoang có và không có polyp mũi",
+            "Ứng dụng laze diode điều trị u nang vòm mũi họng và u nang hạ họng",
+            "Một số vấn đề khác của tai mũi họng"
+        ],
+        "supervision": {
+            "phd_completed": 6,
+            "masters_completed": 2,
+            "details": [
+                {
+                    "candidate_name": "Nguyễn Văn Hòa",
+                    "level": "PhD",
+                    "role": "Main",
+                    "institution_name": "Đại học Y Hà Nội",
+                    "from": "2015-01-01",
+                    "to": "2017-01-25",
+                    "date_awarded": "2017-01-25",
+                    "provenance": {
+                        "doc_id": null,
+                        "page": null
+                    }
+                },
+                {
+                    "candidate_name": "Trương Xuân Bang",
+                    "level": "PhD",
+                    "role": "Main",
+                    "institution_name": "Đại học Y Hà Nội",
+                    "from": "2016-01-01",
+                    "to": "2018-01-11",
+                    "date_awarded": "2018-01-11",
+                    "provenance": {
+                        "doc_id": null,
+                        "page": null
+                    }
+                },
+                {
+                    "candidate_name": "Trần Quốc Khánh",
+                    "level": "PhD",
+                    "role": "Main",
+                    "institution_name": "Đại học Y Hà Nội",
+                    "from": "2016-01-01",
+                    "to": "2018-01-11",
+                    "date_awarded": "2018-01-11",
+                    "provenance": {
+                        "doc_id": null,
+                        "page": null
+                    }
+                },
+                {
+                    "candidate_name": "Vũ Thộ Điểm",
+                    "level": "PhD",
+                    "role": "Main",
+                    "institution_name": "Đại học Thăng Long",
+                    "from": "2016-01-01",
+                    "to": "2017-12-11",
+                    "date_awarded": "2017-12-11",
+                    "provenance": {
+                        "doc_id": null,
+                        "page": null
+                    }
+                },
+                {
+                    "candidate_name": "Bùi Đức Hiến",
+                    "level": "PhD",
+                    "role": "Main",
+                    "institution_name": "Đại học Thăng Long",
+                    "from": "2016-01-01",
+                    "to": "2017-12-11",
+                    "date_awarded": "2017-12-11",
+                    "provenance": {
+                        "doc_id": null,
+                        "page": null
+                    }
+                },
+                {
+                    "candidate_name": "Nguyễn Phương Hoa",
+                    "level": "PhD",
+                    "role": "Main",
+                    "institution_name": "Đại học Thăng Long",
+                    "from": "2016-01-01",
+                    "to": "2017-12-11",
+                    "date_awarded": "2017-12-11",
+                    "provenance": {
+                        "doc_id": null,
+                        "page": null
+                    }
+                },
+                {
+                    "candidate_name": "Lê Thị Hương",
+                    "level": "Master",
+                    "role": "Main",
+                    "institution_name": "Đại học Y Hà Nội",
+                    "from": "2019-01-01",
+                    "to": "2021-01-21",
+                    "date_awarded": "2021-01-21",
+                    "provenance": {
+                        "doc_id": null,
+                        "page": null
+                    }
+                },
+                {
+                    "candidate_name": "Phạm Thùy Linh",
+                    "level": "Master",
+                    "role": "Main",
+                    "institution_name": "Đại học Y Hà Nội",
+                    "from": "2019-01-01",
+                    "to": "2021-01-21",
+                    "date_awarded": "2021-01-21",
+                    "provenance": {
+                        "doc_id": null,
+                        "page": null
+                    }
+                }
+            ]
+        },
+        "projects": [],
+        "publications": [],
+        "books": [
+            {
+                "title": "Polyp mũi và điều trị polyp mũi tái phát do viêm mũi xoang",
+                "type": "Monograph",
+                "publisher": "Nhà xuất bản Y học",
+                "year": "2021",
+                "is_reputable_publisher": true,
+                "chapter_pages": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            }
+        ],
+        "awards": [
+            {
+                "name": "Bằng khen của Bộ trưởng Bộ Y tế",
+                "issuer": "Bộ trưởng Bộ Y tế",
+                "year": "2013",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "name": "Bằng khen của Bộ trưởng Bộ Y tế",
+                "issuer": "Bộ trưởng Bộ Y tế",
+                "year": "2014",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "name": "Bằng khen của Thủ tướng Chính phủ",
+                "issuer": "Thủ tướng Chính phủ",
+                "year": "2016",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "name": "Bằng khen của Bộ trưởng Bộ Y tế",
+                "issuer": "Bộ trưởng Bộ Y tế",
+                "year": "2019",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "name": "Bằng khen của Bộ trưởng Bộ Y tế",
+                "issuer": "Bộ trưởng Bộ Y tế",
+                "year": "2021",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "name": "Giải nhất Hội nghị khoa học nghiên cứu sinh lần thứ XV",
+                "issuer": "Trường Đại học Y Hà Nội",
+                "year": "2019",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            }
+        ],
+        "discipline_actions": [],
+        "teaching_loads": [],
+        "languages": [
+            {
+                "language": "Tiếng Anh",
+                "level": "Advanced",
+                "evidence": "Certificate",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            }
+        ],
+        "checkboxes": {
+            "is_giang_vien": true,
+            "is_giang_vien_thinh_giang": true
+        },
+        "notes": null
+    },
+    {
+        "person": {
+            "id": null,
+            "name": "Trần Văn Tỷ",
+            "gender": "male",
+            "date_of_birth": "1979-02-10",
+            "nationality": "Việt Nam",
+            "ethnicity": "Kinh",
+            "religion": "Không",
+            "is_party_member": true,
+            "citizenship_id": null,
+            "aliases": []
+        },
+        "contacts": {
+            "permanent_address": "Nhà sole 10, Khu Tập thể Đại học Cần Thơ, Khu 1, Đường 30/4, P. Hưng Lợi, Q. Ninh Kiều, TP. Cần Thơ",
+            "hometown": "Xã Long Trị A, Thị xã Long Mỹ, Tỉnh Hậu Giang",
+            "mailing_address": "Khoa Công nghệ, Trường ĐH Cần Thơ, Khu 2, đường 3/2, P. Xuân Khánh, Q. Ninh Kiều, TP. Cần Thơ",
+            "work_address": "Khu 2, Đường 3/2, P. Xuân Khánh, Q. Ninh Kiều, TP. Cần Thơ",
+            "phone_mobile": "0939501909",
+            "phone_home": null,
+            "email": "tvty@ctu.edu.vn"
+        },
+        "current_affiliation": {
+            "institution_id": "inst:trường-đại-học-cần-thơ",
+            "institution_name": "Trường Đại học Cần Thơ",
+            "faculty_or_department": "Khoa Công nghệ",
+            "unit": null,
+            "position": "Trưởng Bộ môn Kỹ thuật thủy lợi"
+        },
+        "employment_history": [
+            {
+                "from": "2002",
+                "to": "2011",
+                "position_title": "Giảng viên",
+                "unit": "Khoa Công nghệ",
+                "institution_name": "Trường Đại học Cần Thơ",
+                "institution_id": "inst:trường-đại-học-cần-thơ",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": 1
+                }
+            },
+            {
+                "from": "2012",
+                "to": "2014",
+                "position_title": "Phó Trưởng Bộ môn Kỹ thuật xây dựng",
+                "unit": "Khoa Công nghệ",
+                "institution_name": "Trường Đại học Cần Thơ",
+                "institution_id": "inst:trường-đại-học-cần-thơ",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": 1
+                }
+            },
+            {
+                "from": "2014",
+                "to": "2018",
+                "position_title": "Quyền Trưởng Bộ môn Kỹ thuật xây dựng",
+                "unit": "Khoa Công nghệ",
+                "institution_name": "Trường Đại học Cần Thơ",
+                "institution_id": "inst:trường-đại-học-cần-thơ",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": 1
+                }
+            },
+            {
+                "from": "2018",
+                "to": "2020",
+                "position_title": "Trưởng Bộ môn Kỹ thuật thủy lợi",
+                "unit": "Khoa Công nghệ",
+                "institution_name": "Trường Đại học Cần Thơ",
+                "institution_id": "inst:trường-đại-học-cần-thơ",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": 1
+                }
+            }
+        ],
+        "visiting_appointments": [],
+        "education": [
+            {
+                "degree": "Bachelor",
+                "field": "Thủy công",
+                "specialization": "Thủy công",
+                "institution_name": "Trường Đại học Cần Thơ",
+                "institution_id": "inst:trường-đại-học-cần-thơ",
+                "country": "Việt Nam",
+                "date_awarded": "2002-09-10",
+                "provenance": {
+                    "doc_id": null,
+                    "page": 2
+                }
+            },
+            {
+                "degree": "Master",
+                "field": "Kỹ thuật",
+                "specialization": "Kỹ thuật và quản lý nước",
+                "institution_name": "Viện Công nghệ Châu Á (AIT)",
+                "institution_id": "inst:viện-công-nghệ-châu-á-ait",
+                "country": "Thái Lan",
+                "date_awarded": "2008-05-22",
+                "provenance": {
+                    "doc_id": null,
+                    "page": 2
+                }
+            },
+            {
+                "degree": "PhD",
+                "field": "Kỹ thuật Môi trường Tự nhiên",
+                "specialization": "Quản lý tổng hợp lưu vực sông",
+                "institution_name": "Trường Đại học Yamanashi",
+                "institution_id": "inst:trường-đại-học-yamanashi",
+                "country": "Nhật Bản",
+                "date_awarded": "2011-09-29",
+                "provenance": {
+                    "doc_id": null,
+                    "page": 2
+                }
+            }
+        ],
+        "discipline": {
+            "sector": null,
+            "field": "Thủy lợi",
+            "subfield": null
+        },
+        "application": {
+            "dossier_code": null,
+            "rank_applied": "Associate Professor",
+            "host_institution": "Trường Đại học Cần Thơ",
+            "field_council": "Thủy lợi",
+            "date_submitted": null,
+            "lecturer_type": null
+        },
+        "research_interests": [
+            "Nghiên cứu sự thay đổi chế độ dòng chảy và sạt lở bờ sông dưới tác động của các yếu tố thượng nguồn và hoạt động kinh tế - xã hội tại Đồng bằng sông Cửu Long.",
+            "Nghiên cứu khả năng trữ nước và vận hành công trình thủy lợi phục vụ sản suất nông nghiệp trong điều kiện xâm nhập mặn tại Đồng bằng sông Cửu Long.",
+            "Nghiên cứu phân tích nguyên nhân sụt lún do khai thác nước dưới đất tại Đồng bằng sông Cửu Long."
+        ],
+        "supervision": {
+            "phd_completed": 0,
+            "masters_completed": 4,
+            "details": [
+                {
+                    "candidate_name": "Nguyễn Thị Thanh Duyên",
+                    "level": "Master",
+                    "role": "Main",
+                    "institution_name": "Trường Đại học Cần Thơ",
+                    "from": "2014-02",
+                    "to": "2014-09",
+                    "date_awarded": "2014-11-11",
+                    "provenance": {
+                        "doc_id": null,
+                        "page": 5
+                    }
+                },
+                {
+                    "candidate_name": "Nguyễn Trung Tính",
+                    "level": "Master",
+                    "role": "Main",
+                    "institution_name": "Trường Đại học Cần Thơ",
+                    "from": "2014-12",
+                    "to": "2016-03",
+                    "date_awarded": "2016-06-29",
+                    "provenance": {
+                        "doc_id": null,
+                        "page": 5
+                    }
+                },
+                {
+                    "candidate_name": "Lâm Thị Hoàng Oanh",
+                    "level": "Master",
+                    "role": "Main",
+                    "institution_name": "Trường Đại học Cần Thơ",
+                    "from": "2015-10",
+                    "to": "2017-12",
+                    "date_awarded": "2017-05-15",
+                    "provenance": {
+                        "doc_id": null,
+                        "page": 5
+                    }
+                },
+                {
+                    "candidate_name": "Nguyễn Phương Đông",
+                    "level": "Master",
+                    "role": "Main",
+                    "institution_name": "Trường Đại học Cần Thơ",
+                    "from": "2017-10",
+                    "to": "2019-03",
+                    "date_awarded": "2019-05-30",
+                    "provenance": {
+                        "doc_id": null,
+                        "page": 5
+                    }
+                }
+            ]
+        },
+        "projects": [],
+        "publications": [],
+        "books": [
+            {
+                "title": "Tài nguyên nước Đồng bằng sông Cửu Long: Hiện trạng và giải pháp sử dụng bền vững",
+                "type": "Textbook",
+                "publisher": "Nhà xuất bản Đại học Cần Thơ",
+                "year": "2016",
+                "is_reputable_publisher": true,
+                "chapter_pages": "01-26",
+                "provenance": {
+                    "doc_id": null,
+                    "page": 6
+                }
+            },
+            {
+                "title": "Mô hình thủy văn",
+                "type": "Textbook",
+                "publisher": "Nhà xuất bản Đại học Cần Thơ",
+                "year": "2020",
+                "is_reputable_publisher": true,
+                "chapter_pages": "01-91",
+                "provenance": {
+                    "doc_id": null,
+                    "page": 6
+                }
+            },
+            {
+                "title": "Thủy công",
+                "type": "Textbook",
+                "publisher": "Nhà xuất bản Đại học Cần Thơ",
+                "year": "2020",
+                "is_reputable_publisher": true,
+                "chapter_pages": "01-238",
+                "provenance": {
+                    "doc_id": null,
+                    "page": 6
+                }
+            },
+            {
+                "title": "Cơ lý thuyết (phần tĩnh học)",
+                "type": "Textbook",
+                "publisher": "Nhà xuất bản Đại học Cần Thơ",
+                "year": "2020",
+                "is_reputable_publisher": true,
+                "chapter_pages": "01-11; 19-39",
+                "provenance": {
+                    "doc_id": null,
+                    "page": 6
+                }
+            },
+            {
+                "title": "Investigation on Floods in Can Tho City: Influence of Ocean Tides and Sea Level Rise for the Mekong Delta’s Largest City.",
+                "type": "Textbook",
+                "publisher": "Elsevier Science Publishing Co Inc",
+                "year": "2017",
+                "is_reputable_publisher": null,
+                "chapter_pages": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": 6
+                }
+            }
+        ],
+        "awards": [
+            {
+                "name": "Best paper",
+                "issuer": "International Journal of River Basin Management (JRBM)",
+                "year": "2011",
+                "provenance": {
+                    "doc_id": null,
+                    "page": 21
+                }
+            }
+        ],
+        "discipline_actions": [],
+        "teaching_loads": [],
+        "languages": [
+            {
+                "language": "Tiếng Anh",
+                "level": "Fluent",
+                "evidence": "Taught in language",
+                "provenance": {
+                    "doc_id": null,
+                    "page": 3
+                }
+            }
+        ],
+        "checkboxes": {
+            "is_giang_vien": true,
+            "is_giang_vien_thinh_giang": null
+        },
+        "notes": null
+    },
+    {
+        "person": {
+            "id": null,
+            "name": "NGUYỄN THƯỢNG NGHĨA",
+            "gender": "male",
+            "date_of_birth": "1964-01-01",
+            "nationality": "Việt Nam",
+            "ethnicity": "Kinh",
+            "religion": "Không",
+            "is_party_member": true,
+            "citizenship_id": null,
+            "aliases": []
+        },
+        "contacts": {
+            "permanent_address": "400 Lê Văn Sỹ Phường 14 Quận 3 Tp Hồ Chí Minh",
+            "hometown": "Quảng Ngãi",
+            "mailing_address": "Bệnh viện Chợ Rẫy, 201B Nguyễn Chí Thanh Phường 12, Quận 5, Tp Hồ Chí Minh",
+            "work_address": "Bệnh viện Chợ Rẫy, 201B Nguyễn Chí Thanh, Phường 12, Quận 5, Tp Hồ Chí Minh",
+            "phone_mobile": "0908011848",
+            "phone_home": null,
+            "email": "nghia2000@gmail.com"
+        },
+        "current_affiliation": {
+            "institution_id": "inst:bệnh-viện-chợ-rẫy",
+            "institution_name": "Bệnh viện Chợ Rẫy",
+            "faculty_or_department": "Khoa Tim Mạch",
+            "unit": "Trung tâm Tim Mạch",
+            "position": "Phó Giám đốc"
+        },
+        "employment_history": [
+            {
+                "from": "1988",
+                "to": "1992",
+                "position_title": "Bác sĩ nội trú",
+                "unit": "Khoa Tim Mạch",
+                "institution_name": "Bệnh viện Chợ Rẫy",
+                "institution_id": "inst:bệnh-viện-chợ-rẫy",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "from": "1992",
+                "to": "1994",
+                "position_title": "Bác sĩ điều trị",
+                "unit": "Bộ môn Nội - Khoa Tim Mạch",
+                "institution_name": "Bệnh viện Chợ Rẫy",
+                "institution_id": "inst:bệnh-viện-chợ-rẫy",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "from": "1995",
+                "to": "1997",
+                "position_title": "Bác sĩ phòng khám xuất cảnh",
+                "unit": null,
+                "institution_name": "Bệnh viện Chợ Rẫy",
+                "institution_id": "inst:bệnh-viện-chợ-rẫy",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "from": "1998",
+                "to": "2003",
+                "position_title": "Bác sĩ chuyên khoa Tim mạch",
+                "unit": "Tổ trưởng tổ chụp và can thiệp động mạch vành",
+                "institution_name": "Bệnh viện Chợ Rẫy",
+                "institution_id": "inst:bệnh-viện-chợ-rẫy",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "from": "2004",
+                "to": "2015",
+                "position_title": "Phó trưởng khoa",
+                "unit": "Khoa Tim Mạch Can Thiệp",
+                "institution_name": "Bệnh viện Chợ Rẫy",
+                "institution_id": "inst:bệnh-viện-chợ-rẫy",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "from": "2015-06",
+                "to": null,
+                "position_title": "Phó Giám đốc",
+                "unit": "Trung tâm Tim Mạch",
+                "institution_name": "Bệnh viện Chợ Rẫy",
+                "institution_id": "inst:bệnh-viện-chợ-rẫy",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            }
+        ],
+        "visiting_appointments": [
+            {
+                "role": "Giảng viên thỉnh giảng",
+                "institution_name": "Đại học Y Dược TPHCM",
+                "institution_id": "inst:đại-học-y-dược-tphcm",
+                "from": null,
+                "to": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "role": "Giảng viên thỉnh giảng",
+                "institution_name": "Khoa Y Đại học Quốc gia Tp Hồ Chí Minh",
+                "institution_id": "inst:khoa-y-đại-học-quốc-gia-tp-hồ-chí-minh",
+                "from": null,
+                "to": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "role": "Giảng viên thỉnh giảng",
+                "institution_name": "Trường đại học Y Khoa Phạm Ngọc Thạch",
+                "institution_id": "inst:trường-đại-học-y-khoa-phạm-ngọc-thạch",
+                "from": null,
+                "to": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            }
+        ],
+        "education": [
+            {
+                "degree": "Bachelor",
+                "field": "Y",
+                "specialization": "Đa khoa hệ nội",
+                "institution_name": "Đại học Y Dược tp Hồ Chí Minh",
+                "institution_id": "inst:đại-học-y-dược-tp-hồ-chí-minh",
+                "country": "Việt Nam",
+                "date_awarded": "1990-05-21",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "degree": "Master",
+                "field": "Y",
+                "specialization": "Thạc sĩ Y học",
+                "institution_name": "Đại học Y Dược tp Hồ Chí Minh",
+                "institution_id": "inst:đại-học-y-dược-tp-hồ-chí-minh",
+                "country": "Việt Nam",
+                "date_awarded": "1998-05-11",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "degree": "PhD",
+                "field": "Y",
+                "specialization": "Tiến sỹ Y học",
+                "institution_name": "Đại học Y Dược tp Hồ Chí Minh",
+                "institution_id": "inst:đại-học-y-dược-tp-hồ-chí-minh",
+                "country": "Việt Nam",
+                "date_awarded": "2012-06-18",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            }
+        ],
+        "discipline": {
+            "sector": null,
+            "field": "Y Khoa",
+            "subfield": null
+        },
+        "application": {
+            "dossier_code": null,
+            "rank_applied": "Associate Professor",
+            "host_institution": "Đại học Y Dược TPHCM",
+            "field_council": null,
+            "date_submitted": null,
+            "lecturer_type": null
+        },
+        "research_interests": [
+            "Nghiên cứu ứng dụng các phương pháp chẩn đoán bệnh tim mạch, đặc biệt bệnh tăng huyết áp và bệnh mạch vành",
+            "Nghiên cứu ứng dụng phương pháp tái thông động mạch vành qua ống thông trong điều trị nhồi máu cơ tim cấp và bệnh mạch vành mãn tính",
+            "Nghiên cứu ứng dụng kỹ thuật can thiệp qua ống thông trong điều trị bệnh tim bẩm sinh và cấu trúc",
+            "Nghiên cứu các biện pháp giám sát, đánh giá và phòng chống trong chiến lược phòng chống bệnh tim mạch Quốc gia Việt Nam",
+            "Nghiên cứu các biện pháp tầm soát để phát hiện và kiểm soát các yếu tố nguy cơ tim mạch trong cộng đồng như: Hút thuốc lá, đái tháo đường, tăng huyết áp, rối loạn lipid máu",
+            "Nghiên cứu các biện pháp tầm soát để phát hiện các bệnh tim bẩm sinh ở trẻ em để có biện pháp điều trị sớm ngay từ đầu"
+        ],
+        "supervision": {
+            "phd_completed": 18,
+            "masters_completed": null,
+            "details": []
+        },
+        "projects": [],
+        "publications": [],
+        "books": [],
+        "awards": [
+            {
+                "name": "Huân chương lao động hạng ba",
+                "issuer": "Chủ tịch nước",
+                "year": "2019",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "name": "Danh hiệu thầy thuốc ưu tú",
+                "issuer": "Chủ tịch nước",
+                "year": "2012",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            }
+        ],
+        "discipline_actions": [],
+        "teaching_loads": [],
+        "languages": [
+            {
+                "language": "Tiếng Anh",
+                "level": "Fluent",
+                "evidence": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            }
+        ],
+        "checkboxes": {
+            "is_giang_vien": true,
+            "is_giang_vien_thinh_giang": true
+        },
+        "notes": null
+    },
+    {
+        "person": {
+            "id": null,
+            "name": "TRẦN QUỐC HÒA",
+            "gender": "male",
+            "date_of_birth": "1976-07-24",
+            "nationality": "Việt Nam",
+            "ethnicity": "Kinh",
+            "religion": null,
+            "is_party_member": true,
+            "citizenship_id": null,
+            "aliases": []
+        },
+        "contacts": {
+            "permanent_address": "số 39 Phố Hàng Buồm, Phường Hàng Buồm, Quận Hoàn Kiếm, thành phố Hà Nội",
+            "hometown": "Vĩnh An, Vĩnh Lộc, Thanh Hóa",
+            "mailing_address": "TS.Trần Quốc Hoà Bệnh viện Đại học Y Hà Nội, Số 1 Tôn Thất Tùng, Đống Đa, Hà Nội",
+            "work_address": "Trường Đại học Y Hà Nội, Số 1 Tôn Thất Tùng, Đống Đa, Hà Nội",
+            "phone_mobile": "0983140525",
+            "phone_home": null,
+            "email": "bshoadhy@gmail.com"
+        },
+        "current_affiliation": {
+            "institution_id": "inst:trường-đại-học-y-hà-nội",
+            "institution_name": "Trường Đại học Y Hà Nội",
+            "faculty_or_department": null,
+            "unit": null,
+            "position": "Trưởng phòng Tổ chức hành chính, phó trưởng khoa Ngoại Tiết niệu"
+        },
+        "employment_history": [
+            {
+                "from": "2005-11",
+                "to": null,
+                "position_title": "Giảng viên Bộ môn Giải phẫu",
+                "unit": null,
+                "institution_name": "Trường Đại học Y Hà Nội",
+                "institution_id": "inst:trường-đại-học-y-hà-nội",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "from": "2011-05",
+                "to": null,
+                "position_title": "Kiêm nhiệm công tác chuyên môn ngoại khoa",
+                "unit": null,
+                "institution_name": "Bệnh viện Đại học Y Hà Nội",
+                "institution_id": "inst:bệnh-viện-đại-học-y-hà-nội",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "from": "2017-12",
+                "to": "2020-07",
+                "position_title": "Phó trưởng khoa khám bệnh",
+                "unit": null,
+                "institution_name": "Bệnh viện Đại học Y Hà Nội",
+                "institution_id": "inst:bệnh-viện-đại-học-y-hà-nội",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "from": "2019-04",
+                "to": "2021-02",
+                "position_title": "Tạm giao nhiệm vụ Phó trưởng đơn vị Ngoại Tiết niệu – Nam học",
+                "unit": null,
+                "institution_name": "Bệnh viện Đại học Y Hà Nội",
+                "institution_id": "inst:bệnh-viện-đại-học-y-hà-nội",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "from": "2020-08",
+                "to": "2022-01-25",
+                "position_title": "Phó trưởng Phòng tổ chức hành chính",
+                "unit": null,
+                "institution_name": "Bệnh viện Đại học Y Hà Nội",
+                "institution_id": "inst:bệnh-viện-đại-học-y-hà-nội",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "from": "2021-03",
+                "to": null,
+                "position_title": "Phó trưởng khoa Ngoại Tiết niệu",
+                "unit": null,
+                "institution_name": "Bệnh viện Đại học Y Hà Nội",
+                "institution_id": "inst:bệnh-viện-đại-học-y-hà-nội",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "from": "2022-01-26",
+                "to": null,
+                "position_title": "Trưởng Phòng tổ chức hành chính",
+                "unit": null,
+                "institution_name": "Bệnh viện Đại học Y Hà Nội",
+                "institution_id": "inst:bệnh-viện-đại-học-y-hà-nội",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            }
+        ],
+        "visiting_appointments": [],
+        "education": [
+            {
+                "degree": "Bachelor",
+                "field": "Y học",
+                "specialization": "Bác sĩ đa khoa",
+                "institution_name": "Trường Đại học Y Hà Nội",
+                "institution_id": "inst:trường-đại-học-y-hà-nội",
+                "country": "Việt Nam",
+                "date_awarded": "2005-07-25",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "degree": "Master",
+                "field": "Y học",
+                "specialization": "Giải phẫu người",
+                "institution_name": "Trường Đại học Y Hà Nội",
+                "institution_id": "inst:trường-đại-học-y-hà-nội",
+                "country": "Việt Nam",
+                "date_awarded": "2009-03-26",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "degree": "PhD",
+                "field": "Y học",
+                "specialization": "Ngoại khoa",
+                "institution_name": "Trường Đại học Y Hà Nội",
+                "institution_id": "inst:trường-đại-học-y-hà-nội",
+                "country": "Việt Nam",
+                "date_awarded": "2019-05-29",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "degree": "Other",
+                "field": null,
+                "specialization": null,
+                "institution_name": null,
+                "institution_id": null,
+                "country": null,
+                "date_awarded": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            }
+        ],
+        "discipline": {
+            "sector": null,
+            "field": "Y học",
+            "subfield": "Ngoại khoa"
+        },
+        "application": {
+            "dossier_code": null,
+            "rank_applied": "Associate Professor",
+            "host_institution": "Trường Đại học Y Hà Nội",
+            "field_council": "Y",
+            "date_submitted": null,
+            "lecturer_type": null
+        },
+        "research_interests": [
+            "Nghiên cứu Giải phẫu hệ tiết niệu, bạch huyết và ứng dụng trong lâm sàng",
+            "Nghiên cứu can thiệp ít xâm lấn điều trị bệnh lý sỏi hệ tiết niệu",
+            "Nghiên cứu chẩn đoán và điều trị các bệnh lý khối U của hệ tiết niệu",
+            "Nghiên cứu chẩn đoán và điều trị bệnh lý cấp cứu, chấn thương hệ tiết niệu",
+            "Nghiên cứu điều trị các bệnh lý Nam học"
+        ],
+        "supervision": {
+            "phd_completed": null,
+            "masters_completed": 4,
+            "details": [
+                {
+                    "candidate_name": "Lê Thị Linh",
+                    "level": "Master",
+                    "role": "Main",
+                    "institution_name": "Trường Đại học Y Hà Nội",
+                    "from": "2020-01-01",
+                    "to": "2022-02-28",
+                    "date_awarded": "2022-02-28",
+                    "provenance": {
+                        "doc_id": null,
+                        "page": null
+                    }
+                },
+                {
+                    "candidate_name": "Trần Thị Nguyệt",
+                    "level": "Master",
+                    "role": "Main",
+                    "institution_name": "Trường Đại học Y Hà Nội",
+                    "from": "2021-01-01",
+                    "to": "2023-01-16",
+                    "date_awarded": "2023-01-16",
+                    "provenance": {
+                        "doc_id": null,
+                        "page": null
+                    }
+                },
+                {
+                    "candidate_name": "Phạm Văn Mạnh",
+                    "level": "Master",
+                    "role": "Main",
+                    "institution_name": "Trường Đại học Y Hà Nội",
+                    "from": "2022-01-01",
+                    "to": "2023-03-27",
+                    "date_awarded": "2023-03-27",
+                    "provenance": {
+                        "doc_id": null,
+                        "page": null
+                    }
+                },
+                {
+                    "candidate_name": "Đậu Xuân Yên",
+                    "level": "Master",
+                    "role": "Main",
+                    "institution_name": "Trường Đại học Y Hà Nội",
+                    "from": "2022-01-01",
+                    "to": "2023-03-27",
+                    "date_awarded": "2023-03-27",
+                    "provenance": {
+                        "doc_id": null,
+                        "page": null
+                    }
+                },
+                {
+                    "candidate_name": "Nguyễn Ngọc Tân",
+                    "level": "Master",
+                    "role": "Co",
+                    "institution_name": "Trường Đại học Y Hà Nội",
+                    "from": "2022-01-01",
+                    "to": "2023-03-27",
+                    "date_awarded": "2023-03-27",
+                    "provenance": {
+                        "doc_id": null,
+                        "page": null
+                    }
+                }
+            ]
+        },
+        "projects": [],
+        "publications": [],
+        "books": [],
+        "awards": [
+            {
+                "name": "Bằng khen Tỉnh uỷ Bình Dương",
+                "issuer": null,
+                "year": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            }
+        ],
+        "discipline_actions": [],
+        "teaching_loads": [],
+        "languages": [
+            {
+                "language": "Tiếng Anh",
+                "level": "Advanced",
+                "evidence": "Degree abroad",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            }
+        ],
+        "checkboxes": {
+            "is_giang_vien": true,
+            "is_giang_vien_thinh_giang": false
+        },
+        "notes": null
+    },
+    {
+        "person": {
+            "id": null,
+            "name": "NGUYỄN VĂN TUẤN",
+            "gender": "male",
+            "date_of_birth": "1975-11-18",
+            "nationality": "Việt Nam",
+            "ethnicity": "Kinh",
+            "religion": "Không",
+            "is_party_member": true,
+            "citizenship_id": null,
+            "aliases": []
+        },
+        "contacts": {
+            "permanent_address": "Khối 15 - Phường Cửa Nam - Thành phố Vinh - Tỉnh Nghệ An",
+            "hometown": "Xã Hưng Thành - Huyện Hưng Nguyên - Tỉnh Nghệ An",
+            "mailing_address": "Nguyễn Văn Tuấn - Bộ môn Nội tổng hợp, Trường Đại học Y khoa Vinh, 161 - Nguyễn Phong Sắc - Phường Hưng Dũng - Thành phố Vinh - Tỉnh Nghệ An",
+            "work_address": "Trường Đại học Y khoa Vinh, 161 - Nguyễn Phong Sắc - Phường Hưng Dũng - Thành phố Vinh - Tỉnh Nghệ An",
+            "phone_mobile": "0983767134",
+            "phone_home": null,
+            "email": "vantuan@vmu.edu.vn"
+        },
+        "current_affiliation": {
+            "institution_id": "inst:trường-đại-học-y-khoa-vinh",
+            "institution_name": "Trường Đại học Y khoa Vinh",
+            "faculty_or_department": "Bộ môn Nội tổng hợp",
+            "unit": null,
+            "position": "Hiệu trưởng, Trưởng BM Nội tổng hợp"
+        },
+        "employment_history": [
+            {
+                "from": "2000-11",
+                "to": "2003-08",
+                "position_title": "Giáo viên Bộ môn Nội",
+                "unit": null,
+                "institution_name": "Trường Trung học Y tế Nghệ An",
+                "institution_id": "inst:trường-trung-học-y-tế-nghệ-an",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "from": "2003-09",
+                "to": "2011-08",
+                "position_title": "Giảng viên Bộ môn Nội",
+                "unit": null,
+                "institution_name": "Trường Cao đẳng Y tế Nghệ An",
+                "institution_id": "inst:trường-cao-đẳng-y-tế-nghệ-an",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "from": "2011-09",
+                "to": "2015-12",
+                "position_title": "Giảng viên Bộ môn Nội",
+                "unit": null,
+                "institution_name": "Trường Đại học Y khoa Vinh",
+                "institution_id": "inst:trường-đại-học-y-khoa-vinh",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "from": "2016-01",
+                "to": "2019-08",
+                "position_title": "Giảng viên, Trưởng Bộ môn Nội tổng hợp",
+                "unit": null,
+                "institution_name": "Trường Đại học Y khoa Vinh",
+                "institution_id": "inst:trường-đại-học-y-khoa-vinh",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "from": "2019-09",
+                "to": "2020-06",
+                "position_title": "Giảng viên, Trưởng khoa Y học lâm sàng hệ Nội kiêm trưởng Bộ môn Nội tổng hợp",
+                "unit": null,
+                "institution_name": "Trường Đại học Y khoa Vinh",
+                "institution_id": "inst:trường-đại-học-y-khoa-vinh",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "from": "2020-07",
+                "to": "2023-05",
+                "position_title": "Giảng viên, Phó Hiệu trưởng, kiêm Trưởng BM Nội tổng hợp",
+                "unit": null,
+                "institution_name": "Trường Đại học Y khoa Vinh",
+                "institution_id": "inst:trường-đại-học-y-khoa-vinh",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "from": "2023-06",
+                "to": null,
+                "position_title": "Giảng viên, Hiệu trưởng, kiêm Trưởng BM Nội tổng hợp",
+                "unit": null,
+                "institution_name": "Trường Đại học Y khoa Vinh",
+                "institution_id": "inst:trường-đại-học-y-khoa-vinh",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            }
+        ],
+        "visiting_appointments": [],
+        "education": [
+            {
+                "degree": "Bachelor",
+                "field": "Y",
+                "specialization": "Bác sĩ đa khoa",
+                "institution_name": "Trường Đại học Y khoa Hà Nội",
+                "institution_id": "inst:trường-đại-học-y-khoa-hà-nội",
+                "country": "Việt Nam",
+                "date_awarded": "1998-08-25",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "degree": "Master",
+                "field": "Y",
+                "specialization": "Nội khoa",
+                "institution_name": "Trường Đại học Y Dược Huế",
+                "institution_id": "inst:trường-đại-học-y-dược-huế",
+                "country": "Việt Nam",
+                "date_awarded": "2003-12-18",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "degree": "PhD",
+                "field": "Y",
+                "specialization": "Nội Thận - Tiết niệu",
+                "institution_name": "Trường Đại học Y Dược Huế",
+                "institution_id": "inst:trường-đại-học-y-dược-huế",
+                "country": "Việt Nam",
+                "date_awarded": "2015-12-15",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            }
+        ],
+        "discipline": {
+            "sector": null,
+            "field": "Y",
+            "subfield": null
+        },
+        "application": {
+            "dossier_code": null,
+            "rank_applied": "Associate Professor",
+            "host_institution": "Trường Đại học Y Dược Thái Bình",
+            "field_council": "Y",
+            "date_submitted": null,
+            "lecturer_type": null
+        },
+        "research_interests": [
+            "Hướng nghiên cứu về dịch tễ học các bệnh lý nội khoa",
+            "Hướng nghiên cứu về đặc điểm lâm sàng, cận lâm sàng, điều trị và theo dõi các bệnh lý nội khoa"
+        ],
+        "supervision": {
+            "phd_completed": 2,
+            "masters_completed": 2,
+            "details": [
+                {
+                    "candidate_name": "Từ Thị Kim Quế",
+                    "level": "Master",
+                    "role": "Main",
+                    "institution_name": "Trường Đại học Vinh",
+                    "from": "2016-10",
+                    "to": "2017-07",
+                    "date_awarded": "2017",
+                    "provenance": {
+                        "doc_id": null,
+                        "page": null
+                    }
+                },
+                {
+                    "candidate_name": "Nguyễn Thị Hương",
+                    "level": "Master",
+                    "role": "Main",
+                    "institution_name": "Trường Đại học Điều dưỡng Nam Định",
+                    "from": "2021-03",
+                    "to": "2021-11",
+                    "date_awarded": "2021",
+                    "provenance": {
+                        "doc_id": null,
+                        "page": null
+                    }
+                },
+                {
+                    "candidate_name": "Nguyễn Văn Hải",
+                    "level": "PhD",
+                    "role": "Main",
+                    "institution_name": "Trường Đại học Y khoa Vinh",
+                    "from": "2022-11",
+                    "to": "2023-11",
+                    "date_awarded": "2024",
+                    "provenance": {
+                        "doc_id": null,
+                        "page": null
+                    }
+                },
+                {
+                    "candidate_name": "Phạm Sỹ Hùng",
+                    "level": "CK2",
+                    "role": "Main",
+                    "institution_name": "Trường Đại học Y Dược Hải Phòng",
+                    "from": "2020-01",
+                    "to": "2020-12",
+                    "date_awarded": "2021",
+                    "provenance": {
+                        "doc_id": null,
+                        "page": null
+                    }
+                },
+                {
+                    "candidate_name": "Lưu Đình Bình",
+                    "level": "CK2",
+                    "role": "Main",
+                    "institution_name": "Trường Đại học Y Dược Hải Phòng",
+                    "from": "2020-01",
+                    "to": "2020-12",
+                    "date_awarded": "2021",
+                    "provenance": {
+                        "doc_id": null,
+                        "page": null
+                    }
+                }
+            ]
+        },
+        "projects": [],
+        "publications": [],
+        "books": [
+            {
+                "title": "Transforming Growth factorbeta-1 (TGF-beta1) và high sensivity C - reactive protein (hs-CRP) trong bệnh lý thận mạn",
+                "type": "Monograph",
+                "publisher": "Nhà xuất bản Y học",
+                "year": "2021",
+                "is_reputable_publisher": true,
+                "chapter_pages": "Trang 7-189",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "title": "Cẩm nang chăm sóc người bệnh thận nhân tạo chu kỳ trong thời kỳ Covid-19",
+                "type": "Guide",
+                "publisher": "Nhà xuất bản Y học",
+                "year": "2022",
+                "is_reputable_publisher": true,
+                "chapter_pages": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "title": "Giáo trình dạy - học lâm sàng dựa trên năng lực",
+                "type": "Textbook",
+                "publisher": "Nhà xuất bản Y học",
+                "year": "2024",
+                "is_reputable_publisher": true,
+                "chapter_pages": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            }
+        ],
+        "awards": [
+            {
+                "name": "Bằng khen của Thủ tướng Chính phủ",
+                "issuer": "Thủ tướng Chính phủ",
+                "year": "2020",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "name": "Bằng khen của Bộ trưởng Bộ Giáo dục và Đào tạo",
+                "issuer": "Bộ trưởng Bộ Giáo dục và Đào tạo",
+                "year": "2020",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "name": "Danh hiệu chiến sĩ thi đua cấp tỉnh",
+                "issuer": "Chủ tịch UBND tỉnh Nghệ An",
+                "year": "2018",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "name": "Kỷ niệm chương “Vì thế hệ trẻ”",
+                "issuer": "Ban chấp hành Trung ương Đoàn TNCS Hồ Chí Minh",
+                "year": "2020",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "name": "Bằng khen của Chủ tịch UBND tỉnh Nghệ An",
+                "issuer": "Chủ tịch UBND tỉnh Nghệ An",
+                "year": "2023",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            }
+        ],
+        "discipline_actions": [],
+        "teaching_loads": [],
+        "languages": [
+            {
+                "language": "Tiếng Anh",
+                "level": "Fluent",
+                "evidence": "Degree abroad",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            }
+        ],
+        "checkboxes": {
+            "is_giang_vien": true,
+            "is_giang_vien_thinh_giang": false
+        },
+        "notes": null
+    },
+    {
+        "person": {
+            "id": null,
+            "name": "NGUYỄN VĂN TUẤN",
+            "gender": "male",
+            "date_of_birth": "1975-11-18",
+            "nationality": "Việt Nam",
+            "ethnicity": "Kinh",
+            "religion": "Không",
+            "is_party_member": true,
+            "citizenship_id": null,
+            "aliases": []
+        },
+        "contacts": {
+            "permanent_address": "Khối 15 - Phường Cửa Nam - Thành phố Vinh - Tỉnh Nghệ An",
+            "hometown": "Xã Hưng Thành - Huyện Hưng Nguyên - Tỉnh Nghệ An",
+            "mailing_address": "Nguyễn Văn Tuấn - Bộ môn Nội tổng hợp, Trường Đại học Y khoa Vinh, 161 - Nguyễn Phong Sắc - Phường Hưng Dũng - Thành phố Vinh - Tỉnh Nghệ An",
+            "work_address": "Trường Đại học Y khoa Vinh, 161 - Nguyễn Phong Sắc - Phường Hưng Dũng - Thành phố Vinh - Tỉnh Nghệ An",
+            "phone_mobile": "0983767134",
+            "phone_home": null,
+            "email": "vantuan@vmu.edu.vn"
+        },
+        "current_affiliation": {
+            "institution_id": "inst:trường-đại-học-y-khoa-vinh",
+            "institution_name": "Trường Đại học Y khoa Vinh",
+            "faculty_or_department": "Bộ môn Nội tổng hợp",
+            "unit": null,
+            "position": "Hiệu trưởng, Trưởng BM Nội tổng hợp"
+        },
+        "employment_history": [
+            {
+                "from": "2000-11",
+                "to": "2003-08",
+                "position_title": "Giáo viên Bộ môn Nội",
+                "unit": null,
+                "institution_name": "Trường Trung học Y tế Nghệ An",
+                "institution_id": "inst:trường-trung-học-y-tế-nghệ-an",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "from": "2003-09",
+                "to": "2011-08",
+                "position_title": "Giảng viên Bộ môn Nội",
+                "unit": null,
+                "institution_name": "Trường Cao đẳng Y tế Nghệ An",
+                "institution_id": "inst:trường-cao-đẳng-y-tế-nghệ-an",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "from": "2011-09",
+                "to": "2015-12",
+                "position_title": "Giảng viên Bộ môn Nội",
+                "unit": null,
+                "institution_name": "Trường Đại học Y khoa Vinh",
+                "institution_id": "inst:trường-đại-học-y-khoa-vinh",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "from": "2016-01",
+                "to": "2019-08",
+                "position_title": "Giảng viên, Trưởng Bộ môn Nội tổng hợp",
+                "unit": null,
+                "institution_name": "Trường Đại học Y khoa Vinh",
+                "institution_id": "inst:trường-đại-học-y-khoa-vinh",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "from": "2019-09",
+                "to": "2020-06",
+                "position_title": "Giảng viên, Trưởng khoa Y học lâm sàng hệ Nội kiêm trưởng Bộ môn Nội tổng hợp",
+                "unit": null,
+                "institution_name": "Trường Đại học Y khoa Vinh",
+                "institution_id": "inst:trường-đại-học-y-khoa-vinh",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "from": "2020-07",
+                "to": "2023-05",
+                "position_title": "Giảng viên, Phó Hiệu trưởng, kiêm Trưởng BM Nội tổng hợp",
+                "unit": null,
+                "institution_name": "Trường Đại học Y khoa Vinh",
+                "institution_id": "inst:trường-đại-học-y-khoa-vinh",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "from": "2023-06",
+                "to": null,
+                "position_title": "Giảng viên, Hiệu trưởng, kiêm Trưởng BM Nội tổng hợp",
+                "unit": null,
+                "institution_name": "Trường Đại học Y khoa Vinh",
+                "institution_id": "inst:trường-đại-học-y-khoa-vinh",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            }
+        ],
+        "visiting_appointments": [],
+        "education": [
+            {
+                "degree": "Bachelor",
+                "field": "Y",
+                "specialization": "Bác sĩ đa khoa",
+                "institution_name": "Trường Đại học Y khoa Hà Nội",
+                "institution_id": "inst:trường-đại-học-y-khoa-hà-nội",
+                "country": "Việt Nam",
+                "date_awarded": "1998-08-25",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "degree": "Master",
+                "field": "Y",
+                "specialization": "Nội khoa",
+                "institution_name": "Trường Đại học Y Dược Huế",
+                "institution_id": "inst:trường-đại-học-y-dược-huế",
+                "country": "Việt Nam",
+                "date_awarded": "2003-12-18",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "degree": "PhD",
+                "field": "Y",
+                "specialization": "Nội Thận - Tiết niệu",
+                "institution_name": "Trường Đại học Y Dược Huế",
+                "institution_id": "inst:trường-đại-học-y-dược-huế",
+                "country": "Việt Nam",
+                "date_awarded": "2015-12-15",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            }
+        ],
+        "discipline": {
+            "sector": null,
+            "field": "Y",
+            "subfield": null
+        },
+        "application": {
+            "dossier_code": null,
+            "rank_applied": "Associate Professor",
+            "host_institution": "Trường Đại học Y Dược Thái Bình",
+            "field_council": "Y",
+            "date_submitted": null,
+            "lecturer_type": null
+        },
+        "research_interests": [
+            "Hướng nghiên cứu về dịch tễ học các bệnh lý nội khoa",
+            "Hướng nghiên cứu về đặc điểm lâm sàng, cận lâm sàng, điều trị và theo dõi các bệnh lý nội khoa"
+        ],
+        "supervision": {
+            "phd_completed": 2,
+            "masters_completed": 2,
+            "details": [
+                {
+                    "candidate_name": "Từ Thị Kim Quế",
+                    "level": "Master",
+                    "role": "Main",
+                    "institution_name": "Trường Đại học Vinh",
+                    "from": "2016-10",
+                    "to": "2017-07",
+                    "date_awarded": "2017",
+                    "provenance": {
+                        "doc_id": null,
+                        "page": null
+                    }
+                },
+                {
+                    "candidate_name": "Nguyễn Thị Hương",
+                    "level": "Master",
+                    "role": "Main",
+                    "institution_name": "Trường Đại học Điều dưỡng Nam Định",
+                    "from": "2021-03",
+                    "to": "2021-11",
+                    "date_awarded": "2021",
+                    "provenance": {
+                        "doc_id": null,
+                        "page": null
+                    }
+                },
+                {
+                    "candidate_name": "Nguyễn Văn Hải",
+                    "level": "PhD",
+                    "role": "Main",
+                    "institution_name": "Trường Đại học Y khoa Vinh",
+                    "from": "2022-11",
+                    "to": "2023-11",
+                    "date_awarded": "2024",
+                    "provenance": {
+                        "doc_id": null,
+                        "page": null
+                    }
+                },
+                {
+                    "candidate_name": "Phạm Sỹ Hùng",
+                    "level": "CK2",
+                    "role": "Main",
+                    "institution_name": "Trường Đại học Y Dược Hải Phòng",
+                    "from": "2020-01",
+                    "to": "2020-12",
+                    "date_awarded": "2021",
+                    "provenance": {
+                        "doc_id": null,
+                        "page": null
+                    }
+                },
+                {
+                    "candidate_name": "Lưu Đình Bình",
+                    "level": "CK2",
+                    "role": "Main",
+                    "institution_name": "Trường Đại học Y Dược Hải Phòng",
+                    "from": "2020-01",
+                    "to": "2020-12",
+                    "date_awarded": "2021",
+                    "provenance": {
+                        "doc_id": null,
+                        "page": null
+                    }
+                }
+            ]
+        },
+        "projects": [],
+        "publications": [],
+        "books": [
+            {
+                "title": "Transforming Growth factorbeta-1 (TGF-beta1) và high sensivity C - reactive protein (hs-CRP) trong bệnh lý thận mạn",
+                "type": "Monograph",
+                "publisher": "Nhà xuất bản Y học",
+                "year": "2021",
+                "is_reputable_publisher": true,
+                "chapter_pages": "Trang 7-189",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "title": "Cẩm nang chăm sóc người bệnh thận nhân tạo chu kỳ trong thời kỳ Covid-19",
+                "type": "Guide",
+                "publisher": "Nhà xuất bản Y học",
+                "year": "2022",
+                "is_reputable_publisher": true,
+                "chapter_pages": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "title": "Giáo trình dạy - học lâm sàng dựa trên năng lực",
+                "type": "Textbook",
+                "publisher": "Nhà xuất bản Y học",
+                "year": "2024",
+                "is_reputable_publisher": true,
+                "chapter_pages": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            }
+        ],
+        "awards": [
+            {
+                "name": "Bằng khen của Thủ tướng Chính phủ",
+                "issuer": "Thủ tướng Chính phủ",
+                "year": "2020",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "name": "Bằng khen của Bộ trưởng Bộ Giáo dục và Đào tạo",
+                "issuer": "Bộ trưởng Bộ Giáo dục và Đào tạo",
+                "year": "2020",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "name": "Danh hiệu chiến sĩ thi đua cấp tỉnh",
+                "issuer": "Chủ tịch UBND tỉnh Nghệ An",
+                "year": "2018",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "name": "Kỷ niệm chương “Vì thế hệ trẻ”",
+                "issuer": "Ban chấp hành Trung ương Đoàn TNCS Hồ Chí Minh",
+                "year": "2020",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "name": "Bằng khen của Chủ tịch UBND tỉnh Nghệ An",
+                "issuer": "Chủ tịch UBND tỉnh Nghệ An",
+                "year": "2023",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            }
+        ],
+        "discipline_actions": [],
+        "teaching_loads": [],
+        "languages": [
+            {
+                "language": "Tiếng Anh",
+                "level": "Fluent",
+                "evidence": "Degree abroad",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            }
+        ],
+        "checkboxes": {
+            "is_giang_vien": true,
+            "is_giang_vien_thinh_giang": false
+        },
+        "notes": null
+    },
+    {
+        "person": {
+            "id": null,
+            "name": "Đặng Minh Hải",
+            "gender": "male",
+            "date_of_birth": "1979-08-19",
+            "nationality": "Việt Nam",
+            "ethnicity": "Kinh",
+            "religion": "Không",
+            "is_party_member": true,
+            "citizenship_id": null,
+            "aliases": []
+        },
+        "contacts": {
+            "permanent_address": "P2501, T18, Times city, 458 Minh Khai, phường Vĩnh Tuy, quận Hai Bà Trưng, Hà Nội",
+            "hometown": "Xã Vĩnh Ninh, huyện Vĩnh Lộc, tỉnh Thanh Hoá",
+            "mailing_address": "Khoa Kỹ thuật tài nguyên nước, Trường Đại học Thuỷ lợi, 175 Tây Sơn, quận Đống Đa, Hà Nội",
+            "work_address": "Bộ môn Cấp thoát nước, Khoa Kỹ thuật tài nguyên nước, Đại học Thuỷ lợi",
+            "phone_mobile": "0386997676",
+            "phone_home": null,
+            "email": "hai_ctn@tlu.edu.vn"
+        },
+        "current_affiliation": {
+            "institution_id": "inst:đại-học-thuỷ-lợi",
+            "institution_name": "Đại học Thuỷ lợi",
+            "faculty_or_department": "Khoa Kỹ thuật tài nguyên nước",
+            "unit": "Bộ môn Cấp thoát nước",
+            "position": "Phó trưởng khoa kiêm Phó trưởng bộ môn"
+        },
+        "employment_history": [
+            {
+                "from": "2003",
+                "to": "2010",
+                "position_title": "Giảng viên",
+                "unit": "Bộ môn Cấp thoát nước",
+                "institution_name": "Đại học Thuỷ lợi",
+                "institution_id": "inst:đại-học-thuỷ-lợi",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": 1
+                }
+            },
+            {
+                "from": "2010",
+                "to": "2013",
+                "position_title": "Nghiên cứu sinh",
+                "unit": null,
+                "institution_name": "Đại học Tổng hợp Kanazawa",
+                "institution_id": "inst:đại-học-tổng-hợp-kanazawa",
+                "country": "Nhật Bản",
+                "provenance": {
+                    "doc_id": null,
+                    "page": 1
+                }
+            },
+            {
+                "from": "2013",
+                "to": "2014",
+                "position_title": "Giảng viên",
+                "unit": "Bộ môn Cấp thoát nước",
+                "institution_name": "Đại học Thuỷ lợi",
+                "institution_id": "inst:đại-học-thuỷ-lợi",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": 1
+                }
+            },
+            {
+                "from": "2014",
+                "to": "2019",
+                "position_title": "Phó trưởng bộ môn",
+                "unit": "Bộ môn Cấp thoát nước",
+                "institution_name": "Đại học Thuỷ lợi",
+                "institution_id": "inst:đại-học-thuỷ-lợi",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": 1
+                }
+            },
+            {
+                "from": "2019",
+                "to": "2020",
+                "position_title": "Phó trưởng khoa kiêm Phó trưởng bộ môn",
+                "unit": "Bộ môn Cấp thoát nước",
+                "institution_name": "Đại học Thuỷ lợi",
+                "institution_id": "inst:đại-học-thuỷ-lợi",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": 1
+                }
+            }
+        ],
+        "visiting_appointments": [],
+        "education": [
+            {
+                "degree": "Bachelor",
+                "field": "Thuỷ nông - Cải tạo đất",
+                "specialization": "Trạm bơm",
+                "institution_name": "Đại học Thuỷ lợi",
+                "institution_id": "inst:đại-học-thuỷ-lợi",
+                "country": "Việt Nam",
+                "date_awarded": "2002-06-16",
+                "provenance": {
+                    "doc_id": null,
+                    "page": 2
+                }
+            },
+            {
+                "degree": "Master",
+                "field": "Kỹ thuật tài nguyên nước",
+                "specialization": "Quy hoạch và Quản lý tài nguyên nước",
+                "institution_name": "Đại học Thuỷ lợi",
+                "institution_id": "inst:đại-học-thuỷ-lợi",
+                "country": "Việt Nam",
+                "date_awarded": "2007-09-10",
+                "provenance": {
+                    "doc_id": null,
+                    "page": 2
+                }
+            },
+            {
+                "degree": "PhD",
+                "field": "Kỹ thuật môi trường",
+                "specialization": "Sáng tạo môi trường",
+                "institution_name": "Đại học Tổng hợp Kanazawa",
+                "institution_id": "inst:đại-học-tổng-hợp-kanazawa",
+                "country": "Nhật Bản",
+                "date_awarded": "2013-09-26",
+                "provenance": {
+                    "doc_id": null,
+                    "page": 2
+                }
+            }
+        ],
+        "discipline": {
+            "sector": null,
+            "field": "Thủy lợi",
+            "subfield": null
+        },
+        "application": {
+            "dossier_code": null,
+            "rank_applied": "Associate Professor",
+            "host_institution": "Trường Đại học Thủy lợi",
+            "field_council": null,
+            "date_submitted": null,
+            "lecturer_type": null
+        },
+        "research_interests": [
+            "Nghiên cứu ảnh hưởng của xây dựng đập và khai thác cát tới biến đổi lòng dẫn của sông",
+            "Nghiên cứu quá trình truyền sóng vỡ đập trên sông",
+            "Nghiên cứu ảnh hưởng của canh tác nông nghiệp tới chất lượng nước trong kênh tiêu",
+            "Nghiên cứu giải pháp thoát nước để giảm thiểu tác động của quá trình đô thị hoá tới lưu lượng và chất lượng nước",
+            "Nghiên cứu quy hoạch, thiết kế và vận hành tối ưu hệ thống cấp nước, hệ thống thoát nước"
+        ],
+        "supervision": {
+            "phd_completed": 0,
+            "masters_completed": 10,
+            "details": [
+                {
+                    "candidate_name": "Lê Thuỳ Giang",
+                    "level": "Master",
+                    "role": "Main",
+                    "institution_name": "Đại học Thuỷ lợi",
+                    "from": "2014-05",
+                    "to": "2015-05",
+                    "date_awarded": "2015-05-11",
+                    "provenance": {
+                        "doc_id": null,
+                        "page": 5
+                    }
+                },
+                {
+                    "candidate_name": "Nguyễn Minh Phúc",
+                    "level": "Master",
+                    "role": "Main",
+                    "institution_name": "Đại học Thuỷ lợi",
+                    "from": "2014-05",
+                    "to": "2015-10",
+                    "date_awarded": "2015-10-09",
+                    "provenance": {
+                        "doc_id": null,
+                        "page": 5
+                    }
+                },
+                {
+                    "candidate_name": "Mai Văn Hạnh",
+                    "level": "Master",
+                    "role": "Main",
+                    "institution_name": "Đại học Thuỷ lợi",
+                    "from": "2014-11",
+                    "to": "2015-12",
+                    "date_awarded": "2015-12-29",
+                    "provenance": {
+                        "doc_id": null,
+                        "page": 5
+                    }
+                },
+                {
+                    "candidate_name": "Phạm Thị Tuyết",
+                    "level": "Master",
+                    "role": "Main",
+                    "institution_name": "Đại học Thuỷ lợi",
+                    "from": "2015-02",
+                    "to": "2015-10",
+                    "date_awarded": "2015-10-09",
+                    "provenance": {
+                        "doc_id": null,
+                        "page": 5
+                    }
+                },
+                {
+                    "candidate_name": "Nông Thị Trang",
+                    "level": "Master",
+                    "role": "Main",
+                    "institution_name": "Đại học Thuỷ lợi",
+                    "from": "2014-04",
+                    "to": "2017-04",
+                    "date_awarded": "2017-04-17",
+                    "provenance": {
+                        "doc_id": null,
+                        "page": 5
+                    }
+                },
+                {
+                    "candidate_name": "Đoàn Thị Thanh Giác",
+                    "level": "Master",
+                    "role": "Main",
+                    "institution_name": "Đại học Thuỷ lợi",
+                    "from": "2015-08",
+                    "to": "2017-08",
+                    "date_awarded": "2017-08-31",
+                    "provenance": {
+                        "doc_id": null,
+                        "page": 5
+                    }
+                },
+                {
+                    "candidate_name": "Nguyễn Anh Khoa",
+                    "level": "Master",
+                    "role": "Main",
+                    "institution_name": "Đại học Thuỷ lợi",
+                    "from": "2016-01",
+                    "to": "2018-09",
+                    "date_awarded": "2018-09-24",
+                    "provenance": {
+                        "doc_id": null,
+                        "page": 6
+                    }
+                },
+                {
+                    "candidate_name": "Nguyễn Việt Hùng",
+                    "level": "Master",
+                    "role": "Main",
+                    "institution_name": "Đại học Thuỷ lợi",
+                    "from": "2018-05",
+                    "to": "2019-05",
+                    "date_awarded": "2019-05-27",
+                    "provenance": {
+                        "doc_id": null,
+                        "page": 6
+                    }
+                },
+                {
+                    "candidate_name": "Nguyễn Hữu Nghĩa",
+                    "level": "Master",
+                    "role": "Main",
+                    "institution_name": "Đại học Thuỷ lợi",
+                    "from": "2018-05",
+                    "to": "2019-05",
+                    "date_awarded": "2019-05-27",
+                    "provenance": {
+                        "doc_id": null,
+                        "page": 6
+                    }
+                },
+                {
+                    "candidate_name": "Trịnh Hoàng Quân",
+                    "level": "Master",
+                    "role": "Main",
+                    "institution_name": "Đại học Thuỷ lợi",
+                    "from": "2018-05",
+                    "to": "2019-05",
+                    "date_awarded": "2019-05-27",
+                    "provenance": {
+                        "doc_id": null,
+                        "page": 6
+                    }
+                }
+            ]
+        },
+        "projects": [],
+        "publications": [
+            {
+                "title": "Analysis of the decadal change in the riverbed of the Tedori River, Japan and its correlation with neighboring coasts",
+                "venue": "Proceedings of the Sixth International Conference on Asian and Pacific Coasts (APAC 2011)",
+                "issn_isbn": "ISBN:978981-4397-13-1",
+                "type": "Conference",
+                "indexing": "Scopus",
+                "quartile": null,
+                "impact_factor": null,
+                "year": "2011",
+                "volume_issue_pages": "579-586",
+                "is_lead_author": true,
+                "citations": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": 8
+                }
+            },
+            {
+                "title": "Influence of Anthropogenic Activities on the Lower Tedori River, Japan",
+                "venue": "Japan Sea Research",
+                "issn_isbn": "ISSN:1347-7889",
+                "type": "Journal",
+                "indexing": "None",
+                "quartile": null,
+                "impact_factor": null,
+                "year": "2012",
+                "volume_issue_pages": "43, 19-34",
+                "is_lead_author": true,
+                "citations": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": 8
+                }
+            },
+            {
+                "title": "A numerical study of wave run-up over a bank",
+                "venue": "Proceedings of the Fourth International Conference on Estuaries and Coasts",
+                "issn_isbn": "212219H00",
+                "type": "Conference",
+                "indexing": null,
+                "quartile": null,
+                "impact_factor": null,
+                "year": "2012",
+                "volume_issue_pages": "276-284",
+                "is_lead_author": null,
+                "citations": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": 8
+                }
+            },
+            {
+                "title": "Comparison of accelerated erosion in riverbed and downstream coast by EOF analysis",
+                "venue": "Journal of Coastal Research",
+                "issn_isbn": "ISSN 0749-0208",
+                "type": "Journal",
+                "indexing": "SCIE",
+                "quartile": "Q2",
+                "impact_factor": 1.03,
+                "year": "2013",
+                "volume_issue_pages": "65, sp1, 618-623",
+                "is_lead_author": false,
+                "citations": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": 9
+                }
+            },
+            {
+                "title": "Human impact on morphology and sediment budget in the Tedori River, Japan",
+                "venue": "Advances in River Sediment Research, Proceedings of International Symposium on River Sediment",
+                "issn_isbn": "ISBN:9781-138-00062-9",
+                "type": "Conference",
+                "indexing": null,
+                "quartile": null,
+                "impact_factor": null,
+                "year": "2013",
+                "volume_issue_pages": "1-8",
+                "is_lead_author": true,
+                "citations": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": 9
+                }
+            },
+            {
+                "title": "Long-term riverbed response of lower Tedori River, Japan, to sediment extraction and dam construction",
+                "venue": "Environmental Earth Sciences",
+                "issn_isbn": "ISSN:1866-6280",
+                "type": "Journal",
+                "indexing": "SCIE",
+                "quartile": "Q2",
+                "impact_factor": 2.03,
+                "year": "2014",
+                "volume_issue_pages": "72, 8, 2971–2983",
+                "is_lead_author": true,
+                "citations": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": 9
+                }
+            },
+            {
+                "title": "A numerical study on bore propagation over a channel with complex topography",
+                "venue": "Proceedings of the 19th IAHR-APD Congress 2014, Hanoi, Vietnam",
+                "issn_isbn": "ISBN:978-604-821383-1",
+                "type": "Conference",
+                "indexing": null,
+                "quartile": null,
+                "impact_factor": null,
+                "year": "2014",
+                "volume_issue_pages": "1-8",
+                "is_lead_author": null,
+                "citations": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": 9
+                }
+            },
+            {
+                "title": "Nghiên cứu ảnh hưởng của sóng vỡ đập lên công trình",
+                "venue": "Tuyển tập Hội nghị khoa học thường niên năm 2014",
+                "issn_isbn": "ISBN: 978604-82-1388-6",
+                "type": "Conference",
+                "indexing": null,
+                "quartile": null,
+                "impact_factor": null,
+                "year": "2014",
+                "volume_issue_pages": "462-464",
+                "is_lead_author": null,
+                "citations": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": 10
+                }
+            },
+            {
+                "title": "Ảnh hưởng của chế độ bón phân cho lúa tới thay đổi hàm lượng Ni tơ trong kênh tiêu của lưu vực Hán Quảng, tỉnh Bắc Ninh",
+                "venue": "Tạp chí Khoa học kỹ thuật Thủy lợi và Môi trường",
+                "issn_isbn": "ISSN:18593941",
+                "type": "Journal",
+                "indexing": null,
+                "quartile": null,
+                "impact_factor": null,
+                "year": "2018",
+                "volume_issue_pages": "61, 76-83",
+                "is_lead_author": true,
+                "citations": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": 11
+                }
+            },
+            {
+                "title": "Ước tính tải lượng bùn cát của sông tedori cấp cho biển Ishikawa, Nhật Bản",
+                "venue": "Tạp chí Khoa học kỹ thuật Thủy lợi và Môi trường",
+                "issn_isbn": "ISSN:1859-3941",
+                "type": "Journal",
+                "indexing": null,
+                "quartile": null,
+                "impact_factor": null,
+                "year": "2018",
+                "volume_issue_pages": "62, 59-65",
+                "is_lead_author": true,
+                "citations": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": 11
+                }
+            },
+            {
+                "title": "Ứng dụng giải thuật di truyền NSGA-II để lựa chọn phương án tối ưu cải tạo hệ thống thoát nước thành phố Sầm Sơn, Thanh Hóa",
+                "venue": "Tuyển tập Hội nghị khoa học thường niên năm 2018",
+                "issn_isbn": "ISBN:978604-82-2548-3",
+                "type": "Conference",
+                "indexing": null,
+                "quartile": null,
+                "impact_factor": null,
+                "year": "2018",
+                "volume_issue_pages": "363-365",
+                "is_lead_author": true,
+                "citations": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": 11
+                }
+            },
+            {
+                "title": "Assessment of the impact of fertilizer application on nitrogen load using SWAT model: a case study in Bac Duong irrigation system, Vietnam",
+                "venue": "Proceedings of International Symposium on Lowland Technology 2018, Ha Noi, Viet Nam",
+                "issn_isbn": "ISBN:978604-82-2483-7",
+                "type": "Conference",
+                "indexing": null,
+                "quartile": null,
+                "impact_factor": null,
+                "year": "2018",
+                "volume_issue_pages": "1-8",
+                "is_lead_author": true,
+                "citations": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": 11
+                }
+            },
+            {
+                "title": "Xây dựng mô hình tối ưu đa mục tiêu để lựa chọn phương án cải tạo hệ thống thoát nước thành phố Sầm Sơn, Thanh Hóa",
+                "venue": "Tạp chí Khoa học kỹ thuật Thủy lợi và Môi trường",
+                "issn_isbn": "ISSN:1859-3941",
+                "type": "Journal",
+                "indexing": null,
+                "quartile": null,
+                "impact_factor": null,
+                "year": "2018",
+                "volume_issue_pages": "63, 49-57",
+                "is_lead_author": true,
+                "citations": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": 11
+                }
+            },
+            {
+                "title": "Đánh giá hiệu quả kiểm soát nước mưa của các công trình thoát nước bền vững: áp dụng cho khu vực Thượng Thanh, Gia Lâm, Hà Nội",
+                "venue": "Tuyển tập Hội nghị khoa học thường niên năm 2019",
+                "issn_isbn": "ISBN:978604-82-2981-8",
+                "type": "Conference",
+                "indexing": null,
+                "quartile": null,
+                "impact_factor": null,
+                "year": "2019",
+                "volume_issue_pages": "338-340",
+                "is_lead_author": true,
+                "citations": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": 12
+                }
+            },
+            {
+                "title": "Bố trí và lựa chọn tối ưu các công trình thoát nước bền vững cho lưu vực sông Cầu Bây, Gia Lâm, Hà Nội",
+                "venue": "Tạp chí Khoa học kỹ thuật Thủy lợi và Môi trường",
+                "issn_isbn": "ISSN:1859-3941",
+                "type": "Journal",
+                "indexing": null,
+                "quartile": null,
+                "impact_factor": null,
+                "year": "2019",
+                "volume_issue_pages": "66, 29-36",
+                "is_lead_author": true,
+                "citations": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": 12
+                }
+            },
+            {
+                "title": "Morphological Changes of the Lower Tedori River, Japan, over 50 Year",
+                "venue": "Water",
+                "issn_isbn": "ISSN:2073-4441",
+                "type": "Journal",
+                "indexing": "SCIE",
+                "quartile": "Q1",
+                "impact_factor": 2.52,
+                "year": "2019",
+                "volume_issue_pages": "553, 12, 1-15",
+                "is_lead_author": true,
+                "citations": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": 12
+                }
+            },
+            {
+                "title": "Optimal Planning of Low-Impact Development for TSS Control in the Upper Area of the Cau Bay River Basin, Vietnam",
+                "venue": "Water",
+                "issn_isbn": "ISSN:2073-4441",
+                "type": "Journal",
+                "indexing": "SCIE",
+                "quartile": "Q1",
+                "impact_factor": 2.52,
+                "year": "2020",
+                "volume_issue_pages": "1852, 11, 1-17",
+                "is_lead_author": true,
+                "citations": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": 12
+                }
+            },
+            {
+                "title": "Ảnh hưởng của mô hình mưa tới hiệu quả kiểm soát dòng chảy của các công trình thoát nước bền vững",
+                "venue": "Tạp chí Khoa học kỹ thuật Thủy lợi và Môi trường",
+                "issn_isbn": "ISSN:1859-3941",
+                "type": "Journal",
+                "indexing": null,
+                "quartile": null,
+                "impact_factor": null,
+                "year": "2020",
+                "volume_issue_pages": "68, 98-106",
+                "is_lead_author": true,
+                "citations": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": 12
+                }
+            },
+            {
+                "title": "Ảnh hưởng của mô hình mưa tới hiệu quả kiểm soát chất lơ lứng của các công trình thoát nước bền vững",
+                "venue": "Tạp chí Nông nghiệp và Phát triển nông thôn",
+                "issn_isbn": "ISSN:1859-4581",
+                "type": "Journal",
+                "indexing": null,
+                "quartile": null,
+                "impact_factor": null,
+                "year": "2020",
+                "volume_issue_pages": "384, 9/2020, 109-115",
+                "is_lead_author": true,
+                "citations": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": 12
+                }
+            }
+        ],
+        "books": [
+            {
+                "title": "Tối ưu hoá hệ thống cấp thoát nước và các đối tượng kỹ thuật",
+                "type": "Guide",
+                "publisher": "Nhà xuất bản Xây dựng",
+                "year": "2018",
+                "is_reputable_publisher": true,
+                "chapter_pages": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": 6
+                }
+            }
+        ],
+        "awards": [
+            {
+                "name": "Giấy chứng nhận giảng viên hướng dẫn sinh viên thực hiện công trình đạt giải thưởng “Sinh viên nghiên cứu khoa học”",
+                "issuer": "Bộ Giáo dục và Đào tạo",
+                "year": "2008",
+                "provenance": {
+                    "doc_id": null,
+                    "page": 3
+                }
+            }
+        ],
+        "discipline_actions": [],
+        "teaching_loads": [
+            {
+                "academic_year": "2014-2015",
+                "hours_direct": 180,
+                "hours_converted": 474,
+                "hours_required": 238,
+                "provenance": {
+                    "doc_id": null,
+                    "page": 4
+                }
+            },
+            {
+                "academic_year": "2015-2016",
+                "hours_direct": 180,
+                "hours_converted": 404,
+                "hours_required": 230,
+                "provenance": {
+                    "doc_id": null,
+                    "page": 4
+                }
+            },
+            {
+                "academic_year": "2016-2017",
+                "hours_direct": 150,
+                "hours_converted": 324,
+                "hours_required": 230,
+                "provenance": {
+                    "doc_id": null,
+                    "page": 4
+                }
+            },
+            {
+                "academic_year": "2017-2018",
+                "hours_direct": 210,
+                "hours_converted": 468,
+                "hours_required": 230,
+                "provenance": {
+                    "doc_id": null,
+                    "page": 4
+                }
+            },
+            {
+                "academic_year": "2018-2019",
+                "hours_direct": 270,
+                "hours_converted": 507,
+                "hours_required": 216,
+                "provenance": {
+                    "doc_id": null,
+                    "page": 4
+                }
+            },
+            {
+                "academic_year": "2019-2020",
+                "hours_direct": 180,
+                "hours_converted": 384,
+                "hours_required": 203,
+                "provenance": {
+                    "doc_id": null,
+                    "page": 4
+                }
+            }
+        ],
+        "languages": [
+            {
+                "language": "Tiếng Anh",
+                "level": "Fluent",
+                "evidence": "Degree abroad",
+                "provenance": {
+                    "doc_id": null,
+                    "page": 3
+                }
+            }
+        ],
+        "checkboxes": {
+            "is_giang_vien": true,
+            "is_giang_vien_thinh_giang": false
+        },
+        "notes": null
+    },
+    {
+        "person": {
+            "id": null,
+            "name": "ĐỖ VĂN CHIẾN",
+            "gender": "male",
+            "date_of_birth": "1980-11-17",
+            "nationality": "Việt Nam",
+            "ethnicity": "Kinh",
+            "religion": null,
+            "is_party_member": true,
+            "citizenship_id": null,
+            "aliases": []
+        },
+        "contacts": {
+            "permanent_address": "Căn hộ 15R09, TN HH báo LĐ&XH, phường Yên Hòa, Quận Cầu Giấy, Hà Nội.",
+            "hometown": "Hoằng Thắng, Hoằng Hóa, Thanh Hóa",
+            "mailing_address": "Đỗ Văn Chiến Căn hộ 15R09, TN HH báo LĐ&XH, phường Yên Hòa, Quận Cầu Giấy, Hà Nội.",
+            "work_address": "Số 1 Đường Trần Hưng Đạo, Quận Hai Bà Trưng, Hà Nội",
+            "phone_mobile": "0982851506",
+            "phone_home": "0982851506",
+            "email": "dovanchien108.cmh@gmail.com"
+        },
+        "current_affiliation": {
+            "institution_id": "inst:bệnh-viện-trung-ương-quân-đội-108",
+            "institution_name": "Bệnh viện Trung ương Quân đội 108",
+            "faculty_or_department": "Giáo vụ Bộ môn Nội Tim mạch, Viện nghiên cứu khoa học y dược lâm sàng 108",
+            "unit": null,
+            "position": "Phó chủ nhiệm khoa Hồi sức Tim mạch"
+        },
+        "employment_history": [
+            {
+                "from": "1998-09",
+                "to": "1999-09",
+                "position_title": "Học đại học",
+                "unit": null,
+                "institution_name": "Trường Đại Học Y Hà Nội",
+                "institution_id": "inst:trường-đại-học-y-hà-nội",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "from": "1999-09",
+                "to": "2000-06",
+                "position_title": "Học dự bị tiếng Nga",
+                "unit": null,
+                "institution_name": "Trường Đại học Y quốc gia Rostov-on-Don",
+                "institution_id": "inst:trường-đại-học-y-quốc-gia-rostov-on-don",
+                "country": "Nga",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "from": "2000-09",
+                "to": "2006-06",
+                "position_title": "Học đại học",
+                "unit": null,
+                "institution_name": "Đại học Y quốc gia Volgograd",
+                "institution_id": "inst:đại-học-y-quốc-gia-volgograd",
+                "country": "Nga",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "from": "2006-09",
+                "to": "2008-05",
+                "position_title": "Bác sĩ khoa Nội Tim mạch",
+                "unit": null,
+                "institution_name": "Viện Tim Mạch, Bệnh Viện TƯQĐ 108",
+                "institution_id": "inst:viện-tim-mạch-bệnh-viện-tưqđ-108",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "from": "2008-06",
+                "to": "2009-05",
+                "position_title": "Bác sĩ",
+                "unit": null,
+                "institution_name": "Bệnh xá Đảo Song Tử Tây",
+                "institution_id": "inst:bệnh-xá-đảo-song-tử-tây",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "from": "2009-06",
+                "to": "2014-05",
+                "position_title": "Bác sĩ khoa Nội Tim mạch",
+                "unit": null,
+                "institution_name": "Viện Tim Mạch, Bệnh Viện TƯQĐ 108",
+                "institution_id": "inst:viện-tim-mạch-bệnh-viện-tưqđ-108",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "from": "2014-07",
+                "to": "2015-06",
+                "position_title": "Thực tập sinh Tim mạch can thiệp",
+                "unit": null,
+                "institution_name": "Viện Tim Mạch quốc gia Singapore",
+                "institution_id": "inst:viện-tim-mạch-quốc-gia-singapore",
+                "country": "Singapore",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "from": "2015-07",
+                "to": "2022-05",
+                "position_title": "Bác sĩ điều trị",
+                "unit": null,
+                "institution_name": "Viện Tim Mạch, Bệnh Viện TƯQĐ 108",
+                "institution_id": "inst:viện-tim-mạch-bệnh-viện-tưqđ-108",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "from": "2022-05",
+                "to": null,
+                "position_title": "Phó chủ nhiệm khoa Hồi sức Tim mạch",
+                "unit": null,
+                "institution_name": "Viện Tim Mạch, Bệnh Viện TƯQĐ 108",
+                "institution_id": "inst:viện-tim-mạch-bệnh-viện-tưqđ-108",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            }
+        ],
+        "visiting_appointments": [
+            {
+                "role": "Giảng viên thỉnh giảng",
+                "institution_name": "Viện NCKH y dược lâm sàng 108",
+                "institution_id": "inst:viện-nckh-y-dược-lâm-sàng-108",
+                "from": null,
+                "to": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "role": "Giảng viên thỉnh giảng",
+                "institution_name": "Trường Đại học kĩ thuật Y tế Hải Dương",
+                "institution_id": "inst:trường-đại-học-kĩ-thuật-y-tế-hải-dương",
+                "from": null,
+                "to": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "role": "Giảng viên thỉnh giảng",
+                "institution_name": "Học viện Quân Y",
+                "institution_id": "inst:học-viện-quân-y",
+                "from": null,
+                "to": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "role": "Giảng viên thỉnh giảng",
+                "institution_name": "Trường Đại học Y Hà Nội",
+                "institution_id": "inst:trường-đại-học-y-hà-nội",
+                "from": null,
+                "to": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "role": "Giảng viên thỉnh giảng",
+                "institution_name": "Trường Đại học Vinuniversity",
+                "institution_id": "inst:trường-đại-học-vinuniversity",
+                "from": null,
+                "to": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            }
+        ],
+        "education": [
+            {
+                "degree": "Bachelor",
+                "field": "Y",
+                "specialization": "Bác sĩ Đa khoa",
+                "institution_name": "Đại học Y quốc gia Volgograd",
+                "institution_id": "inst:đại-học-y-quốc-gia-volgograd",
+                "country": "Nga",
+                "date_awarded": "2006-06-22",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "degree": "PhD",
+                "field": "Y học",
+                "specialization": "Nội Tim Mạch",
+                "institution_name": "Viện nghiên cứu khoa học y dược lâm sàng 108",
+                "institution_id": "inst:viện-nghiên-cứu-khoa-học-y-dược-lâm-sàng-108",
+                "country": "Việt Nam",
+                "date_awarded": "2018-11-01",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            }
+        ],
+        "discipline": {
+            "sector": null,
+            "field": "Y học",
+            "subfield": "Nội Tim Mạch"
+        },
+        "application": {
+            "dossier_code": null,
+            "rank_applied": "Associate Professor",
+            "host_institution": "Viện nghiên cứu khoa học y dược lâm sàng 108",
+            "field_council": null,
+            "date_submitted": null,
+            "lecturer_type": "Visiting"
+        },
+        "research_interests": [
+            "Hình thái và chức năng của nhĩ trái trong một số bệnh lý tim mạch",
+            "Suy tim và một số bệnh lý liên quan đến suy tim",
+            "Rối loạn chuyển hóa (béo phì, đái tháo đường, tăng huyết áp, rối loạn chuyển hoá lipid) và một số bệnh lý mạch máu (động mạch vành, động - tĩnh mạch chi dưới)"
+        ],
+        "supervision": {
+            "phd_completed": 1,
+            "masters_completed": 5,
+            "details": [
+                {
+                    "candidate_name": "Lương Hải Đăng",
+                    "level": "CK2",
+                    "role": "Co",
+                    "institution_name": "Trường Đại Học Y Hà Nội",
+                    "from": "2020-12-09",
+                    "to": "2023-11-09",
+                    "date_awarded": "2023-01-17",
+                    "provenance": {
+                        "doc_id": null,
+                        "page": null
+                    }
+                },
+                {
+                    "candidate_name": "Trần Thị Mai Liên",
+                    "level": "CK2",
+                    "role": "Main",
+                    "institution_name": "Trường Đại Học Điều dưỡng Nam Định",
+                    "from": "2020-04-15",
+                    "to": "2022-02-18",
+                    "date_awarded": "2022-07-06",
+                    "provenance": {
+                        "doc_id": null,
+                        "page": null
+                    }
+                },
+                {
+                    "candidate_name": "Bùi Thị Huyền",
+                    "level": "CK2",
+                    "role": "Main",
+                    "institution_name": "Trường Đại học Thăng Long",
+                    "from": "2021-05-05",
+                    "to": "2022-06-30",
+                    "date_awarded": "2022-06-30",
+                    "provenance": {
+                        "doc_id": null,
+                        "page": null
+                    }
+                },
+                {
+                    "candidate_name": "Đặng Thị Thanh Nga",
+                    "level": "CK2",
+                    "role": "Main",
+                    "institution_name": "Trường Đại học Thăng Long",
+                    "from": "2022-07-19",
+                    "to": "2023-06-28",
+                    "date_awarded": "2023-06-28",
+                    "provenance": {
+                        "doc_id": null,
+                        "page": null
+                    }
+                },
+                {
+                    "candidate_name": "Lê Văn Tờ",
+                    "level": "CK2",
+                    "role": "Main",
+                    "institution_name": "Học viện Quân Y",
+                    "from": "2022-04-29",
+                    "to": "2023-09-26",
+                    "date_awarded": "2023-09-26",
+                    "provenance": {
+                        "doc_id": null,
+                        "page": null
+                    }
+                },
+                {
+                    "candidate_name": "Nguyễn Ngọc Duy",
+                    "level": "CK2",
+                    "role": "Co",
+                    "institution_name": "Đại học Y Hà Nội",
+                    "from": "2021-12-05",
+                    "to": "2023-12-29",
+                    "date_awarded": "2023-12-29",
+                    "provenance": {
+                        "doc_id": null,
+                        "page": null
+                    }
+                }
+            ]
+        },
+        "projects": [],
+        "publications": [],
+        "books": [
+            {
+                "title": "Rung nhĩ từ lý thuyết đến thực hành",
+                "type": "Textbook",
+                "publisher": "Nhà xuất bản Y học",
+                "year": "2021",
+                "is_reputable_publisher": true,
+                "chapter_pages": "Chương 1(tr.29-39),2 (tr.40-55),3 (tr.56-70),4 (tr.71-85), 8 (tr.244-267)",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "title": "Điện tim đồ từ lý thuyết đến thực hành",
+                "type": "Textbook",
+                "publisher": "Nhà xuất bản Y học",
+                "year": "2023",
+                "is_reputable_publisher": true,
+                "chapter_pages": "Chương II (tr.28-41), IV (tr.42-67), VII (119-169), XII(tr.317-335)",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            }
+        ],
+        "awards": [
+            {
+                "name": "Giải nhất nhà nghiên cứu trẻ của Hội Tim mạch Việt Nam",
+                "issuer": "Hội Tim mạch Việt Nam",
+                "year": "2016",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "name": "Giải nhì nhà nghiên cứu trẻ của Liên đoàn Tim mạch Đông Nam Á",
+                "issuer": "Liên đoàn Tim mạch Đông Nam Á",
+                "year": "2017",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "name": "Giải nhất Sáng tạo tuổi trẻ trong quân đội",
+                "issuer": "Bộ Quốc phòng",
+                "year": "2018",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            }
+        ],
+        "discipline_actions": [],
+        "teaching_loads": [],
+        "languages": [
+            {
+                "language": "Tiếng Anh",
+                "level": "Fluent",
+                "evidence": "Degree abroad",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            }
+        ],
+        "checkboxes": {
+            "is_giang_vien": true,
+            "is_giang_vien_thinh_giang": true
+        },
+        "notes": null
+    },
+    {
+        "person": {
+            "id": null,
+            "name": "Nguyễn Tùng Phong",
+            "gender": "male",
+            "date_of_birth": "1967-07-29",
+            "nationality": "Việt Nam",
+            "ethnicity": "Kinh",
+            "religion": "Không",
+            "is_party_member": true,
+            "citizenship_id": null,
+            "aliases": []
+        },
+        "contacts": {
+            "permanent_address": "Số 38/125 Thụy Khuê, Tây Hồ, Hà Nội",
+            "hometown": "Xã Ngọc Mỹ, Huyện Quốc Oai, Thành phố Hà Nội",
+            "mailing_address": "Phòng 2104 Park 1, Khu đô thị Times City, 458 Minh Khai, Hoàng Mai, Hà Nội",
+            "work_address": "171 Tây Sơn, Đống Đa, Hà Nội",
+            "phone_mobile": "0912278959",
+            "phone_home": null,
+            "email": "phongicd@gmail.com"
+        },
+        "current_affiliation": {
+            "institution_id": "inst:viện-khoa-học-thủy-lợi-việt-nam",
+            "institution_name": "Viện Khoa học Thủy lợi Việt Nam",
+            "faculty_or_department": null,
+            "unit": null,
+            "position": "Phó Giám đốc Viện"
+        },
+        "employment_history": [
+            {
+                "from": "1990",
+                "to": "1999",
+                "position_title": "Nghiên cứu viên",
+                "unit": "Trung tâm Thủy điện",
+                "institution_name": "Viện Khoa học Thủy lợi",
+                "institution_id": "inst:viện-khoa-học-thủy-lợi",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "from": "1999",
+                "to": "2002",
+                "position_title": "Phó Trưởng phòng",
+                "unit": "Phòng Hợp tác quốc tế",
+                "institution_name": "Viện Khoa học Thủy lợi",
+                "institution_id": "inst:viện-khoa-học-thủy-lợi",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "from": "2002",
+                "to": "2008",
+                "position_title": "Trưởng phòng",
+                "unit": "Phòng Hợp tác quốc tế",
+                "institution_name": "Viện Khoa học Thủy lợi",
+                "institution_id": "inst:viện-khoa-học-thủy-lợi",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "from": "2008",
+                "to": "2012",
+                "position_title": "Giám đốc TT",
+                "unit": "Trung tâm Đào tạo và Hợp tác quốc tế",
+                "institution_name": "Viện Khoa học Thủy lợi Việt Nam",
+                "institution_id": "inst:viện-khoa-học-thủy-lợi-việt-nam",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "from": "2012",
+                "to": "2013",
+                "position_title": "Phó Giám đốc Viện kiêm Giám đốc Trung tâm Đào tạo và Hợp tác quốc tế",
+                "unit": null,
+                "institution_name": "Viện Khoa học Thủy lợi Việt Nam",
+                "institution_id": "inst:viện-khoa-học-thủy-lợi-việt-nam",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "from": "2013",
+                "to": "2016",
+                "position_title": "Phó Giám đốc",
+                "unit": null,
+                "institution_name": "Viện Khoa học Thủy lợi Việt Nam",
+                "institution_id": "inst:viện-khoa-học-thủy-lợi-việt-nam",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "from": "2016",
+                "to": "2018",
+                "position_title": "Phó Giám đốc Viện kiêm Viện trưởng",
+                "unit": "Viện Nước, tưới tiêu và Môi trường",
+                "institution_name": null,
+                "institution_id": null,
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "from": "2018",
+                "to": "2019",
+                "position_title": "Phó Giám đốc Viện kiêm Giám đốc Trung tâm Đào tạo và Hợp tác quốc tế",
+                "unit": null,
+                "institution_name": "Viện Khoa học Thủy lợi Việt Nam",
+                "institution_id": "inst:viện-khoa-học-thủy-lợi-việt-nam",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            }
+        ],
+        "visiting_appointments": [
+            {
+                "role": "Thỉnh giảng",
+                "institution_name": "Trường Đại học Thủy lợi",
+                "institution_id": "inst:trường-đại-học-thủy-lợi",
+                "from": null,
+                "to": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "role": "Thỉnh giảng",
+                "institution_name": "Trường Đại học Khoa học Ứng dụng Cologne, CHLB Đức",
+                "institution_id": "inst:trường-đại-học-khoa-học-ứng-dụng-cologne-chlb-đức",
+                "from": null,
+                "to": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            }
+        ],
+        "education": [
+            {
+                "degree": "Bachelor",
+                "field": "Máy xây dựng Thủy lợi",
+                "specialization": "Kỹ thuật máy và thiết bị thủy khí",
+                "institution_name": "Trường Đại học Thủy lợi",
+                "institution_id": "inst:trường-đại-học-thủy-lợi",
+                "country": "Việt Nam",
+                "date_awarded": "1990-06-01",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "degree": "Master",
+                "field": "Kỹ thuật máy và thiết bị",
+                "specialization": "Kỹ thuật máy và thiết bị thủy khí",
+                "institution_name": "Trường Đại học Bách Khoa Hà Nội",
+                "institution_id": "inst:trường-đại-học-bách-khoa-hà-nội",
+                "country": "Việt Nam",
+                "date_awarded": "2000-07-03",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "degree": "PhD",
+                "field": "Kỹ thuật máy và thiết bị",
+                "specialization": "Kỹ thuật máy và thiết bị thủy khí",
+                "institution_name": "Bộ Giáo dục và Đào tạo",
+                "institution_id": "inst:bộ-giáo-dục-và-đào-tạo",
+                "country": "Việt Nam",
+                "date_awarded": "2005-08-25",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            }
+        ],
+        "discipline": {
+            "sector": null,
+            "field": "Thủy lợi",
+            "subfield": null
+        },
+        "application": {
+            "dossier_code": null,
+            "rank_applied": "Professor",
+            "host_institution": "Viện Khoa học Thủy lợi Việt Nam",
+            "field_council": "Thủy lợi",
+            "date_submitted": null,
+            "lecturer_type": null
+        },
+        "research_interests": [
+            "Nghiên cứu thiết bị tua bin thủy điện nhỏ, thiết bị bơm nước tự động và tự động hóa giám sát vận hành hệ thống thủy lợi",
+            "Nghiên cứu hiện đại hóa hệ thống thủy lợi",
+            "Nghiên cứu tích hợp các mô hình dự báo và công nghệ hỗ trợ ra quyết định trong quản lý lưu vực sông và quản lý rủi ro thiên tai"
+        ],
+        "supervision": {
+            "phd_completed": 3,
+            "masters_completed": null,
+            "details": []
+        },
+        "projects": [],
+        "publications": [],
+        "books": [
+            {
+                "title": "Hiện đại hóa quản lý hệ thống tưới",
+                "type": "Monograph",
+                "publisher": "NXB Nông nghiệp",
+                "year": "2011",
+                "is_reputable_publisher": true,
+                "chapter_pages": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "title": "Các chuyên đề mẫu phục vụ đào tạo tiến sĩ tại Viện Khoa học Thủy lợi Việt Nam",
+                "type": "Textbook",
+                "publisher": "NXB Nông nghiệp và PTNT",
+                "year": "2010",
+                "is_reputable_publisher": true,
+                "chapter_pages": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "title": "Hiện đại hóa vận hành hệ thống kênh tưới",
+                "type": "Monograph",
+                "publisher": "NXB Khoa học và Kỹ thuật",
+                "year": "2019",
+                "is_reputable_publisher": true,
+                "chapter_pages": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "title": "Quản lý hạn hán tổng hợp vùng Nam Trung Bộ và Tây Nguyên",
+                "type": "Monograph",
+                "publisher": "NXB Khoa học và Kỹ thuật",
+                "year": "2019",
+                "is_reputable_publisher": true,
+                "chapter_pages": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "title": "Sổ tay Hiện đại hóa hệ thống tưới (tiếng Việt và tiếng Anh, WB hỗ trợ)",
+                "type": "Textbook",
+                "publisher": "NXB Khoa học và Kỹ thuật",
+                "year": "2014",
+                "is_reputable_publisher": true,
+                "chapter_pages": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "title": "Quản lý rủi ro thiên tai và thích ứng với biến đổi khí hậu (tiếng Việt và tiếng Anh, UNDP hỗ trợ)",
+                "type": "Guide",
+                "publisher": "Bộ Nông nghiệp và PTNT và Chương trình phát triển Liên hợp Quốc",
+                "year": "2012",
+                "is_reputable_publisher": true,
+                "chapter_pages": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            }
+        ],
+        "awards": [
+            {
+                "name": "Huân chương lao động hạng Nhì",
+                "issuer": "Chủ tịch nước",
+                "year": "2016",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "name": "Huân chương lao động hạng Ba",
+                "issuer": "Chủ tịch nước",
+                "year": "2011",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "name": "Chiến sĩ thi đua cấp Bộ Nông nghiệp & PTNT",
+                "issuer": "Bộ Nông nghiệp và Phát triển nông thôn",
+                "year": "2010",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            }
+        ],
+        "discipline_actions": [],
+        "teaching_loads": [],
+        "languages": [
+            {
+                "language": "Tiếng Anh",
+                "level": "Fluent",
+                "evidence": "Degree abroad",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            }
+        ],
+        "checkboxes": {
+            "is_giang_vien": true,
+            "is_giang_vien_thinh_giang": true
+        },
+        "notes": null
+    },
+    {
+        "person": {
+            "id": null,
+            "name": "Nguyễn Tùng Phong",
+            "gender": "male",
+            "date_of_birth": "1967-07-29",
+            "nationality": "Việt Nam",
+            "ethnicity": "Kinh",
+            "religion": "Không",
+            "is_party_member": true,
+            "citizenship_id": null,
+            "aliases": []
+        },
+        "contacts": {
+            "permanent_address": "Số 38/125 Thụy Khuê, Tây Hồ, Hà Nội",
+            "hometown": "Xã Ngọc Mỹ, Huyện Quốc Oai, Thành phố Hà Nội",
+            "mailing_address": "Phòng 2104 Park 1, Khu đô thị Times City, 458 Minh Khai, Hoàng Mai, Hà Nội",
+            "work_address": "171 Tây Sơn, Đống Đa, Hà Nội",
+            "phone_mobile": "0912278959",
+            "phone_home": null,
+            "email": "phongicd@gmail.com"
+        },
+        "current_affiliation": {
+            "institution_id": "inst:viện-khoa-học-thủy-lợi-việt-nam",
+            "institution_name": "Viện Khoa học Thủy lợi Việt Nam",
+            "faculty_or_department": null,
+            "unit": null,
+            "position": "Phó Giám đốc Viện"
+        },
+        "employment_history": [
+            {
+                "from": "1990",
+                "to": "1999",
+                "position_title": "Nghiên cứu viên",
+                "unit": "Trung tâm Thủy điện",
+                "institution_name": "Viện Khoa học Thủy lợi",
+                "institution_id": "inst:viện-khoa-học-thủy-lợi",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "from": "1999",
+                "to": "2002",
+                "position_title": "Phó Trưởng phòng",
+                "unit": "Phòng Hợp tác quốc tế",
+                "institution_name": "Viện Khoa học Thủy lợi",
+                "institution_id": "inst:viện-khoa-học-thủy-lợi",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "from": "2002",
+                "to": "2008",
+                "position_title": "Trưởng phòng",
+                "unit": "Phòng Hợp tác quốc tế",
+                "institution_name": "Viện Khoa học Thủy lợi",
+                "institution_id": "inst:viện-khoa-học-thủy-lợi",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "from": "2008",
+                "to": "2012",
+                "position_title": "Giám đốc TT",
+                "unit": "Trung tâm Đào tạo và Hợp tác quốc tế",
+                "institution_name": "Viện Khoa học Thủy lợi Việt Nam",
+                "institution_id": "inst:viện-khoa-học-thủy-lợi-việt-nam",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "from": "2012",
+                "to": "2013",
+                "position_title": "Phó Giám đốc Viện kiêm Giám đốc Trung tâm Đào tạo và Hợp tác quốc tế",
+                "unit": null,
+                "institution_name": "Viện Khoa học Thủy lợi Việt Nam",
+                "institution_id": "inst:viện-khoa-học-thủy-lợi-việt-nam",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "from": "2013",
+                "to": "2016",
+                "position_title": "Phó Giám đốc",
+                "unit": null,
+                "institution_name": "Viện Khoa học Thủy lợi Việt Nam",
+                "institution_id": "inst:viện-khoa-học-thủy-lợi-việt-nam",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "from": "2016",
+                "to": "2018",
+                "position_title": "Phó Giám đốc Viện kiêm Viện trưởng",
+                "unit": "Viện Nước, tưới tiêu và Môi trường",
+                "institution_name": null,
+                "institution_id": null,
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "from": "2018",
+                "to": "2019",
+                "position_title": "Phó Giám đốc Viện kiêm Giám đốc Trung tâm Đào tạo và Hợp tác quốc tế",
+                "unit": null,
+                "institution_name": "Viện Khoa học Thủy lợi Việt Nam",
+                "institution_id": "inst:viện-khoa-học-thủy-lợi-việt-nam",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            }
+        ],
+        "visiting_appointments": [
+            {
+                "role": "Thỉnh giảng",
+                "institution_name": "Trường Đại học Thủy lợi",
+                "institution_id": "inst:trường-đại-học-thủy-lợi",
+                "from": null,
+                "to": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "role": "Thỉnh giảng",
+                "institution_name": "Trường Đại học Khoa học Ứng dụng Cologne, CHLB Đức",
+                "institution_id": "inst:trường-đại-học-khoa-học-ứng-dụng-cologne-chlb-đức",
+                "from": null,
+                "to": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            }
+        ],
+        "education": [
+            {
+                "degree": "Bachelor",
+                "field": "Máy xây dựng Thủy lợi",
+                "specialization": "Kỹ thuật máy và thiết bị thủy khí",
+                "institution_name": "Trường Đại học Thủy lợi",
+                "institution_id": "inst:trường-đại-học-thủy-lợi",
+                "country": "Việt Nam",
+                "date_awarded": "1990-06-01",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "degree": "Master",
+                "field": "Kỹ thuật máy và thiết bị",
+                "specialization": "Kỹ thuật máy và thiết bị thủy khí",
+                "institution_name": "Trường Đại học Bách Khoa Hà Nội",
+                "institution_id": "inst:trường-đại-học-bách-khoa-hà-nội",
+                "country": "Việt Nam",
+                "date_awarded": "2000-07-03",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "degree": "PhD",
+                "field": "Kỹ thuật máy và thiết bị",
+                "specialization": "Kỹ thuật máy và thiết bị thủy khí",
+                "institution_name": "Bộ Giáo dục và Đào tạo",
+                "institution_id": "inst:bộ-giáo-dục-và-đào-tạo",
+                "country": "Việt Nam",
+                "date_awarded": "2005-08-25",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            }
+        ],
+        "discipline": {
+            "sector": null,
+            "field": "Thủy lợi",
+            "subfield": null
+        },
+        "application": {
+            "dossier_code": null,
+            "rank_applied": "Professor",
+            "host_institution": "Viện Khoa học Thủy lợi Việt Nam",
+            "field_council": "Thủy lợi",
+            "date_submitted": null,
+            "lecturer_type": null
+        },
+        "research_interests": [
+            "Nghiên cứu thiết bị tua bin thủy điện nhỏ, thiết bị bơm nước tự động và tự động hóa giám sát vận hành hệ thống thủy lợi",
+            "Nghiên cứu hiện đại hóa hệ thống thủy lợi",
+            "Nghiên cứu tích hợp các mô hình dự báo và công nghệ hỗ trợ ra quyết định trong quản lý lưu vực sông và quản lý rủi ro thiên tai"
+        ],
+        "supervision": {
+            "phd_completed": 3,
+            "masters_completed": null,
+            "details": []
+        },
+        "projects": [],
+        "publications": [],
+        "books": [
+            {
+                "title": "Hiện đại hóa quản lý hệ thống tưới",
+                "type": "Monograph",
+                "publisher": "NXB Nông nghiệp",
+                "year": "2011",
+                "is_reputable_publisher": true,
+                "chapter_pages": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "title": "Các chuyên đề mẫu phục vụ đào tạo tiến sĩ tại Viện Khoa học Thủy lợi Việt Nam",
+                "type": "Textbook",
+                "publisher": "NXB Nông nghiệp và PTNT",
+                "year": "2010",
+                "is_reputable_publisher": true,
+                "chapter_pages": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "title": "Hiện đại hóa vận hành hệ thống kênh tưới",
+                "type": "Monograph",
+                "publisher": "NXB Khoa học và Kỹ thuật",
+                "year": "2019",
+                "is_reputable_publisher": true,
+                "chapter_pages": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "title": "Quản lý hạn hán tổng hợp vùng Nam Trung Bộ và Tây Nguyên",
+                "type": "Monograph",
+                "publisher": "NXB Khoa học và Kỹ thuật",
+                "year": "2019",
+                "is_reputable_publisher": true,
+                "chapter_pages": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "title": "Sổ tay Hiện đại hóa hệ thống tưới (tiếng Việt và tiếng Anh, WB hỗ trợ)",
+                "type": "Textbook",
+                "publisher": "NXB Khoa học và Kỹ thuật",
+                "year": "2014",
+                "is_reputable_publisher": true,
+                "chapter_pages": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "title": "Quản lý rủi ro thiên tai và thích ứng với biến đổi khí hậu (tiếng Việt và tiếng Anh, UNDP hỗ trợ)",
+                "type": "Guide",
+                "publisher": "Bộ Nông nghiệp và PTNT và Chương trình phát triển Liên hợp Quốc",
+                "year": "2012",
+                "is_reputable_publisher": true,
+                "chapter_pages": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            }
+        ],
+        "awards": [
+            {
+                "name": "Huân chương lao động hạng Nhì",
+                "issuer": "Chủ tịch nước",
+                "year": "2016",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "name": "Huân chương lao động hạng Ba",
+                "issuer": "Chủ tịch nước",
+                "year": "2011",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "name": "Chiến sĩ thi đua cấp Bộ Nông nghiệp & PTNT",
+                "issuer": "Bộ Nông nghiệp và Phát triển nông thôn",
+                "year": "2010",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            }
+        ],
+        "discipline_actions": [],
+        "teaching_loads": [],
+        "languages": [
+            {
+                "language": "Tiếng Anh",
+                "level": "Fluent",
+                "evidence": "Degree abroad",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            }
+        ],
+        "checkboxes": {
+            "is_giang_vien": true,
+            "is_giang_vien_thinh_giang": true
+        },
+        "notes": null
+    },
+    {
+        "person": {
+            "id": null,
+            "name": "Nguyễn Tùng Phong",
+            "gender": "male",
+            "date_of_birth": "1967-07-29",
+            "nationality": "Việt Nam",
+            "ethnicity": "Kinh",
+            "religion": "Không",
+            "is_party_member": true,
+            "citizenship_id": null,
+            "aliases": []
+        },
+        "contacts": {
+            "permanent_address": "Số 38/125 Thụy Khuê, Tây Hồ, Hà Nội",
+            "hometown": "Xã Ngọc Mỹ, Huyện Quốc Oai, Thành phố Hà Nội",
+            "mailing_address": "Phòng 2104 Park 1, Khu đô thị Times City, 458 Minh Khai, Hoàng Mai, Hà Nội",
+            "work_address": "171 Tây Sơn, Đống Đa, Hà Nội",
+            "phone_mobile": "0912278959",
+            "phone_home": null,
+            "email": "phongicd@gmail.com"
+        },
+        "current_affiliation": {
+            "institution_id": "inst:viện-khoa-học-thủy-lợi-việt-nam",
+            "institution_name": "Viện Khoa học Thủy lợi Việt Nam",
+            "faculty_or_department": null,
+            "unit": null,
+            "position": "Phó Giám đốc Viện"
+        },
+        "employment_history": [
+            {
+                "from": "1990",
+                "to": "1999",
+                "position_title": "Nghiên cứu viên",
+                "unit": "Trung tâm Thủy điện",
+                "institution_name": "Viện Khoa học Thủy lợi",
+                "institution_id": "inst:viện-khoa-học-thủy-lợi",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "from": "1999",
+                "to": "2002",
+                "position_title": "Phó Trưởng phòng",
+                "unit": "Phòng Hợp tác quốc tế",
+                "institution_name": "Viện Khoa học Thủy lợi",
+                "institution_id": "inst:viện-khoa-học-thủy-lợi",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "from": "2002",
+                "to": "2008",
+                "position_title": "Trưởng phòng",
+                "unit": "Phòng Hợp tác quốc tế",
+                "institution_name": "Viện Khoa học Thủy lợi",
+                "institution_id": "inst:viện-khoa-học-thủy-lợi",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "from": "2008",
+                "to": "2012",
+                "position_title": "Giám đốc TT",
+                "unit": "Trung tâm Đào tạo và Hợp tác quốc tế",
+                "institution_name": "Viện Khoa học Thủy lợi Việt Nam",
+                "institution_id": "inst:viện-khoa-học-thủy-lợi-việt-nam",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "from": "2012",
+                "to": "2013",
+                "position_title": "Phó Giám đốc Viện kiêm Giám đốc Trung tâm Đào tạo và Hợp tác quốc tế",
+                "unit": null,
+                "institution_name": "Viện Khoa học Thủy lợi Việt Nam",
+                "institution_id": "inst:viện-khoa-học-thủy-lợi-việt-nam",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "from": "2013",
+                "to": "2016",
+                "position_title": "Phó Giám đốc",
+                "unit": null,
+                "institution_name": "Viện Khoa học Thủy lợi Việt Nam",
+                "institution_id": "inst:viện-khoa-học-thủy-lợi-việt-nam",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "from": "2016",
+                "to": "2018",
+                "position_title": "Phó Giám đốc Viện kiêm Viện trưởng",
+                "unit": "Viện Nước, tưới tiêu và Môi trường",
+                "institution_name": null,
+                "institution_id": null,
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "from": "2018",
+                "to": "2019",
+                "position_title": "Phó Giám đốc Viện kiêm Giám đốc Trung tâm Đào tạo và Hợp tác quốc tế",
+                "unit": null,
+                "institution_name": "Viện Khoa học Thủy lợi Việt Nam",
+                "institution_id": "inst:viện-khoa-học-thủy-lợi-việt-nam",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            }
+        ],
+        "visiting_appointments": [
+            {
+                "role": "Thỉnh giảng",
+                "institution_name": "Trường Đại học Thủy lợi",
+                "institution_id": "inst:trường-đại-học-thủy-lợi",
+                "from": null,
+                "to": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "role": "Thỉnh giảng",
+                "institution_name": "Trường Đại học Khoa học Ứng dụng Cologne, CHLB Đức",
+                "institution_id": "inst:trường-đại-học-khoa-học-ứng-dụng-cologne-chlb-đức",
+                "from": null,
+                "to": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            }
+        ],
+        "education": [
+            {
+                "degree": "Bachelor",
+                "field": "Máy xây dựng Thủy lợi",
+                "specialization": "Kỹ thuật máy và thiết bị thủy khí",
+                "institution_name": "Trường Đại học Thủy lợi",
+                "institution_id": "inst:trường-đại-học-thủy-lợi",
+                "country": "Việt Nam",
+                "date_awarded": "1990-06-01",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "degree": "Master",
+                "field": "Kỹ thuật máy và thiết bị",
+                "specialization": "Kỹ thuật máy và thiết bị thủy khí",
+                "institution_name": "Trường Đại học Bách Khoa Hà Nội",
+                "institution_id": "inst:trường-đại-học-bách-khoa-hà-nội",
+                "country": "Việt Nam",
+                "date_awarded": "2000-07-03",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "degree": "PhD",
+                "field": "Kỹ thuật máy và thiết bị",
+                "specialization": "Kỹ thuật máy và thiết bị thủy khí",
+                "institution_name": "Bộ Giáo dục và Đào tạo",
+                "institution_id": "inst:bộ-giáo-dục-và-đào-tạo",
+                "country": "Việt Nam",
+                "date_awarded": "2005-08-25",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            }
+        ],
+        "discipline": {
+            "sector": null,
+            "field": "Thủy lợi",
+            "subfield": null
+        },
+        "application": {
+            "dossier_code": null,
+            "rank_applied": "Professor",
+            "host_institution": "Viện Khoa học Thủy lợi Việt Nam",
+            "field_council": "Thủy lợi",
+            "date_submitted": null,
+            "lecturer_type": null
+        },
+        "research_interests": [
+            "Nghiên cứu thiết bị tua bin thủy điện nhỏ, thiết bị bơm nước tự động và tự động hóa giám sát vận hành hệ thống thủy lợi",
+            "Nghiên cứu hiện đại hóa hệ thống thủy lợi",
+            "Nghiên cứu tích hợp các mô hình dự báo và công nghệ hỗ trợ ra quyết định trong quản lý lưu vực sông và quản lý rủi ro thiên tai"
+        ],
+        "supervision": {
+            "phd_completed": 3,
+            "masters_completed": null,
+            "details": []
+        },
+        "projects": [],
+        "publications": [],
+        "books": [
+            {
+                "title": "Hiện đại hóa quản lý hệ thống tưới",
+                "type": "Monograph",
+                "publisher": "NXB Nông nghiệp",
+                "year": "2011",
+                "is_reputable_publisher": true,
+                "chapter_pages": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "title": "Các chuyên đề mẫu phục vụ đào tạo tiến sĩ tại Viện Khoa học Thủy lợi Việt Nam",
+                "type": "Textbook",
+                "publisher": "NXB Nông nghiệp và PTNT",
+                "year": "2010",
+                "is_reputable_publisher": true,
+                "chapter_pages": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "title": "Hiện đại hóa vận hành hệ thống kênh tưới",
+                "type": "Monograph",
+                "publisher": "NXB Khoa học và Kỹ thuật",
+                "year": "2019",
+                "is_reputable_publisher": true,
+                "chapter_pages": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "title": "Quản lý hạn hán tổng hợp vùng Nam Trung Bộ và Tây Nguyên",
+                "type": "Monograph",
+                "publisher": "NXB Khoa học và Kỹ thuật",
+                "year": "2019",
+                "is_reputable_publisher": true,
+                "chapter_pages": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "title": "Sổ tay Hiện đại hóa hệ thống tưới (tiếng Việt và tiếng Anh, WB hỗ trợ)",
+                "type": "Textbook",
+                "publisher": "NXB Khoa học và Kỹ thuật",
+                "year": "2014",
+                "is_reputable_publisher": true,
+                "chapter_pages": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "title": "Quản lý rủi ro thiên tai và thích ứng với biến đổi khí hậu (tiếng Việt và tiếng Anh, UNDP hỗ trợ)",
+                "type": "Guide",
+                "publisher": "Bộ Nông nghiệp và PTNT và Chương trình phát triển Liên hợp Quốc",
+                "year": "2012",
+                "is_reputable_publisher": true,
+                "chapter_pages": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            }
+        ],
+        "awards": [
+            {
+                "name": "Huân chương lao động hạng Nhì",
+                "issuer": "Chủ tịch nước",
+                "year": "2016",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "name": "Huân chương lao động hạng Ba",
+                "issuer": "Chủ tịch nước",
+                "year": "2011",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "name": "Chiến sĩ thi đua cấp Bộ Nông nghiệp & PTNT",
+                "issuer": "Bộ Nông nghiệp và Phát triển nông thôn",
+                "year": "2010",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            }
+        ],
+        "discipline_actions": [],
+        "teaching_loads": [],
+        "languages": [
+            {
+                "language": "Tiếng Anh",
+                "level": "Fluent",
+                "evidence": "Degree abroad",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            }
+        ],
+        "checkboxes": {
+            "is_giang_vien": true,
+            "is_giang_vien_thinh_giang": true
+        },
+        "notes": null
+    },
+    {
+        "person": {
+            "id": null,
+            "name": "NGUYỄN THỊ TRANG NHUNG",
+            "gender": "female",
+            "date_of_birth": "1979-01-12",
+            "nationality": "Việt Nam",
+            "ethnicity": "Kinh",
+            "religion": "Không",
+            "is_party_member": true,
+            "citizenship_id": null,
+            "aliases": []
+        },
+        "contacts": {
+            "permanent_address": "Căn hộ 12a02 Tòa nhà S3; Tổ dân Phố 21, Phường Phú Diễn, Quận Bắc Từ Liêm, Hà Nội",
+            "hometown": "Xã Nghi Đức, Huyện Nghi Lộc, Tỉnh Nghệ An",
+            "mailing_address": "Nguyễn Thị Trang Nhung, Bộ môn Thống kê Y tế, Khoa Các Khoa học cơ bản, Trường Đại học Y tế công cộng, 1A đường Đức Thắng, Phường Đức Thắng, Quận Bắc Từ Liêm, Thành Phố Hà Nội",
+            "work_address": "Số 1A Đường Đức Thắng, Phường Đức Thắng, Quận Bắc Từ Liêm, Hà Nội",
+            "phone_mobile": "84966166384",
+            "phone_home": null,
+            "email": "ntn2@huph.edu.vn"
+        },
+        "current_affiliation": {
+            "institution_id": "inst:trường-đại-học-y-tế-công-cộng",
+            "institution_name": "Trường Đại học Y tế công cộng",
+            "faculty_or_department": "Khoa Các Khoa học cơ bản",
+            "unit": null,
+            "position": "Giảng viên"
+        },
+        "employment_history": [
+            {
+                "from": "2003-02",
+                "to": null,
+                "position_title": "Giảng viên",
+                "unit": "Khoa Các Khoa học cơ bản",
+                "institution_name": "Trường Đại học Y tế công cộng",
+                "institution_id": "inst:trường-đại-học-y-tế-công-cộng",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "from": "2022-08",
+                "to": null,
+                "position_title": "Trưởng phòng Nghiên cứu khoa học, Phó Viện Trưởng",
+                "unit": "Viện Đào Tạo và Nghiên cứu Sức Khỏe Trẻ em",
+                "institution_name": "Bệnh viện Nhi Trung ương",
+                "institution_id": "inst:bênh-viên-nhi-trung-ương",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            }
+        ],
+        "visiting_appointments": [],
+        "education": [
+            {
+                "degree": "Bachelor",
+                "field": "Toán Ứng dụng",
+                "specialization": "Tin học quản lý",
+                "institution_name": "Đại học Bách Khoa Hà Nội",
+                "institution_id": "inst:đại-học-bách-khoa-hà-nội",
+                "country": "Việt Nam",
+                "date_awarded": "2001-06-15",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "degree": "Master",
+                "field": "Y tế Công cộng",
+                "specialization": "Phương pháp Y tế Công cộng",
+                "institution_name": "Đại học Tự do",
+                "institution_id": "inst:đại-học-tự-do",
+                "country": "Vương quốc Bỉ",
+                "date_awarded": "2007-06-28",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "degree": "PhD",
+                "field": "Dịch tễ học",
+                "specialization": null,
+                "institution_name": "Đại học Basel",
+                "institution_id": "inst:đại-học-basel",
+                "country": "Thụy Sỹ",
+                "date_awarded": "2017-12-13",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            }
+        ],
+        "discipline": {
+            "sector": null,
+            "field": "Y học",
+            "subfield": null
+        },
+        "application": {
+            "dossier_code": null,
+            "rank_applied": "Associate Professor",
+            "host_institution": "Trường Đại học Y tế công cộng",
+            "field_council": null,
+            "date_submitted": null,
+            "lecturer_type": null
+        },
+        "research_interests": [
+            "Gánh nặng bệnh tật và các yếu tố nguy cơ",
+            "Tác động sức khỏe của ô nhiễm không khí bên ngoài và thời tiết cực đoan",
+            "Đánh giá chất lượng dịch vụ y tế"
+        ],
+        "supervision": {
+            "phd_completed": null,
+            "masters_completed": 23,
+            "details": []
+        },
+        "projects": [],
+        "publications": [],
+        "books": [],
+        "awards": [
+            {
+                "name": "Lao động tiên tiến",
+                "issuer": "Hiệu trưởng Trường Đại học Y tế công cộng",
+                "year": "2018",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "name": "Lao động tiên tiến",
+                "issuer": "Hiệu trưởng Trường Đại học Y tế công cộng",
+                "year": "2019",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "name": "Lao động tiên tiến",
+                "issuer": "Hiệu trưởng Trường Đại học Y tế công cộng",
+                "year": "2020",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "name": "Lao động tiên tiến",
+                "issuer": "Hiệu trưởng Trường Đại học Y tế công cộng",
+                "year": "2021",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "name": "Lao động tiên tiến",
+                "issuer": "Hiệu trưởng Trường Đại học Y tế công cộng",
+                "year": "2022",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "name": "Lao động tiên tiến",
+                "issuer": "Hiệu trưởng Trường Đại học Y tế công cộng",
+                "year": "2023",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            },
+            {
+                "name": "Bằng khen Bộ trưởng Bộ Y tế",
+                "issuer": "Bộ trưởng Bộ Y tế",
+                "year": "2021",
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            }
+        ],
+        "discipline_actions": [],
+        "teaching_loads": [],
+        "languages": [
+            {
+                "language": "Tiếng Anh",
+                "level": "Fluent",
+                "evidence": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": null
+                }
+            }
+        ],
+        "checkboxes": {
+            "is_giang_vien": true,
+            "is_giang_vien_thinh_giang": null
+        },
+        "notes": null
+    },
+    {
+        "person": {
+            "id": null,
+            "name": "Le Xuan Quang",
+            "gender": "male",
+            "date_of_birth": "1971-03-17",
+            "nationality": "Việt Nam",
+            "ethnicity": "Kinh",
+            "religion": "Không",
+            "is_party_member": true,
+            "citizenship_id": null,
+            "aliases": []
+        },
+        "contacts": {
+            "permanent_address": "Căn hộ 309 CT 3-1, khu đô thị Mễ Trì Hạ, phường Mễ Trì, quận Nam Từ Liêm, thành phố Hà Nội",
+            "hometown": "Xã Hoằng Lộc, huyện Hoằng Hóa, tỉnh Thanh Hóa",
+            "mailing_address": "Căn hộ 309 CT 3-1, khu đô thị Mễ Trì Hạ, phường Mễ Trì, quận Nam Từ Liêm, thành phố Hà Nội",
+            "work_address": "Số 2, ngõ 165, phố Chùa Bộc, phường Trung Liệt, quận Đống Đa, thành phố Hà Nội",
+            "phone_mobile": "0913303562",
+            "phone_home": "02437875079",
+            "email": "lequangiwe.vawr@gmail.com"
+        },
+        "current_affiliation": {
+            "institution_id": "inst:viện-nước-tưới-tiêu-và-môi-trường-viện-khoa-học-thủy-lợi-việt-nam",
+            "institution_name": "Viện Nước, Tưới tiêu và Môi trường-Viện khoa học thủy lợi Việt Nam",
+            "faculty_or_department": null,
+            "unit": null,
+            "position": "Phó viện trưởng"
+        },
+        "employment_history": [
+            {
+                "from": "1995",
+                "to": "2008",
+                "position_title": "Cán bộ nghiên cứu",
+                "unit": null,
+                "institution_name": "Viện Khoa học Thủy lợi",
+                "institution_id": "inst:viện-khoa-học-thủy-lợi",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": 1
+                }
+            },
+            {
+                "from": "2008",
+                "to": "2009",
+                "position_title": "Phó trưởng phòng",
+                "unit": null,
+                "institution_name": "Viện Nước, Tưới tiêu và Môi trường-Viện khoa học thủy lợi Việt Nam",
+                "institution_id": "inst:viện-nước-tưới-tiêu-và-môi-trường-viện-khoa-học-thủy-lợi-việt-nam",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": 1
+                }
+            },
+            {
+                "from": "2009",
+                "to": "2011",
+                "position_title": "Trưởng phòng",
+                "unit": null,
+                "institution_name": "Viện Nước, Tưới tiêu và Môi trường-Viện khoa học thủy lợi Việt Nam",
+                "institution_id": "inst:viện-nước-tưới-tiêu-và-môi-trường-viện-khoa-học-thủy-lợi-việt-nam",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": 1
+                }
+            },
+            {
+                "from": "2011",
+                "to": "2013",
+                "position_title": "Phó viện trưởng",
+                "unit": null,
+                "institution_name": "Viện Nước, Tưới tiêu và Môi trường-Viện khoa học thủy lợi Việt Nam",
+                "institution_id": "inst:viện-nước-tưới-tiêu-và-môi-trường-viện-khoa-học-thủy-lợi-việt-nam",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": 2
+                }
+            },
+            {
+                "from": "2013",
+                "to": "2014",
+                "position_title": "Phó viện trưởng phụ trách Viện",
+                "unit": null,
+                "institution_name": "Viện Nước, Tưới tiêu và Môi trường-Viện khoa học thủy lợi Việt Nam",
+                "institution_id": "inst:viện-nước-tưới-tiêu-và-môi-trường-viện-khoa-học-thủy-lợi-việt-nam",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": 2
+                }
+            },
+            {
+                "from": "2014",
+                "to": "2020",
+                "position_title": "Phó viện trưởng",
+                "unit": null,
+                "institution_name": "Viện Nước, Tưới tiêu và Môi trường-Viện khoa học thủy lợi Việt Nam",
+                "institution_id": "inst:viện-nước-tưới-tiêu-và-môi-trường-viện-khoa-học-thủy-lợi-việt-nam",
+                "country": "Việt Nam",
+                "provenance": {
+                    "doc_id": null,
+                    "page": 2
+                }
+            }
+        ],
+        "visiting_appointments": [],
+        "education": [
+            {
+                "degree": "Bachelor",
+                "field": "Thủy lợi",
+                "specialization": "Thủy nông - cải tạo đất",
+                "institution_name": "Trường Đại học Thủy lợi",
+                "institution_id": "inst:trường-đại-học-thủy-lợi",
+                "country": "Việt Nam",
+                "date_awarded": "1995-06-20",
+                "provenance": {
+                    "doc_id": null,
+                    "page": 9
+                }
+            },
+            {
+                "degree": "Master",
+                "field": "Thủy lợi",
+                "specialization": "Kỹ thuật tài nguyên nước",
+                "institution_name": "Trường Đại học Thủy lợi",
+                "institution_id": "inst:trường-đại-học-thủy-lợi",
+                "country": "Việt Nam",
+                "date_awarded": "2002-09-13",
+                "provenance": {
+                    "doc_id": null,
+                    "page": 9
+                }
+            },
+            {
+                "degree": "PhD",
+                "field": "Thủy lợi",
+                "specialization": "Tưới tiêu cho cây trồng",
+                "institution_name": "Viện Khoa học Thủy lợi Việt Nam",
+                "institution_id": "inst:viện-khoa-học-thủy-lợi-việt-nam",
+                "country": "Việt Nam",
+                "date_awarded": "2010-10-11",
+                "provenance": {
+                    "doc_id": null,
+                    "page": 9
+                }
+            }
+        ],
+        "discipline": {
+            "sector": null,
+            "field": "Thủy lợi",
+            "subfield": null
+        },
+        "application": {
+            "dossier_code": null,
+            "rank_applied": "Associate Professor",
+            "host_institution": "Viện Khoa học Thủy lợi Việt Nam",
+            "field_council": "Thủy lợi",
+            "date_submitted": null,
+            "lecturer_type": null
+        },
+        "research_interests": [
+            "Nghiên cứu chế độ, kỹ thuật tưới cho các loại cây trồng cạn",
+            "Nghiên cứu ứng dụng công nghệ tưới tiết kiệm nước cho lúa"
+        ],
+        "supervision": {
+            "phd_completed": 0,
+            "masters_completed": 10,
+            "details": [
+                {
+                    "candidate_name": "Nguyễn Thị Phương Liên",
+                    "level": "Master",
+                    "role": "Main",
+                    "institution_name": "Trường Đại học Thủy lợi",
+                    "from": "2012-12-01",
+                    "to": "2013-09-01",
+                    "date_awarded": "2013",
+                    "provenance": {
+                        "doc_id": null,
+                        "page": 6
+                    }
+                },
+                {
+                    "candidate_name": "Nguyễn Thị Tâm",
+                    "level": "Master",
+                    "role": "Main",
+                    "institution_name": "Trường Đại học Thủy lợi",
+                    "from": "2013-03-01",
+                    "to": "2014-02-01",
+                    "date_awarded": "2014",
+                    "provenance": {
+                        "doc_id": null,
+                        "page": 6
+                    }
+                },
+                {
+                    "candidate_name": "Hà Thị Phú",
+                    "level": "Master",
+                    "role": "Main",
+                    "institution_name": "Trường Đại học Thủy lợi",
+                    "from": "2013-12-01",
+                    "to": "2014-09-01",
+                    "date_awarded": "2014",
+                    "provenance": {
+                        "doc_id": null,
+                        "page": 6
+                    }
+                },
+                {
+                    "candidate_name": "Nguyễn Trung Hiếu",
+                    "level": "Master",
+                    "role": "Main",
+                    "institution_name": "Trường Đại học Thủy lợi",
+                    "from": "2013-12-01",
+                    "to": "2015-03-01",
+                    "date_awarded": "2015",
+                    "provenance": {
+                        "doc_id": null,
+                        "page": 6
+                    }
+                },
+                {
+                    "candidate_name": "Ngô Văn Thuyết",
+                    "level": "Master",
+                    "role": "Main",
+                    "institution_name": "Trường Đại học Thủy lợi",
+                    "from": "2015-10-01",
+                    "to": "2016-04-01",
+                    "date_awarded": "2016",
+                    "provenance": {
+                        "doc_id": null,
+                        "page": 6
+                    }
+                },
+                {
+                    "candidate_name": "Trần Anh Toàn",
+                    "level": "Master",
+                    "role": "Main",
+                    "institution_name": "Trường Đại học Thủy lợi",
+                    "from": "2015-10-01",
+                    "to": "2016-04-01",
+                    "date_awarded": "2016",
+                    "provenance": {
+                        "doc_id": null,
+                        "page": 6
+                    }
+                },
+                {
+                    "candidate_name": "Lê Thế Hiếu",
+                    "level": "Master",
+                    "role": "Main",
+                    "institution_name": "Trường Đại học Thủy lợi",
+                    "from": "2016-01-01",
+                    "to": "2016-10-01",
+                    "date_awarded": "2016",
+                    "provenance": {
+                        "doc_id": null,
+                        "page": 6
+                    }
+                },
+                {
+                    "candidate_name": "Phạm Chiến Thắng",
+                    "level": "Master",
+                    "role": "Main",
+                    "institution_name": "Trường Đại học Thủy lợi",
+                    "from": "2016-01-01",
+                    "to": "2016-10-01",
+                    "date_awarded": "2016",
+                    "provenance": {
+                        "doc_id": null,
+                        "page": 6
+                    }
+                },
+                {
+                    "candidate_name": "Trịnh Hồng Quân",
+                    "level": "Master",
+                    "role": "Main",
+                    "institution_name": "Trường Đại học Thủy lợi",
+                    "from": "2018-02-01",
+                    "to": "2019-03-01",
+                    "date_awarded": "2019",
+                    "provenance": {
+                        "doc_id": null,
+                        "page": 6
+                    }
+                },
+                {
+                    "candidate_name": "Bùi Thị Phương Linh",
+                    "level": "Master",
+                    "role": "Main",
+                    "institution_name": "Học Viện nông nghiệp Việt Nam",
+                    "from": "2018-08-01",
+                    "to": "2018-12-01",
+                    "date_awarded": "2019",
+                    "provenance": {
+                        "doc_id": null,
+                        "page": 6
+                    }
+                }
+            ]
+        },
+        "projects": [],
+        "publications": [],
+        "books": [
+            {
+                "title": "Công nghệ tưới tiết kiệm nước cho lúa nâng cao hiệu quả sử dụng và giảm phát thải khí nhà kính",
+                "type": "Guide",
+                "publisher": "Nhà xuất bản nông nghiệp",
+                "year": "2019",
+                "is_reputable_publisher": true,
+                "chapter_pages": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": 7
+                }
+            },
+            {
+                "title": "Kết quả nghiên cứu đánh giá tác động của BĐKH đến một số lĩnh vực của ngành nông nghiệp và PTNT",
+                "type": "Guide",
+                "publisher": "Nhà xuất bản lao động",
+                "year": "2013",
+                "is_reputable_publisher": true,
+                "chapter_pages": null,
+                "provenance": {
+                    "doc_id": null,
+                    "page": 7
+                }
+            }
+        ],
+        "awards": [
+            {
+                "name": "Chiến sĩ thi đua cấp Bộ",
+                "issuer": "Bộ trưởng",
+                "year": "2016",
+                "provenance": {
+                    "doc_id": null,
+                    "page": 15
+                }
+            },
+            {
+                "name": "Bằng Khen của Thủ Tướng chính phủ",
+                "issuer": "Thủ tướng Chính phủ",
+                "year": "2012",
+                "provenance": {
+                    "doc_id": null,
+                    "page": 15
+                }
+            },
+            {
+                "name": "Bằng khen Bộ trưởng",
+                "issuer": "Bộ trưởng",
+                "year": "2009",
+                "provenance": {
+                    "doc_id": null,
+                    "page": 15
+                }
+            },
+            {
+                "name": "Bằng khen Bộ trưởng",
+                "issuer": "Bộ trưởng",
+                "year": "2015",
+                "provenance": {
+                    "doc_id": null,
+                    "page": 15
+                }
+            }
+        ],
+        "discipline_actions": [],
+        "teaching_loads": [],
+        "languages": [],
+        "checkboxes": {
+            "is_giang_vien": true,
+            "is_giang_vien_thinh_giang": true
+        },
+        "notes": null
+    }
+]

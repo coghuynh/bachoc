@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=62"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "convert-pdf-to-text"
+version = "0.1.0"
+description = "Clean Vietnamese academic-profile PDFs and extract structured data via OpenAI."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "pymupdf>=1.26,<2.0",
+    "python-dotenv>=1.0",
+]
+keywords = ["pdf", "openai", "extraction", "vietnamese"]
+
+[project.optional-dependencies]
+validation = [
+    "jsonschema>=4.25",
+]
+
+[project.scripts]
+convert-pdf = "convert_pdf_to_text.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["convert_pdf_to_text*"]
