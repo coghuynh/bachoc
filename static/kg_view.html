@@ -1,0 +1,36 @@
+<!doctype html>
+<meta charset="utf-8"/>
+<title>KG View</title>
+<style>
+  body { font-family: -apple-system, system-ui, Segoe UI, Roboto, Helvetica, Arial; margin:0; }
+  #canvas { width: 100vw; height: 100vh; }
+  .tooltip { position:absolute; background:rgba(0,0,0,.75); color:#fff; padding:6px 8px; border-radius:4px; pointer-events:none; font-size:12px; }
+</style>
+<div id="canvas"></div>
+<div id="tip" class="tooltip" style="opacity:0"></div>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script>
+const data = {"nodes": [{"id": "S_Tr_n_V_n_T__4da14771", "label": "Trần Văn Tỷ", "kind": "subject"}, {"id": "L_Tr_n_V_n_T__date_of_birth_1979_02_10_1703f398", "label": "1979-02-10", "kind": "literal"}, {"id": "O_X__Long_Tr__A__Th__x__Long_M___T_nh_H_u__0d33f3e8", "label": "Xã Long Trị A, Thị xã Long Mỹ, Tỉnh Hậu Giang", "kind": "object"}, {"id": "O_Nh__sole_10__Khu_T_p_th____i_h_c_C_n_Th__e7d091a2", "label": "Nhà sole 10, Khu Tập thể Đại học Cần Thơ, Khu 1, Đường 30/4, Phường Hưng Lợi, Quận Ninh Kiều, TP. Cần Thơ", "kind": "object"}, {"id": "O_Khoa_C_ng_ngh___Tr__ng___i_h_c_C_n_Th____93273b00", "label": "Khoa Công nghệ, Trường Đại học Cần Thơ, Khu 2, Đường 3/2, Phường Xuân Khánh, Quận Ninh Kiều, TP. Cần Thơ", "kind": "object"}, {"id": "S_Tr__ng___i_h_c_Khoa_h_c__ng_d_ng_Cologne_076f3906", "label": "Trường Đại học Khoa học Ứng dụng Cologne", "kind": "subject"}, {"id": "O_CHLB___c_f2a0ea94", "label": "CHLB Đức", "kind": "object"}, {"id": "S_Tr__ng___i_h_c_Th_y_l_i_08abb9ab", "label": "Trường Đại học Thủy lợi", "kind": "subject"}, {"id": "O_Vi_t_Nam_f6ce1ae8", "label": "Việt Nam", "kind": "object"}, {"id": "S_B__Gi_o_d_c_v____o_t_o_d8490958", "label": "Bộ Giáo dục và Đào tạo", "kind": "subject"}, {"id": "S_S__38_125_Th_y_Khu___T_y_H___H__N_i_060af049", "label": "Số 38/125 Thụy Khuê, Tây Hồ, Hà Nội", "kind": "subject"}, {"id": "O_S__38_125_Th_y_Khu__2b4c2c26", "label": "Số 38/125 Thụy Khuê", "kind": "object"}, {"id": "O_T_y_H__0efb36b6", "label": "Tây Hồ", "kind": "object"}, {"id": "O_H__N_i_06138fe5", "label": "Hà Nội", "kind": "object"}, {"id": "S_Vi_n_Khoa_h_c_Th_y_l_i_03eadd83", "label": "Viện Khoa học Thủy lợi", "kind": "subject"}, {"id": "L_Vi_n_Khoa_h_c_Th_y_l_i_start_time_2002_89e3ce39", "label": "2002", "kind": "literal"}], "links": [{"source": "S_Tr_n_V_n_T__4da14771", "target": "L_Tr_n_V_n_T__date_of_birth_1979_02_10_1703f398", "label": "date of birth", "w": 1}, {"source": "S_Tr_n_V_n_T__4da14771", "target": "O_X__Long_Tr__A__Th__x__Long_M___T_nh_H_u__0d33f3e8", "label": "place of birth", "w": 1}, {"source": "S_Tr_n_V_n_T__4da14771", "target": "O_Nh__sole_10__Khu_T_p_th____i_h_c_C_n_Th__e7d091a2", "label": "located in the administrative territorial entity", "w": 1}, {"source": "S_Tr_n_V_n_T__4da14771", "target": "O_Khoa_C_ng_ngh___Tr__ng___i_h_c_C_n_Th____93273b00", "label": "located in the administrative territorial entity", "w": 1}, {"source": "S_Tr__ng___i_h_c_Khoa_h_c__ng_d_ng_Cologne_076f3906", "target": "O_CHLB___c_f2a0ea94", "label": "country", "w": 1}, {"source": "S_Tr__ng___i_h_c_Th_y_l_i_08abb9ab", "target": "O_Vi_t_Nam_f6ce1ae8", "label": "country", "w": 1}, {"source": "S_B__Gi_o_d_c_v____o_t_o_d8490958", "target": "O_Vi_t_Nam_f6ce1ae8", "label": "country", "w": 1}, {"source": "S_S__38_125_Th_y_Khu___T_y_H___H__N_i_060af049", "target": "O_S__38_125_Th_y_Khu__2b4c2c26", "label": "located in the administrative territorial entity", "w": 1}, {"source": "S_S__38_125_Th_y_Khu___T_y_H___H__N_i_060af049", "target": "O_T_y_H__0efb36b6", "label": "located in the administrative territorial entity", "w": 1}, {"source": "S_S__38_125_Th_y_Khu___T_y_H___H__N_i_060af049", "target": "O_H__N_i_06138fe5", "label": "located in the administrative territorial entity", "w": 1}, {"source": "S_Vi_n_Khoa_h_c_Th_y_l_i_03eadd83", "target": "L_Vi_n_Khoa_h_c_Th_y_l_i_start_time_2002_89e3ce39", "label": "start time", "w": 1}]};
+const W = innerWidth, H = innerHeight;
+const c = document.createElement('canvas'); c.width=W; c.height=H; document.getElementById('canvas').appendChild(c);
+const ctx = c.getContext('2d'); const tip = document.getElementById('tip');
+function color(k){return k==='subject'?'#6baed6':k==='object'?'#fd8d3c':'#9e9e9e';}
+function radius(k){return k==='subject'?12:k==='object'?9:6;}
+const sim = d3.forceSimulation(data.nodes)
+ .force('link', d3.forceLink(data.links).id(d=>d.id).distance(120).strength(0.2))
+ .force('charge', d3.forceManyBody().strength(-180))
+ .force('center', d3.forceCenter(W/2,H/2));
+function draw(){
+  ctx.clearRect(0,0,W,H); ctx.save(); ctx.translate(.5,.5);
+  ctx.globalAlpha=.7; data.links.forEach(l=>{ctx.beginPath(); ctx.moveTo(l.source.x,l.source.y); ctx.lineTo(l.target.x,l.target.y); ctx.strokeStyle='#aaa'; ctx.lineWidth=Math.min(1+(l.w||1)*.4,3); ctx.stroke();});
+  ctx.globalAlpha=1; data.nodes.forEach(n=>{ctx.beginPath(); ctx.arc(n.x,n.y,radius(n.kind),0,Math.PI*2); ctx.fillStyle=color(n.kind); ctx.fill();});
+  ctx.font='12px sans-serif'; ctx.fillStyle='#222'; ctx.textAlign='center'; ctx.textBaseline='top';
+  data.nodes.forEach(n=>ctx.fillText(n.label,n.x,n.y+radius(n.kind)+3)); ctx.restore();
+}
+sim.on('tick', draw);
+c.addEventListener('mousemove', e=>{
+  const r=c.getBoundingClientRect(), mx=e.clientX-r.left, my=e.clientY-r.top;
+  let f=null; for(const n of data.nodes){const dx=n.x-mx, dy=n.y-my; if(dx*dx+dy*dy<=Math.pow(radius(n.kind)+2,2)){f=n;break;}}
+  if(f){tip.style.opacity=1; tip.style.left=(e.pageX+12)+'px'; tip.style.top=(e.pageY+12)+'px'; tip.textContent=f.label;} else tip.style.opacity=0;
+});
+</script>
