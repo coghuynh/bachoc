@@ -1,0 +1,2630 @@
+[
+  {
+    "entity": "Giảng viên",
+    "type": "Occupation"
+  },
+  {
+    "entity": "Giảng viên thỉnh giảng",
+    "type": "Occupation"
+  },
+  {
+    "entity": "Y học",
+    "type": "FIELD_OF_STUDY"
+  },
+  {
+    "entity": "Đối tượng đăng ký",
+    "type": "REGISTRATION_CATEGORY"
+  },
+  {
+    "entity": "Chuyên ngành",
+    "type": "FIELD_DESCRIPTION"
+  },
+  {
+    "entity": "Nội Tim Mạch A",
+    "type": "SPECIALIZATION"
+  },
+  {
+    "entity": "(Nội dung đúng ở ô nào thì đánh dấu vào ô đó: ; Nội dung không đúng thì để trống: □)",
+    "type": "FORM_INSTRUCTION"
+  },
+  {
+    "entity": "THÔNG TIN CÁ NHÂN",
+    "type": "FORM_HEADING"
+  },
+  {
+    "entity": "Nội dung đúng ở ô nào thì đánh dấu vào ô đó: ; Nội dung không đúng thì để trống: □)",
+    "type": "FORM_INSTRUCTION"
+  },
+  {
+    "entity": "Họ và tên người đăng ký",
+    "type": "Text"
+  },
+  {
+    "entity": "ĐỖ VĂN CHIẾN",
+    "type": "PERSON"
+  },
+  {
+    "entity": "17 - 11 - 1980",
+    "type": "Date"
+  },
+  {
+    "entity": "Nam",
+    "type": "GenderType"
+  },
+  {
+    "entity": "Việt Nam",
+    "type": "Country"
+  },
+  {
+    "entity": "Dân tộc",
+    "type": "CATEGORY"
+  },
+  {
+    "entity": "Kinh",
+    "type": "ETHNIC_GROUP"
+  },
+  {
+    "entity": "Tôn giáo",
+    "type": "CATEGORY"
+  },
+  {
+    "entity": "Không có",
+    "type": "STATUS"
+  },
+  {
+    "entity": "Đảng viên",
+    "type": "MEMBERSHIP_TYPE"
+  },
+  {
+    "entity": "Đảng Cộng sản Việt Nam",
+    "type": "Organization"
+  },
+  {
+    "entity": "Quê quán",
+    "type": "PLACE"
+  },
+  {
+    "entity": "Hoằng Thắng",
+    "type": "PLACE"
+  },
+  {
+    "entity": "Hoằng Hóa",
+    "type": "PLACE"
+  },
+  {
+    "entity": "Thanh Hóa",
+    "type": "PLACE"
+  },
+  {
+    "entity": "Căn hộ 15R09",
+    "type": "PLACE"
+  },
+  {
+    "entity": "TN HH báo LĐ&XH",
+    "type": "PLACE"
+  },
+  {
+    "entity": "phường Yên Hòa",
+    "type": "PLACE"
+  },
+  {
+    "entity": "Quận Cầu Giấy",
+    "type": "PLACE"
+  },
+  {
+    "entity": "Hà Nội",
+    "type": "CITY"
+  },
+  {
+    "entity": "Bưu điện",
+    "type": "ORGANIZATION"
+  },
+  {
+    "entity": "Đỗ Văn Chiến",
+    "type": "PERSON"
+  },
+  {
+    "entity": "Căn hộ 15R09, TN HH báo LĐ&XH",
+    "type": "PLACE"
+  },
+  {
+    "entity": "0982851506",
+    "type": "PHONE_NUMBER"
+  },
+  {
+    "entity": "dovanchien108.cmh@gmail.com",
+    "type": "EMAIL"
+  },
+  {
+    "entity": "vmechiendo@yahoo.com",
+    "type": "EMAIL"
+  },
+  {
+    "entity": "vmechiendo@gmail.com",
+    "type": "EMAIL"
+  },
+  {
+    "entity": "9/1998",
+    "type": "Date"
+  },
+  {
+    "entity": "9/1999",
+    "type": "Date"
+  },
+  {
+    "entity": "Học đại học",
+    "type": "DEGREE_LEVEL"
+  },
+  {
+    "entity": "Trường Đại Học Y Hà Nội",
+    "type": "UNIVERSITY"
+  },
+  {
+    "entity": "Bác sĩ đa khoa",
+    "type": "OCCUPATION"
+  },
+  {
+    "entity": "tháng 9/1999",
+    "type": "Date"
+  },
+  {
+    "entity": "tháng 6/2000",
+    "type": "Date"
+  },
+  {
+    "entity": "Trường Đại học Y quốc gia Rostov-on-Don",
+    "type": "University"
+  },
+  {
+    "entity": "Rostov-on-Don",
+    "type": "Place"
+  },
+  {
+    "entity": "TP Rostov",
+    "type": "Place"
+  },
+  {
+    "entity": "LB Nga",
+    "type": "Country"
+  },
+  {
+    "entity": "tháng 9/2000",
+    "type": "Date"
+  },
+  {
+    "entity": "tháng 6/2006",
+    "type": "Date"
+  },
+  {
+    "entity": "đại học Y quốc gia Volgograd",
+    "type": "UNIVERSITY"
+  },
+  {
+    "entity": "TP Volgograd",
+    "type": "Place"
+  },
+  {
+    "entity": "bác sỹ đa khoa",
+    "type": "Occupation"
+  },
+  {
+    "entity": "hệ chính quy",
+    "type": "ACADEMIC_SYSTEM"
+  },
+  {
+    "entity": "tháng 9/2006",
+    "type": "Date"
+  },
+  {
+    "entity": "tháng 5/2008",
+    "type": "Date"
+  },
+  {
+    "entity": "Bác sĩ",
+    "type": "Occupation"
+  },
+  {
+    "entity": "khoa Nội Tim mạch",
+    "type": "Medical Department"
+  },
+  {
+    "entity": "Viện Tim Mạch",
+    "type": "Medical Institution"
+  },
+  {
+    "entity": "Bệnh Viện TƯQĐ 108",
+    "type": "Hospital"
+  },
+  {
+    "entity": "tháng 6/2008",
+    "type": "Date"
+  },
+  {
+    "entity": "tháng 5/2009",
+    "type": "Date"
+  },
+  {
+    "entity": "Bệnh xá Đảo Song Tử Tây",
+    "type": "Organization"
+  },
+  {
+    "entity": "Đảo Song Tử Tây",
+    "type": "Place"
+  },
+  {
+    "entity": "Quần đảo Trường Sa",
+    "type": "Place"
+  },
+  {
+    "entity": "Khánh Hòa",
+    "type": "Place"
+  },
+  {
+    "entity": "tháng 6/2009",
+    "type": "Date"
+  },
+  {
+    "entity": "tháng 5/2014",
+    "type": "Date"
+  },
+  {
+    "entity": "tháng 6/2011",
+    "type": "Date"
+  },
+  {
+    "entity": "tháng 10/2011",
+    "type": "Date"
+  },
+  {
+    "entity": "Thực tập sinh Tim mạch",
+    "type": "TRAINEE_ROLE"
+  },
+  {
+    "entity": "Trường Đại học Y Sydney",
+    "type": "UNIVERSITY"
+  },
+  {
+    "entity": "Sydney",
+    "type": "CITY"
+  },
+  {
+    "entity": "Úc",
+    "type": "COUNTRY"
+  },
+  {
+    "entity": "tháng 9/2013",
+    "type": "Date"
+  },
+  {
+    "entity": "tháng 7/2018",
+    "type": "Date"
+  },
+  {
+    "entity": "Nghiên cứu sinh",
+    "type": "ACADEMIC_ROLE"
+  },
+  {
+    "entity": "Viện nghiên cứu khoa học y dược lâm sàng 108",
+    "type": "Organization"
+  },
+  {
+    "entity": "tháng 7/2014",
+    "type": "Date"
+  },
+  {
+    "entity": "tháng 6/2015",
+    "type": "Date"
+  },
+  {
+    "entity": "Thực tập sinh Tim mạch can thiệp",
+    "type": "Occupation"
+  },
+  {
+    "entity": "Viện Tim Mạch quốc gia Singapore",
+    "type": "Organization"
+  },
+  {
+    "entity": "Singapore",
+    "type": "Country"
+  },
+  {
+    "entity": "tháng 7/2015",
+    "type": "Date"
+  },
+  {
+    "entity": "tháng 5/2022",
+    "type": "Date"
+  },
+  {
+    "entity": "Bác sĩ điều trị",
+    "type": "Occupation"
+  },
+  {
+    "entity": "tháng 5/2019",
+    "type": "Date"
+  },
+  {
+    "entity": "phó chủ nhiệm khoa",
+    "type": "Occupation"
+  },
+  {
+    "entity": "Nội Tim mạch",
+    "type": "Department"
+  },
+  {
+    "entity": "Phó chủ nhiệm khoa Hồi sức Tim mạch",
+    "type": "Position"
+  },
+  {
+    "entity": "Hồi sức Tim mạch",
+    "type": "Department_Specialization"
+  },
+  {
+    "entity": "Phó chủ nhiệm khoa",
+    "type": "Occupation"
+  },
+  {
+    "entity": "Bệnh viện TƯQĐ 108",
+    "type": "Organization"
+  },
+  {
+    "entity": "Giáo vụ",
+    "type": "Occupation"
+  },
+  {
+    "entity": "Bộ môn Nội Tim mạch",
+    "type": "Department"
+  },
+  {
+    "entity": "Bệnh viện Trung ương Quân đội 108",
+    "type": "ORGANIZATION"
+  },
+  {
+    "entity": "Số 1 Đường Trần Hưng Đạo",
+    "type": "PLACE"
+  },
+  {
+    "entity": "Quận Hai Bà Trưng",
+    "type": "PLACE"
+  },
+  {
+    "entity": "0971.830.166",
+    "type": "PHONE_NUMBER"
+  },
+  {
+    "entity": "Viện NCKH y dược lâm sàng 108",
+    "type": "ORGANIZATION"
+  },
+  {
+    "entity": "Trường Đại học kĩ thuật Y tế Hải Dương",
+    "type": "UNIVERSITY"
+  },
+  {
+    "entity": "Học viện Quân Y",
+    "type": "ORGANIZATION"
+  },
+  {
+    "entity": "Trường Đại học Y Hà Nội",
+    "type": "UNIVERSITY"
+  },
+  {
+    "entity": "Trường Đại học Vinuniversity",
+    "type": "UNIVERSITY"
+  },
+  {
+    "entity": "tháng …năm …",
+    "type": "DATE_PLACEHOLDER"
+  },
+  {
+    "entity": "Nội dung đúng ở ô nào thì đánh dấu vào ô đó: ; Nội dung không đúng thì để trống: □",
+    "type": "Instruction"
+  },
+  {
+    "entity": "Nơi làm việc sau khi nghỉ hưu",
+    "type": "Form_Field"
+  },
+  {
+    "entity": "Trường Đại học kĩ thuật Y khoa Hải Dương",
+    "type": "University"
+  },
+  {
+    "entity": "9.",
+    "type": "List_Number"
+  },
+  {
+    "entity": "Trình độ đào tạo",
+    "type": "Form_Field_Label"
+  },
+  {
+    "entity": "Đại học Y khoa quốc gia Volgograd",
+    "type": "University"
+  },
+  {
+    "entity": "22 tháng 6 năm 2006",
+    "type": "Date"
+  },
+  {
+    "entity": "DIS 0012833",
+    "type": "CERTIFICATE_ID"
+  },
+  {
+    "entity": "Y",
+    "type": "MAJOR"
+  },
+  {
+    "entity": "Bác sĩ Đa khoa",
+    "type": "SPECIALIZATION"
+  },
+  {
+    "entity": "Trường Đại Học Y quốc gia Volgograd",
+    "type": "University"
+  },
+  {
+    "entity": "Tiến Sĩ",
+    "type": "DEGREE"
+  },
+  {
+    "entity": "1 tháng 11 năm 2018",
+    "type": "Date"
+  },
+  {
+    "entity": "000003",
+    "type": "CERTIFICATE_NUMBER"
+  },
+  {
+    "entity": "Nội Tim Mạch",
+    "type": "SPECIALIZATION"
+  },
+  {
+    "entity": "□",
+    "type": "CHECKBOX_SYMBOL"
+  },
+  {
+    "entity": "10.",
+    "type": "NUMBER"
+  },
+  {
+    "entity": "PGS",
+    "type": "ACADEMIC_TITLE"
+  },
+  {
+    "entity": "ngày … tháng … năm …",
+    "type": "Date"
+  },
+  {
+    "entity": "Phó Giáo Sư",
+    "type": "ACADEMIC_TITLE"
+  },
+  {
+    "entity": "12",
+    "type": "NUMBER"
+  },
+  {
+    "entity": "Hướng NC 1",
+    "type": "RESEARCH_TOPIC"
+  },
+  {
+    "entity": "Hình thái và chức năng của nhĩ trái trong một số bệnh lý tim mạch",
+    "type": "RESEARCH_FIELD"
+  },
+  {
+    "entity": "Hướng NC 2",
+    "type": "RESEARCH_DIRECTION"
+  },
+  {
+    "entity": "Suy tim và một số bệnh lý liên quan đến suy tim",
+    "type": "RESEARCH_FIELD"
+  },
+  {
+    "entity": "Hướng NC 3",
+    "type": "Research_Direction_Code"
+  },
+  {
+    "entity": "Rối loạn chuyển hóa",
+    "type": "Medical_Condition"
+  },
+  {
+    "entity": "béo phì",
+    "type": "Medical_Condition"
+  },
+  {
+    "entity": "đái tháo đường",
+    "type": "Medical_Condition"
+  },
+  {
+    "entity": "tăng huyết áp",
+    "type": "Medical_Condition"
+  },
+  {
+    "entity": "rối loạn chuyển hoá lipid",
+    "type": "Medical_Condition"
+  },
+  {
+    "entity": "bệnh lý mạch máu",
+    "type": "Medical_Condition"
+  },
+  {
+    "entity": "động mạch vành",
+    "type": "Medical_Condition"
+  },
+  {
+    "entity": "động - tĩnh mạch chi dưới",
+    "type": "Medical_Condition"
+  },
+  {
+    "entity": "Kết quả đào tạo và nghiên cứu khoa học",
+    "type": "FORM_FIELD_LABEL"
+  },
+  {
+    "entity": "HVCH",
+    "type": "ACADEMIC_ABBREVIATION"
+  },
+  {
+    "entity": "ThS",
+    "type": "DEGREE_ABBREVIATION"
+  },
+  {
+    "entity": "học viên chuyên khoa 2",
+    "type": "ACADEMIC_LEVEL"
+  },
+  {
+    "entity": "BSCK cấp 2",
+    "type": "DEGREE_ABBREVIATION"
+  },
+  {
+    "entity": "NCKH",
+    "type": "RESEARCH_TYPE"
+  },
+  {
+    "entity": "cấp cơ sở",
+    "type": "PROJECT_LEVEL"
+  },
+  {
+    "entity": "đề tài",
+    "type": "PROJECT_TYPE"
+  },
+  {
+    "entity": "02",
+    "type": "QUANTITY"
+  },
+  {
+    "entity": "55 bài báo khoa học",
+    "type": "SCIENTIFIC_PUBLICATION_COUNT"
+  },
+  {
+    "entity": "11 bài báo khoa học trên tạp chí quốc tế uy tín",
+    "type": "INTERNATIONAL_PUBLICATION_COUNT"
+  },
+  {
+    "entity": "10 bài báo quốc tế uy tín là tác giả chính",
+    "type": "PRIMARY_AUTHOR_INTERNATIONAL_PUBLICATION_COUNT"
+  },
+  {
+    "entity": "bằng độc quyền sáng chế",
+    "type": "INTELLECTUAL_PROPERTY_TYPE"
+  },
+  {
+    "entity": "giải pháp hữu ích",
+    "type": "INTELLECTUAL_PROPERTY_TYPE"
+  },
+  {
+    "entity": "02 sách chuyên khảo",
+    "type": "PUBLICATION_QUANTITY_TYPE"
+  },
+  {
+    "entity": "NXB Y học",
+    "type": "Organization"
+  },
+  {
+    "entity": "tác phẩm nghệ thuật",
+    "type": "WorkCategory"
+  },
+  {
+    "entity": "thành tích huấn luyện",
+    "type": "AchievementType"
+  },
+  {
+    "entity": "thi đấu thể dục, thể thao",
+    "type": "ActivityType"
+  },
+  {
+    "entity": "quốc gia",
+    "type": "AwardLevel"
+  },
+  {
+    "entity": "quốc tế",
+    "type": "AwardLevel"
+  },
+  {
+    "entity": "Nội dung đúng ở ô nào thì đánh dấu vào ô đó: ",
+    "type": "Text"
+  },
+  {
+    "entity": "Nội dung không đúng thì để trống: □",
+    "type": "Text"
+  },
+  {
+    "entity": "15",
+    "type": "NUMBER"
+  },
+  {
+    "entity": "Hội Tim mạch Việt Nam",
+    "type": "ORGANIZATION"
+  },
+  {
+    "entity": "2016",
+    "type": "DATE"
+  },
+  {
+    "entity": "Giải nhì nhà nghiên cứu trẻ",
+    "type": "AWARD"
+  },
+  {
+    "entity": "Liên đoàn Tim mạch Đông Nam Á",
+    "type": "ORGANIZATION"
+  },
+  {
+    "entity": "2017",
+    "type": "DATE"
+  },
+  {
+    "entity": "Giải nhất Sáng tạo tuổi trẻ trong quân đội",
+    "type": "AWARD"
+  },
+  {
+    "entity": "2018",
+    "type": "DATE"
+  },
+  {
+    "entity": "16",
+    "type": "NUMBER"
+  },
+  {
+    "entity": "Kỷ luật",
+    "type": "CATEGORY"
+  },
+  {
+    "entity": "khiển trách",
+    "type": "DISCIPLINARY_ACTION"
+  },
+  {
+    "entity": "GIÁO SƯ",
+    "type": "ACADEMIC_TITLE"
+  },
+  {
+    "entity": "PHÓ GIÁO SƯ",
+    "type": "ACADEMIC_TITLE"
+  },
+  {
+    "entity": "giảng viên thỉnh giảng",
+    "type": "OCCUPATION"
+  },
+  {
+    "entity": "Trường ĐH kĩ thuật y tế Hải Dương",
+    "type": "UNIVERSITY"
+  },
+  {
+    "entity": "bác sĩ Nội trú",
+    "type": "OCCUPATION"
+  },
+  {
+    "entity": "Cao học",
+    "type": "ACADEMIC_LEVEL"
+  },
+  {
+    "entity": "bác sỹ chuyên khoa",
+    "type": "OCCUPATION"
+  },
+  {
+    "entity": "nghiên cứu sinh",
+    "type": "ACADEMIC_LEVEL"
+  },
+  {
+    "entity": "Bộ Quốc Phòng",
+    "type": "GOVERNMENT_AGENCY"
+  },
+  {
+    "entity": "Bộ Giáo dục và Đào tạo",
+    "type": "GOVERNMENT_AGENCY"
+  },
+  {
+    "entity": "sinh viên",
+    "type": "ACADEMIC_ROLE"
+  },
+  {
+    "entity": "học viên sau đại học",
+    "type": "ACADEMIC_ROLE"
+  },
+  {
+    "entity": "nhà trường",
+    "type": "UNIVERSITY"
+  },
+  {
+    "entity": "bệnh viện",
+    "type": "Organization"
+  },
+  {
+    "entity": "Năng lực giảng dạy",
+    "type": "PROFESSIONAL_CAPABILITY"
+  },
+  {
+    "entity": "người học",
+    "type": "LEARNER_GROUP"
+  },
+  {
+    "entity": "học viên",
+    "type": "Student"
+  },
+  {
+    "entity": "công tác đào tạo",
+    "type": "EDUCATIONAL_ACTIVITY"
+  },
+  {
+    "entity": "viết sách",
+    "type": "CONTRIBUTION_TYPE"
+  },
+  {
+    "entity": "mục đích giảng dạy",
+    "type": "PURPOSE"
+  },
+  {
+    "entity": "Thời gian, kết quả tham gia đào tạo, bồi dưỡng từ trình độ đại học trở lên",
+    "type": "Form_Field_Label"
+  },
+  {
+    "entity": "đại học",
+    "type": "Education_Level"
+  },
+  {
+    "entity": "Tổng số năm thực hiện nhiệm vụ đào tạo",
+    "type": "FORM_FIELD"
+  },
+  {
+    "entity": "06 năm",
+    "type": "DURATION"
+  },
+  {
+    "entity": "06 năm học",
+    "type": "DURATION"
+  },
+  {
+    "entity": "03 năm học cuối liên tục",
+    "type": "DURATION"
+  },
+  {
+    "entity": "ngày hết hạn nộp hồ sơ",
+    "type": "DEADLINE"
+  },
+  {
+    "entity": "GS",
+    "type": "ACADEMIC_TITLE"
+  },
+  {
+    "entity": "ứng viên GS",
+    "type": "ACADEMIC_ROLE"
+  },
+  {
+    "entity": "25/3/2015",
+    "type": "Date"
+  },
+  {
+    "entity": "11/9/2020",
+    "type": "Date"
+  },
+  {
+    "entity": "Quy định chế độ làm việc đối với giảng viên",
+    "type": "REGULATION_TITLE"
+  },
+  {
+    "entity": "Thông tư số 47/2014/TT-BGDĐT",
+    "type": "DOCUMENT_CODE"
+  },
+  {
+    "entity": "31/12/2014",
+    "type": "Date"
+  },
+  {
+    "entity": "Bộ trưởng",
+    "type": "Occupation"
+  },
+  {
+    "entity": "Bộ GD&ĐT",
+    "type": "Organization"
+  },
+  {
+    "entity": "Quy định chế độ làm việc của giảng viên cơ sở giáo dục đại học",
+    "type": "REGULATION_TITLE"
+  },
+  {
+    "entity": "Thông tư số 20/2020/TT-BGDĐT",
+    "type": "LEGAL_DOCUMENT_ID"
+  },
+  {
+    "entity": "27/7/2020",
+    "type": "DATE"
+  },
+  {
+    "entity": "giờ chuẩn giảng dạy",
+    "type": "ACADEMIC_STANDARD"
+  },
+  {
+    "entity": "thủ trưởng cơ sở giáo dục đại học",
+    "type": "ACADEMIC_POSITION"
+  },
+  {
+    "entity": "cơ sở giáo dục đại học",
+    "type": "INSTITUTION_TYPE"
+  },
+  {
+    "entity": "giảng viên cơ hữu",
+    "type": "ACADEMIC_ROLE"
+  },
+  {
+    "entity": "3.",
+    "type": "LIST_ITEM_NUMBER"
+  },
+  {
+    "entity": "Ngoại ngữ",
+    "type": "ACADEMIC_SUBJECT"
+  },
+  {
+    "entity": "3.1.",
+    "type": "SECTION_NUMBER"
+  },
+  {
+    "entity": "Tiếng Anh",
+    "type": "Language"
+  },
+  {
+    "entity": "nước ngoài",
+    "type": "Location_Type"
+  },
+  {
+    "entity": "Học ĐH",
+    "type": "Education_Level"
+  },
+  {
+    "entity": "Liên bang Nga",
+    "type": "Country"
+  },
+  {
+    "entity": "1999",
+    "type": "Year"
+  },
+  {
+    "entity": "2006",
+    "type": "Year"
+  },
+  {
+    "entity": "Thực tập sinh",
+    "type": "Occupation"
+  },
+  {
+    "entity": "tim mạch can thiệp",
+    "type": "MEDICAL_SPECIALTY"
+  },
+  {
+    "entity": "tháng 7/2014-6/2015",
+    "type": "Date"
+  },
+  {
+    "entity": "đào tạo ngoại ngữ trong nước",
+    "type": "Program_Description"
+  },
+  {
+    "entity": "tiếng nước ngoài",
+    "type": "LANGUAGE"
+  },
+  {
+    "entity": "Giảng dạy bằng tiếng nước ngoài",
+    "type": "MEDIUM_OF_INSTRUCTION"
+  },
+  {
+    "entity": "tiếng anh",
+    "type": "LANGUAGE"
+  },
+  {
+    "entity": "IELTS",
+    "type": "TEXT"
+  },
+  {
+    "entity": "7.0",
+    "type": "SCORE"
+  },
+  {
+    "entity": "2013",
+    "type": "DATE"
+  },
+  {
+    "entity": "NCS",
+    "type": "ACADEMIC_ROLE"
+  },
+  {
+    "entity": "CK2",
+    "type": "ACADEMIC_ROLE"
+  },
+  {
+    "entity": "BSNT",
+    "type": "ACADEMIC_ROLE"
+  },
+  {
+    "entity": "Họ tên NCS hoặc HVCH/CK2 /BSNT",
+    "type": "FORM_FIELD"
+  },
+  {
+    "entity": "Đối tượng",
+    "type": "FORM_FIELD"
+  },
+  {
+    "entity": "Trách nhiệm hướng dẫn",
+    "type": "FORM_FIELD"
+  },
+  {
+    "entity": "Thời gian hướng dẫn từ … đến …",
+    "type": "FORM_FIELD"
+  },
+  {
+    "entity": "HV",
+    "type": "ACADEMIC_ROLE_OR_DEGREE"
+  },
+  {
+    "entity": "CH",
+    "type": "ACADEMIC_ROLE_OR_DEGREE"
+  },
+  {
+    "entity": "Chính",
+    "type": "ROLE_CLASSIFICATION"
+  },
+  {
+    "entity": "Phụ",
+    "type": "ROLE_CLASSIFICATION"
+  },
+  {
+    "entity": "Lương Hải Đăng",
+    "type": "PERSON"
+  },
+  {
+    "entity": "09/12/2020",
+    "type": "Date"
+  },
+  {
+    "entity": "09/11/2023",
+    "type": "Date"
+  },
+  {
+    "entity": "17/01/2023",
+    "type": "Date"
+  },
+  {
+    "entity": "A011732",
+    "type": "CERTIFICATE_ID"
+  },
+  {
+    "entity": "Trần Thị Mai Liên",
+    "type": "PERSON"
+  },
+  {
+    "entity": "15/4/2020",
+    "type": "Date"
+  },
+  {
+    "entity": "18/2/2022",
+    "type": "Date"
+  },
+  {
+    "entity": "Trường Đại Học Điều dưỡng Nam Định",
+    "type": "University"
+  },
+  {
+    "entity": "06/07/2022",
+    "type": "Date"
+  },
+  {
+    "entity": "YDD00076",
+    "type": "CERTIFICATE_ID"
+  },
+  {
+    "entity": "Bùi Thị Huyền",
+    "type": "PERSON"
+  },
+  {
+    "entity": "05/5/2021",
+    "type": "Date"
+  },
+  {
+    "entity": "30/6/2022",
+    "type": "Date"
+  },
+  {
+    "entity": "Trường Đại học Thăng Long",
+    "type": "University"
+  },
+  {
+    "entity": "TM01507",
+    "type": "CERTIFICATE_ID"
+  },
+  {
+    "entity": "Đặng Thị Thanh Nga",
+    "type": "PERSON"
+  },
+  {
+    "entity": "19/7/2022",
+    "type": "Date"
+  },
+  {
+    "entity": "28/06/2023",
+    "type": "Date"
+  },
+  {
+    "entity": "TM01778",
+    "type": "CERTIFICATE_ID"
+  },
+  {
+    "entity": "Lê Văn Tờ",
+    "type": "PERSON"
+  },
+  {
+    "entity": "29/4/2022",
+    "type": "Date"
+  },
+  {
+    "entity": "26/09/2023",
+    "type": "Date"
+  },
+  {
+    "entity": "03.001452",
+    "type": "CERTIFICATE_ID"
+  },
+  {
+    "entity": "Nguyễn Ngọc Duy",
+    "type": "PERSON"
+  },
+  {
+    "entity": "05/12/2021",
+    "type": "Date"
+  },
+  {
+    "entity": "29/12/2023",
+    "type": "Date"
+  },
+  {
+    "entity": "Đại học Y Hà Nội",
+    "type": "University"
+  },
+  {
+    "entity": "YHN2 005839",
+    "type": "CERTIFICATE_ID"
+  },
+  {
+    "entity": "Biên soạn sách",
+    "type": "ACTIVITY"
+  },
+  {
+    "entity": "Rung nhĩ từ lý thuyết đến thực hành",
+    "type": "BOOK_TITLE"
+  },
+  {
+    "entity": "CK",
+    "type": "BOOK_TYPE"
+  },
+  {
+    "entity": "Nhà xuất bản Y học",
+    "type": "Organization"
+  },
+  {
+    "entity": "2021",
+    "type": "Date"
+  },
+  {
+    "entity": "ISBN",
+    "type": "IDENTIFIER_TYPE"
+  },
+  {
+    "entity": "978-604- 66-5257-1",
+    "type": "ISBN"
+  },
+  {
+    "entity": "Đồng chủ biên",
+    "type": "Occupation"
+  },
+  {
+    "entity": "Chương 1(tr.29-39),2 (tr.40-55),3 (tr.56-70),4 (tr.71- 85), 8 (tr.244- 267)",
+    "type": "CHAPTER_PAGE_RANGE"
+  },
+  {
+    "entity": "329/VNC- HLĐT",
+    "type": "DOCUMENT_NUMBER"
+  },
+  {
+    "entity": "30/10/2023",
+    "type": "Date"
+  },
+  {
+    "entity": "Điện tim đồ từ lý thuyết đến thực hành",
+    "type": "WORK_TITLE"
+  },
+  {
+    "entity": "2023",
+    "type": "Date"
+  },
+  {
+    "entity": "978-604- 66-6308-9",
+    "type": "ISBN"
+  },
+  {
+    "entity": "Chương II",
+    "type": "CHAPTER"
+  },
+  {
+    "entity": "Chương IV",
+    "type": "CHAPTER"
+  },
+  {
+    "entity": "Chương VII",
+    "type": "CHAPTER"
+  },
+  {
+    "entity": "Chương XII",
+    "type": "CHAPTER"
+  },
+  {
+    "entity": "Giấy phép XB",
+    "type": "DocumentType"
+  },
+  {
+    "entity": "Quyết định xuất bản",
+    "type": "DocumentType"
+  },
+  {
+    "entity": "số xuất bản",
+    "type": "IdentifierType"
+  },
+  {
+    "entity": "sách chuyên khảo",
+    "type": "Book Type"
+  },
+  {
+    "entity": "GT",
+    "type": "Abbreviation"
+  },
+  {
+    "entity": "sách giáo trình",
+    "type": "Book Type"
+  },
+  {
+    "entity": "TK",
+    "type": "Abbreviation"
+  },
+  {
+    "entity": "sách tham khảo",
+    "type": "Book Type"
+  },
+  {
+    "entity": "HD",
+    "type": "Abbreviation"
+  },
+  {
+    "entity": "sách hướng dẫn",
+    "type": "Book Type"
+  },
+  {
+    "entity": "ứng viên",
+    "type": "Occupation"
+  },
+  {
+    "entity": "17-56",
+    "type": "Page Range"
+  },
+  {
+    "entity": "145- 329",
+    "type": "Page Range"
+  },
+  {
+    "entity": "Thực hiện nhiệm vụ khoa học và công nghệ đã nghiệm thu",
+    "type": "TASK_DESCRIPTION"
+  },
+  {
+    "entity": "Nghiên cứu biến đổi vận động xoắn của thất trái bằng siêu âm tim đánh dấu mô ở bệnh nhân suy tim mạn tính",
+    "type": "RESEARCH_PROJECT_TITLE"
+  },
+  {
+    "entity": "Chủ nhiệm",
+    "type": "PROJECT_ROLE"
+  },
+  {
+    "entity": "675/QĐ- BV108",
+    "type": "PROJECT_IDENTIFIER"
+  },
+  {
+    "entity": "Đề tài cấp cơ sở",
+    "type": "PROJECT_LEVEL"
+  },
+  {
+    "entity": "2013- 2014",
+    "type": "PROJECT_DURATION"
+  },
+  {
+    "entity": "14/04/2014",
+    "type": "Date"
+  },
+  {
+    "entity": "Xếp loại",
+    "type": "CLASSIFICATION_TYPE"
+  },
+  {
+    "entity": "Nghiên cứu mối liên quan giữa một số chỉ số hình thái và chức năng nhĩ trái bằng siêu âm tim đánh dấu mô với chỉ số NTproBNP ở bệnh nhân suy tim có EF bảo tồn",
+    "type": "Research_Project_Title"
+  },
+  {
+    "entity": "5913/QĐ- BV108",
+    "type": "Document_Code"
+  },
+  {
+    "entity": "BV108",
+    "type": "Organization"
+  },
+  {
+    "entity": "2020- 2022",
+    "type": "Period"
+  },
+  {
+    "entity": "30/5/2022",
+    "type": "Date"
+  },
+  {
+    "entity": "Đạt",
+    "type": "Text"
+  },
+  {
+    "entity": "CT",
+    "type": "Abbreviation"
+  },
+  {
+    "entity": "Chương trình",
+    "type": "Definition"
+  },
+  {
+    "entity": "ĐT",
+    "type": "Abbreviation"
+  },
+  {
+    "entity": "Đề tài",
+    "type": "Definition"
+  },
+  {
+    "entity": "CN",
+    "type": "Abbreviation"
+  },
+  {
+    "entity": "PCN",
+    "type": "Abbreviation"
+  },
+  {
+    "entity": "Phó chủ nhiệm",
+    "type": "Definition"
+  },
+  {
+    "entity": "Thư ký",
+    "type": "Occupation"
+  },
+  {
+    "entity": "bài báo khoa học",
+    "type": "TEXT"
+  },
+  {
+    "entity": "báo cáo khoa học",
+    "type": "TEXT"
+  },
+  {
+    "entity": "sáng chế/giải pháp hữu ích",
+    "type": "TEXT"
+  },
+  {
+    "entity": "giải thưởng quốc gia/quốc tế",
+    "type": "AWARD"
+  },
+  {
+    "entity": "Giải nhất Nhà nghiên cứu trẻ",
+    "type": "AWARD"
+  },
+  {
+    "entity": "Đại Hội Tim Mạch Quốc Gia",
+    "type": "CONFERENCE"
+  },
+  {
+    "entity": "Nghiên cứu xây dựng mô hình dự báo huyết khối tiểu nhĩ trái bằng siêu âm tim ở bệnh nhân rung nhĩ không do bệnh van tim",
+    "type": "RESEARCH_PROJECT_TITLE"
+  },
+  {
+    "entity": "Hội Tim mạch quốc gia Việt Nam",
+    "type": "Organization"
+  },
+  {
+    "entity": "Đại hội liên đoàn Tim mạch Đông Nam Á",
+    "type": "EVENT"
+  },
+  {
+    "entity": "Brunei",
+    "type": "Country"
+  },
+  {
+    "entity": "Hội thi sáng tạo tuổi trẻ trong quân đội",
+    "type": "Competition"
+  },
+  {
+    "entity": "Trung ương Đoàn TNCS Hồ Chí Minh",
+    "type": "Organization"
+  },
+  {
+    "entity": "Huy chương tuổi trẻ sáng tạo",
+    "type": "Award"
+  },
+  {
+    "entity": "7.1.a.",
+    "type": "REFERENCE_CODE"
+  },
+  {
+    "entity": "Bài báo khoa học",
+    "type": "PUBLICATION_TYPE"
+  },
+  {
+    "entity": "BB",
+    "type": "RESEARCH_GROUP_IDENTIFIER"
+  },
+  {
+    "entity": "NC 1",
+    "type": "RESEARCH_DIRECTION_NUMBER"
+  },
+  {
+    "entity": "NC 2",
+    "type": "RESEARCH_DIRECTION_CODE"
+  },
+  {
+    "entity": "NC 3",
+    "type": "RESEARCH_DIRECTION_CODE"
+  },
+  {
+    "entity": "Rối loạn chuyển hóa (béo phì, đái tháo đường, tăng huyết áp, rối loạn chuyển hoá lipid) và một số bệnh lý mạch máu (động mạch vành, động - tĩnh mạch chi dưới)",
+    "type": "RESEARCH_TOPIC"
+  },
+  {
+    "entity": "TT",
+    "type": "FORM_FIELD"
+  },
+  {
+    "entity": "Tên bài báo/ báo cáo khoa học",
+    "type": "FORM_FIELD"
+  },
+  {
+    "entity": "Số tác giả",
+    "type": "FORM_FIELD"
+  },
+  {
+    "entity": "Là tác giả chính",
+    "type": "FORM_FIELD"
+  },
+  {
+    "entity": "Tên tạp chí hoặc kỷ yếu khoa học",
+    "type": "FORM_FIELD"
+  },
+  {
+    "entity": "ISSN hoặc ISBN",
+    "type": "PUBLICATION_IDENTIFIER_TYPE"
+  },
+  {
+    "entity": "Loại",
+    "type": "FORM_LABEL"
+  },
+  {
+    "entity": "Tạp chí quốc tế uy tín",
+    "type": "JOURNAL_CATEGORY"
+  },
+  {
+    "entity": "ISI",
+    "type": "LITERATURE_DATABASE"
+  },
+  {
+    "entity": "Scopus",
+    "type": "LITERATURE_DATABASE"
+  },
+  {
+    "entity": "IF",
+    "type": "METRIC"
+  },
+  {
+    "entity": "Qi",
+    "type": "METRIC"
+  },
+  {
+    "entity": "Số lần trích dẫn",
+    "type": "METRIC"
+  },
+  {
+    "entity": "Tập, số, Trang",
+    "type": "PUBLICATION_IDENTIFIER"
+  },
+  {
+    "entity": "Tháng, năm công bố",
+    "type": "TIME_PERIOD"
+  },
+  {
+    "entity": "Trước khi được công nhận TS",
+    "type": "TIME_FRAME"
+  },
+  {
+    "entity": "TS",
+    "type": "ACADEMIC_TITLE"
+  },
+  {
+    "entity": "Nghiên cứu tình trạng kháng insulin ở bệnh nhân bệnh động mạch vành",
+    "type": "RESEARCH_FIELD"
+  },
+  {
+    "entity": "Tạp chí Y dược lâm sàng",
+    "type": "PUBLICATION_TITLE"
+  },
+  {
+    "entity": "108",
+    "type": "NUMBER"
+  },
+  {
+    "entity": "ISSN",
+    "type": "Identifier"
+  },
+  {
+    "entity": "1859-2872",
+    "type": "ISSN"
+  },
+  {
+    "entity": "Tập 4",
+    "type": "Journal_Volume"
+  },
+  {
+    "entity": "Số 4/2009",
+    "type": "Journal_Issue"
+  },
+  {
+    "entity": "4/2009",
+    "type": "Date"
+  },
+  {
+    "entity": "Giá trị chẩn đoán bệnh động mạch vành không triệu chứng của siêu âm tim gắng sức bằng Dobutamine ở bệnh nhân đái tháo đường type 2",
+    "type": "Research_Topic"
+  },
+  {
+    "entity": "bệnh động mạch vành không triệu chứng",
+    "type": "Medical_Condition"
+  },
+  {
+    "entity": "siêu âm tim gắng sức bằng Dobutamine",
+    "type": "Medical_Procedure"
+  },
+  {
+    "entity": "đái tháo đường type 2",
+    "type": "Medical_Condition"
+  },
+  {
+    "entity": "tháng 12/2010",
+    "type": "Date"
+  },
+  {
+    "entity": "Tạp chí Y dược lâm sàng 108",
+    "type": "Text"
+  },
+  {
+    "entity": "Tập 7 số 4/2012",
+    "type": "JOURNAL_ISSUE"
+  },
+  {
+    "entity": "tr. 1-5",
+    "type": "PAGE_RANGE"
+  },
+  {
+    "entity": "4/2012",
+    "type": "Date"
+  },
+  {
+    "entity": "Nghiên cứu mối liên quan giữa bề dày lớp mỡ thượng tâm mạc và hội chứng chuyển hóa",
+    "type": "ARTICLE_TITLE"
+  },
+  {
+    "entity": "Nội dung đúng ở ô nào thì đánh dấu vào ô đó",
+    "type": "Instruction_Phrase"
+  },
+  {
+    "entity": "",
+    "type": "Checkbox_Symbol"
+  },
+  {
+    "entity": "Nội dung không đúng thì để trống",
+    "type": "Instruction_Phrase"
+  },
+  {
+    "entity": "Tập 7 số 4",
+    "type": "PUBLICATION_DETAIL"
+  },
+  {
+    "entity": "2012",
+    "type": "Date"
+  },
+  {
+    "entity": "30-35",
+    "type": "NUMBER_RANGE"
+  },
+  {
+    "entity": "siêu âm tim đánh dấu mô tự động",
+    "type": "MEDICAL_TECHNOLOGY"
+  },
+  {
+    "entity": "AFI",
+    "type": "ACRONYM"
+  },
+  {
+    "entity": "chẩn đoán",
+    "type": "MEDICAL_TERM"
+  },
+  {
+    "entity": "Tập 8 số đặc biệt",
+    "type": "PUBLICATION_DETAIL"
+  },
+  {
+    "entity": "tháng 12/2013",
+    "type": "Date"
+  },
+  {
+    "entity": "1859-2848",
+    "type": "PUBLICATION_IDENTIFIER"
+  },
+  {
+    "entity": "Số 69 năm 2015",
+    "type": "PUBLICATION_ISSUE"
+  },
+  {
+    "entity": "2015",
+    "type": "Date"
+  },
+  {
+    "entity": "119-123",
+    "type": "Page_Range"
+  },
+  {
+    "entity": "Báo cáo trường hợp lâm sàng: Xử lý vỡ động mạch vành trong can thiệp tim mạch",
+    "type": "Article_Title"
+  },
+  {
+    "entity": "Tập 10",
+    "type": "PUBLICATION_VOLUME"
+  },
+  {
+    "entity": "Số 1/2015",
+    "type": "PUBLICATION_ISSUE"
+  },
+  {
+    "entity": "tr.30-34",
+    "type": "PAGE_RANGE"
+  },
+  {
+    "entity": "Reference and reliability of speckle tracking echocardiography for assessment of left atrial function in subjects without cardiovascular diseases",
+    "type": "ARTICLE_TITLE"
+  },
+  {
+    "entity": "Tập 11",
+    "type": "PUBLICATION_VOLUME"
+  },
+  {
+    "entity": "tháng 4/2016",
+    "type": "Date"
+  },
+  {
+    "entity": "tr.40-46",
+    "type": "PAGE_RANGE"
+  },
+  {
+    "entity": "4/2016",
+    "type": "Date"
+  },
+  {
+    "entity": "Phối hợp bóng cắt và hệ thống khoa cắt mảng vữa xơ trong điều trị tổn thương thân chung động mạch vành tim bị vôi hóa nặng",
+    "type": "ARTICLE_TITLE"
+  },
+  {
+    "entity": "Tạp chí Y dược học quân sự",
+    "type": "JOURNAL"
+  },
+  {
+    "entity": "1859-0748",
+    "type": "ISSN"
+  },
+  {
+    "entity": "Số 41",
+    "type": "IssueNumber"
+  },
+  {
+    "entity": "tr.150-157",
+    "type": "PageRange"
+  },
+  {
+    "entity": "Bóc tách động mạch vành tự nhiên: nhân một trường hợp lâm sàng điều trị bằng can thiệp qua da",
+    "type": "ArticleTitle"
+  },
+  {
+    "entity": "Tập 41",
+    "type": "Volume"
+  },
+  {
+    "entity": "tháng 7 năm 2016",
+    "type": "Date"
+  },
+  {
+    "entity": "tr. 225-230",
+    "type": "PageRange"
+  },
+  {
+    "entity": "07/2016",
+    "type": "Date"
+  },
+  {
+    "entity": "Số đặc biệt",
+    "type": "JOURNAL_ISSUE_TYPE"
+  },
+  {
+    "entity": "9/2016",
+    "type": "DATE"
+  },
+  {
+    "entity": "tr.1-8",
+    "type": "PAGE_RANGE"
+  },
+  {
+    "entity": "Mối liên quan giữa các chỉ số siêu âm tim đánh dấu mô nhĩ trái với huyết khối tiểu nhĩ trái ở ệnh nhân rung nhĩ không do bệnh van tim",
+    "type": "RESEARCH_PAPER_TITLE"
+  },
+  {
+    "entity": "Tập 12",
+    "type": "PUBLICATION_VOLUME"
+  },
+  {
+    "entity": "Số 9/2017",
+    "type": "PUBLICATION_ISSUE"
+  },
+  {
+    "entity": "tr.36-41",
+    "type": "PAGE_RANGE"
+  },
+  {
+    "entity": "9/2017",
+    "type": "Date"
+  },
+  {
+    "entity": "Mối liên quan giữa các chỉ số siêu âm tim đánh dấu mô nhĩ trái với thang điểm CHA2DS2- VASc ở bệnh nhân rung nhĩ không do bệnh van tim",
+    "type": "ARTICLE_TITLE"
+  },
+  {
+    "entity": "siêu âm tim",
+    "type": "MEDICAL_PROCEDURE"
+  },
+  {
+    "entity": "mô nhĩ trái",
+    "type": "MEDICAL_ANATOMY"
+  },
+  {
+    "entity": "thang điểm CHA2DS2- VASc",
+    "type": "MEDICAL_SCORE_SYSTEM"
+  },
+  {
+    "entity": "rung nhĩ không do bệnh van tim",
+    "type": "MEDICAL_CONDITION"
+  },
+  {
+    "entity": "11 năm 2017",
+    "type": "Date"
+  },
+  {
+    "entity": "tr.170-175",
+    "type": "Page_Range"
+  },
+  {
+    "entity": "11/2017",
+    "type": "Date"
+  },
+  {
+    "entity": "Mối liên quan giữa các chỉ số siêu âm tim kích thước nhĩ trái với mức độ âm cuộn tự nhiên ở bệnh nhân rung nhĩ không do bệnh van tim",
+    "type": "RESEARCH_TITLE"
+  },
+  {
+    "entity": "tr.159-170",
+    "type": "PAGE_RANGE"
+  },
+  {
+    "entity": "Khảo sát một số đặc điểm lâm sàng và cận lâm sàng bệnh nhân nhồi máu cơ tim có biến chứng cơ học tại Bệnh viện Trung ương Quân đội 108",
+    "type": "RESEARCH_TITLE"
+  },
+  {
+    "entity": "tháng 12 năm 2017",
+    "type": "Date"
+  },
+  {
+    "entity": "tr.35-40",
+    "type": "PAGE_RANGE"
+  },
+  {
+    "entity": "12/2017",
+    "type": "Date"
+  },
+  {
+    "entity": "Mối liên quan giữa các chỉ số siêu âm tim với mức độ âm cuộn tự nhiên ở bệnh nhân rung nhĩ không do bệnh van tim",
+    "type": "ARTICLE_TITLE"
+  },
+  {
+    "entity": "tr.159-163",
+    "type": "PAGE_RANGE"
+  },
+  {
+    "entity": "So sánh một số mô hình dự báo đột quị não ở bệnh nhân rung nhĩ không do bệnh van tim",
+    "type": "ARTICLE_TITLE"
+  },
+  {
+    "entity": "tr.85-91",
+    "type": "PAGE_RANGE"
+  },
+  {
+    "entity": "Đánh giá chất lượng cuộc sống của bệnh nhân trước và sau điều trị cơn nhịp nhanh kịch phát trên thất bằng sóng có tần số radio bằng thang điểm EQ-5D-3l",
+    "type": "RESEARCH_TITLE"
+  },
+  {
+    "entity": "EQ-5D-3l",
+    "type": "MEASUREMENT_SCALE"
+  },
+  {
+    "entity": "Tập 13",
+    "type": "PUBLICATION_VOLUME"
+  },
+  {
+    "entity": "số đặc biệt",
+    "type": "PUBLICATION_ISSUE_TYPE"
+  },
+  {
+    "entity": "8/2018",
+    "type": "Date"
+  },
+  {
+    "entity": "Tr.19-26",
+    "type": "PAGE_RANGE"
+  },
+  {
+    "entity": "Novel Models for the prediction of left atrial appendage thrombus in patients with chronic non- valvular atrial fibrillation.",
+    "type": "RESEARCH_TITLE"
+  },
+  {
+    "entity": "https://onlinelibraX(1st)CardiologyResearchandPracticeOnlineISSN:20900597PrintISSN:20908016ScopusQ2,Hindex45,SJR20230.52Volume2019,articleID1496535.https://doi.org/10.1155/2019/1496535",
+    "type": "URL"
+  },
+  {
+    "entity": "2019",
+    "type": "DATE"
+  },
+  {
+    "entity": "ISSN:1859-2872",
+    "type": "ISSN"
+  },
+  {
+    "entity": "9/2019",
+    "type": "DATE"
+  },
+  {
+    "entity": "Hiện tượng xoay trục điện tim trước và sau can thiệp động mạch vành qua da thì đầu ở bệnh nhân nhồi máu cơ tim cấp",
+    "type": "ARTICLE_TITLE"
+  },
+  {
+    "entity": "Tạp chí y dược lâm sàng 108",
+    "type": "JOURNAL"
+  },
+  {
+    "entity": "10/2019",
+    "type": "DATE"
+  },
+  {
+    "entity": "Mối liên quan giữa chức năng tâm trương thất trái với huyết khối tiểu nhĩ trái ở bệnh nhân rung nhĩ mạn tính không do bệnh van tim",
+    "type": "ARTICLE_TITLE"
+  },
+  {
+    "entity": "Tạp chí Y học Việt Nam",
+    "type": "JOURNAL"
+  },
+  {
+    "entity": "ISSN:1859-1868",
+    "type": "ISSN"
+  },
+  {
+    "entity": "8/2020",
+    "type": "DATE"
+  },
+  {
+    "entity": "Multiple spontaneous coronary artery dissections associated with intravenous daunorubicin treatment for acute myelocyticleukaemia: a case report.",
+    "type": "ARTICLE_TITLE"
+  },
+  {
+    "entity": "https://academic.oup.com/ehjcr/article/5/1/ytaa427/6042366",
+    "type": "URL"
+  },
+  {
+    "entity": "European Heart Journal-Case Reports",
+    "type": "JOURNAL"
+  },
+  {
+    "entity": "ISSN 25142119",
+    "type": "ISSN"
+  },
+  {
+    "entity": "ScopusQ3",
+    "type": "JOURNAL_METRIC"
+  },
+  {
+    "entity": "Hindex16",
+    "type": "JOURNAL_METRIC"
+  },
+  {
+    "entity": "SJR20230.31",
+    "type": "JOURNAL_METRIC"
+  },
+  {
+    "entity": "doi:10.1093/ehjcr/ytaa427",
+    "type": "DOI"
+  },
+  {
+    "entity": "12/2020",
+    "type": "DATE"
+  },
+  {
+    "entity": "https://onlinelibrary.wiley.com/doi/10.1155/2021/8496351",
+    "type": "URL"
+  },
+  {
+    "entity": "Cardiology Research and Practice Online",
+    "type": "JOURNAL"
+  },
+  {
+    "entity": "ISSN:20900597",
+    "type": "ISSN"
+  },
+  {
+    "entity": "PrintISSN:20908016",
+    "type": "ISSN"
+  },
+  {
+    "entity": "ScopusQ2",
+    "type": "JOURNAL_METRIC"
+  },
+  {
+    "entity": "Hindex45",
+    "type": "JOURNAL_METRIC"
+  },
+  {
+    "entity": "SJR20230.52",
+    "type": "JOURNAL_METRIC"
+  },
+  {
+    "entity": "Volume2021,ArticleID8496351,6pages",
+    "type": "PUBLICATION_DETAILS"
+  },
+  {
+    "entity": "https://doi.org/10.1155/2021/8496351",
+    "type": "URL"
+  },
+  {
+    "entity": "Mối tương quan giữa nồng độ đỉnh của men CK-MB huyết tương với sự xoay trục điện tim ở bệnh nhân nhồi máu cơ tim cấp được can thiệp thì đầu qua da",
+    "type": "ARTICLE_TITLE"
+  },
+  {
+    "entity": "4/2021",
+    "type": "DATE"
+  },
+  {
+    "entity": "Đánh giá một số thông số về sức căng và vận động xoắn của thất trái bằng siêu âm tim đánh dấu mô 3D ở bệnh nhân suy tim mạn tính",
+    "type": "ARTICLE_TITLE"
+  },
+  {
+    "entity": "6/2021",
+    "type": "DATE"
+  },
+  {
+    "entity": "Mối tương quan giữa các thông số biến dạng thất trái đo trên siêu âm đánh dấu mô 3D với phân suất tống máu thất trái ở bệnh nhân suy tim mạn tính",
+    "type": "ARTICLE_TITLE"
+  },
+  {
+    "entity": "ISSN:1859-0748",
+    "type": "ISSN"
+  },
+  {
+    "entity": "Management of iatrogenic right ventricular puncture: a case report",
+    "type": "ARTICLE_TITLE"
+  },
+  {
+    "entity": "11/2021",
+    "type": "DATE"
+  },
+  {
+    "entity": "Treatment of left ventricular thrombus by rivaroxaban: a case report",
+    "type": "ARTICLE_TITLE"
+  },
+  {
+    "entity": "Đánh giá sự thay đổi chất lượng cuộc sống của bệnh nhân suy tim mạn tính được áp dụng phương pháp tập thở cơ hoành.",
+    "type": "ARTICLE_TITLE"
+  },
+  {
+    "entity": "2/2022",
+    "type": "DATE"
+  },
+  {
+    "entity": "Multivessel Coronary Artery Disease in a Patient With Noncompaction Cardiomyopathy With Coronary Artery-to-Left Ventricleistulas.",
+    "type": "ARTICLE_TITLE"
+  },
+  {
+    "entity": "https://www.jacc.org/doi/10.1016/j.jaccas.2022.01.020",
+    "type": "URL"
+  },
+  {
+    "entity": "Journal of American College of Cardiology: case reports",
+    "type": "JOURNAL"
+  },
+  {
+    "entity": "ISSN:2666-0849",
+    "type": "ISSN"
+  },
+  {
+    "entity": "Hindex10",
+    "type": "JOURNAL_METRIC"
+  },
+  {
+    "entity": "SJR20230.37",
+    "type": "JOURNAL_METRIC"
+  },
+  {
+    "entity": "Volume4Number6",
+    "type": "PUBLICATION_DETAILS"
+  },
+  {
+    "entity": "https://doi.org/10.1016/j.jaccas.2022.01.020",
+    "type": "URL"
+  },
+  {
+    "entity": "3/2022",
+    "type": "DATE"
+  },
+  {
+    "entity": "6/2022",
+    "type": "DATE"
+  },
+  {
+    "entity": "Mối liên quan giữa một số chỉ số siêu âm tim nhĩ trái và nồng độ NT-proBNP ở bệnh nhân suy tim có phân suất tống máu bảo tồn",
+    "type": "ARTICLE_TITLE"
+  },
+  {
+    "entity": "Tạp chí Y dược học Quân sự",
+    "type": "JOURNAL"
+  },
+  {
+    "entity": "2022",
+    "type": "DATE"
+  },
+  {
+    "entity": "Prognostic Role of Diastolic Left Ventricular Mechanical Dyssynchrony by Gated Single Photon Emission Computed Tomography Myocardial Perfusion Imaging in Post-Myocardial Infarction.",
+    "type": "ARTICLE_TITLE"
+  },
+  {
+    "entity": "https://www.thiemeconnect.com/products/ejournals/pdf/10.1055/s-00431764304.pdf",
+    "type": "URL"
+  },
+  {
+    "entity": "World journal of Nuclear Medicine",
+    "type": "JOURNAL"
+  },
+  {
+    "entity": "ISSN:1450-1147",
+    "type": "ISSN"
+  },
+  {
+    "entity": "Pubmed2023",
+    "type": "JOURNAL_METRIC"
+  },
+  {
+    "entity": "22:108–113",
+    "type": "PUBLICATION_DETAILS"
+  },
+  {
+    "entity": "DOI:https://doi.org/10.1055/s-0043-1764304",
+    "type": "DOI"
+  },
+  {
+    "entity": "Progressive alterations of left atrial and ventricular volume and strain across chronic kidney disease",
+    "type": "ARTICLE_TITLE"
+  },
+  {
+    "entity": "Frontiers in Cardiovascular Medicine",
+    "type": "JOURNAL"
+  },
+  {
+    "entity": "ISSN2297055X",
+    "type": "ISSN"
+  },
+  {
+    "entity": "Hindex69",
+    "type": "JOURNAL_METRIC"
+  },
+  {
+    "entity": "SCIE",
+    "type": "JOURNAL_METRIC"
+  },
+  {
+    "entity": "SJR20230.86",
+    "type": "JOURNAL_METRIC"
+  },
+  {
+    "entity": "DOI.10.3389/fcvm.2023.119742",
+    "type": "DOI"
+  },
+  {
+    "entity": "https://www.frontiersin.org/articles/10.3389/fcvm.2023.1197427/full",
+    "type": "URL"
+  },
+  {
+    "entity": "Two Cases of Management of Coronary Artery Perforation During Percutaneous Coronary Intervention Using Injection of Combined Histoacryl(n-Butyl-2-Cyanoacrylate)andLipiodol(EthiodizedOil).",
+    "type": "ARTICLE_TITLE"
+  },
+  {
+    "entity": "https://amjcaserep.com/abstract/full/idArt/938861",
+    "type": "URL"
+  },
+  {
+    "entity": "American Journal of Case Reports",
+    "type": "JOURNAL"
+  },
+  {
+    "entity": "ISSN19415923",
+    "type": "ISSN"
+  },
+  {
+    "entity": "Hindex27",
+    "type": "JOURNAL_METRIC"
+  },
+  {
+    "entity": "SJR20230.28",
+    "type": "JOURNAL_METRIC"
+  },
+  {
+    "entity": "2023;24:e938861",
+    "type": "PUBLICATION_DETAILS"
+  },
+  {
+    "entity": "DOI:10.12659/AJCR.938",
+    "type": "DOI"
+  },
+  {
+    "entity": "Prognostic Value of SYNTAX Scores for Predicting Major Cardiac Adverse Events in Patients with Acute Myocardial Infarction Treated with Primary Percutaneous Coronary Intervention.",
+    "type": "ARTICLE_TITLE"
+  },
+  {
+    "entity": "https://brieflands.com/articles/ircrj136694.pdf",
+    "type": "URL"
+  },
+  {
+    "entity": "International cardiovascular research journal",
+    "type": "JOURNAL"
+  },
+  {
+    "entity": "ISSN22519149",
+    "type": "ISSN"
+  },
+  {
+    "entity": "ScopusQ4",
+    "type": "JOURNAL_METRIC"
+  },
+  {
+    "entity": "Hindex15",
+    "type": "JOURNAL_METRIC"
+  },
+  {
+    "entity": "SJR20230.11",
+    "type": "JOURNAL_METRIC"
+  },
+  {
+    "entity": "2023;17(1):2-8.icrj.1366",
+    "type": "PUBLICATION_DETAILS"
+  },
+  {
+    "entity": "4/2023",
+    "type": "DATE"
+  },
+  {
+    "entity": "6/2023",
+    "type": "DATE"
+  },
+  {
+    "entity": "Thực trạng tuân thủ điều trị của người bệnh đái tháo đường type 2 được điều trị ngoại trú bằng metformin tại Bệnh viện Trung ương Quân đội",
+    "type": "ARTICLE_TITLE"
+  },
+  {
+    "entity": "Bệnh viện Trung ương Quân đội",
+    "type": "HOSPITAL"
+  },
+  {
+    "entity": "Nghiên cứu một số yếu tố liên quan đến tuân thủ dinh dưỡng của người bệnh đái tháo đường type 2 được điều trị ngoại trú bằng metformin tại Bệnh viện Trung ương Quân đội 108",
+    "type": "ARTICLE_TITLE"
+  },
+  {
+    "entity": "Tìm hiểu mối liên quan giữa một số yếu tố siêu âm tim nhĩ trái ở bệnh nhân suy thận mạn tính",
+    "type": "ARTICLE_TITLE"
+  },
+  {
+    "entity": "Tạp chí Y học lâm sàng 108",
+    "type": "JOURNAL"
+  },
+  {
+    "entity": "Kinh nghiệm can thiệp thân chung động mạch vành trái tại Bệnh viện Trung ương Quân đội 108",
+    "type": "ARTICLE_TITLE"
+  },
+  {
+    "entity": "Đánh giá chỉ số sức căng thất trái bằng siêu âm tim đánh dấu mô ở bệnh nhân suy tim có tổn thương thận",
+    "type": "ARTICLE_TITLE"
+  },
+  {
+    "entity": "11/2023",
+    "type": "DATE"
+  },
+  {
+    "entity": "Successful chemotherapy treatment for a tricuspid valvular stenosis patient due to right ventricular lymphoma.",
+    "type": "ARTICLE_TITLE"
+  },
+  {
+    "entity": "https://www.ejcrim.com/index.php/EJCRIM/article/view/4451/3908",
+    "type": "URL"
+  },
+  {
+    "entity": "European Journal of casereports in internal medicine",
+    "type": "JOURNAL"
+  },
+  {
+    "entity": "ISSN:22842594",
+    "type": "ISSN"
+  },
+  {
+    "entity": "Hindex17",
+    "type": "JOURNAL_METRIC"
+  },
+  {
+    "entity": "SJR20230.26",
+    "type": "JOURNAL_METRIC"
+  },
+  {
+    "entity": "EJCRIM2024;11:doi:10.12890/2024_0044",
+    "type": "PUBLICATION_DETAILS"
+  },
+  {
+    "entity": "2/2024",
+    "type": "DATE"
+  },
+  {
+    "entity": "Norepinephrine and Dobutamine-induced dynamic left ventricular outflow tract obstruction caused.",
+    "type": "ARTICLE_TITLE"
+  },
+  {
+    "entity": "https://www.journalmc.org/index.php/JMC/article/view/4204/3573",
+    "type": "URL"
+  },
+  {
+    "entity": "Journal of Medical Cases",
+    "type": "JOURNAL"
+  },
+  {
+    "entity": "ISSN-print:1923-4155",
+    "type": "ISSN"
+  },
+  {
+    "entity": "ISSN-online:1923-4163",
+    "type": "ISSN"
+  },
+  {
+    "entity": "Hindex6",
+    "type": "JOURNAL_METRIC"
+  },
+  {
+    "entity": "SJR20230.2",
+    "type": "JOURNAL_METRIC"
+  },
+  {
+    "entity": "PrintISSN:19234155",
+    "type": "ISSN"
+  },
+  {
+    "entity": "OnlineISSN19234163",
+    "type": "ISSN"
+  },
+  {
+    "entity": "4/2024",
+    "type": "DATE"
+  },
+  {
+    "entity": "Outcomes of Endovenous laser ablation using a 1470-Nm for treatment of incompetent great saphenous veins: real-world data.",
+    "type": "ARTICLE_TITLE"
+  },
+  {
+    "entity": "https://dergipark.org.tr/en/downloaX(tácgiảliênhệduynhất)JournalofExperimentalandClinicalMedicine(JECM)",
+    "type": "URL"
+  },
+  {
+    "entity": "Journal of Experimental and Clinical Medicine (JECM)",
+    "type": "JOURNAL"
+  },
+  {
+    "entity": "ISSN:13094483",
+    "type": "ISSN"
+  },
+  {
+    "entity": "e-ISSN:13095129",
+    "type": "ISSN"
+  },
+  {
+    "entity": "Hindex9",
+    "type": "JOURNAL_METRIC"
+  },
+  {
+    "entity": "SJR20230.13",
+    "type": "JOURNAL_METRIC"
+  },
+  {
+    "entity": "ISSN13094483",
+    "type": "ISSN"
+  },
+  {
+    "entity": "e-ISSN13095129",
+    "type": "ISSN"
+  },
+  {
+    "entity": "5/2024",
+    "type": "DATE"
+  },
+  {
+    "entity": "Kinh nghiệm bước đầu thực hiện kĩ thuật và kết quả ngắn hạn can thiệp cấy van động mạch chủ qua ống thông tại Bệnh viện TƯQĐ108",
+    "type": "ARTICLE_TITLE"
+  },
+  {
+    "entity": "Bệnh viện TƯQĐ108",
+    "type": "HOSPITAL"
+  },
+  {
+    "entity": "Nghiên cứu chỉ số tương hợp thất phải – động mạch phổi bằng siêu âm tim trước và sau phẫu thuật van ở bệnh nhân hở van hai lá thực thể",
+    "type": "ARTICLE_TITLE"
+  },
+  {
+    "entity": "Khảo sát tỉ lệ đạt LDL-C mục tiêu theo khuyến cáo ở bệnh nhân nhồi máu cơ tim cấp điều trị tại Bệnh viện Trung ương Quân đội 108",
+    "type": "ARTICLE_TITLE"
+  },
+  {
+    "entity": "Role of right ventricular–pulmonary artery coupling in patients with heart failure with reduced ejection fraction",
+    "type": "ARTICLE_TITLE"
+  },
+  {
+    "entity": "tác giả chính",
+    "type": "ROLE"
+  },
+  {
+    "entity": "tạp chí khoa học quốc tế có uy tín",
+    "type": "PUBLICATION_CATEGORY"
+  },
+  {
+    "entity": "ƯV",
+    "type": "ACADEMIC_TITLE"
+  },
+  {
+    "entity": "PGS/TS",
+    "type": "ACADEMIC_TITLE"
+  },
+  {
+    "entity": "ISI/Scopus",
+    "type": "JOURNAL_DATABASE"
+  },
+  {
+    "entity": "KH An ninh",
+    "type": "FIELD_OF_STUDY"
+  },
+  {
+    "entity": "KH Quân sự",
+    "type": "FIELD_OF_STUDY"
+  },
+  {
+    "entity": "Quyết định số 25/2020/QĐ-TTg",
+    "type": "LEGAL_DOCUMENT"
+  },
+  {
+    "entity": "tạp chí khoa học",
+    "type": "ACHIEVEMENT_TYPE"
+  },
+  {
+    "entity": "kỷ yếu khoa học",
+    "type": "ACHIEVEMENT_TYPE"
+  },
+  {
+    "entity": "Tác phẩm nghệ thuật",
+    "type": "ACHIEVEMENT_TYPE"
+  },
+  {
+    "entity": "thành tích huấn luyện, thi đấu thể dục thể thao",
+    "type": "ACHIEVEMENT_TYPE"
+  },
+  {
+    "entity": "Văn hóa",
+    "type": "FIELD_OF_STUDY"
+  },
+  {
+    "entity": "Nghệ thuật",
+    "type": "FIELD_OF_STUDY"
+  },
+  {
+    "entity": "Thể dục thể thao",
+    "type": "FIELD_OF_STUDY"
+  },
+  {
+    "entity": "chương trình đào tạo",
+    "type": "PROGRAM_TYPE"
+  },
+  {
+    "entity": "chương trình/dự án/đề tài nghiên cứu, ứng dụng khoa học công nghệ",
+    "type": "PROGRAM_TYPE"
+  },
+  {
+    "entity": "Hànội",
+    "type": "PLACE"
+  },
+  {
+    "entity": "28th tháng 06 năm 2024",
+    "type": "DATE"
+  },
+  {
+    "entity": "NGƯỜI ĐĂNG KÝ",
+    "type": "ROLE"
+  },
+  {
+    "entity": "tháng 9/1998",
+    "type": "DATE"
+  },
+  {
+    "entity": "Volgograd",
+    "type": "Place"
+  },
+  {
+    "entity": "Tim mạch",
+    "type": "MEDICAL_SPECIALTY"
+  },
+  {
+    "entity": "7/2014",
+    "type": "Date"
+  },
+  {
+    "entity": "6/2015",
+    "type": "Date"
+  },
+  {
+    "entity": "phó chủ nhiệm khoa Nội Tim mạch",
+    "type": "Occupation"
+  },
+  {
+    "entity": "nay",
+    "type": "TIME_INDICATOR"
+  },
+  {
+    "entity": "Giáo vụ Bộ môn Nội Tim mạch",
+    "type": "POSITION"
+  },
+  {
+    "entity": "Số 1",
+    "type": "ADDRESS"
+  },
+  {
+    "entity": "Đường Trần Hưng Đạo",
+    "type": "STREET"
+  },
+  {
+    "entity": "3 năm cuối",
+    "type": "DATE"
+  },
+  {
+    "entity": "HĐGS cơ sở",
+    "type": "ACADEMIC_COUNCIL"
+  },
+  {
+    "entity": "HĐGS ngành, liên ngành",
+    "type": "ACADEMIC_COMMITTEE"
+  },
+  {
+    "entity": "13",
+    "type": "NUMBER"
+  },
+  {
+    "entity": "Suy tim",
+    "type": "MEDICAL_CONDITION"
+  },
+  {
+    "entity": "05",
+    "type": "NUMBER"
+  },
+  {
+    "entity": "01",
+    "type": "NUMBER"
+  },
+  {
+    "entity": "BSCK",
+    "type": "DEGREE"
+  },
+  {
+    "entity": "2",
+    "type": "NUMBER"
+  },
+  {
+    "entity": "B",
+    "type": "TEXT"
+  },
+  {
+    "entity": "nhà giáo",
+    "type": "Occupation"
+  },
+  {
+    "entity": "sách",
+    "type": "PUBLICATION_TYPE"
+  },
+  {
+    "entity": "Trường Đại Học Điều Dưỡng Nam Định",
+    "type": "UNIVERSITY"
+  },
+  {
+    "entity": "Loại sách",
+    "type": "TEXT"
+  },
+  {
+    "entity": "Nhà xuất bản",
+    "type": "ORGANIZATION"
+  },
+  {
+    "entity": "Ngành",
+    "type": "NEW_TYPE"
+  },
+  {
+    "entity": "Ngày 30/10/2023",
+    "type": "DATE"
+  },
+  {
+    "entity": "Chương 1",
+    "type": "NEW_TYPE"
+  },
+  {
+    "entity": "tr.29-39",
+    "type": "NEW_TYPE"
+  },
+  {
+    "entity": "tr.40-55",
+    "type": "NEW_TYPE"
+  },
+  {
+    "entity": "3",
+    "type": "NEW_TYPE"
+  },
+  {
+    "entity": "tr.56-70",
+    "type": "NEW_TYPE"
+  },
+  {
+    "entity": "4",
+    "type": "NEW_TYPE"
+  },
+  {
+    "entity": "tr.71- 85",
+    "type": "NEW_TYPE"
+  },
+  {
+    "entity": "8",
+    "type": "NEW_TYPE"
+  },
+  {
+    "entity": "tr.244- 267",
+    "type": "NEW_TYPE"
+  },
+  {
+    "entity": "Số:329/VNC- HLĐT",
+    "type": "NEW_TYPE"
+  },
+  {
+    "entity": "Điện tim đồ từ lý thuyết đến thực hành CK",
+    "type": "NEW_TYPE"
+  },
+  {
+    "entity": "329/VNC-HLĐT",
+    "type": "REFERENCE_NUMBER"
+  },
+  {
+    "entity": "Nhà nghiên cứu trẻ",
+    "type": "AWARD"
+  },
+  {
+    "entity": "năm 2018",
+    "type": "DATE"
+  },
+  {
+    "entity": "Trước khi được công nhận TS Nghiên cứu tình trạng kháng insulin ở bệnh nhân bệnh động mạch vành",
+    "type": "RESEARCH_TOPIC"
+  },
+  {
+    "entity": "Dobutamine",
+    "type": "MEDICAL_TREATMENT"
+  },
+  {
+    "entity": "Đường Vành",
+    "type": "MEDICAL_CONDITION"
+  },
+  {
+    "entity": "Prinzmetal",
+    "type": "RESEARCH_FIELD"
+  },
+  {
+    "entity": "Tập 5 số đặc biệt",
+    "type": "TEXT"
+  },
+  {
+    "entity": "Cơn đau ngực biến thể Prinzmetal",
+    "type": "TEXT"
+  },
+  {
+    "entity": "Hội chứng chuyển hóa",
+    "type": "RESEARCH_FIELD"
+  },
+  {
+    "entity": "1859-2872 Tập 7 số 4/2012",
+    "type": "DATE"
+  },
+  {
+    "entity": "mô tự động (AFI)",
+    "type": "RESEARCH_FIELD"
+  },
+  {
+    "entity": "30-35 4/2012",
+    "type": "DATE"
+  },
+  {
+    "entity": "CHA2DS2-VASc",
+    "type": "MEDICAL_SCORE"
+  },
+  {
+    "entity": "năm 2017",
+    "type": "DATE"
+  },
+  {
+    "entity": "159-170",
+    "type": "PAGE_RANGE"
+  },
+  {
+    "entity": "giảng viên",
+    "type": "OCCUPATION"
+  },
+  {
+    "entity": "Tập 12 Số đặc biệt",
+    "type": "NEW_TYPE"
+  },
+  {
+    "entity": "bệnh nhân rung nhĩ",
+    "type": "PERSON"
+  },
+  {
+    "entity": "bệnh van tim",
+    "type": "PERSON"
+  },
+  {
+    "entity": "85-91",
+    "type": "DATE"
+  },
+  {
+    "entity": "Y dược lâm sàng",
+    "type": "RESEARCH_FIELD"
+  },
+  {
+    "entity": "Tập 13 số đặc biệt 8/2018",
+    "type": "TEXT"
+  }
+]
