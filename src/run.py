@@ -8,7 +8,7 @@ if __name__ == "__main__":
     args = {
         "enities_schema" : "/Users/huynhnguyen/WorkDir/bachoc_1/entities.csv",
         "relation_schema" : "/Users/huynhnguyen/WorkDir/bachoc_1/relationships.csv",
-        "threshold" : 0.6
+        "threshold" : 0.8
     }
     
     corpus =  open(PATH, "r").read()

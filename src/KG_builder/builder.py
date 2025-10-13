@@ -56,13 +56,14 @@ class KG_builder:
             return entity_type
         
         try:
-            entity_embed = self.embed_model.encode([entity_type])
+            entity_embed = self.embed_model.encode([entity_type])[0]
         except Exception as e:
             logging.exception(f"Message: {e}")
+            return entity_type
         mxCor = 0.0
         new_type = ""
         from KG_builder.utils.embedding_utils import consine_similarity
-        for type_name, embed in self.relations_embed_schema.items():
+        for type_name, embed in self.entities_embed_schema.items():
             correlation = consine_similarity(entity_embed, embed) 
             if correlation > mxCor:
                 mxCor = correlation
@@ -72,7 +73,6 @@ class KG_builder:
             return new_type
         else:
             self.entities_embed_schema[entity_type]  = entity_embed
-            self.entities_embed_schema[entity_type]  = entity_embed
             return entity_type
     
     def standardize_relations(self, relation: Dict[str, str]) -> str:
@@ -81,15 +81,19 @@ class KG_builder:
         definition = relation["definition"]
         if relation_type in self.relations_embed_schema.keys():
             return relation_type
+        relation_embed = None
         idx: int = 0
         while idx < 10:
             try:
-                relation_embed = self.embed_model.encode([definition])
+                relation_embed = self.embed_model.encode([definition])[0]
                 break
             except Exception as e:
                 logging.exception(f"Message: {e}")
+                relation_embed = None
             finally:
                 idx += 1
+        if relation_embed is None:
+            return relation_type
         mxCor = 0.0
         new_type = ""
         from KG_builder.utils.embedding_utils import consine_similarity

@@ -8,3 +8,50 @@
 6,foundedBy,Indicates that an organization or institution was founded by a person.
 7,locatedIn,Relates a place or organization to a larger geographic entity.
 8,memberOf,Represents membership of a person within a group or organization.
+9,at,Indicates the specific location or temporal point associated with an event or entity.
+10,có trong,Indicates that an entity is contained within or exists as a component of another entity.
+11,diploma,"Indicates that an entity possesses a diploma, a credential signifying completion of a course of study or achievement."
+12,thu đối với,Indicates a financial or resource relationship where something is received from or applicable to another entity.
+13,cấp bằng bởi,"Indicates the institution or authority responsible for awarding a degree, certificate, or credential."
+14,and,"Connects two or more entities, properties, or concepts as conjuncts, signifying their co-occurrence or collective relevance."
+15,thuộc,"Indicates ownership, affiliation, or membership of an entity to a group, category, or organization."
+16,QĐ công nhận kết quả,Indicates a formal decision document that officially recognizes or validates specific results or outcomes.
+17,about,"Indicates the subject matter, topic, or focus of an entity, such as a document or discussion."
+18,đã bảo vệ thành công,"Indicates that an academic work, such as a thesis or dissertation, has been successfully presented and approved."
+19,tham gia chính,"Indicates the principal involvement or major participation of an agent in an activity, project, or event."
+20,ISSN,Indicates the International Standard Serial Number (ISSN) assigned to a serial publication.
+21,chủ biên,Indicates the principal editor or editor-in-chief responsible for a publication or collection.
+22,has year,"Specifies the calendar year associated with an event, publication, or entity."
+23,là số lượng,Indicates the numerical count or quantifiable amount of an entity.
+24,do,"Indicates the agent, cause, or origin responsible for an action, creation, or condition."
+25,published in,"Indicates the specific venue, journal, or collection where a work was published."
+26,ứng dụng,"Indicates the practical application, implementation context, or specific use case of an entity."
+27,thành lập theo quyết định số,Indicates the specific decision document or its identification number that formally established an entity.
+28,issue,Indicates a specific numbered edition or volume within a series of publications.
+29,đạt loại,"Indicates the specific category, grade, or classification achieved by an entity."
+30,is,"Establishes an identity, classification, or attribute relationship between entities or concepts."
+31,Nhà xuất bản,"Indicates the entity responsible for publishing a work, typically a publishing house."
+32,để phát hiện,"Indicates that the purpose of an action, method, or entity is for the detection of something."
+33,of,"Indicates a possessive, compositional, or descriptive relationship between entities."
+34,is author of,Indicates that a person or entity is the creator or writer of a specific work.
+35,relates to,Establishes a general association or connection between two entities without specifying the nature of the relationship.
+36,được tính trên cơ sở định mức của,"Indicates that a calculation or evaluation is derived from the established standards, norms, or quotas of an entity."
+37,Đánh giá,"Indicates the formal assessment, evaluation, or appraisal of an entity or its performance."
+38,đến năm,Indicates the end year or upper temporal boundary of a period or duration.
+39,để,"Indicates the purpose, objective, or intention behind an action or entity."
+40,is the code of,Indicates that an alphanumeric string represents the unique identifier or code for a specific entity.
+41,was awarded on,"Specifies the particular date on which an award, recognition, or honor was bestowed."
+42,major,Indicates the principal field of study or specialization pursued by a person or associated with a program.
+43,ban hành,"Indicates the authority or entity that formally promulgated, issued, or enacted a document or regulation."
+44,IF,"Indicates the Impact Factor associated with a journal, publication, or academic work."
+45,các biện pháp,"Indicates the strategies, actions, or methods employed for a specific purpose or to address a situation."
+46,trong điều trị,"Indicates the context of medical treatment, therapy, or healthcare intervention."
+47,diploma number,Indicates the unique identifier or registration number associated with a specific diploma.
+48,Nghiệm thu,"Indicates the formal process of review, inspection, and acceptance for a project, research output, or deliverable."
+49,tên,Indicates the proper name or formal designation of an entity.
+50,Loại sách,"Indicates the specific category, genre, or type classification of a book."
+51,page,Indicates a specific numbered leaf or extent within a document or publication.
+52,kiêm,"Indicates that an entity concurrently holds or performs multiple roles, positions, or functions."
+53,theo,"Indicates conformity to, adherence to, or accordance with a specific standard, rule, source, or instruction."
+54,Họp ngày,Specifies the particular calendar date on which a meeting or assembly took place.
+55,nghiên cứu viên chính,"Indicates the primary or principal researcher responsible for a project, study, or research initiative."
