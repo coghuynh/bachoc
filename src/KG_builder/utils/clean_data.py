@@ -1,5 +1,5 @@
 
-from typing import Tuple, Map
+from typing import Tuple, Dict, List
 import re
 
 def clean_vn_text(text: str) -> str:
@@ -86,7 +86,109 @@ def clean_vn_text(text: str) -> str:
     return text.strip()
 
 
-def read_schema(path: str) -> Tuple[str, Map[str, str]]:
+def chunk_corpus(
+    text: str,
+    *,
+    max_chunk_chars: int = 1200,
+    min_chunk_chars: int = 400,
+    sentence_overlap: int = 1,
+) -> List[str]:
+    """
+    Split a cleaned corpus into overlapping chunks that keep nearby sentences together.
+
+    Parameters
+    ----------
+    text: str
+        Input corpus after cleaning.
+    max_chunk_chars: int
+        Upper bound for each chunk length (in characters).
+    min_chunk_chars: int
+        Preferred minimum size for a chunk; shortened automatically for short texts.
+    sentence_overlap: int
+        Number of sentences to reuse at the beginning of the next chunk to keep context.
+    """
+    if max_chunk_chars <= 0:
+        raise ValueError("max_chunk_chars must be positive.")
+    if sentence_overlap < 0:
+        raise ValueError("sentence_overlap must be non-negative.")
+
+    if min_chunk_chars <= 0 or min_chunk_chars > max_chunk_chars:
+        min_chunk_chars = max_chunk_chars // 2
+
+    sentences = [
+        sentence.strip()
+        for sentence in re.split(r"(?<=[\.!?…])\s+", text)
+        if sentence.strip()
+    ]
+
+    if not sentences:
+        sentences = [segment.strip() for segment in text.split("\n") if segment.strip()]
+
+    if not sentences:
+        return []
+
+    chunks: List[str] = []
+    start_idx = 0
+    total_sentences = len(sentences)
+
+    while start_idx < total_sentences:
+        end_idx = start_idx
+        current_chunk: List[str] = []
+        current_len = 0
+
+        while end_idx < total_sentences:
+            sentence = sentences[end_idx]
+            sentence_len = len(sentence)
+
+            if current_chunk and current_len + sentence_len + 1 > max_chunk_chars:
+                break
+
+            if not current_chunk and sentence_len > max_chunk_chars:
+                current_chunk.append(sentence)
+                end_idx += 1
+                break
+
+            current_chunk.append(sentence)
+            current_len += sentence_len + 1
+            end_idx += 1
+
+            if current_len >= min_chunk_chars:
+                next_sentence_len = len(sentences[end_idx]) if end_idx < total_sentences else 0
+                if current_len + next_sentence_len + 1 > max_chunk_chars:
+                    break
+
+        if not current_chunk:
+            current_chunk.append(sentences[start_idx])
+            end_idx = start_idx + 1
+
+        chunk_text = " ".join(current_chunk).strip()
+        if chunk_text:
+            chunks.append(chunk_text)
+
+        if end_idx >= total_sentences:
+            break
+
+        overlap = min(sentence_overlap, len(current_chunk))
+        next_start = end_idx - overlap
+        if next_start <= start_idx:
+            next_start = end_idx
+        start_idx = next_start
+
+    return chunks
+
+
+def write_schema(schema: Dict[str, str], path: str):
+    import pandas as pd
+    
+    df_schema = pd.DataFrame({
+        "Type" : [key for key, value in schema.items()],
+        "Definition" : [value for key, value in schema.items()]
+    })
+    
+    df_schema.to_csv(path)
+    
+
+def read_schema(path: str) -> Tuple[str, Dict[str, str]]:
     import pandas as pd
     
     entities = pd.read_csv(path)
@@ -97,12 +199,13 @@ def read_schema(path: str) -> Tuple[str, Map[str, str]]:
     for _, row in entities.iterrows():
         # print(row.values())
         ret += f"{row["Type"]}: {row["Definition"]}\n"
+        Entities[row["Type"]] = row["Definition"]
         
         
-    return ret, Entities
+    return Entities
 
 
-def read_json(path: str) -> List[Map[str, str]]:
+def read_json(path: str) -> List[Dict[str, str]]:
     import json
     with open(path, "r") as f:
         data = json.load(f)

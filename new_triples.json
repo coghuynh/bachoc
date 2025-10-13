@@ -1,0 +1,2147 @@
+[
+  {
+    "subject": "Đối tượng đăng ký",
+    "predicate": "locatedIn",
+    "object": "Giảng viên"
+  },
+  {
+    "subject": "Đối tượng đăng ký",
+    "predicate": "locatedIn",
+    "object": "Giảng viên thỉnh giảng"
+  },
+  {
+    "subject": "Ngành",
+    "predicate": "locatedIn",
+    "object": "Y học"
+  },
+  {
+    "subject": "Chuyên ngành",
+    "predicate": "locatedIn",
+    "object": "Y Khoa"
+  },
+  {
+    "subject": "Họ và tên người đăng ký",
+    "predicate": "locatedIn",
+    "object": "NGUYỄN THƯỢNG NGHĨA"
+  },
+  {
+    "subject": "Ngày tháng năm sinh",
+    "predicate": "locatedIn",
+    "object": "01/01/1964"
+  },
+  {
+    "subject": "Quốc tịch",
+    "predicate": "locatedIn",
+    "object": "Việt Nam"
+  },
+  {
+    "subject": "Dân tộc",
+    "predicate": "locatedIn",
+    "object": "Kinh"
+  },
+  {
+    "subject": "Tôn giáo",
+    "predicate": "locatedIn",
+    "object": "Không"
+  },
+  {
+    "subject": "Quê quán",
+    "predicate": "locatedIn",
+    "object": "Quảng Ngãi"
+  },
+  {
+    "subject": "Nơi đăng ký hộ khẩu thường trú",
+    "predicate": "locatedIn",
+    "object": "400 Lê Văn Sỹ Phường 14 Quận 3 Tp Hồ Chí Minh"
+  },
+  {
+    "subject": "Địa chỉ liên hệ",
+    "predicate": "locatedIn",
+    "object": "Bệnh viện Chợ Rẫy"
+  },
+  {
+    "subject": "Địa chỉ liên hệ",
+    "predicate": "locatedIn",
+    "object": "201B Nguyễn Chí Thanh Phường 12, Quận 5, Tp Hồ Chí Minh"
+  },
+  {
+    "subject": "Điện thoại di động",
+    "predicate": "locatedIn",
+    "object": "0908011848"
+  },
+  {
+    "subject": "E-mail",
+    "predicate": "locatedIn",
+    "object": "nghia2000@gmail.com"
+  },
+  {
+    "subject": "1988",
+    "predicate": "locatedIn",
+    "object": "1992"
+  },
+  {
+    "subject": "Bác sĩ nội trú",
+    "predicate": "locatedIn",
+    "object": "khoa Tim Mạch bệnh viện Chợ Rẫy"
+  },
+  {
+    "subject": "1992",
+    "predicate": "locatedIn",
+    "object": "1994"
+  },
+  {
+    "subject": "Bác sĩ điều trị",
+    "predicate": "locatedIn",
+    "object": "Bộ môn Nội - Khoa Tim Mạch BV Chợ Rẫy"
+  },
+  {
+    "subject": "1995",
+    "predicate": "locatedIn",
+    "object": "1997"
+  },
+  {
+    "subject": "Bác sĩ",
+    "predicate": "locatedIn",
+    "object": "bệnh viện Chợ Rẫy"
+  },
+  {
+    "subject": "1998",
+    "predicate": "locatedIn",
+    "object": "2003"
+  },
+  {
+    "subject": "Bác sĩ chuyên khoa Tim mạch",
+    "predicate": "locatedIn",
+    "object": "khoa Tim Mạch bệnh viện Chợ Rẫy X"
+  },
+  {
+    "subject": "2004",
+    "predicate": "locatedIn",
+    "object": "2015"
+  },
+  {
+    "subject": "Phó trưởng khoa",
+    "predicate": "locatedIn",
+    "object": "Khoa Tim Mạch Can Thiệp BV Chợ Rẫy"
+  },
+  {
+    "subject": "tháng 6/2015",
+    "predicate": "locatedIn",
+    "object": "nay"
+  },
+  {
+    "subject": "Phó Giám đốc Trung tâm Tim Mạch",
+    "predicate": "locatedIn",
+    "object": "Bệnh viện Chợ Rẫy"
+  },
+  {
+    "subject": "Trưởng khoa Tim Mạch Can Thiệp",
+    "predicate": "locatedIn",
+    "object": "Bệnh viện Chợ Rẫy"
+  },
+  {
+    "subject": "Phó Giám đốc Trung tâm Tim Mạch",
+    "predicate": "locatedIn",
+    "object": "Chức vụ hiện nay"
+  },
+  {
+    "subject": "Trưởng khoa Tim Mạch Can Thiệp",
+    "predicate": "locatedIn",
+    "object": "Chức vụ hiện nay"
+  },
+  {
+    "subject": "Phó Giám đốc Trung tâm Tim Mạch",
+    "predicate": "locatedIn",
+    "object": "Chức vụ cao nhất đã qua"
+  },
+  {
+    "subject": "Cơ quan công tác",
+    "predicate": "locatedIn",
+    "object": "Bệnh viện Chợ Rẫy"
+  },
+  {
+    "subject": "Địa chỉ cơ quan",
+    "predicate": "locatedIn",
+    "object": "201B Nguyễn Chí Thanh, Phường 12, Quận 5, Tp Hồ Chí Minh"
+  },
+  {
+    "subject": "Điện thoại cơ quan",
+    "predicate": "locatedIn",
+    "object": "028 39557119"
+  },
+  {
+    "subject": "Đại học Y Dược TPHCM",
+    "predicate": "locatedIn",
+    "object": "cơ sở giáo dục đại học"
+  },
+  {
+    "subject": "Khoa Y Đại học Quốc gia Tp Hồ Chí Minh",
+    "predicate": "locatedIn",
+    "object": "cơ sở giáo dục đại học"
+  },
+  {
+    "subject": "Trường đại học Y Khoa Phạm Ngọc Thạch",
+    "predicate": "locatedIn",
+    "object": "cơ sở giáo dục đại học"
+  },
+  {
+    "subject": "1988",
+    "predicate": "worksAt",
+    "object": "1992"
+  },
+  {
+    "subject": "Bác sĩ nội trú",
+    "predicate": "locatedIn",
+    "object": "khoa Tim Mạch bệnh viện Chợ Rẫy"
+  },
+  {
+    "subject": "1992",
+    "predicate": "worksAt",
+    "object": "1994"
+  },
+  {
+    "subject": "Bác sĩ điều trị",
+    "predicate": "locatedIn",
+    "object": "Bộ môn Nội - Khoa Tim Mạch BV Chợ Rẫy"
+  },
+  {
+    "subject": "1995",
+    "predicate": "worksAt",
+    "object": "1997"
+  },
+  {
+    "subject": "Bác sĩ phòng khám xuất cảnh",
+    "predicate": "locatedIn",
+    "object": "bệnh viện Chợ Rẫy"
+  },
+  {
+    "subject": "1998",
+    "predicate": "worksAt",
+    "object": "2003"
+  },
+  {
+    "subject": "Bác sĩ chuyên khoa Tim mạch",
+    "predicate": "locatedIn",
+    "object": "khoa Tim Mạch bệnh viện Chợ Rẫy"
+  },
+  {
+    "subject": "2004",
+    "predicate": "worksAt",
+    "object": "2015"
+  },
+  {
+    "subject": "Phó trưởng khoa",
+    "predicate": "locatedIn",
+    "object": "Khoa Tim Mạch Can Thiệp BV Chợ Rẫy"
+  },
+  {
+    "subject": "tháng 6/2015",
+    "predicate": "worksAt",
+    "object": "nay"
+  },
+  {
+    "subject": "Phó Giám đốc Trung tâm Tim Mạch",
+    "predicate": "hasOccupation",
+    "object": "Trưởng khoa Tim Mạch Can Thiệp Bệnh viện Chợ Rẫy"
+  },
+  {
+    "subject": "Chức vụ hiện nay",
+    "predicate": "locatedIn",
+    "object": "Phó Giám đốc Trung tâm Tim Mạch kiêm Trưởng khoa Tim Mạch Can Thiệp bệnh viện Chợ Rẫy"
+  },
+  {
+    "subject": "Chức vụ cao nhất đã qua",
+    "predicate": "locatedIn",
+    "object": "Phó Giám đốc Trung tâm Tim Mạch"
+  },
+  {
+    "subject": "Cơ quan công tác hiện nay",
+    "predicate": "locatedIn",
+    "object": "Bệnh viện Chợ Rẫy"
+  },
+  {
+    "subject": "Địa chỉ cơ quan",
+    "predicate": "locatedIn",
+    "object": "201B Nguyễn Chí Thanh, Phường 12, Quận 5, Tp Hồ Chí Minh"
+  },
+  {
+    "subject": "Điện thoại cơ quan",
+    "predicate": "locatedIn",
+    "object": "028 39557119"
+  },
+  {
+    "subject": "Thỉnh giảng",
+    "predicate": "locatedIn",
+    "object": "Đại học Y Dược TPHCM"
+  },
+  {
+    "subject": "Thỉnh giảng",
+    "predicate": "locatedIn",
+    "object": "Khoa Y Đại học Quốc gia Tp Hồ Chí Minh"
+  },
+  {
+    "subject": "Thỉnh giảng",
+    "predicate": "locatedIn",
+    "object": "Trường đại học Y Khoa Phạm Ngọc Thạch"
+  },
+  {
+    "subject": "Đại học",
+    "predicate": "bornIn",
+    "object": "May 21 1990"
+  },
+  {
+    "subject": "Đại học",
+    "predicate": "studiedAt",
+    "object": "Y"
+  },
+  {
+    "subject": "Đại học",
+    "predicate": "worksAt",
+    "object": "Đa khoa hệ nội"
+  },
+  {
+    "subject": "Đại học",
+    "predicate": "foundedBy",
+    "object": "Đại học Y Dược tp Hồ Chí Minh"
+  },
+  {
+    "subject": "Đại học Y Dược tp Hồ Chí Minh",
+    "predicate": "locatedIn",
+    "object": "Việt Nam"
+  },
+  {
+    "subject": "Thạc sĩ",
+    "predicate": "bornIn",
+    "object": "May 11 1998"
+  },
+  {
+    "subject": "Thạc sĩ",
+    "predicate": "studiedAt",
+    "object": "Y"
+  },
+  {
+    "subject": "Thạc sĩ",
+    "predicate": "worksAt",
+    "object": "Thạc sĩ Y học"
+  },
+  {
+    "subject": "Thạc sĩ",
+    "predicate": "foundedBy",
+    "object": "Đại học Y Dược tp Hồ Chí Minh"
+  },
+  {
+    "subject": "Tiến sĩ",
+    "predicate": "bornIn",
+    "object": "June 18 2012"
+  },
+  {
+    "subject": "Tiến sĩ",
+    "predicate": "studiedAt",
+    "object": "Y"
+  },
+  {
+    "subject": "Tiến sĩ",
+    "predicate": "worksAt",
+    "object": "Tiến sỹ Y học"
+  },
+  {
+    "subject": "Tiến sĩ",
+    "predicate": "foundedBy",
+    "object": "Đại học Y Dược tp Hồ Chí Minh"
+  },
+  {
+    "subject": "Siêu âm tim 2D và DOPPLER màu",
+    "predicate": "hasGender",
+    "object": "October 1 1992 - January 7 1993"
+  },
+  {
+    "subject": "Siêu âm tim 2D và DOPPLER màu",
+    "predicate": "livesIn",
+    "object": "Trung tâm đào tạo và bồi dưỡng cán bộ Y tế TP"
+  },
+  {
+    "subject": "Siêu âm tim qua đường thực quản",
+    "predicate": "hasGender",
+    "object": "June 8 09/06/1998"
+  },
+  {
+    "subject": "Siêu âm tim qua đường thực quản",
+    "predicate": "livesIn",
+    "object": "Trung tâm đào tạo và bồi dưỡng cán bộ Y tế TP"
+  },
+  {
+    "subject": "Khám sức khỏe tổng quát cho người di dân",
+    "predicate": "hasGender",
+    "object": "June 9 1995"
+  },
+  {
+    "subject": "Khám sức khỏe tổng quát cho người di dân",
+    "predicate": "livesIn",
+    "object": "CDC Hoa Kỳ"
+  },
+  {
+    "subject": "Đại học",
+    "predicate": "foundedBy",
+    "object": "Đại học Y Dược tp Hồ Chí Minh"
+  },
+  {
+    "subject": "Đại học",
+    "predicate": "foundedBy",
+    "object": "Việt Nam"
+  },
+  {
+    "subject": "Đại học",
+    "predicate": "bornIn",
+    "object": "21 tháng 05 năm 1990"
+  },
+  {
+    "subject": "Thạc sĩ",
+    "predicate": "foundedBy",
+    "object": "Đại học Y Dược tp Hồ Chí Minh"
+  },
+  {
+    "subject": "Thạc sĩ",
+    "predicate": "foundedBy",
+    "object": "Việt Nam"
+  },
+  {
+    "subject": "Thạc sĩ",
+    "predicate": "bornIn",
+    "object": "11 tháng 05 năm 1998"
+  },
+  {
+    "subject": "Tiến sĩ",
+    "predicate": "foundedBy",
+    "object": "Đại học Y Dược tp Hồ Chí Minh"
+  },
+  {
+    "subject": "Tiến sĩ",
+    "predicate": "foundedBy",
+    "object": "Việt Nam"
+  },
+  {
+    "subject": "Tiến sĩ",
+    "predicate": "bornIn",
+    "object": "18 tháng 06 năm 2012"
+  },
+  {
+    "subject": "Siêu âm tim 2D và DOPPLER màu",
+    "predicate": "livesIn",
+    "object": "Trung tâm đào tạo và bồi dưỡng cán bộ Y tế TP"
+  },
+  {
+    "subject": "Siêu âm tim 2D và DOPPLER màu",
+    "predicate": "bornIn",
+    "object": "01/10/1992"
+  },
+  {
+    "subject": "Siêu âm tim 2D và DOPPLER màu",
+    "predicate": "foundedBy",
+    "object": "07/01/1993"
+  },
+  {
+    "subject": "Siêu âm tim qua đường thực quản",
+    "predicate": "livesIn",
+    "object": "Trung tâm đào tạo và bồi dưỡng cán bộ Y tế TP"
+  },
+  {
+    "subject": "Siêu âm tim qua đường thực quản",
+    "predicate": "bornIn",
+    "object": "08/06"
+  },
+  {
+    "subject": "Siêu âm tim qua đường thực quản",
+    "predicate": "foundedBy",
+    "object": "09/06/1998"
+  },
+  {
+    "subject": "Khám sức khỏe tổng quát cho người di dân",
+    "predicate": "bornIn",
+    "object": "09/06/1995"
+  },
+  {
+    "subject": "Khám sức khỏe tổng quát cho người di dân",
+    "predicate": "foundedBy",
+    "object": "CDC Hoa Kỳ"
+  },
+  {
+    "subject": "Phó Giáo sư",
+    "predicate": "studiedAt",
+    "object": "HĐGS cơ sở"
+  },
+  {
+    "subject": "Phó Giáo sư",
+    "predicate": "studiedAt",
+    "object": "Đại học Y Dược TPHCM"
+  },
+  {
+    "subject": "Phó Giáo sư",
+    "predicate": "studiedAt",
+    "object": "HĐGS ngành, liên ngành"
+  },
+  {
+    "subject": "Phó Giáo sư",
+    "predicate": "studiedAt",
+    "object": "Y Khoa"
+  },
+  {
+    "subject": "nghiên cứu",
+    "predicate": "locatedIn",
+    "object": "phương pháp chẩn đoán bệnh tim mạch"
+  },
+  {
+    "subject": "nghiên cứu",
+    "predicate": "locatedIn",
+    "object": "phương pháp tái thông động mạch vành qua ống thông"
+  },
+  {
+    "subject": "tái thông động mạch vành qua ống thông",
+    "predicate": "locatedIn",
+    "object": "nhồi máu cơ tim cấp"
+  },
+  {
+    "subject": "tái thông động mạch vành qua ống thông",
+    "predicate": "locatedIn",
+    "object": "bệnh mạch vành mãn tính"
+  },
+  {
+    "subject": "nghiên cứu",
+    "predicate": "locatedIn",
+    "object": "kỹ thuật can thiệp qua ống thông"
+  },
+  {
+    "subject": "kỹ thuật can thiệp qua ống thông",
+    "predicate": "locatedIn",
+    "object": "bệnh tim bẩm sinh"
+  },
+  {
+    "subject": "kỹ thuật can thiệp qua ống thông",
+    "predicate": "locatedIn",
+    "object": "cấu trúc"
+  },
+  {
+    "subject": "nghiên cứu",
+    "predicate": "foundedBy",
+    "object": "biện pháp giám sát, đánh giá và phòng chống"
+  },
+  {
+    "subject": "biện pháp giám sát, đánh giá và phòng chống",
+    "predicate": "locatedIn",
+    "object": "chiến lược phòng chống bệnh tim mạch Quốc gia Việt Nam"
+  },
+  {
+    "subject": "nghiên cứu",
+    "predicate": "foundedBy",
+    "object": "biện pháp tầm soát"
+  },
+  {
+    "subject": "biện pháp tầm soát",
+    "predicate": "foundedBy",
+    "object": "yếu tố nguy cơ tim mạch"
+  },
+  {
+    "subject": "yếu tố nguy cơ tim mạch",
+    "predicate": "locatedIn",
+    "object": "cộng đồng"
+  },
+  {
+    "subject": "yếu tố nguy cơ tim mạch",
+    "predicate": "locatedIn",
+    "object": "Hút thuốc lá"
+  },
+  {
+    "subject": "yếu tố nguy cơ tim mạch",
+    "predicate": "locatedIn",
+    "object": "đái tháo đường"
+  },
+  {
+    "subject": "yếu tố nguy cơ tim mạch",
+    "predicate": "locatedIn",
+    "object": "tăng huyết áp"
+  },
+  {
+    "subject": "yếu tố nguy cơ tim mạch",
+    "predicate": "locatedIn",
+    "object": "rối loạn lipid máu"
+  },
+  {
+    "subject": "nguy cơ tim mạch",
+    "predicate": "locatedIn",
+    "object": "hút thuốc lá"
+  },
+  {
+    "subject": "nguy cơ tim mạch",
+    "predicate": "locatedIn",
+    "object": "đái tháo đường"
+  },
+  {
+    "subject": "nguy cơ tim mạch",
+    "predicate": "locatedIn",
+    "object": "tăng huyết áp"
+  },
+  {
+    "subject": "nguy cơ tim mạch",
+    "predicate": "locatedIn",
+    "object": "rối loạn lipid máu"
+  },
+  {
+    "subject": "Đã hướng dẫn",
+    "predicate": "foundedBy",
+    "object": "18"
+  },
+  {
+    "subject": "Đã hoàn thành",
+    "predicate": "foundedBy",
+    "object": "14"
+  },
+  {
+    "subject": "Đã hoàn thành",
+    "predicate": "foundedBy",
+    "object": "06"
+  },
+  {
+    "subject": "Đã hoàn thành",
+    "predicate": "foundedBy",
+    "object": "02"
+  },
+  {
+    "subject": "Đã hoàn thành",
+    "predicate": "foundedBy",
+    "object": "04"
+  },
+  {
+    "subject": "Đã hoàn thành",
+    "predicate": "foundedBy",
+    "object": "02"
+  },
+  {
+    "subject": "Đã công bố",
+    "predicate": "foundedBy",
+    "object": "56"
+  },
+  {
+    "subject": "bài báo khoa học",
+    "predicate": "worksAt",
+    "object": "tạp chí quốc tế"
+  },
+  {
+    "subject": "Đã công bố",
+    "predicate": "foundedBy",
+    "object": "16"
+  },
+  {
+    "subject": "tác giả chính",
+    "predicate": "locatedIn",
+    "object": "05 bài báo"
+  },
+  {
+    "subject": "Số lượng sách",
+    "predicate": "worksAt",
+    "object": "02"
+  },
+  {
+    "subject": "Số lượng sách",
+    "predicate": "worksAt",
+    "object": "Y học"
+  },
+  {
+    "subject": "Khen thưởng",
+    "predicate": "locatedIn",
+    "object": "huân chương"
+  },
+  {
+    "subject": "Khen thưởng",
+    "predicate": "locatedIn",
+    "object": "huy chương"
+  },
+  {
+    "subject": "Khen thưởng",
+    "predicate": "locatedIn",
+    "object": "danh hiệu"
+  },
+  {
+    "subject": "Tiêu chuẩn nhà giáo",
+    "predicate": "locatedIn",
+    "object": "đáp ứng đầy đủ các tiêu chuẩn của nhà giáo"
+  },
+  {
+    "subject": "Phẩm chất đạo đức, tư tưởng",
+    "predicate": "locatedIn",
+    "object": "Yêu nghề có lương tâm nghề nghiệp"
+  },
+  {
+    "subject": "Trình độ chuyên môn, nghiệp vụ",
+    "predicate": "locatedIn",
+    "object": "Đạt yêu cầu"
+  },
+  {
+    "subject": "Sức khỏe theo yêu cầu nghề nghiệp",
+    "predicate": "locatedIn",
+    "object": "Đạt yêu cầu"
+  },
+  {
+    "subject": "Lý lịch bản thân",
+    "predicate": "locatedIn",
+    "object": "Rõ ràng"
+  },
+  {
+    "subject": "Nhiệm vụ nhà giáo",
+    "predicate": "locatedIn",
+    "object": "thực hiện đầy đủ và nghiêm túc các nhiệm vụ của nhà giáo"
+  },
+  {
+    "subject": "Giáo dục, giảng dạy theo mục tiêu, nguyên lý giáo dục, thực hiện đầy đủ và có chất lượng chương trình giảng dạy",
+    "predicate": "locatedIn",
+    "object": "Đạt yêu cầu"
+  },
+  {
+    "subject": "Nghiên cứu khoa học, biên soạn giáo trình, công bố kết quả nghiên cứu trên các tạp chí khoa học trong và ngoài nước, tham gia hội nghị, hội thảo",
+    "predicate": "locatedIn",
+    "object": "Đạt yêu cầu"
+  },
+  {
+    "subject": "Gương mẫu thực hiện nghĩa vụ công dân, các qui định của luật pháp và điều lệ nhà trường",
+    "predicate": "locatedIn",
+    "object": "Đạt yêu cầu"
+  },
+  {
+    "subject": "Giữ gìn phẩm chất, uy tín, danh dự nhà giáo, tôn trọng nhân cách người học, đối xử công bằng với người học, bảo vệ quyền lợi và lợi ích chính đáng của người học",
+    "predicate": "locatedIn",
+    "object": "Đạt yêu cầu"
+  },
+  {
+    "subject": "Không ngừng học tập, rèn luyện để nâng cao phẩm chất đạo đức, chuyên môn, nghiệp vụ, đổi mới phương pháp giảng dạy, nêu gương tốt cho người học",
+    "predicate": "locatedIn",
+    "object": "Đạt yêu cầu"
+  },
+  {
+    "subject": "Thông tư số 47/2014/TT-BGDĐT",
+    "predicate": "foundedBy",
+    "object": "Quy định chế độ làm việc đối với giảng viên"
+  },
+  {
+    "subject": "Bộ trưởng Bộ GD&ĐT",
+    "predicate": "foundedBy",
+    "object": "Thông tư số 47/2014/TT-BGDĐT"
+  },
+  {
+    "subject": "Thông tư số 20/2020/TT-BGDĐT",
+    "predicate": "foundedBy",
+    "object": "Quy định chế độ làm việc của giảng viên cơ sở giáo dục đại học"
+  },
+  {
+    "subject": "Bộ trưởng Bộ GD&ĐT",
+    "predicate": "foundedBy",
+    "object": "Thông tư số 20/2020/TT-BGDĐT"
+  },
+  {
+    "subject": "Chứng chỉ ngoại ngữ Anh Văn Trình độ B",
+    "predicate": "locatedIn",
+    "object": "B 121322"
+  },
+  {
+    "subject": "Chứng chỉ ngoại ngữ Anh Văn Trình độ B",
+    "predicate": "bornIn",
+    "object": "20/10/1994"
+  },
+  {
+    "subject": "Chứng chỉ ngoại ngữ Anh Văn Trình độ B",
+    "predicate": "foundedBy",
+    "object": "Đại học Sư phạm tp Hồ Chí Minh cấp"
+  },
+  {
+    "subject": "Trình độ C",
+    "predicate": "locatedIn",
+    "object": "C 56319"
+  },
+  {
+    "subject": "Trình độ C",
+    "predicate": "bornIn",
+    "object": "19/01/1995"
+  },
+  {
+    "subject": "Trình độ C",
+    "predicate": "foundedBy",
+    "object": "Sở Giáo dục Đào tạo tp Hồ Chí Minh cấp"
+  },
+  {
+    "subject": "Tiếng Anh tương đương cấp độ B2",
+    "predicate": "locatedIn",
+    "object": "B003071"
+  },
+  {
+    "subject": "Tiếng Anh tương đương cấp độ B2",
+    "predicate": "bornIn",
+    "object": "10/04/2017"
+  },
+  {
+    "subject": "Tiếng Anh tương đương cấp độ B2",
+    "predicate": "foundedBy",
+    "object": "Đại học Ngân Hàng tp Hồ Chí Minh cấp"
+  },
+  {
+    "subject": "Lý Ích Trung",
+    "predicate": "studiedAt",
+    "object": "Bệnh viện Chợ Rẫy"
+  },
+  {
+    "subject": "Lý Ích Trung",
+    "predicate": "hasOccupation",
+    "object": "CK2"
+  },
+  {
+    "subject": "Lý Ích Trung",
+    "predicate": "hasGender",
+    "object": "20142015"
+  },
+  {
+    "subject": "Bệnh viện Chợ Rẫy",
+    "predicate": "bornIn",
+    "object": "25/05/2016"
+  },
+  {
+    "subject": "Bệnh viện Chợ Rẫy",
+    "predicate": "locatedIn",
+    "object": "1286/QĐ-BYT"
+  },
+  {
+    "subject": "Bệnh viện Chợ Rẫy",
+    "predicate": "bornIn",
+    "object": "08/4/2016"
+  },
+  {
+    "subject": "Đặng Trần Hùng",
+    "predicate": "studiedAt",
+    "object": "Đại học Y Dược TPHCM"
+  },
+  {
+    "subject": "Đặng Trần Hùng",
+    "predicate": "hasOccupation",
+    "object": "HVCH"
+  },
+  {
+    "subject": "Đặng Trần Hùng",
+    "predicate": "hasGender",
+    "object": "20132015"
+  },
+  {
+    "subject": "Đại học Y Dược TPHCM",
+    "predicate": "bornIn",
+    "object": "17/12/2015"
+  },
+  {
+    "subject": "Đặng Thế Việt",
+    "predicate": "studiedAt",
+    "object": "Đại học Y Dược TPHCM"
+  },
+  {
+    "subject": "Đặng Thế Việt",
+    "predicate": "hasOccupation",
+    "object": "HVCH"
+  },
+  {
+    "subject": "Đặng Thế Việt",
+    "predicate": "hasGender",
+    "object": "20132015"
+  },
+  {
+    "subject": "Đại học Y Dược TPHCM",
+    "predicate": "bornIn",
+    "object": "12/12/2016"
+  },
+  {
+    "subject": "Đào Quang Hoàng",
+    "predicate": "studiedAt",
+    "object": "Đại học Y khoa Phạm Ngọc Thạch"
+  },
+  {
+    "subject": "Đào Quang Hoàng",
+    "predicate": "hasOccupation",
+    "object": "HVCH"
+  },
+  {
+    "subject": "Đào Quang Hoàng",
+    "predicate": "hasGender",
+    "object": "20142016"
+  },
+  {
+    "subject": "Đại học Y khoa Phạm Ngọc Thạch",
+    "predicate": "bornIn",
+    "object": "12/4/2017"
+  },
+  {
+    "subject": "Võ Thị Mai Trâm",
+    "predicate": "studiedAt",
+    "object": "Đại học Y Dược TPHCM"
+  },
+  {
+    "subject": "Võ Thị Mai Trâm",
+    "predicate": "hasOccupation",
+    "object": "HVCH"
+  },
+  {
+    "subject": "Võ Thị Mai Trâm",
+    "predicate": "hasGender",
+    "object": "20152017"
+  },
+  {
+    "subject": "Đại học Y Dược TPHCM",
+    "predicate": "bornIn",
+    "object": "18/12/2017"
+  },
+  {
+    "subject": "Nguyễn Thế Quyền",
+    "predicate": "studiedAt",
+    "object": "Đại học Y Dược TPHCM"
+  },
+  {
+    "subject": "Nguyễn Thế Quyền",
+    "predicate": "hasOccupation",
+    "object": "BSNT HVCH"
+  },
+  {
+    "subject": "Nguyễn Thế Quyền",
+    "predicate": "hasGender",
+    "object": "20152018"
+  },
+  {
+    "subject": "Đại học Y Dược TPHCM",
+    "predicate": "bornIn",
+    "object": "19/12/2018"
+  },
+  {
+    "subject": "Phan Thanh Toàn",
+    "predicate": "studiedAt",
+    "object": "Đại học Y Dược TPHCM"
+  },
+  {
+    "subject": "Phan Thanh Toàn",
+    "predicate": "hasOccupation",
+    "object": "BSNT HVCH"
+  },
+  {
+    "subject": "Phan Thanh Toàn",
+    "predicate": "hasGender",
+    "object": "20152018"
+  },
+  {
+    "subject": "Nguyễn Phát Thành Luận",
+    "predicate": "studiedAt",
+    "object": "Đại học Y khoa Phạm Ngọc Thạch"
+  },
+  {
+    "subject": "Nguyễn Phát Thành Luận",
+    "predicate": "hasOccupation",
+    "object": "HVCH"
+  },
+  {
+    "subject": "Nguyễn Phát Thành Luận",
+    "predicate": "hasGender",
+    "object": "20172019"
+  },
+  {
+    "subject": "Đại học Y khoa Phạm Ngọc Thạch",
+    "predicate": "bornIn",
+    "object": "25/3/2020"
+  },
+  {
+    "subject": "Trần Thị Thanh Trúc",
+    "predicate": "studiedAt",
+    "object": "Đại học Y khoa Phạm Ngọc Thạch"
+  },
+  {
+    "subject": "Trần Thị Thanh Trúc",
+    "predicate": "hasOccupation",
+    "object": "CK2"
+  },
+  {
+    "subject": "Trần Thị Thanh Trúc",
+    "predicate": "hasGender",
+    "object": "20182020"
+  },
+  {
+    "subject": "Đại học Y khoa Phạm Ngọc Thạch",
+    "predicate": "bornIn",
+    "object": "19/4/2021"
+  },
+  {
+    "subject": "Lê Thị Phúc Diễm",
+    "predicate": "studiedAt",
+    "object": "Đại học Y Dược TPHCM"
+  },
+  {
+    "subject": "Lê Thị Phúc Diễm",
+    "predicate": "hasOccupation",
+    "object": "HVCH"
+  },
+  {
+    "subject": "Lê Thị Phúc Diễm",
+    "predicate": "hasGender",
+    "object": "20182020"
+  },
+  {
+    "subject": "Đại học Y Dược TPHCM",
+    "predicate": "bornIn",
+    "object": "31/12/2020"
+  },
+  {
+    "subject": "Trần Thanh Phong",
+    "predicate": "studiedAt",
+    "object": "Đại học Y Dược TPHCM"
+  },
+  {
+    "subject": "Trần Thanh Phong",
+    "predicate": "hasOccupation",
+    "object": "HVCH"
+  },
+  {
+    "subject": "Trần Thanh Phong",
+    "predicate": "hasGender",
+    "object": "20182020"
+  },
+  {
+    "subject": "Nguyễn Thị Hồng Tươi",
+    "predicate": "studiedAt",
+    "object": "Đại học Y Dược TPHCM"
+  },
+  {
+    "subject": "Nguyễn Thị Hồng Tươi",
+    "predicate": "hasOccupation",
+    "object": "HVCH"
+  },
+  {
+    "subject": "Nguyễn Thị Hồng Tươi",
+    "predicate": "hasGender",
+    "object": "20192021"
+  },
+  {
+    "subject": "Đại học Y Dược TPHCM",
+    "predicate": "bornIn",
+    "object": "26/01/2022"
+  },
+  {
+    "subject": "Nguyễn Thị Phương Thảo",
+    "predicate": "studiedAt",
+    "object": "Đại học Y Dược TPHCM"
+  },
+  {
+    "subject": "Nguyễn Thị Phương Thảo",
+    "predicate": "hasOccupation",
+    "object": "HVCH"
+  },
+  {
+    "subject": "Nguyễn Thị Phương Thảo",
+    "predicate": "hasGender",
+    "object": "20192021"
+  },
+  {
+    "subject": "Châu Thuận Thành",
+    "predicate": "locatedIn",
+    "object": "Đại học Y Dược TPHCM"
+  },
+  {
+    "subject": "Lê Nguyễn Quỳnh Thư",
+    "predicate": "locatedIn",
+    "object": "Đại học Y khoa Phạm Ngọc Thạch"
+  },
+  {
+    "subject": "Trần Vi Điển",
+    "predicate": "locatedIn",
+    "object": "Đại học Y Dược TPHCM"
+  },
+  {
+    "subject": "Nguyễn Nhật Tài",
+    "predicate": "locatedIn",
+    "object": "Đại học Y Dược TPHCM"
+  },
+  {
+    "subject": "Treatment of cardiac emergencies",
+    "predicate": "worksAt",
+    "object": "Mosby"
+  },
+  {
+    "subject": "Treatment of cardiac emergencies",
+    "predicate": "hasGender",
+    "object": "1990"
+  },
+  {
+    "subject": "Lê Thị Thanh Thái",
+    "predicate": "locatedIn",
+    "object": "translation"
+  },
+  {
+    "subject": "Phác đồ điều trị 2013",
+    "predicate": "hasGender",
+    "object": "HD"
+  },
+  {
+    "subject": "Phác đồ điều trị 2013",
+    "predicate": "locatedIn",
+    "object": "Phần Nội Khoa"
+  },
+  {
+    "subject": "Phác đồ điều trị 2013",
+    "predicate": "worksAt",
+    "object": "Nhà xuất bản y học"
+  },
+  {
+    "subject": "Phác đồ điều trị 2013",
+    "predicate": "hasGender",
+    "object": "2013"
+  },
+  {
+    "subject": "Nguyễn Trường Sơn",
+    "predicate": "locatedIn",
+    "object": "PGS TS"
+  },
+  {
+    "subject": "Phác đồ điều trị 2018",
+    "predicate": "hasGender",
+    "object": "HD"
+  },
+  {
+    "subject": "Phác đồ điều trị 2018",
+    "predicate": "locatedIn",
+    "object": "Phần Nội Khoa"
+  },
+  {
+    "subject": "Phác đồ điều trị 2018",
+    "predicate": "worksAt",
+    "object": "Nhà xuất bản y học chi nhánh Tp HCM"
+  },
+  {
+    "subject": "Cardiology: Fourth Edition",
+    "predicate": "hasGender",
+    "object": "TK"
+  },
+  {
+    "subject": "Cardiology: Fourth Edition",
+    "predicate": "worksAt",
+    "object": "Wiley - Blackw ell"
+  },
+  {
+    "subject": "Cardiology: Fourth Edition",
+    "predicate": "hasGender",
+    "object": "2013"
+  },
+  {
+    "subject": "Percutaneous Intervention of Cardiac Congenital Anomalies",
+    "predicate": "memberOf",
+    "object": "Cardiology: Fourth Edition"
+  },
+  {
+    "subject": "TS",
+    "predicate": "hasOccupation",
+    "object": "chủ biên"
+  },
+  {
+    "subject": "Michael Gibson",
+    "predicate": "hasOccupation",
+    "object": "Percutaneous Intervention of Cardiac Congenital Anomalies"
+  },
+  {
+    "subject": "Steven R.Bailey",
+    "predicate": "hasOccupation",
+    "object": "Percutaneous Intervention of Cardiac Congenital Anomalies"
+  },
+  {
+    "subject": "TS. BS Nguyễn",
+    "predicate": "hasOccupation",
+    "object": "Giải phẫu mạch vành"
+  },
+  {
+    "subject": "TS BS Nguyễn Thượng Nghĩa",
+    "predicate": "hasOccupation",
+    "object": "Thuốc cản quang và các vấn đề liên quan"
+  },
+  {
+    "subject": "TS BS Ngô Minh Hùng",
+    "predicate": "hasOccupation",
+    "object": "Thuốc cản quang và các vấn đề liên quan"
+  },
+  {
+    "subject": "Đại học Nam Cần Thơ",
+    "predicate": "foundedBy",
+    "object": "Giấy xác nhận"
+  },
+  {
+    "subject": "TS.BS.C KII Nguyễn Trí Thức",
+    "predicate": "hasOccupation",
+    "object": "Huyết động học"
+  },
+  {
+    "subject": "TS.BS Nguyễn Thượng Nghĩa",
+    "predicate": "hasOccupation",
+    "object": "Huyết động học"
+  },
+  {
+    "subject": "TS.BS.C KII Nguyễn Trí Thức",
+    "predicate": "hasOccupation",
+    "object": "Giải phẫu mạch vành"
+  },
+  {
+    "subject": "TS.BS Nguyễn Thượng Nghĩa",
+    "predicate": "hasOccupation",
+    "object": "Giải phẫu mạch vành"
+  },
+  {
+    "subject": "ISBN",
+    "predicate": "locatedIn",
+    "object": "978604664943-4"
+  },
+  {
+    "subject": "Nguyễn Thượng Nghĩa",
+    "predicate": "locatedIn",
+    "object": "chủ biên"
+  },
+  {
+    "subject": "Ngô Minh Hùng",
+    "predicate": "locatedIn",
+    "object": "chủ biên"
+  },
+  {
+    "subject": "Đại học Nam Cần Thơ",
+    "predicate": "foundedBy",
+    "object": "136/GXNĐHNCT"
+  },
+  {
+    "subject": "136/GXNĐHNCT",
+    "predicate": "hasGender",
+    "object": "30/06/2022"
+  },
+  {
+    "subject": "ISBN",
+    "predicate": "locatedIn",
+    "object": "978604666078-1"
+  },
+  {
+    "subject": "Nguyễn Trí Thức",
+    "predicate": "locatedIn",
+    "object": "chủ biên"
+  },
+  {
+    "subject": "Đại học Nam Cần Thơ",
+    "predicate": "foundedBy",
+    "object": "137/GXNĐHNCT"
+  },
+  {
+    "subject": "137/GXNĐHNCT",
+    "predicate": "hasGender",
+    "object": "08/5/2023"
+  },
+  {
+    "subject": "TT",
+    "predicate": "locatedIn",
+    "object": "Tên nhiệm vụ khoa học và công nghệ"
+  },
+  {
+    "subject": "Tên nhiệm vụ khoa học và công nghệ",
+    "predicate": "locatedIn",
+    "object": "CT"
+  },
+  {
+    "subject": "Tên nhiệm vụ khoa học và công nghệ",
+    "predicate": "locatedIn",
+    "object": "ĐT"
+  },
+  {
+    "subject": "Tên nhiệm vụ khoa học và công nghệ",
+    "predicate": "locatedIn",
+    "object": "CN"
+  },
+  {
+    "subject": "Tên nhiệm vụ khoa học và công nghệ",
+    "predicate": "locatedIn",
+    "object": "PC"
+  },
+  {
+    "subject": "Tên nhiệm vụ khoa học và công nghệ",
+    "predicate": "locatedIn",
+    "object": "N"
+  },
+  {
+    "subject": "Tên nhiệm vụ khoa học và công nghệ",
+    "predicate": "locatedIn",
+    "object": "TK"
+  },
+  {
+    "subject": "Tên nhiệm vụ khoa học và công nghệ",
+    "predicate": "locatedIn",
+    "object": "Mã số"
+  },
+  {
+    "subject": "Tên nhiệm vụ khoa học và công nghệ",
+    "predicate": "locatedIn",
+    "object": "cấp quản lý"
+  },
+  {
+    "subject": "Tên nhiệm vụ khoa học và công nghệ",
+    "predicate": "locatedIn",
+    "object": "Thời gian thực hiện"
+  },
+  {
+    "subject": "Tên nhiệm vụ khoa học và công nghệ",
+    "predicate": "locatedIn",
+    "object": "Thời gian nghiệm thu"
+  },
+  {
+    "subject": "Thời gian nghiệm thu",
+    "predicate": "locatedIn",
+    "object": "ngày"
+  },
+  {
+    "subject": "Thời gian nghiệm thu",
+    "predicate": "locatedIn",
+    "object": "tháng"
+  },
+  {
+    "subject": "Thời gian nghiệm thu",
+    "predicate": "locatedIn",
+    "object": "năm"
+  },
+  {
+    "subject": "Thời gian nghiệm thu",
+    "predicate": "locatedIn",
+    "object": "Xếp loại KQ"
+  },
+  {
+    "subject": "Mối tương quan giữa độ dày lớp nội trung mạc động mạch cảnh chung và điểm số Gensini cải tiến ở bệnh nhân hội chứng vành cấp",
+    "predicate": "hasGender",
+    "object": "Xếp loại xuất sắc"
+  },
+  {
+    "subject": "Mối tương quan giữa độ dày lớp nội trung mạc động mạch cảnh chung và điểm số Gensini cải tiến ở bệnh nhân hội chứng vành cấp",
+    "predicate": "hasOccupation",
+    "object": "Bệnh viện Chợ Rẫy"
+  },
+  {
+    "subject": "Mối tương quan giữa độ dày lớp nội trung mạc động mạch cảnh chung và điểm số Gensini cải tiến ở bệnh nhân hội chứng vành cấp",
+    "predicate": "locatedIn",
+    "object": "574/BVNCKH"
+  },
+  {
+    "subject": "Mối tương quan giữa độ dày lớp nội trung mạc động mạch cảnh chung và điểm số Gensini cải tiến ở bệnh nhân hội chứng vành cấp",
+    "predicate": "hasGender",
+    "object": "2016"
+  },
+  {
+    "subject": "Mối tương quan giữa độ dày lớp nội trung mạc động mạch cảnh chung và điểm số Gensini cải tiến ở bệnh nhân hội chứng vành cấp",
+    "predicate": "hasGender",
+    "object": "2017"
+  },
+  {
+    "subject": "Mối tương quan giữa độ dày lớp nội trung mạc động mạch cảnh chung và điểm số Gensini cải tiến ở bệnh nhân hội chứng vành cấp",
+    "predicate": "bornIn",
+    "object": "03/8/2017"
+  },
+  {
+    "subject": "Nghiên cứu ứng dụng stent không phủ thuốc, stent phủ thuốc Sirolimus, Stent phủ thuốc Paclitaxel và bóng nong không phủ thuốc lần đầu tiên sản xuất tại Việt Nam theo dự án phát triển công nghệ cao mã số CNC.01.DAPT trong điều trị tái thông động mạch vành",
+    "predicate": "hasGender",
+    "object": "Xếp loại Khá"
+  },
+  {
+    "subject": "Nghiên cứu ứng dụng stent không phủ thuốc, stent phủ thuốc Sirolimus, Stent phủ thuốc Paclitaxel và bóng nong không phủ thuốc lần đầu tiên sản xuất tại Việt Nam theo dự án phát triển công nghệ cao mã số CNC.01.DAPT trong điều trị tái thông động mạch vành",
+    "predicate": "locatedIn",
+    "object": "stent phủ thuốc Sirolimus"
+  },
+  {
+    "subject": "Nghiên cứu ứng dụng stent không phủ thuốc, stent phủ thuốc Sirolimus, Stent phủ thuốc Paclitaxel và bóng nong không phủ thuốc lần đầu tiên sản xuất tại Việt Nam theo dự án phát triển công nghệ cao mã số CNC.01.DAPT trong điều trị tái thông động mạch vành",
+    "predicate": "hasOccupation",
+    "object": "Bệnh viện Chợ Rẫy"
+  },
+  {
+    "subject": "Nghiên cứu ứng dụng stent không phủ thuốc, stent phủ thuốc Sirolimus, Stent phủ thuốc Paclitaxel và bóng nong không phủ thuốc lần đầu tiên sản xuất tại Việt Nam theo dự án phát triển công nghệ cao mã số CNC.01.DAPT trong điều trị tái thông động mạch vành",
+    "predicate": "locatedIn",
+    "object": "655/BVNCKH"
+  },
+  {
+    "subject": "Nghiên cứu ứng dụng stent không phủ thuốc, stent phủ thuốc Sirolimus, Stent phủ thuốc Paclitaxel và bóng nong không phủ thuốc lần đầu tiên sản xuất tại Việt Nam theo dự án phát triển công nghệ cao mã số CNC.01.DAPT trong điều trị tái thông động mạch vành",
+    "predicate": "hasGender",
+    "object": "2015"
+  },
+  {
+    "subject": "Nghiên cứu ứng dụng stent không phủ thuốc, stent phủ thuốc Sirolimus, Stent phủ thuốc Paclitaxel và bóng nong không phủ thuốc lần đầu tiên sản xuất tại Việt Nam theo dự án phát triển công nghệ cao mã số CNC.01.DAPT trong điều trị tái thông động mạch vành",
+    "predicate": "hasGender",
+    "object": "2017"
+  },
+  {
+    "subject": "Nghiên cứu ứng dụng stent không phủ thuốc, stent phủ thuốc Sirolimus, Stent phủ thuốc Paclitaxel và bóng nong không phủ thuốc lần đầu tiên sản xuất tại Việt Nam theo dự án phát triển công nghệ cao mã số CNC.01.DAPT trong điều trị tái thông động mạch vành",
+    "predicate": "bornIn",
+    "object": "07/3/2018"
+  },
+  {
+    "subject": "Nghiên cứu ứng dụng stent không phủ thuốc, stent phủ thuốc Sirolimus, Stent phủ thuốc Paclitaxel và bóng nong không phủ thuốc lần đầu tiên sản xuất tại Việt Nam theo dự án phát triển công nghệ cao mã số CNC.01.DAPT trong điều trị tái thông động mạch vành",
+    "predicate": "bornIn",
+    "object": "hội đồng ĐĐNCYSH BVCR"
+  },
+  {
+    "subject": "Nghiên cứu ứng dụng stent không phủ thuốc, stent phủ thuốc Sirolimus, Stent phủ thuốc Paclitaxel và bóng nong không phủ thuốc lần đầu tiên sản xuất tại Việt Nam theo dự án phát triển công nghệ cao mã số CNC.01.DAPT trong điều trị tái thông động mạch vành",
+    "predicate": "locatedIn",
+    "object": "6690/QĐBVCR"
+  },
+  {
+    "subject": "Nghiên cứu ứng dụng stent không phủ thuốc, stent phủ thuốc Sirolimus, Stent phủ thuốc Paclitaxel và bóng nong không phủ thuốc lần đầu tiên sản xuất tại Việt Nam theo dự án phát triển công nghệ cao mã số CNC.01.DAPT trong điều trị tái thông động mạch vành",
+    "predicate": "hasGender",
+    "object": "24/11/2017"
+  },
+  {
+    "subject": "Nghiên cứu thí điểm đặt Stent cho các tổn thương phân nhánh và tổn thương thứ hai ở bệnh động mạch vành khi sử dụng và không sử dụng Clearstent Live",
+    "predicate": "hasGender",
+    "object": "Xếp loại Đạt"
+  },
+  {
+    "subject": "Nghiên cứu thí điểm đặt Stent cho các tổn thương phân nhánh và tổn thương thứ hai ở bệnh động mạch vành khi sử dụng và không sử dụng Clearstent Live",
+    "predicate": "hasOccupation",
+    "object": "Bệnh viện Chợ Rẫy"
+  },
+  {
+    "subject": "Nghiên cứu thí điểm đặt Stent cho các tổn thương phân nhánh và tổn thương thứ hai ở bệnh động mạch vành khi sử dụng và không sử dụng Clearstent Live",
+    "predicate": "locatedIn",
+    "object": "1553/BVNCKH"
+  },
+  {
+    "subject": "Nghiên cứu thí điểm đặt Stent cho các tổn thương phân nhánh và tổn thương thứ hai ở bệnh động mạch vành khi sử dụng và không sử dụng Clearstent Live",
+    "predicate": "hasGender",
+    "object": "2023"
+  },
+  {
+    "subject": "Nghiên cứu thí điểm đặt Stent cho các tổn thương phân nhánh và tổn thương thứ hai ở bệnh động mạch vành khi sử dụng và không sử dụng Clearstent Live",
+    "predicate": "bornIn",
+    "object": "20/4/2023"
+  },
+  {
+    "subject": "Đánh giá an toàn và hiệu quả của kỹ thuật giam bóng trong can thiệp sang thương chia đôi của động mạch vành ở bệnh viện Chợ Rẫy",
+    "predicate": "hasGender",
+    "object": "Xếp loại Khá"
+  },
+  {
+    "subject": "Đánh giá an toàn và hiệu quả của kỹ thuật giam bóng trong can thiệp sang thương chia đôi của động mạch vành ở bệnh viện Chợ Rẫy",
+    "predicate": "hasOccupation",
+    "object": "Bệnh viện Chợ Rẫy"
+  },
+  {
+    "subject": "Đánh giá an toàn và hiệu quả của kỹ thuật giam bóng trong can thiệp sang thương chia đôi của động mạch vành ở bệnh viện Chợ Rẫy",
+    "predicate": "locatedIn",
+    "object": "1569/BVNCKH"
+  },
+  {
+    "subject": "Đánh giá an toàn và hiệu quả của kỹ thuật giam bóng trong can thiệp sang thương chia đôi của động mạch vành ở bệnh viện Chợ Rẫy",
+    "predicate": "hasGender",
+    "object": "2023"
+  },
+  {
+    "subject": "Đánh giá an toàn và hiệu quả của kỹ thuật giam bóng trong can thiệp sang thương chia đôi của động mạch vành ở bệnh viện Chợ Rẫy",
+    "predicate": "bornIn",
+    "object": "20/4/2023"
+  },
+  {
+    "subject": "Nghiên cứu ứng dụng siêu âm nội mạch (IVUS) trong can thiệp mạch vành ở bệnh nhân Việt Nam",
+    "predicate": "hasOccupation",
+    "object": "Ủy ban nhân dân Tp Hồ Chí Minh Sở KHCN"
+  },
+  {
+    "subject": "Ủy ban nhân dân Tp Hồ Chí Minh Sở KHCN",
+    "predicate": "locatedIn",
+    "object": "2347/GCNSKHCN"
+  },
+  {
+    "subject": "Hội đồng nghiệm thu",
+    "predicate": "foundedBy",
+    "object": "10/QĐSKHCN"
+  },
+  {
+    "subject": "Hội đồng nghiệm thu",
+    "predicate": "bornIn",
+    "object": "17/01/2015"
+  },
+  {
+    "subject": "Nhiệm vụ Khoa học và công nghệ",
+    "predicate": "hasGender",
+    "object": "Khá"
+  },
+  {
+    "subject": "Giấy chứng nhận đăng ký kết quả thực hiện nhiệm vụ khoa học và công nghệ sử dụng ngân sách nhà nước",
+    "predicate": "locatedIn",
+    "object": "2020-996"
+  },
+  {
+    "subject": "Ứng dụng kỹ thuật ghép tim từ người cho đa tạng chết não tại bệnh viện Chợ Rẫy",
+    "predicate": "hasOccupation",
+    "object": "Sở Khoa học công nghệ Tp HCM"
+  },
+  {
+    "subject": "Hội đồng nghiệm thu",
+    "predicate": "foundedBy",
+    "object": "QĐ"
+  },
+  {
+    "subject": "QĐ",
+    "predicate": "locatedIn",
+    "object": "885/QĐ SKHCN"
+  },
+  {
+    "subject": "Giấy chứng nhận",
+    "predicate": "memberOf",
+    "object": "đề tài khoa học và công nghệ cấp Bộ"
+  },
+  {
+    "subject": "Giấy chứng nhận",
+    "predicate": "memberOf",
+    "object": "Đề tài cấp Bộ"
+  },
+  {
+    "subject": "đề tài",
+    "predicate": "locatedIn",
+    "object": "Nghiên cứu ứng dụng đo phân suất dự trữ lưu lượng mạch vành"
+  },
+  {
+    "subject": "đề tài",
+    "predicate": "memberOf",
+    "object": "Bộ Y Tế"
+  },
+  {
+    "subject": "đề tài",
+    "predicate": "memberOf",
+    "object": "Cục KHvà CN"
+  },
+  {
+    "subject": "đề tài",
+    "predicate": "locatedIn",
+    "object": "54/CN-K2ĐT"
+  },
+  {
+    "subject": "Quyết định",
+    "predicate": "locatedIn",
+    "object": "BT BYT"
+  },
+  {
+    "subject": "Quyết định",
+    "predicate": "locatedIn",
+    "object": "3959/QĐ-BYT"
+  },
+  {
+    "subject": "Nghiệm thu đề tài",
+    "predicate": "foundedBy",
+    "object": "Bộ"
+  },
+  {
+    "subject": "Nghiệm thu đề tài",
+    "predicate": "foundedBy",
+    "object": "quyết định số 2618/QĐ-BYT"
+  },
+  {
+    "subject": "kết quả",
+    "predicate": "locatedIn",
+    "object": "Xuất sắc"
+  },
+  {
+    "subject": "Cục Khoa học công nghệ và đào tạo",
+    "predicate": "memberOf",
+    "object": "hoàn thành và nghiệm thu"
+  },
+  {
+    "subject": "nghiên cứu",
+    "predicate": "locatedIn",
+    "object": "Stent phủ thuốc Sirolimus"
+  },
+  {
+    "subject": "Bộ Y Tế",
+    "predicate": "memberOf",
+    "object": "Cục Khoa hoc công nghệ và đào tạo"
+  },
+  {
+    "subject": "nghiên cứu viên chính",
+    "predicate": "locatedIn",
+    "object": "12/CNK2ĐT"
+  },
+  {
+    "subject": "Nghiên cứu",
+    "predicate": "locatedIn",
+    "object": "Nghiên cứu ứng dụng bóng nong phủ thuốc Paclitaxel"
+  },
+  {
+    "subject": "dự án",
+    "predicate": "locatedIn",
+    "object": "CNC.01.DAPT/13"
+  },
+  {
+    "subject": "Giai đoạn",
+    "predicate": "bornIn",
+    "object": "Đánh giá độ an toàn và hiệu quả"
+  },
+  {
+    "subject": "thiết bị",
+    "predicate": "locatedIn",
+    "object": "thiết bị y tế"
+  },
+  {
+    "subject": "nghiên cứu viên chính",
+    "predicate": "locatedIn",
+    "object": "Bộ Y Tế"
+  },
+  {
+    "subject": "nghiên cứu viên chính",
+    "predicate": "memberOf",
+    "object": "Cục khoa học công nghệ và đào tạo"
+  },
+  {
+    "subject": "Nghiên cứu",
+    "predicate": "locatedIn",
+    "object": "16/CN-K2ĐT"
+  },
+  {
+    "subject": "kết quả",
+    "predicate": "locatedIn",
+    "object": "Đạt"
+  },
+  {
+    "subject": "Cục Khoa học công nghệ và Đào tạo",
+    "predicate": "memberOf",
+    "object": "hoàn thành và nghiệm thu"
+  },
+  {
+    "subject": "nghiên cứu",
+    "predicate": "locatedIn",
+    "object": "Bóng nong không phủ thuốc"
+  },
+  {
+    "subject": "Nghiên cứu",
+    "predicate": "locatedIn",
+    "object": "Nghiên cứu ứng dụng Stent không phủ thuốc"
+  },
+  {
+    "subject": "Nghiên cứu",
+    "predicate": "locatedIn",
+    "object": "Stent phủ thuốc Sirolimus"
+  },
+  {
+    "subject": "nghiên cứu viên chính",
+    "predicate": "locatedIn",
+    "object": "07/CN-K2ĐT"
+  },
+  {
+    "subject": "Mã số",
+    "predicate": "locatedIn",
+    "object": "KC.10.38/11-15"
+  },
+  {
+    "subject": "Tên đề tài",
+    "predicate": "locatedIn",
+    "object": "Nghiên cứu qui trình kỹ thuật can thiệp nội mạch"
+  },
+  {
+    "subject": "Tên đề tài nhánh",
+    "predicate": "memberOf",
+    "object": "chương trình KHCN trọng điểm cấp nhà nước"
+  },
+  {
+    "subject": "Chương trình",
+    "predicate": "locatedIn",
+    "object": "Nghiên cứu ứng dụng và phát triển công nghệ tiên tiến"
+  },
+  {
+    "subject": "chương trình",
+    "predicate": "locatedIn",
+    "object": "KC.10/11-15"
+  },
+  {
+    "subject": "Bộ Y tế",
+    "predicate": "memberOf",
+    "object": "Bệnh viện Chợ Rẫy"
+  },
+  {
+    "subject": "Đề tài nhánh",
+    "predicate": "memberOf",
+    "object": "chương trình KHCN trọng điểm cấp nhà nước"
+  },
+  {
+    "subject": "Mã đề tài",
+    "predicate": "locatedIn",
+    "object": "KC.10.38/1115"
+  },
+  {
+    "subject": "Nghiệm thu",
+    "predicate": "foundedBy",
+    "object": "quyết định số 1030/QĐBKHCN"
+  },
+  {
+    "subject": "2019-08T-1265/KQNC",
+    "predicate": "hasGender",
+    "object": "Số đăng ký"
+  },
+  {
+    "subject": "Nghiên cứu phát triển và làm chủ qui trình công nghệ sản xuất bóng nong mạch và stent phủ thuốc bằng công nghệ nano",
+    "predicate": "hasGender",
+    "object": "Tên nhiệm vụ"
+  },
+  {
+    "subject": "CNC.01.DAPT/13",
+    "predicate": "hasGender",
+    "object": "mã số nhiệm vụ"
+  },
+  {
+    "subject": "Nghiên cứu phát triển và làm chủ qui trình công nghệ sản xuất bóng nong mạch và stent phủ thuốc bằng công nghệ nano",
+    "predicate": "memberOf",
+    "object": "Chương trình nghiên cứu, đào tạo và xây dựng hạ tầng kỹ thuật công nghệ cao"
+  },
+  {
+    "subject": "Chương trình nghiên cứu, đào tạo và hạ tầng kỹ thuật công nghệ cao",
+    "predicate": "memberOf",
+    "object": "Chương trình nghiên cứu, đào tạo và hạ tầng kỹ thuật công nghệ cao"
+  },
+  {
+    "subject": "Hội đồng đánh giá nghiệm thu",
+    "predicate": "foundedBy",
+    "object": "quyết định số 3502/QĐBKHCN"
+  },
+  {
+    "subject": "quyết định số 3502/QĐBKHCN",
+    "predicate": "bornIn",
+    "object": "22/11/2019"
+  },
+  {
+    "subject": "Kết quả",
+    "predicate": "locatedIn",
+    "object": "Đạt"
+  },
+  {
+    "subject": "bài báo khoa học",
+    "predicate": "worksAt",
+    "object": "ISI, Scopus (IF, Qi)"
+  },
+  {
+    "subject": "A clinicalangiographic risk scoring system for coronary artery anomalies",
+    "predicate": "worksAt",
+    "object": "Asian Cardiovasc ular and Thoracic Annals"
+  },
+  {
+    "subject": "Asian Cardiovasc ular and Thoracic Annals",
+    "predicate": "locatedIn",
+    "object": "02184923"
+  },
+  {
+    "subject": "Asian Cardiovasc ular and Thoracic Annals",
+    "predicate": "locatedIn",
+    "object": "18165370"
+  },
+  {
+    "subject": "Asian Cardiovasc ular and Thoracic Annals",
+    "predicate": "locatedIn",
+    "object": "0,271"
+  },
+  {
+    "subject": "Vol 20 Issue 3",
+    "predicate": "worksAt",
+    "object": "Asian Cardiovasc ular and Thoracic Annals"
+  },
+  {
+    "subject": "Trang 299-303",
+    "predicate": "worksAt",
+    "object": "Asian Cardiovasc ular and Thoracic Annals"
+  },
+  {
+    "subject": "Khảo sát hiệu quả và biến chứng của nong van hai lá bằng bóng Inoue tại bệnh viện Chợ Rẫy",
+    "predicate": "worksAt",
+    "object": "Tạp chí Y học Thành phố Hồ Chí Minh"
+  },
+  {
+    "subject": "Tạp chí Y học Thành phố Hồ Chí Minh",
+    "predicate": "locatedIn",
+    "object": "18591779"
+  },
+  {
+    "subject": "Tạp chí Y học Thành phố Hồ Chí Minh",
+    "predicate": "locatedIn",
+    "object": "Y học TPHCM"
+  },
+  {
+    "subject": "Lấy dị vật trong buồng tim và các mạch máu lớn bằng dụng cụ qua da",
+    "predicate": "worksAt",
+    "object": "Tạp chí Nội khoa"
+  },
+  {
+    "subject": "Tạp chí Nội khoa",
+    "predicate": "locatedIn",
+    "object": "18591884"
+  },
+  {
+    "subject": "Hội nghị Tim mạch miền trung",
+    "predicate": "locatedIn",
+    "object": "Phụ trương đặc biệt"
+  },
+  {
+    "subject": "Trang 960-966",
+    "predicate": "worksAt",
+    "object": "Hội nghị Tim mạch miền trung"
+  },
+  {
+    "subject": "Tạp chí Y học Thành phố Hồ Chí Minh",
+    "predicate": "locatedIn",
+    "object": "18591779"
+  },
+  {
+    "subject": "Tạp chí Nội khoa",
+    "predicate": "locatedIn",
+    "object": "18591884"
+  },
+  {
+    "subject": "Journal of Intervention al Cardiology",
+    "predicate": "locatedIn",
+    "object": "0896-4327"
+  },
+  {
+    "subject": "Journal of Intervention al Cardiology",
+    "predicate": "locatedIn",
+    "object": "1540-8183"
+  },
+  {
+    "subject": "Congential Heart Disease",
+    "predicate": "locatedIn",
+    "object": "1747079X"
+  },
+  {
+    "subject": "Congential Heart Disease",
+    "predicate": "locatedIn",
+    "object": "1747-0803"
+  },
+  {
+    "subject": "Journal of Intervention al Cardiology",
+    "predicate": "locatedIn",
+    "object": "1.318"
+  },
+  {
+    "subject": "Journal of Intervention al Cardiology",
+    "predicate": "locatedIn",
+    "object": "26"
+  },
+  {
+    "subject": "Journal of Intervention al Cardiology",
+    "predicate": "locatedIn",
+    "object": "4"
+  },
+  {
+    "subject": "Journal of Intervention al Cardiology",
+    "predicate": "hasGender",
+    "object": "2013"
+  },
+  {
+    "subject": "Journal of Intervention al Cardiology",
+    "predicate": "locatedIn",
+    "object": "0896-4327"
+  },
+  {
+    "subject": "Journal of Intervention al Cardiology",
+    "predicate": "locatedIn",
+    "object": "1540-8183"
+  },
+  {
+    "subject": "Journal of Intervention al Cardiology",
+    "predicate": "locatedIn",
+    "object": "26"
+  },
+  {
+    "subject": "Journal of Intervention al Cardiology",
+    "predicate": "locatedIn",
+    "object": "4"
+  },
+  {
+    "subject": "Expert Review of Medical Devices",
+    "predicate": "locatedIn",
+    "object": "1743-4440"
+  },
+  {
+    "subject": "Expert Review of Medical Devices",
+    "predicate": "locatedIn",
+    "object": "1745-2422"
+  },
+  {
+    "subject": "Expert Review of Medical Devices",
+    "predicate": "locatedIn",
+    "object": "2.212"
+  },
+  {
+    "subject": "Expert Review of Medical Devices",
+    "predicate": "locatedIn",
+    "object": "15"
+  },
+  {
+    "subject": "Expert Review of Medical Devices",
+    "predicate": "locatedIn",
+    "object": "10"
+  },
+  {
+    "subject": "Clinical Radiology",
+    "predicate": "locatedIn",
+    "object": "00099260"
+  },
+  {
+    "subject": "Clinical Radiology",
+    "predicate": "locatedIn",
+    "object": "1365-229X"
+  },
+  {
+    "subject": "Clinical Radiology",
+    "predicate": "locatedIn",
+    "object": "2.00"
+  },
+  {
+    "subject": "Clinical Radiology",
+    "predicate": "locatedIn",
+    "object": "74"
+  },
+  {
+    "subject": "Clinical Radiology",
+    "predicate": "locatedIn",
+    "object": "9"
+  },
+  {
+    "subject": "European Journal of Internal Medicine",
+    "predicate": "locatedIn",
+    "object": "4.487"
+  },
+  {
+    "subject": "European Journal of Internal Medicine",
+    "predicate": "locatedIn",
+    "object": "74"
+  },
+  {
+    "subject": "European Journal of Internal Medicine",
+    "predicate": "locatedIn",
+    "object": "09536205"
+  },
+  {
+    "subject": "European Journal of Internal Medicine",
+    "predicate": "locatedIn",
+    "object": "1879-0828"
+  },
+  {
+    "subject": "Epub",
+    "predicate": "hasGender",
+    "object": "2020 Nov 16"
+  },
+  {
+    "subject": "Internationa l Journal of Cardiovasc ular Imaging",
+    "predicate": "locatedIn",
+    "object": "15695794"
+  },
+  {
+    "subject": "Internationa l Journal of Cardiovasc ular Imaging",
+    "predicate": "locatedIn",
+    "object": "2.00"
+  },
+  {
+    "subject": "Internationa l Journal of Cardiovasc ular Imaging",
+    "predicate": "locatedIn",
+    "object": "37"
+  },
+  {
+    "subject": "Internationa l Journal of Cardiovasc ular Imaging",
+    "predicate": "locatedIn",
+    "object": "04"
+  },
+  {
+    "subject": "Vietnamese nurse",
+    "predicate": "hasOccupation",
+    "object": "patient’s safety"
+  },
+  {
+    "subject": "Assessment",
+    "predicate": "locatedIn",
+    "object": "coronary angiography"
+  },
+  {
+    "subject": "Assessment",
+    "predicate": "locatedIn",
+    "object": "percutaneous coronary intervention"
+  },
+  {
+    "subject": "MedPharmResJournalofUniversityofMedicineandPharmacyatHoChiMinhCity",
+    "predicate": "locatedIn",
+    "object": "26159139"
+  },
+  {
+    "subject": "MedPharmResJournalofUniversityofMedicineandPharmacyatHoChiMinhCity",
+    "predicate": "locatedIn",
+    "object": "18591779"
+  },
+  {
+    "subject": "Tạp chí ACI",
+    "predicate": "locatedIn",
+    "object": "AseanCitationIndex"
+  },
+  {
+    "subject": "Tạp chí ACI",
+    "predicate": "locatedIn",
+    "object": "6"
+  },
+  {
+    "subject": "Tạp chí ACI",
+    "predicate": "locatedIn",
+    "object": "1"
+  },
+  {
+    "subject": "Interventional Cardiology",
+    "predicate": "locatedIn",
+    "object": "17555302"
+  },
+  {
+    "subject": "Interventional Cardiology",
+    "predicate": "locatedIn",
+    "object": "1.776"
+  },
+  {
+    "subject": "Interventional Cardiology",
+    "predicate": "locatedIn",
+    "object": "14"
+  },
+  {
+    "subject": "Interventional Cardiology",
+    "predicate": "locatedIn",
+    "object": "4"
+  },
+  {
+    "subject": "BiomedicalResearchandTherapy",
+    "predicate": "locatedIn",
+    "object": "21984093"
+  },
+  {
+    "subject": "BiomedicalResearchandTherapy",
+    "predicate": "locatedIn",
+    "object": "0.151"
+  },
+  {
+    "subject": "BiomedicalResearchandTherapy",
+    "predicate": "locatedIn",
+    "object": "9"
+  },
+  {
+    "subject": "BiomedicalResearchandTherapy",
+    "predicate": "locatedIn",
+    "object": "7"
+  },
+  {
+    "subject": "Journal Cardiovascular and Thoracic Research",
+    "predicate": "locatedIn",
+    "object": "20085117"
+  },
+  {
+    "subject": "Journal Cardiovascular and Thoracic Research",
+    "predicate": "locatedIn",
+    "object": "2008-6830"
+  },
+  {
+    "subject": "Journal Cardiovascular and Thoracic Research",
+    "predicate": "locatedIn",
+    "object": "0.221"
+  },
+  {
+    "subject": "Journal Cardiovascular and Thoracic Research",
+    "predicate": "locatedIn",
+    "object": "15"
+  },
+  {
+    "subject": "Journal Cardiovascular and Thoracic Research",
+    "predicate": "locatedIn",
+    "object": "1"
+  },
+  {
+    "subject": "Medicine",
+    "predicate": "locatedIn",
+    "object": "00257974"
+  },
+  {
+    "subject": "Medicine",
+    "predicate": "locatedIn",
+    "object": "1536-5964"
+  },
+  {
+    "subject": "Medicine",
+    "predicate": "locatedIn",
+    "object": "1.6"
+  },
+  {
+    "subject": "Medicine",
+    "predicate": "locatedIn",
+    "object": "102"
+  },
+  {
+    "subject": "Medicine",
+    "predicate": "locatedIn",
+    "object": "45"
+  },
+  {
+    "subject": "Frontiers in Cardiovascular Medicine",
+    "predicate": "locatedIn",
+    "object": "2297055X"
+  },
+  {
+    "subject": "Frontiers in Cardiovascular Medicine",
+    "predicate": "locatedIn",
+    "object": "3.6"
+  },
+  {
+    "subject": "Frontiers in Cardiovascular Medicine",
+    "predicate": "locatedIn",
+    "object": "11"
+  },
+  {
+    "subject": "BiomedicalResearchandTherapy",
+    "predicate": "locatedIn",
+    "object": "0.8"
+  },
+  {
+    "subject": "BiomedicalResearchandTherapy",
+    "predicate": "locatedIn",
+    "object": "11"
+  },
+  {
+    "subject": "BiomedicalResearchandTherapy",
+    "predicate": "locatedIn",
+    "object": "5"
+  },
+  {
+    "subject": "Y học TPHCM",
+    "predicate": "locatedIn",
+    "object": "18591779"
+  },
+  {
+    "subject": "Y học TPHCM",
+    "predicate": "locatedIn",
+    "object": "17"
+  },
+  {
+    "subject": "Y học THCM",
+    "predicate": "locatedIn",
+    "object": "18591779"
+  },
+  {
+    "subject": "Y học THCM",
+    "predicate": "locatedIn",
+    "object": "17"
+  },
+  {
+    "subject": "Tạp chí Y học Việt Nam",
+    "predicate": "locatedIn",
+    "object": "1859-1868"
+  },
+  {
+    "subject": "Tạp chí Y học Việt Nam",
+    "predicate": "locatedIn",
+    "object": "491"
+  },
+  {
+    "subject": "Tạp chí Y học Việt Nam",
+    "predicate": "locatedIn",
+    "object": "18591868"
+  },
+  {
+    "subject": "Tạp chí Y học Việt Nam",
+    "predicate": "locatedIn",
+    "object": "534"
+  },
+  {
+    "subject": "Tạp chí Y học Việt Nam",
+    "predicate": "locatedIn",
+    "object": "536"
+  }
+]

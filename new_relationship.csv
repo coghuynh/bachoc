@@ -1,0 +1,10 @@
+,Type,Definition
+0,worksAt,Indicates the organization or company where a person works.
+1,bornIn,Specifies the place or country where a person was born.
+2,studiedAt,Denotes the university or institution where a person studied.
+3,livesIn,Specifies the location or city where a person currently lives.
+4,hasGender,Defines the gender associated with a person entity.
+5,hasOccupation,Links a person to their occupation or professional role.
+6,foundedBy,Indicates that an organization or institution was founded by a person.
+7,locatedIn,Relates a place or organization to a larger geographic entity.
+8,memberOf,Represents membership of a person within a group or organization.
