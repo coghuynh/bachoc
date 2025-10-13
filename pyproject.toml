@@ -1,26 +1,30 @@
 [build-system]
-requires = ["setuptools>=62"]
+requires = ["setuptools>=69", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "convert-pdf-to-text"
-version = "0.1.0"
-description = "Clean Vietnamese academic-profile PDFs and extract structured data via OpenAI."
+name = "KG_builder"
+version = "0.1.0"       
+description = "Build KG"
 readme = "README.md"
 requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{ name="Nguyen Cong Huynh", email="hnc203204@gmail.com" }]
 dependencies = [
-    "pymupdf>=1.26,<2.0",
-    "python-dotenv>=1.0",
+  "requests>=2.32",
 ]
-keywords = ["pdf", "openai", "extraction", "vietnamese"]
+
 
 [project.optional-dependencies]
-validation = [
-    "jsonschema>=4.25",
-]
+dev = ["pytest", "ruff", "mypy"]
+
 
 [project.scripts]
-convert-pdf = "convert_pdf_to_text.cli:main"
+your-cli = "your_package.cli:main"
+
 
 [tool.setuptools.packages.find]
-include = ["convert_pdf_to_text*"]
+where = ["src"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}

@@ -1,0 +1,10 @@
+Type,Definition
+PERSON,An individual human being identifiable by name or attributes.
+ORGANIZATION,A structured group of people or institution such as a company or NGO.
+DATE,A specific point or period in time expressed in date format.
+TEXT,Generic text or phrase that carries unstructured semantic meaning.
+GENDER_TYPE,"Classification of a person’s gender such as Male, Female, or Other."
+OCCUPATION,"A person’s job, profession, or role within an organization."
+PLACE,"A geographic area, location, or named place."
+COUNTRY,A recognized nation or state with a defined territory and government.
+UNIVERSITY,An academic institution providing higher education and research.
