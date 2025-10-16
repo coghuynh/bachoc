@@ -3,9 +3,14 @@ from typing import List, Any, Dict, Tuple
 
 import logging
 import json
-
+import os
+from dotenv import load_dotenv
+from KG_builder.utils.llm_utils import CostModel
+from KG_builder.utils.clean_data import clean_vn_text
+import pandas as pd
 import google.genai
 
+load_dotenv()
 
 def corpuses(text: str) -> List[str]:
     sentences = text.split("\n")
@@ -57,12 +62,7 @@ def extract_entities(text: str, schema: str) -> List[Any]:
     Text:
     \"\"\"{{context}}\"\"\"
     """
-    
-    import os
-    
-    from dotenv import load_dotenv
-    
-    load_dotenv()
+
     # print(text)
     
     config = [
@@ -87,9 +87,7 @@ def extract_entities(text: str, schema: str) -> List[Any]:
         
     ]
     i: int = 0
-    from KG_builder.utils.llm_utils import CostModel
-    
-    
+
     response: str = ""
     while i < len(config):
         try:    
@@ -116,8 +114,6 @@ def extract_entities(text: str, schema: str) -> List[Any]:
     return res
     
 def read_csv(path: str) -> Tuple[str, Dict[str, str]]:
-    import pandas as pd
-    
     entities = pd.read_csv(path)
     
     ret = ""
@@ -138,7 +134,6 @@ if __name__ == "__main__":
     
     text = open(DATA_PATH, "r").read()
     # print(text)
-    from KG_builder.utils.clean_data import clean_vn_text
     concated_senteces = corpuses(clean_vn_text(text))
     
     prompt_type, entities =  read_csv("/Users/huynhnguyen/WorkDir/bachoc_1/entities.csv")

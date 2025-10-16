@@ -1,17 +1,19 @@
-
 import logging
-from typing import Dict, List, Set
+from typing import Dict, List
+from KG_builder.utils.clean_data import read_schema, chunk_corpus, write_schema
+from KG_builder.utils.embedding_utils import EmbeddingModel, consine_similarity
+from KG_builder.extract.extract_triples import extract_triples
+from KG_builder.extract.definition import collect_predicate_definition
+from dotenv import load_dotenv
+
+load_dotenv()
 
 class KG_builder:
     
     def __init__(self, **args):
-        from KG_builder.utils.clean_data import read_schema
         self.entities_schema = read_schema(args["enities_schema"])
         self.relations_schema = read_schema(args["relation_schema"])
-        from KG_builder.utils.embedding_utils import EmbeddingModel
-        from dotenv import load_dotenv
-        
-        load_dotenv()
+    
         embed_config = {
             "model_name" : "gemini-embedding-001"
         }
@@ -62,7 +64,6 @@ class KG_builder:
             return entity_type
         mxCor = 0.0
         new_type = ""
-        from KG_builder.utils.embedding_utils import consine_similarity
         for type_name, embed in self.entities_embed_schema.items():
             correlation = consine_similarity(entity_embed, embed) 
             if correlation > mxCor:
@@ -96,7 +97,6 @@ class KG_builder:
             return relation_type
         mxCor = 0.0
         new_type = ""
-        from KG_builder.utils.embedding_utils import consine_similarity
         for type_name, embed in self.relations_embed_schema.items():
             correlation = consine_similarity(relation_embed, embed) 
             if correlation > mxCor:
@@ -112,8 +112,6 @@ class KG_builder:
             
     
     def run(self, context: str, chunk_config=None):
-        from KG_builder.extract.extract_triples import extract_triples
-        from KG_builder.utils.clean_data import chunk_corpus
         self.preprocess_embed()
 
         if not context or not context.strip():
@@ -174,7 +172,6 @@ class KG_builder:
         if not set_relation_type:
             return result
 
-        from KG_builder.extract.definition import collect_predicate_definition
         new_predicate_definition = collect_predicate_definition(
             set_relation_type
         )
@@ -191,8 +188,6 @@ class KG_builder:
         return result
     
     def write_schema(self, path):
-        from KG_builder.utils.clean_data import write_schema
-        
         write_schema(self.relations_schema, path)
     
     

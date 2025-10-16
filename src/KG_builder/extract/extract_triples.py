@@ -1,18 +1,18 @@
-
-
-
 from typing import List, Dict
 import logging
+from KG_builder.utils.llm_utils import CostModel, FreeModel
+from dotenv import load_dotenv
+import os
+import json
 
+load_dotenv()
 
 def extract_triples(context: str) -> List[Dict[str, str]]:
-    from KG_builder.utils.llm_utils import CostModel
-    from dotenv import load_dotenv
-    import os
-    load_dotenv()
+
     llm_configs = {
-        "model_name" : "gemini-2.0-flash",
-        "API_KEY" : os.environ["OPENAI"],
+        # "model_name" : "gemini-2.0-flash",
+        # "API_KEY" : os.environ["OPENAI"],
+        "model_name" : "Qwen/Qwen2.5-0.5B-Instruct",
         "system_prompt" : f"""
             You are an expert information extraction system used to build knowledge graphs.
             Your task is to read a piece of text and extract all meaningful relationships in the form of triples:
@@ -46,7 +46,8 @@ def extract_triples(context: str) -> List[Dict[str, str]]:
         """
     }
     
-    llm = CostModel(**llm_configs)
+    # llm = CostModel(**llm_configs)
+    llm = FreeModel(**llm_configs)
     
     idx: int = 0
     
@@ -54,8 +55,7 @@ def extract_triples(context: str) -> List[Dict[str, str]]:
         try:
             response = llm.chat(context, json_return=True)
         
-            import json
-            
+            print(response)
             res = json.loads(response)
             break
         except Exception as e:

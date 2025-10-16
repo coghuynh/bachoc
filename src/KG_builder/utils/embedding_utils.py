@@ -1,8 +1,10 @@
-
 from typing import List, Callable
+from dotenv import load_dotenv
+from google import genai
 
+load_dotenv()
 
-def consine_similarity(a, b):
+def cosine_similarity(a, b):
     import numpy as np
 
     a = np.array(a)
@@ -26,7 +28,6 @@ class EmbeddingModel:
     
     def __init__(self, **args):
         self.model_name = args["model_name"]
-        from google import genai
         self.model = genai.Client()
         
     def encode(self, context: List[str]):
@@ -68,12 +69,9 @@ if __name__ == "__main__":
     embed_config = {
         "model_name" : "gemini-embedding-001"
     }
-    from dotenv import load_dotenv
-    
-    load_dotenv()
     
     embed_model = EmbeddingModel(**embed_config)
     
     print(embed_model.similarity(
-        t_1, t_2, consine_similarity
+        t_1, t_2, cosine_similarity
     ))

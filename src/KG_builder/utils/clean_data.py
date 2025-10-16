@@ -1,6 +1,7 @@
-
 from typing import Tuple, Dict, List
 import re
+import json
+import pandas as pd
 
 def clean_vn_text(text: str) -> str:
     # Chuẩn hóa xuống dòng
@@ -23,7 +24,6 @@ def clean_vn_text(text: str) -> str:
 
     # 4) Tạm “gắn thẻ” list/bullet để không bị gộp sai
     def tag_bullets(line):
-        import re
         if re.match(r"\s*[-•]\s+", line):
             return "<KEEP_LI>" + re.sub(r"^\s*", "", line)
         if re.match(r"\s*\d+\.\s+", line):            # 1. 2. 3.
@@ -178,8 +178,6 @@ def chunk_corpus(
 
 
 def write_schema(schema: Dict[str, str], path: str):
-    import pandas as pd
-    
     df_schema = pd.DataFrame({
         "Type" : [key for key, value in schema.items()],
         "Definition" : [value for key, value in schema.items()]
@@ -189,8 +187,6 @@ def write_schema(schema: Dict[str, str], path: str):
     
 
 def read_schema(path: str) -> Tuple[str, Dict[str, str]]:
-    import pandas as pd
-    
     entities = pd.read_csv(path)
     
     ret = ""
@@ -206,8 +202,7 @@ def read_schema(path: str) -> Tuple[str, Dict[str, str]]:
 
 
 def read_json(path: str) -> List[Dict[str, str]]:
-    import json
-    with open(path, "r") as f:
+    with open(path, "r", encoding="utf-8") as f:
         data = json.load(f)
         
     if isinstance(data, dict):
@@ -218,3 +213,12 @@ def read_json(path: str) -> List[Dict[str, str]]:
     data = [{k: str(v) for k, v in d.items()} for d in data if isinstance(d, dict)]
     
     return data
+
+def clean_json_string(s: str) -> str:
+    if not isinstance(s, str):
+        return ""
+    # Xóa dấu phẩy thừa
+    s = re.sub(r',(\s*[}\]])', r'\1', s)
+    # Sửa lỗi thiếu dấu phẩy giữa các cặp key-value
+    s = re.sub(r'"\s*([\w_]+)"\s*"', r'", "\1"', s)
+    return s.strip()

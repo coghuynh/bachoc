@@ -1,17 +1,19 @@
-
 from KG_builder.utils.clean_data import read_schema, read_json
 from typing import Set, Dict, List
 import logging
+from KG_builder.utils.clean_data import clean_json_string
+import os
+from dotenv import load_dotenv
+from KG_builder.utils.llm_utils import CostModel, FreeModel
+import pandas as pd
+    
+load_dotenv()
+
 
 def collect_definition(unseen: Set[str]) -> List[Dict[str, str]]:
-    import os
-    from dotenv import load_dotenv
-    load_dotenv()
-    from KG_builder.utils.llm_utils import CostModel
-    
     chat_config = {
-        "model_name" : "gemini-2.0-flash",
-        "API_KEY" : os.environ["OPENAI"],
+        "model_name" : "Qwen/Qwen2.5-0.5B-Instruct",
+        # "API_KEY": os.environ["OPENAI"],
         "system_prompt" : """
             You are an ontology and schema construction assistant for a Knowledge Graph (KG).
             Your task is to provide precise, academic-style definitions for entity *types* used in
@@ -41,20 +43,22 @@ def collect_definition(unseen: Set[str]) -> List[Dict[str, str]]:
             Unseen entity types:
             {context}
 
-            Return output strictly as a JSON array of objects with the fields:
+            You **MUST** return output strictly as a JSON array of objects with the fields:
             - "type"
             - "definition"
             """
     }
     
     try:
-        llm = CostModel(**chat_config)
+        # llm = CostModel(**chat_config)
+        # result = llm.chat(str(unseen), True)
+        llm = FreeModel(**chat_config)
         result = llm.chat(str(unseen), True)
     except Exception as e:
         logging.exception(f"Message: {e}")
-    # print(str(unseen))
     try:
         import json
+        result = clean_json_string(result)
         result = json.loads(result)
     except Exception as e:
         logging.exception(f"Message: {e}")
@@ -67,14 +71,10 @@ def collect_predicate_definition(unseen: Set[str]) -> List[Dict[str, str]]:
     Similar to collect_definition() but for relation/predicate types.
     Generates short, ontology-style definitions for predicates used in a Knowledge Graph.
     """
-    import os
-    from dotenv import load_dotenv
-    load_dotenv()
-    from KG_builder.utils.llm_utils import CostModel
 
     chat_config = {
         "model_name": "gemini-2.5-flash",
-        "API_KEY": os.environ["OPENAI"],
+        # "API_KEY": os.environ["OPENAI"],
         "system_prompt": """
             You are an ontology and schema construction assistant for a Knowledge Graph (KG).
             Your task is to provide precise, academic-style definitions for **relation/predicate types**
@@ -124,8 +124,8 @@ def collect_predicate_definition(unseen: Set[str]) -> List[Dict[str, str]]:
     
 
 if __name__ == "__main__":
-    schema_str, schema = read_schema("/Users/huynhnguyen/WorkDir/bachoc_1/entities.csv")
-    result = read_json("/Users/huynhnguyen/WorkDir/bachoc_1/new_sample_entities.json")
+    schema = read_schema("D:/fico/DỰ_ÁN/new_entities.csv")
+    result = read_json("D:/fico/DỰ_ÁN/new_sample_entities.json")
     
     unseen = set()
     
@@ -141,8 +141,6 @@ if __name__ == "__main__":
         "Type" : [collect["type"] for collect in collection],
         "Definition" : [collect["definition"] for collect in collection]
     }
-    
-    import pandas as pd
     
     new_df = pd.DataFrame(new_entity_type)
     
