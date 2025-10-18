@@ -205,9 +205,15 @@ if __name__ == "__main__":
     
     builder = KG_builder(**args)
     
-    print(builder.run(text))
+    chunks_config = {
+        "max_chunk_chars": 4800,
+        "min_chunk_chars": 1200,
+        "sentence_overlap": 1
+    }
     
-    builder.write_schema("new_relationship.csv")
+    print(builder.run(text, chunks_config))
+    
+    builder.write_schema("new_relationship_v1.1.csv")
         
         
             

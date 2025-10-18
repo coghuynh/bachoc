@@ -1,0 +1,36 @@
+,Type,Definition
+0,worksAt,Indicates the organization or company where a person works.
+1,bornIn,Specifies the place or country where a person was born.
+2,studiedAt,Denotes the university or institution where a person studied.
+3,livesIn,Specifies the location or city where a person currently lives.
+4,hasGender,Defines the gender associated with a person entity.
+5,hasOccupation,Links a person to their occupation or professional role.
+6,foundedBy,Indicates that an organization or institution was founded by a person.
+7,locatedIn,Relates a place or organization to a larger geographic entity.
+8,memberOf,Represents membership of a person within a group or organization.
+9,is related to,"Establishes a general, unspecified connection or association between two entities."
+10,has,"Connects an entity to an attribute, component, or possessed item."
+11,hướng dẫn,Indicates that one entity provides guidance or instruction to another.
+12,đến,"Connects an action or entity to its target, destination, or recipient."
+13,page,Indicates the numerical or ordinal position of content within a document.
+14,graduated from,Connects an individual to an educational institution from which they received a degree or certification.
+15,có mã,Connects an entity to its unique identifier or code.
+16,ứng dụng,"Establishes that one entity serves as an application of another, or that an entity utilizes a specific application."
+17,in,"Establishes that an entity is contained within, or is a member of, another entity."
+18,công bố,Connects an entity to the content or information that it makes publicly available.
+19,cấp bởi,Connects an item or document to the entity responsible for its issuance.
+20,sản xuất tại,Connects a product to its place of manufacture or origin.
+21,is a,Indicates a taxonomic relationship where one entity is a specific type or instance of another.
+22,tương đương,"Establishes that two entities are considered equal or comparable in value, function, or meaning."
+23,bảo vệ thành công,Connects an individual to an academic work that they successfully presented and defended.
+24,issue,Indicates the specific serial publication number or edition within a series.
+25,đánh giá,Connects an entity to the subject or object of its assessment or review.
+26,theo quyết định,Indicates that an action or status is determined or mandated by a specific decision or ruling.
+27,là tác giả chính,Designates an individual as the principal or primary author of a specific work.
+28,is,"Establishes a general statement of identity, classification, or attribute assignment."
+29,ngày cấp,"Specifies the particular date on which an item, document, or certification was issued."
+30,is of type,Classifies an entity by associating it with its designated type or category.
+31,year,"Specifies the calendar year associated with an event, publication, or date."
+32,chứng nhận,Connects an entity to the act of formal verification or to a document confirming a status or qualification.
+33,Nghiên cứu,Connects an entity to the specific subject or area of its scientific or academic inquiry.
+34,phát triển,Connects an entity to something it creates or improves through a systematic process.

@@ -19,13 +19,19 @@ if __name__ == "__main__":
     
     # print(corpus)
     
+    chunks_config = {
+        "max_chunk_chars": 4800,
+        "min_chunk_chars": 1200,
+        "sentence_overlap": 1
+    }
+    
     builder = KG_builder(**args)
     
     # print(
-    new_triples = builder.run(corpus)
-    builder.write_schema("new_relationship.csv")
+    new_triples = builder.run(corpus, chunks_config)
+    builder.write_schema("new_relationship_v1.0.csv")
     import json
     
-    with open("new_triples.json", "w", encoding="utf-8") as f:
+    with open("new_triples_v1.0.json", "w", encoding="utf-8") as f:
         json.dump(new_triples, f, ensure_ascii=False, indent=2)
 
