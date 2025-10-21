@@ -1,8 +1,7 @@
 from typing import List, Callable
 from dotenv import load_dotenv
 from google import genai
-
-load_dotenv()
+from abc import ABC, abstractmethod
 
 def cosine_similarity(a, b):
     import numpy as np
@@ -24,14 +23,28 @@ def cosine_similarity(a, b):
     return float(np.dot(a, b) / (a_norm * b_norm))
     
 
-class EmbeddingModel:
+class EmbeddingModel(ABC):
     
     def __init__(self, **args):
         self.model_name = args["model_name"]
+        if args["similarity"].count("cosine"):
+            self.simfunc = cosine_similarity
+    
+    @abstractmethod
+    def encode(self, context: List[str]):
+        pass
+    
+    @abstractmethod
+    def similarity(self, definition_1: List[str], definition_2: List[str], similarity_func: Callable[[List[float], List[float]], float]):
+        pass
+    
+    
+class CostEmbeddingModel(EmbeddingModel):
+    def __init__(self, **args):
+        super().__init__(**args)
         self.model = genai.Client()
         
     def encode(self, context: List[str]):
-        idx: int = 10
         # while 
         resp = self.model.models.embed_content(
             model=self.model_name,
@@ -42,14 +55,14 @@ class EmbeddingModel:
         # print(emb)
         return emb
     
-    def similarity(self, definition_1: List[str], definition_2: List[str], similarity_func: Callable[[List[float], List[float]], float]):
+    def similarity(self, definition_1: List[str], definition_2: List[str]):
         first_defs = self.encode(definition_1)
         second_defs = self.encode(definition_2)
         
         # print(first_defs)
         
         ret = [
-            [similarity_func(emb_1, emb_2) for emb_2 in second_defs] for emb_1 in first_defs
+            [self.simfunc(emb_1, emb_2) for emb_2 in second_defs] for emb_1 in first_defs
         ]
         
         return ret

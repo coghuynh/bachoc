@@ -1,0 +1,46 @@
+,Type,Definition
+0,worksAt,Indicates the organization or company where a person works.
+1,bornIn,Specifies the place or country where a person was born.
+2,studiedAt,Denotes the university or institution where a person studied.
+3,livesIn,Specifies the location or city where a person currently lives.
+4,hasGender,Defines the gender associated with a person entity.
+5,hasOccupation,Links a person to their occupation or professional role.
+6,foundedBy,Indicates that an organization or institution was founded by a person.
+7,locatedIn,Relates a place or organization to a larger geographic entity.
+8,memberOf,Represents membership of a person within a group or organization.
+9,orbits Sun in,Describes a celestial body's path around the Sun.
+10,reported,Indicates the act of officially documenting or communicating information.
+11,in,Denotes location or inclusion within a specified context.
+12,began,Refers to the start or initiation of an event or process.
+13,arrived at,Indicates reaching a destination or achieving a specific point.
+14,deorbited on,Specifies the date when an object left its orbital path around another celestial body.
+15,landing date,Refers to the date on which a spacecraft or aircraft landed.
+16,was first to walk on,Refers to the initial person or entity to step on a particular surface or environment.
+17,launched on,Specifies the date when a vehicle or object was propelled into motion or space.
+18,is the third planet from,Indicates the position of an astronomical body in relation to the third celestial object from a reference point.
+19,supported by,Specifies the entity or system providing assistance or backing to another.
+20,concluded on,Refers to the date when an event or process was officially completed or terminated.
+21,formed about,Specifies the approximate time or circumstances when something came into existence.
+22,occurs every,"Indicates the frequency of an event, action, or phenomenon in relation to a specified time period."
+23,launched by,Specifies the entity or organization responsible for initiating the launch of a vehicle or object.
+24,arrival date,Refers to the date when an entity or object reaches a particular destination.
+25,landed on,Describes the action of coming down and touching the surface of a celestial body or terrain.
+26,is,Denotes the state of being or identity of an entity.
+27,piloted,"Describes the act of controlling or steering a vehicle, aircraft, or spacecraft."
+28,was a collaboration between,Indicates a joint effort or partnership involving multiple entities or individuals.
+29,had purpose,"Specifies the intended aim or objective behind an action, initiative, or creation."
+30,launched from,Specifies the point or location from which a vehicle or object was propelled into motion or space.
+31,deorbited into,Specifies the destination or outcome of an object leaving its orbital path around another celestial body.
+32,represents,Denotes the symbolization or portrayal of one thing by another.
+33,walked on lunar surface on,Refers to the act of traversing on the surface of the Moon.
+34,located in,Specifies the position or placement of an entity or object within a particular area or region.
+35,achieved,"Refers to the successful realization or attainment of a goal, aim, or result."
+36,had primary goal,"Specifies the main or chief objective behind an action, project, or endeavor."
+37,marked,"Indicates the action of highlighting, indicating, or identifying a specific point or feature."
+38,interacts with,"Denotes the engagement, communication, or influence between two or more entities or systems."
+39,announced,Indicates the act of officially declaring or making something known to the public or a specific audience.
+40,orbits,Describes the circular or elliptical path followed by one celestial body around another.
+41,is the only astronomical object known to harbor,"Denotes the unique status of being the sole astronomical body recognized to contain a specific element, condition, or feature."
+42,creates,Indicates the act of bringing something into existence or generating a new entity.
+43,announced on,Specifies the date or occasion when an official declaration or news was made public.
+44,highlighted,"Refers to the action of emphasizing, spotlighting, or drawing attention to a particular aspect or detail."
