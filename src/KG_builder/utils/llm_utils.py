@@ -9,6 +9,11 @@ from dotenv import load_dotenv
 import logging
 import os
 
+load_dotenv()
+
+
+
+
 class LLM(ABC):
     
     def __init__(self, **args):
@@ -32,27 +37,24 @@ class FreeModel(LLM):
             if self.tokenizer.pad_token_id is None:
                 self.tokenizer.pad_token_id = self.tokenizer.eos_token_id
                 
-        self.system_prompt = args["system_prompt"]
-        if "context_template" in args: 
-            self.context_template = args["context_template"]
     
     def chat(self, context: str, json_return: bool = False, **args):
         response: str = ""
         
         if self.name.count("Qwen"):    
             try:
-                if self.context_template:
+                if args["context_template"]:
                     resp = self.generate_response(
                         [
-                            {"role": "system", "content": self.system_prompt},
-                            {"role": "user", "content": self.context_template.format(context=context)}
+                            {"role": "system", "content": args["system"]},
+                            {"role": "user", "content": args["context_template"].format(context = context)}
                         ]
                     )
                     
                 else:
                     resp = self.generate_response(
                         [
-                            {"role": "system", "content": self.system_prompt},
+                            {"role": "system", "content": args["system"]},
                             {"role": "user", "content": context}
                         ]
                     )
@@ -89,32 +91,28 @@ class CostModel(LLM):
     def __init__(self, **args):
         super().__init__(**args)
         if args["model_name"].count("gpt"):
-            self.instance = OpenAI(api_key=args["API_KEY"])
+            self.instance = OpenAI(api_key=os.environ["OPENAI"])
         elif args["model_name"].count("gemini"):
             self.instance = genai.Client()
-        
-        self.system_prompt = args["system_prompt"]
-        if "context_template" in args: 
-            self.context_template = args["context_template"]
             
     def chat(self, context: str, json_return: bool = False, **args):
         response: str = ""
         
         if self.name.count("gpt"):
             try:
-                if self.context_template:
+                if args["context_template"]:
                     resp = self.instance.responses.create(
                         model = self.name,
                         input = [
-                            {"role": "system", "content" : self.system_prompt},
-                            {"role": "user", "content" : self.context_template.format(context = context)}
+                            {"role": "system", "content" : args["system"]},
+                            {"role": "user", "content" : args["context_template"].format(context = context)}
                         ]
                     )
                 else:
                     resp = self.instance.response.create(
                         model = self.name,
                         input = [
-                            {"role": "system", "content" : self.system_prompt},
+                            {"role": "system", "content" : args["system"]},
                             {"role": "user", "content" : context}
                         ]
                     )
@@ -125,12 +123,12 @@ class CostModel(LLM):
                 
         if self.name.count("gemini"):
             try:
-                if self.context_template:
+                if args["context_template"]:
                     resp = self.instance.models.generate_content(
                         model = self.name,
-                        contents = self.context_template.format(context = context), 
+                        contents =  args["context_template"].format(context = context), 
                         config=GenerateContentConfig(
-                            system_instruction=self.system_prompt
+                            system_instruction=args["system"]
                         )
                     )
                 else:
@@ -138,7 +136,7 @@ class CostModel(LLM):
                         model = self.name,
                         contents = context, 
                         config=GenerateContentConfig(
-                            system_instruction=self.system_prompt
+                            system_instruction=args["system"]
                         )
                     )
                 response = resp.text
@@ -157,54 +155,27 @@ def json_valid(raw_resp: str) -> str:
     raw_resp = raw_resp.strip("`").replace("json", "").strip()
     return raw_resp
 
+def load_model(model_name: str) -> LLM:
+    model: LLM = None
+    if model_name.count("gpt") or model_name.count("gemini"):
+        model = CostModel(model_name = model_name)
+    else:
+        model = FreeModel(model_name = model_name)
+        
+    return model
+
 
 if __name__ == "__main__":
-    logging.basicConfig(
-        level=logging.DEBUG,
-        format="%(asctime)s [%(levelname)s] %(message)s",
-        datefmt="%H:%M:%S"
-    )
-    logging.info("Start logging with time format")
-    load_dotenv()
     
-    # config = {
-    #     "model_name": "gpt-3.5-turbo",
-    #     "API_KEY": os.environ["OPENAI"],
-    #     "system_prompt": "You are my assistance.",
-    #     "context_template": "Hello {context}"
-    # }
-    
-    # Test 1
-    # llm = CostModel(**config)
-    
-    # print(llm.chat(
-    #     "Huynh",
-    # ))
-    
-    
-    # Test 2
-    
-    config = {
-        "model_name": "gpt-3.5-turbo",
-        "API_KEY": os.environ["OPENAI"],
-        "system_prompt": "You are my assistance. Just return JSON format by my context I give you",
-        "context_template": "{context}"
-    }
-    
-    gemini = CostModel(**config)
-    print(gemini.chat(
-        "My name is Huynh. I am a student in VNU.", json_return=True
-    ))
+    llm = load_model("gemini-2.5-flash")
     
     # Test 3
     config = {
-        "model_name": "Qwen/Qwen2.5-0.5B-Instruct",
-        "system_prompt": "You are my assistance. Just return JSON format by my context I give you",
+        "system": "You are my assistance. Just return JSON format by my context I give you",
         "context_template": "{context}"
     }
     
-    qwen = FreeModel(**config)
-    print(qwen.chat(
-        "My name is Dang. My hobby is playing games.", json_return=True
+    print(llm.chat(
+        "My name is Dang. My hobby is playing games.", json_return=True, **config
     ))
                

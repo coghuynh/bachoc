@@ -1,23 +1,29 @@
 import logging
 from typing import Dict, List
 from KG_builder.utils.clean_data import read_schema, chunk_corpus, write_schema
-from KG_builder.utils.embedding_utils import EmbeddingModel, consine_similarity
+from KG_builder.utils.embedding_utils import CostEmbeddingModel, cosine_similarity
 from KG_builder.extract.extract_triples import extract_triples
-from KG_builder.extract.definition import collect_predicate_definition
+from KG_builder.extract.definition import collect_definition
+from KG_builder.prompts.prompts import DEFINITION_PROMPT, EXTRACT_TRIPLE_PROMPT
+from KG_builder.utils.llm_utils import load_model
 from dotenv import load_dotenv
+import argparse
 
 load_dotenv()
 
 class KG_builder:
     
     def __init__(self, **args):
-        self.entities_schema = read_schema(args["enities_schema"])
+        self.entities_schema = read_schema(args["entities_schema"])
         self.relations_schema = read_schema(args["relation_schema"])
+        self.extract_triples_model = load_model(args["triples_model"])
+        self.definition_model = load_model(args["definition_model"])
     
         embed_config = {
-            "model_name" : "gemini-embedding-001"
+            "model_name" : "gemini-embedding-001",
+            "similarity" : "cosine"
         }
-        self.embed_model = EmbeddingModel(
+        self.embed_model = CostEmbeddingModel(
             **embed_config
         )
         
@@ -78,7 +84,7 @@ class KG_builder:
     
     def standardize_relations(self, relation: Dict[str, str]) -> str:
         
-        relation_type = relation["predicate"]
+        relation_type = relation["type"]
         definition = relation["definition"]
         if relation_type in self.relations_embed_schema.keys():
             return relation_type
@@ -97,8 +103,9 @@ class KG_builder:
             return relation_type
         mxCor = 0.0
         new_type = ""
+        # from KG_builder.utils.embedding_utils import cosine_similarity
         for type_name, embed in self.relations_embed_schema.items():
-            correlation = consine_similarity(relation_embed, embed) 
+            correlation = cosine_similarity(relation_embed, embed) 
             if correlation > mxCor:
                 mxCor = correlation
                 new_type = type_name
@@ -132,8 +139,9 @@ class KG_builder:
         seen_triples = set()
 
         for idx, chunk in enumerate(contexts):
+            # print(chunk)
             try:
-                partial_result = extract_triples(chunk)
+                partial_result = extract_triples(chunk, self.extract_triples_model, **EXTRACT_TRIPLE_PROMPT)
             except Exception as e:
                 logging.exception(f"Triple extraction failed for chunk {idx}: {e}")
                 continue
@@ -172,14 +180,14 @@ class KG_builder:
         if not set_relation_type:
             return result
 
-        new_predicate_definition = collect_predicate_definition(
-            set_relation_type
+        new_predicate_definition = collect_definition(
+            set_relation_type, self.definition_model, **DEFINITION_PROMPT
         )
         
         map_new_relation = {}
         
         for predicate in new_predicate_definition:
-            map_new_relation[predicate["predicate"]] = self.standardize_relations(predicate)
+            map_new_relation[predicate["type"]] = self.standardize_relations(predicate)
         
         for triple in result:
             predicate_name = triple["predicate"]
@@ -193,12 +201,16 @@ class KG_builder:
     
     
 if __name__ == "__main__":
+    
+
+    
+    
     text = """
         Albert Einstein was born in Ulm, Germany in 1879. He developed the theory of relativity, which changed how scientists understand space and time. In 1921, he received the Nobel Prize in Physics for his explanation of the photoelectric effect. Later, Einstein worked at Princeton University in the United States. His contributions influenced modern physics and inspired generations of scientists.
     """
     
     args = {
-        "enities_schema" : "/Users/huynhnguyen/WorkDir/bachoc_1/entities.csv",
+        "entities_schema" : "/Users/huynhnguyen/WorkDir/bachoc_1/entities.csv",
         "relation_schema" : "/Users/huynhnguyen/WorkDir/bachoc_1/relationships.csv",
         "threshold" : 0.6
     }
