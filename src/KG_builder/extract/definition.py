@@ -47,7 +47,10 @@ if __name__ == "__main__":
         entity_type = element["type"]
         if not entity_type.upper() in schema.keys():
             unseen.add(entity_type.upper())
-            
+    
+    
+    
+    
     collection = collect_definition(unseen)
     
     config = {
