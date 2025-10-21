@@ -22,9 +22,6 @@ def extract_triples(context: str, llm: BaseLLM,  **args) -> List[Dict[str, str]]
 
 
 if __name__ == "__main__":
-    text = """
-        Albert Einstein was born in Ulm, Germany in 1879. He developed the theory of relativity, which changed how scientists understand space and time. In 1921, he received the Nobel Prize in Physics for his explanation of the photoelectric effect. Later, Einstein worked at Princeton University in the United States. His contributions influenced modern physics and inspired generations of scientists.
-    """
     
     text = open("D:/fico/DỰ_ÁN/data/(16844277137145_29_06_2024_20_12)do-van-chien-1980-11-17-1719666757.txt", "r", encoding="utf-8").read()
     
