@@ -22,6 +22,7 @@ class TriplesDAO(BaseDAO):
             UNIQUE(subject_id, predicate_id, object_id)
         );
         """)
+        self.db.execute("PRAGMA foreign_keys = ON;")
         self.db.execute("CREATE INDEX IF NOT EXISTS idx_triples_subject_id ON triples(subject_id);")
         self.db.execute("CREATE INDEX IF NOT EXISTS idx_triples_predicate_id ON triples(predicate_id);")
         self.db.execute("CREATE INDEX IF NOT EXISTS idx_triples_object_id ON triples(object_id);")
@@ -91,7 +92,7 @@ if __name__ == "__main__":
 
     # Use an in-memory DB for testing, enable FK constraints
     db = DB(":memory:")
-    db.execute("PRAGMA foreign_keys = ON;")
+    
 
     # DAOs
     entities = EntitiesDAO(db)
