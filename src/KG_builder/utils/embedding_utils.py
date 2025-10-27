@@ -1,12 +1,25 @@
-from typing import List, Callable
-from dotenv import load_dotenv
+from typing import List, Callable, Optional, Tuple
 from google import genai
 from abc import ABC, abstractmethod
 import torch
-from llm.free.free_model import QwenModel
+from KG_builder.llm.free.free_model import QwenModel
 from sentence_transformers import SentenceTransformer
+import numpy as np
 
-load_dotenv()
+def to_blob(emb: Optional[np.ndarray]) -> Tuple[Optional[bytes], Optional[int]]:
+    if emb is None:
+        return None, None
+    emb = np.asarray(emb, dtype=np.float32)
+    return emb.tobytes(), emb.shape[0]
+
+def from_blob(blob: Optional[bytes], dim: Optional[int]) -> Optional[np.ndarray]:
+    if blob is None or dim is None:
+        return None
+    arr = np.frombuffer(blob, dtype=np.float32)
+    if arr.size != dim:
+        return None
+    return arr
+
 
 def cosine_similarity(a, b):
     import numpy as np

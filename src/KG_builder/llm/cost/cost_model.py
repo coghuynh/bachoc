@@ -1,7 +1,7 @@
-from llm.base.base_model import BaseLLM
+from KG_builder.llm.base.base_model import BaseLLM
 from google import genai
 from google.genai.types import GenerateContentConfig
-# from openai import OpenAI
+from openai import OpenAI
 import os
 
 class CostModel(BaseLLM):

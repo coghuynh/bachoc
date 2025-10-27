@@ -12,14 +12,14 @@ load_dotenv()
 
 
 # New function for predicate definitions
-def collect_definition(unseen: Set[str], llm, **args) -> List[Dict[str, str]]:
+async def collect_definition(unseen: Set[str], llm, **args) -> List[Dict[str, str]]:
     """
     Similar to collect_definition() but for relation/predicate types.
     Generates short, ontology-style definitions for predicates used in a Knowledge Graph.
     """
 
     try:
-        result = llm.chat(str(unseen), True, **args)
+        result = await llm.chat(str(unseen), True, **args)
         print(result)
     except Exception as e:
         logging.exception(f"Message: {e}")

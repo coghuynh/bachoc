@@ -7,7 +7,7 @@ from KG_builder.extract.definition import collect_definition
 from KG_builder.prompts.prompts import DEFINITION_PROMPT, EXTRACT_TRIPLE_PROMPT
 from KG_builder.utils.llm_utils import load_model
 from dotenv import load_dotenv
-import argparse
+import asyncio
 
 load_dotenv()
 
@@ -89,21 +89,17 @@ class KG_builder:
         if relation_type in self.relations_embed_schema.keys():
             return relation_type
         relation_embed = None
-        idx: int = 0
-        while idx < 10:
-            try:
-                relation_embed = self.embed_model.encode([definition])[0]
-                break
-            except Exception as e:
-                logging.exception(f"Message: {e}")
-                relation_embed = None
-            finally:
-                idx += 1
+        
+        try:
+            relation_embed = self.embed_model.encode([definition])[0]
+        except Exception as e:
+            logging.exception(f"Message: {e}")
+            relation_embed = None
         if relation_embed is None:
             return relation_type
         mxCor = 0.0
         new_type = ""
-        # from KG_builder.utils.embedding_utils import cosine_similarity
+    
         for type_name, embed in self.relations_embed_schema.items():
             correlation = cosine_similarity(relation_embed, embed) 
             if correlation > mxCor:
@@ -139,7 +135,7 @@ class KG_builder:
         seen_triples = set()
 
         for idx, chunk in enumerate(contexts):
-            # print(chunk)
+            # print(idx, chunk)
             try:
                 partial_result = extract_triples(chunk, self.extract_triples_model, **EXTRACT_TRIPLE_PROMPT)
             except Exception as e:
@@ -170,7 +166,7 @@ class KG_builder:
             return []
 
         result = aggregated_triples
-        print(result)
+
         
         set_relation_type = set()
         

@@ -39,7 +39,7 @@ if __name__ == "__main__":
     
     corpus = clean_vn_text(corpus)
     
-    print(corpus)
+    # print(corpus)
     
     # # print(corpus)
     
@@ -52,10 +52,12 @@ if __name__ == "__main__":
     builder = KG_builder(**param)
     
     # # print(
+    import time
+    start = time.perf_counter()
     new_triples = builder.run(corpus, chunks_config)
-    builder.write_schema("new_relationship_v3.0.csv")
+    builder.write_schema("new_relationship_v4.0.csv")
     # import json
     
-    with open("new_triples_v3.0.json", "w", encoding="utf-8") as f:
+    with open("new_triples_v4.0.json", "w", encoding="utf-8") as f:
         json.dump(new_triples, f, ensure_ascii=False, indent=2)
 

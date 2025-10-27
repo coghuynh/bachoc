@@ -1,7 +1,7 @@
 from dotenv import load_dotenv
-from llm.base.base_model import BaseLLM
-from llm.cost.cost_model import GeminiModel, GPTModel
-from llm.free.free_model import QwenModel
+from KG_builder.llm.base.base_model import BaseLLM
+from KG_builder.llm.cost.cost_model import GeminiModel, GPTModel
+from KG_builder.llm.free.free_model import QwenModel
 load_dotenv()
 
 FREE_MODELS = {
@@ -25,7 +25,7 @@ def load_model(model_name: str) -> BaseLLM:
 
 if __name__ == "__main__":
     
-    llm = load_model("gemini-2.5-flash")
+    llm = load_model("gemini-2.0-flash")
     
     # Test 3
     config = {

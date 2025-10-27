@@ -1,267 +1,2662 @@
 [
   {
-    "subject": "Cassini-Huygens mission",
-    "predicate": "was a collaboration between",
-    "object": "NASA"
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "là đối tượng đăng ký",
+    "object": "Giảng viên thỉnh giảng"
   },
   {
-    "subject": "Cassini-Huygens mission",
-    "predicate": "was a collaboration between",
-    "object": "ESA"
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "có ngành đăng ký",
+    "object": "Y học"
   },
   {
-    "subject": "Cassini-Huygens mission",
-    "predicate": "was a collaboration between",
-    "object": "ASI"
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "có chuyên ngành đăng ký",
+    "object": "Nội Tim Mạch"
   },
   {
-    "subject": "Cassini-Huygens mission",
-    "predicate": "had purpose",
-    "object": "send a probe to study Saturn"
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "có ngày sinh",
+    "object": "17-11-1980"
   },
   {
-    "subject": "Cassini-Huygens mission",
-    "predicate": "had purpose",
-    "object": "study Saturn's system"
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "có giới tính",
+    "object": "Nam"
   },
   {
-    "subject": "Cassini-Huygens spacecraft",
-    "predicate": "launched on",
-    "object": "October 15, 1997"
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "có quốc tịch",
+    "object": "Việt Nam"
   },
   {
-    "subject": "Cassini-Huygens spacecraft",
-    "predicate": "launched from",
-    "object": "Cape Canaveral, Florida"
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "có dân tộc",
+    "object": "Kinh"
   },
   {
-    "subject": "Cassini-Huygens spacecraft",
-    "predicate": "arrived at",
-    "object": "Saturn"
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "có tôn giáo",
+    "object": "Không có"
   },
   {
-    "subject": "Cassini-Huygens spacecraft",
-    "predicate": "arrival date",
-    "object": "July 1, 2004"
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "là đảng viên của",
+    "object": "Đảng Cộng sản Việt Nam"
   },
   {
-    "subject": "Cassini-Huygens spacecraft",
-    "predicate": "began",
-    "object": "orbital mission"
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "có quê quán",
+    "object": "Hoằng Thắng, Hoằng Hóa, Thanh Hóa"
   },
   {
-    "subject": "Huygens probe",
-    "predicate": "landed on",
-    "object": "Titan"
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "có hộ khẩu thường trú tại",
+    "object": "Căn hộ 15R09, TN HH báo LĐ&XH, phường Yên Hòa, Quận Cầu Giấy, Hà Nội"
   },
   {
-    "subject": "Huygens probe",
-    "predicate": "landing date",
-    "object": "January 14, 2005"
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "có địa chỉ liên hệ",
+    "object": "Căn hộ 15R09, TN HH báo LĐ&XH, phường Yên Hòa, Quận Cầu Giấy, Hà Nội"
   },
   {
-    "subject": "Titan",
-    "predicate": "is",
-    "object": "Saturn's largest moon"
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "có số điện thoại nhà riêng",
+    "object": "0982851506"
   },
   {
-    "subject": "Cassini-Huygens mission",
-    "predicate": "concluded on",
-    "object": "September 15, 2017"
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "có số điện thoại di động",
+    "object": "0982851506"
   },
   {
-    "subject": "Cassini",
-    "predicate": "deorbited into",
-    "object": "Saturn's atmosphere"
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "có email",
+    "object": "dovanchien108.cmh@gmail.com"
   },
   {
-    "subject": "Cassini",
-    "predicate": "deorbited on",
-    "object": "September 15, 2017"
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "có email",
+    "object": "vmechiendo@yahoo.com"
   },
   {
-    "subject": "Apollo 11 mission",
-    "predicate": "launched by",
-    "object": "NASA"
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "có email",
+    "object": "vmechiendo@gmail.com"
   },
   {
-    "subject": "Apollo 11 mission",
-    "predicate": "launched on",
-    "object": "July 16, 1969"
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "học đại học tại",
+    "object": "Trường Đại học Y Hà Nội"
   },
   {
-    "subject": "Apollo 11 mission",
-    "predicate": "launched from",
-    "object": "Kennedy Space Center"
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "bắt đầu học tại Trường Đại học Y Hà Nội vào",
+    "object": "9/1998"
   },
   {
-    "subject": "Kennedy Space Center",
-    "predicate": "located in",
-    "object": "Florida"
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "kết thúc học tại Trường Đại học Y Hà Nội vào",
+    "object": "9/1999"
   },
   {
-    "subject": "Apollo 11 mission",
-    "predicate": "had primary goal",
-    "object": "land humans on Moon"
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "có ngành học tại Trường Đại học Y Hà Nội",
+    "object": "Bác sĩ đa khoa"
   },
   {
-    "subject": "Apollo 11 mission",
-    "predicate": "had primary goal",
-    "object": "return humans safely to Earth"
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "có hệ học tại Trường Đại học Y Hà Nội",
+    "object": "chính quy"
   },
   {
-    "subject": "Neil Armstrong",
-    "predicate": "was first to walk on",
-    "object": "lunar surface"
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "học dự bị tiếng Nga tại",
+    "object": "Trường Đại học Y quốc gia Rostov-on-Don"
   },
   {
-    "subject": "Buzz Aldrin",
-    "predicate": "was first to walk on",
-    "object": "lunar surface"
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "bắt đầu học tại Trường Đại học Y quốc gia Rostov-on-Don vào",
+    "object": "9/1999"
   },
   {
-    "subject": "Neil Armstrong",
-    "predicate": "walked on lunar surface on",
-    "object": "July 20, 1969"
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "kết thúc học tại Trường Đại học Y quốc gia Rostov-on-Don vào",
+    "object": "6/2000"
   },
   {
-    "subject": "Buzz Aldrin",
-    "predicate": "walked on lunar surface on",
-    "object": "July 20, 1969"
+    "subject": "Trường Đại học Y quốc gia Rostov-on-Don",
+    "predicate": "tọa lạc tại",
+    "object": "Rostov, Liên Bang Nga"
   },
   {
-    "subject": "Michael Collins",
-    "predicate": "piloted",
-    "object": "command module Columbia"
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "học đại học tại",
+    "object": "Đại học Y quốc gia Volgograd"
   },
   {
-    "subject": "Apollo 11 mission",
-    "predicate": "achieved",
-    "object": "objectives"
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "bắt đầu học tại Đại học Y quốc gia Volgograd vào",
+    "object": "9/2000"
   },
   {
-    "subject": "Apollo 11 mission",
-    "predicate": "marked",
-    "object": "significant milestone in space exploration"
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "kết thúc học tại Đại học Y quốc gia Volgograd vào",
+    "object": "6/2006"
   },
   {
-    "subject": "Earth",
-    "predicate": "is the third planet from",
-    "object": "Sun"
+    "subject": "Đại học Y quốc gia Volgograd",
+    "predicate": "tọa lạc tại",
+    "object": "Volgograd, Liên Bang Nga"
   },
   {
-    "subject": "Earth",
-    "predicate": "is the only astronomical object known to harbor",
-    "object": "life"
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "có ngành học tại Đại học Y quốc gia Volgograd",
+    "object": "Bác sĩ đa khoa"
   },
   {
-    "subject": "Earth",
-    "predicate": "formed about",
-    "object": "4.54 billion years ago"
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "có hệ học tại Đại học Y quốc gia Volgograd",
+    "object": "chính quy"
   },
   {
-    "subject": "formation of Earth",
-    "predicate": "supported by",
-    "object": "radiometric dating"
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "có chức vụ",
+    "object": "Bác sĩ khoa Nội Tim mạch"
   },
   {
-    "subject": "formation of Earth",
-    "predicate": "supported by",
-    "object": "other evidence"
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "công tác tại",
+    "object": "Viện Tim Mạch"
   },
   {
-    "subject": "Earth's gravity",
-    "predicate": "interacts with",
-    "object": "other objects in space"
+    "subject": "Viện Tim Mạch",
+    "predicate": "thuộc",
+    "object": "Bệnh viện Trung ương Quân đội 108"
   },
   {
-    "subject": "Earth's gravity",
-    "predicate": "interacts with",
-    "object": "Sun"
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "bắt đầu công tác với chức vụ Bác sĩ khoa Nội Tim mạch vào",
+    "object": "9/2006"
   },
   {
-    "subject": "Earth's gravity",
-    "predicate": "interacts with",
-    "object": "Moon"
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "kết thúc công tác với chức vụ Bác sĩ khoa Nội Tim mạch vào",
+    "object": "5/2008"
   },
   {
-    "subject": "Earth",
-    "predicate": "orbits",
-    "object": "Sun"
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "có chức vụ",
+    "object": "Bác sĩ"
   },
   {
-    "subject": "Earth",
-    "predicate": "orbits Sun in",
-    "object": "365.25 days"
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "công tác tại",
+    "object": "Bệnh xá Đảo Song Tử Tây"
   },
   {
-    "subject": "Earth's orbit",
-    "predicate": "creates",
-    "object": "leap year"
+    "subject": "Bệnh xá Đảo Song Tử Tây",
+    "predicate": "nằm ở",
+    "object": "Đảo Song Tử Tây, Quần đảo Trường Sa, Khánh Hòa"
   },
   {
-    "subject": "leap year",
-    "predicate": "occurs every",
-    "object": "four years"
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "bắt đầu công tác với chức vụ Bác sĩ vào",
+    "object": "6/2008"
   },
   {
-    "subject": "Moon",
-    "predicate": "orbits",
-    "object": "Earth"
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "kết thúc công tác với chức vụ Bác sĩ vào",
+    "object": "5/2009"
   },
   {
-    "subject": "Moon",
-    "predicate": "orbits Sun in",
-    "object": "27.32 days"
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "bắt đầu công tác với chức vụ Bác sĩ khoa Nội Tim mạch vào",
+    "object": "6/2009"
   },
   {
-    "subject": "Company",
-    "predicate": "announced",
-    "object": "Q3 2023 financial results"
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "kết thúc công tác với chức vụ Bác sĩ khoa Nội Tim mạch vào",
+    "object": "5/2014"
   },
   {
-    "subject": "Q3 2023 financial results",
-    "predicate": "announced on",
-    "object": "October 26, 2023"
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "thực tập sinh Tim mạch tại",
+    "object": "Trường Đại học Y Sydney"
   },
   {
-    "subject": "Company",
-    "predicate": "reported",
-    "object": "Q3 2023 revenue"
+    "subject": "Trường Đại học Y Sydney",
+    "predicate": "nằm ở",
+    "object": "Úc"
   },
   {
-    "subject": "Q3 2023 revenue",
-    "predicate": "is",
-    "object": "$1.2 billion"
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "bắt đầu thực tập tại Trường Đại học Y Sydney vào",
+    "object": "6/2011"
   },
   {
-    "subject": "Q3 2023 revenue",
-    "predicate": "represents",
-    "object": "15% increase year-over-year"
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "kết thúc thực tập tại Trường Đại học Y Sydney vào",
+    "object": "10/2011"
   },
   {
-    "subject": "Company",
-    "predicate": "reported",
-    "object": "Q3 2023 net income"
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "là nghiên cứu sinh tại",
+    "object": "Viện nghiên cứu khoa học y dược lâm sàng 108"
   },
   {
-    "subject": "Q3 2023 net income",
-    "predicate": "is",
-    "object": "$250 million"
+    "subject": "Viện nghiên cứu khoa học y dược lâm sàng 108",
+    "predicate": "thuộc",
+    "object": "Bệnh viện Trung ương Quân đội 108"
   },
   {
-    "subject": "Jane Doe",
-    "predicate": "is",
-    "object": "CEO"
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "bắt đầu là nghiên cứu sinh vào",
+    "object": "9/2013"
   },
   {
-    "subject": "Jane Doe",
-    "predicate": "highlighted",
-    "object": "strong performance"
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "kết thúc là nghiên cứu sinh vào",
+    "object": "7/2018"
   },
   {
-    "subject": "strong performance",
-    "predicate": "in",
-    "object": "Cloud computing division"
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "thực tập sinh Tim mạch can thiệp tại",
+    "object": "Viện Tim Mạch quốc gia Singapore"
+  },
+  {
+    "subject": "Viện Tim Mạch quốc gia Singapore",
+    "predicate": "nằm ở",
+    "object": "Singapore"
+  },
+  {
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "bắt đầu thực tập tại Viện Tim Mạch quốc gia Singapore vào",
+    "object": "7/2014"
+  },
+  {
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "kết thúc thực tập tại Viện Tim Mạch quốc gia Singapore vào",
+    "object": "6/2015"
+  },
+  {
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "có chức vụ",
+    "object": "Bác sĩ điều trị"
+  },
+  {
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "bắt đầu chức vụ Bác sĩ điều trị vào",
+    "object": "7/2015"
+  },
+  {
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "kết thúc chức vụ Bác sĩ điều trị vào",
+    "object": "5/2022"
+  },
+  {
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "có chức vụ",
+    "object": "Phó chủ nhiệm khoa Nội Tim mạch"
+  },
+  {
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "bắt đầu chức vụ Phó chủ nhiệm khoa Nội Tim mạch vào",
+    "object": "5/2019"
+  },
+  {
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "kết thúc chức vụ Phó chủ nhiệm khoa Nội Tim mạch vào",
+    "object": "5/2022"
+  },
+  {
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "có chức vụ",
+    "object": "Phó chủ nhiệm khoa Hồi sức Tim mạch"
+  },
+  {
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "bắt đầu chức vụ Phó chủ nhiệm khoa Hồi sức Tim mạch vào",
+    "object": "5/2022"
+  },
+  {
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "có chức vụ hiện nay",
+    "object": "Phó chủ nhiệm khoa Hồi sức Tim mạch"
+  },
+  {
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "có cơ quan công tác hiện nay",
+    "object": "Bệnh viện Trung ương Quân đội 108"
+  },
+  {
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "có chức vụ hiện nay",
+    "object": "Giáo vụ Bộ môn Nội Tim mạch"
+  },
+  {
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "công tác hiện nay tại",
+    "object": "Viện nghiên cứu khoa học y dược lâm sàng 108"
+  },
+  {
+    "subject": "Bệnh viện Trung ương Quân đội 108",
+    "predicate": "có địa chỉ",
+    "object": "Số 1 Đường Trần Hưng Đạo, Quận Hai Bà Trưng, Hà Nội"
+  },
+  {
+    "subject": "Bệnh viện Trung ương Quân đội 108",
+    "predicate": "có số điện thoại",
+    "object": "0971830166"
+  },
+  {
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "là giảng viên thỉnh giảng tại",
+    "object": "Viện nghiên cứu khoa học y dược lâm sàng 108"
+  },
+  {
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "là giảng viên thỉnh giảng tại",
+    "object": "Trường Đại học Kỹ thuật Y tế Hải Dương"
+  },
+  {
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "là giảng viên thỉnh giảng tại",
+    "object": "Học viện Quân Y"
+  },
+  {
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "là giảng viên thỉnh giảng tại",
+    "object": "Trường Đại học Y Hà Nội"
+  },
+  {
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "là giảng viên thỉnh giảng tại",
+    "object": "Trường Đại học Vinuniversity"
+  },
+  {
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "có hợp đồng thỉnh giảng 3 năm cuối tại",
+    "object": "Viện nghiên cứu khoa học y dược lâm sàng 108"
+  },
+  {
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "có hợp đồng thỉnh giảng 3 năm cuối tại",
+    "object": "Trường Đại học Kỹ thuật Y khoa Hải Dương"
+  },
+  {
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "có hợp đồng thỉnh giảng 3 năm cuối tại",
+    "object": "Học viện Quân Y"
+  },
+  {
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "có hợp đồng thỉnh giảng 3 năm cuối tại",
+    "object": "Trường Đại học Y Hà Nội"
+  },
+  {
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "có hợp đồng thỉnh giảng 3 năm cuối tại",
+    "object": "Trường Đại học Vinuniversity"
+  },
+  {
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "được cấp bằng Đại học bởi",
+    "object": "Đại học Y quốc gia Volgograd"
+  },
+  {
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "nhận bằng Đại học vào",
+    "object": "22-06-2006"
+  },
+  {
+    "subject": "Bằng Đại học của ĐỖ VĂN CHIẾN",
+    "predicate": "có số hiệu",
+    "object": "DIS 0012833"
+  },
+  {
+    "subject": "Bằng Đại học của ĐỖ VĂN CHIẾN",
+    "predicate": "có ngành",
+    "object": "Y"
+  },
+  {
+    "subject": "Bằng Đại học của ĐỖ VĂN CHIẾN",
+    "predicate": "có chuyên ngành",
+    "object": "Bác sĩ Đa khoa"
+  },
+  {
+    "subject": "Đại học Y quốc gia Volgograd",
+    "predicate": "nằm ở",
+    "object": "Liên Bang Nga"
+  },
+  {
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "được cấp bằng Tiến sĩ bởi",
+    "object": "Viện nghiên cứu khoa học y dược lâm sàng 108"
+  },
+  {
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "nhận bằng Tiến sĩ vào",
+    "object": "01-11-2018"
+  },
+  {
+    "subject": "Bằng Tiến sĩ của ĐỖ VĂN CHIẾN",
+    "predicate": "có số hiệu",
+    "object": "000003"
+  },
+  {
+    "subject": "Bằng Tiến sĩ của ĐỖ VĂN CHIẾN",
+    "predicate": "có ngành",
+    "object": "Y học"
+  },
+  {
+    "subject": "Bằng Tiến sĩ của ĐỖ VĂN CHIẾN",
+    "predicate": "có chuyên ngành",
+    "object": "Nội Tim Mạch"
+  },
+  {
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "đăng ký xét chức danh",
+    "object": "Phó Giáo Sư"
+  },
+  {
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "đăng ký xét chức danh Phó Giáo Sư tại Hội đồng Giáo sư cơ sở",
+    "object": "Viện nghiên cứu khoa học y dược lâm sàng 108"
+  },
+  {
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "đăng ký xét chức danh Phó Giáo Sư ngành",
+    "object": "Y học"
+  },
+  {
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "có hướng nghiên cứu chính",
+    "object": "Hình thái và chức năng của nhĩ trái trong một số bệnh lý tim mạch"
+  },
+  {
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "có hướng nghiên cứu chính",
+    "object": "Suy tim và một số bệnh lý liên quan đến suy tim"
+  },
+  {
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "có hướng nghiên cứu chính",
+    "object": "Rối loạn chuyển hóa và một số bệnh lý mạch máu"
+  },
+  {
+    "subject": "Rối loạn chuyển hóa",
+    "predicate": "bao gồm",
+    "object": "béo phì"
+  },
+  {
+    "subject": "Rối loạn chuyển hóa",
+    "predicate": "bao gồm",
+    "object": "đái tháo đường"
+  },
+  {
+    "subject": "Rối loạn chuyển hóa",
+    "predicate": "bao gồm",
+    "object": "tăng huyết áp"
+  },
+  {
+    "subject": "Rối loạn chuyển hóa",
+    "predicate": "bao gồm",
+    "object": "rối loạn chuyển hóa lipid"
+  },
+  {
+    "subject": "Bệnh lý mạch máu",
+    "predicate": "bao gồm",
+    "object": "động mạch vành"
+  },
+  {
+    "subject": "Bệnh lý mạch máu",
+    "predicate": "bao gồm",
+    "object": "động - tĩnh mạch chi dưới"
+  },
+  {
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "đã hướng dẫn thành công",
+    "object": "5 học viên cao học bảo vệ luận văn Thạc sĩ"
+  },
+  {
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "đã hướng dẫn thành công",
+    "object": "1 học viên chuyên khoa 2 bảo vệ luận văn Bác sĩ Chuyên Khoa cấp 2"
+  },
+  {
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "đã hoàn thành",
+    "object": "2 đề tài nghiên cứu khoa học cấp cơ sở"
+  },
+  {
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "đã công bố",
+    "object": "55 bài báo khoa học"
+  },
+  {
+    "subject": "55 bài báo khoa học",
+    "predicate": "bao gồm",
+    "object": "11 bài báo trên tạp chí quốc tế uy tín"
+  },
+  {
+    "subject": "ĐỖ VĂN CHIẾN",
+    "predicate": "là tác giả chính của",
+    "object": "10 bài báo quốc tế uy tín"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "xuất bản",
+    "object": "02 sách chuyên khảo"
+  },
+  {
+    "subject": "Sách chuyên khảo",
+    "predicate": "xuất bản bởi",
+    "object": "NXB Y học"
+  },
+  {
+    "subject": "NXB Y học",
+    "predicate": "là",
+    "object": "nhà xuất bản có uy tín"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "nhận giải",
+    "object": "Giải nhất Nhà nghiên cứu trẻ"
+  },
+  {
+    "subject": "Giải nhất Nhà nghiên cứu trẻ",
+    "predicate": "tổ chức bởi",
+    "object": "Hội Tim mạch Việt Nam"
+  },
+  {
+    "subject": "Giải nhất Nhà nghiên cứu trẻ",
+    "predicate": "năm",
+    "object": "2016"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "nhận giải",
+    "object": "Giải nhì Nhà nghiên cứu trẻ"
+  },
+  {
+    "subject": "Giải nhì Nhà nghiên cứu trẻ",
+    "predicate": "tổ chức bởi",
+    "object": "Liên đoàn Tim mạch Đông Nam Á"
+  },
+  {
+    "subject": "Giải nhì Nhà nghiên cứu trẻ",
+    "predicate": "năm",
+    "object": "2017"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "nhận giải",
+    "object": "Giải nhất Sáng tạo tuổi trẻ trong quân đội"
+  },
+  {
+    "subject": "Giải nhất Sáng tạo tuổi trẻ trong quân đội",
+    "predicate": "năm",
+    "object": "2018"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "có kỷ luật",
+    "object": "Không có"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "là giảng viên thỉnh giảng của",
+    "object": "Viện NCKH Y Dược Lâm sàng 108"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "là giảng viên thỉnh giảng của",
+    "object": "Trường Đại học Y Hà Nội"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "là giảng viên thỉnh giảng của",
+    "object": "Học viện Quân Y"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "là giảng viên thỉnh giảng của",
+    "object": "Trường Đại học Kỹ thuật Y tế Hải Dương"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "là giảng viên thỉnh giảng của",
+    "object": "Trường Đại học VinUniversity"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "giảng dạy",
+    "object": "lý thuyết và thực hành"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "giảng dạy đối tượng",
+    "object": "Bác sĩ"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "giảng dạy đối tượng",
+    "object": "Bác sĩ Nội trú"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "giảng dạy đối tượng",
+    "object": "Cao học"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "giảng dạy đối tượng",
+    "object": "Bác sĩ chuyên khoa"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "giảng dạy đối tượng",
+    "object": "Nghiên cứu sinh"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "chấp hành quy định của",
+    "object": "Bộ Quốc phòng"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "chấp hành quy định của",
+    "object": "Bộ Giáo dục và Đào tạo"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "chấp hành quy định của",
+    "object": "cơ sở đào tạo"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "hoàn thành khối lượng giảng dạy",
+    "object": "Đầy đủ"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "có năng lực giảng dạy",
+    "object": "Tốt"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "đem lại hiệu quả",
+    "object": "Cao trong giảng dạy"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "được người học đánh giá",
+    "object": "Giảng dạy tốt"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "được người học đánh giá",
+    "object": "Nhiệt tình"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "được người học đánh giá",
+    "object": "Trách nhiệm"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "được người học đánh giá",
+    "object": "Có tâm huyết với nghề"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "được người học đánh giá",
+    "object": "Yêu nghề"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "được người học đánh giá",
+    "object": "Yêu sinh viên, học viên"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "được người học đánh giá",
+    "object": "Hỗ trợ học tập tốt nhất"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "tham gia",
+    "object": "viết sách phục vụ giảng dạy"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "có tổng số năm đào tạo",
+    "object": "06 năm"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "thực hiện nhiệm vụ đào tạo từ",
+    "object": "25/3/2015"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "thực hiện nhiệm vụ đào tạo đến",
+    "object": "11/9/2020"
+  },
+  {
+    "subject": "Chế độ làm việc đối với giảng viên",
+    "predicate": "ban hành kèm theo",
+    "object": "Thông tư số 47/2014/TT-BGDĐT"
+  },
+  {
+    "subject": "Thông tư số 47/2014/TT-BGDĐT",
+    "predicate": "ngày ban hành",
+    "object": "31/12/2014"
+  },
+  {
+    "subject": "Thông tư số 47/2014/TT-BGDĐT",
+    "predicate": "ban hành bởi",
+    "object": "Bộ trưởng Bộ Giáo dục và Đào tạo"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "thực hiện nhiệm vụ đào tạo từ",
+    "object": "11/9/2020"
+  },
+  {
+    "subject": "Chế độ làm việc của giảng viên cơ sở giáo dục đại học",
+    "predicate": "ban hành kèm theo",
+    "object": "Thông tư số 20/2020/TT-BGDĐT"
+  },
+  {
+    "subject": "Thông tư số 20/2020/TT-BGDĐT",
+    "predicate": "ngày ban hành",
+    "object": "27/7/2020"
+  },
+  {
+    "subject": "Thông tư số 20/2020/TT-BGDĐT",
+    "predicate": "ban hành bởi",
+    "object": "Bộ trưởng Bộ Giáo dục và Đào tạo"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "thành thạo ngoại ngữ",
+    "object": "Tiếng Anh"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "học đại học tại",
+    "object": "Liên bang Nga"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "thời gian học đại học",
+    "object": "1999 đến 2006"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "là thực tập sinh về",
+    "object": "Tim mạch can thiệp"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "thực tập tại",
+    "object": "Singapore"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "thời gian thực tập",
+    "object": "Tháng 7/2014 đến 6/2015"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "giảng dạy bằng",
+    "object": "Tiếng Anh"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "giảng dạy tiếng Anh tại",
+    "object": "Trường Đại học VinUniversity"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "có chứng chỉ",
+    "object": "IELTS"
+  },
+  {
+    "subject": "IELTS",
+    "predicate": "điểm số",
+    "object": "7.0"
+  },
+  {
+    "subject": "IELTS",
+    "predicate": "năm",
+    "object": "2013"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "hướng dẫn phụ",
+    "object": "Lương Hải Đăng"
+  },
+  {
+    "subject": "Lương Hải Đăng",
+    "predicate": "là đối tượng",
+    "object": "CK2"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "hướng dẫn Lương Hải Đăng từ",
+    "object": "09/12/2020"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "hướng dẫn Lương Hải Đăng đến",
+    "object": "09/11/2023"
+  },
+  {
+    "subject": "Lương Hải Đăng",
+    "predicate": "đào tạo tại",
+    "object": "Trường Đại học Y Hà Nội"
+  },
+  {
+    "subject": "Lương Hải Đăng",
+    "predicate": "được cấp bằng ngày",
+    "object": "17/01/2023"
+  },
+  {
+    "subject": "Lương Hải Đăng",
+    "predicate": "có số hiệu bằng",
+    "object": "A011732"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "hướng dẫn chính",
+    "object": "Trần Thị Mai Liên"
+  },
+  {
+    "subject": "Trần Thị Mai Liên",
+    "predicate": "là đối tượng",
+    "object": "Cao học"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "hướng dẫn Trần Thị Mai Liên từ",
+    "object": "15/4/2020"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "hướng dẫn Trần Thị Mai Liên đến",
+    "object": "18/2/2022"
+  },
+  {
+    "subject": "Trần Thị Mai Liên",
+    "predicate": "đào tạo tại",
+    "object": "Trường Đại học Điều dưỡng Nam Định"
+  },
+  {
+    "subject": "Trần Thị Mai Liên",
+    "predicate": "được cấp bằng ngày",
+    "object": "06/07/2022"
+  },
+  {
+    "subject": "Trần Thị Mai Liên",
+    "predicate": "có số hiệu bằng",
+    "object": "YDD00076"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "hướng dẫn chính",
+    "object": "Bùi Thị Huyền"
+  },
+  {
+    "subject": "Bùi Thị Huyền",
+    "predicate": "là đối tượng",
+    "object": "Cao học"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "hướng dẫn Bùi Thị Huyền từ",
+    "object": "05/5/2021"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "hướng dẫn Bùi Thị Huyền đến",
+    "object": "30/6/2022"
+  },
+  {
+    "subject": "Bùi Thị Huyền",
+    "predicate": "đào tạo tại",
+    "object": "Trường Đại học Thăng Long"
+  },
+  {
+    "subject": "Bùi Thị Huyền",
+    "predicate": "được cấp bằng ngày",
+    "object": "30/6/2022"
+  },
+  {
+    "subject": "Bùi Thị Huyền",
+    "predicate": "có số hiệu bằng",
+    "object": "TM01507"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "hướng dẫn chính",
+    "object": "Đặng Thị Thanh Nga"
+  },
+  {
+    "subject": "Đặng Thị Thanh Nga",
+    "predicate": "là đối tượng",
+    "object": "Cao học"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "hướng dẫn Đặng Thị Thanh Nga từ",
+    "object": "19/7/2022"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "hướng dẫn Đặng Thị Thanh Nga đến",
+    "object": "28/06/2023"
+  },
+  {
+    "subject": "Đặng Thị Thanh Nga",
+    "predicate": "đào tạo tại",
+    "object": "Trường Đại học Thăng Long"
+  },
+  {
+    "subject": "Đặng Thị Thanh Nga",
+    "predicate": "được cấp bằng ngày",
+    "object": "28/06/2023"
+  },
+  {
+    "subject": "Đặng Thị Thanh Nga",
+    "predicate": "có số hiệu bằng",
+    "object": "TM01778"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "hướng dẫn chính",
+    "object": "Lê Văn Tờ"
+  },
+  {
+    "subject": "Lê Văn Tờ",
+    "predicate": "là đối tượng",
+    "object": "Cao học"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "hướng dẫn Lê Văn Tờ từ",
+    "object": "29/4/2022"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "hướng dẫn Lê Văn Tờ đến",
+    "object": "26/09/2023"
+  },
+  {
+    "subject": "Lê Văn Tờ",
+    "predicate": "đào tạo tại",
+    "object": "Học viện Quân Y"
+  },
+  {
+    "subject": "Lê Văn Tờ",
+    "predicate": "được cấp bằng ngày",
+    "object": "26/09/2023"
+  },
+  {
+    "subject": "Lê Văn Tờ",
+    "predicate": "có số hiệu bằng",
+    "object": "03.001452"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "hướng dẫn phụ",
+    "object": "Nguyễn Ngọc Duy"
+  },
+  {
+    "subject": "Nguyễn Ngọc Duy",
+    "predicate": "là đối tượng",
+    "object": "Cao học"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "hướng dẫn Nguyễn Ngọc Duy từ",
+    "object": "05/12/2021"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "hướng dẫn Nguyễn Ngọc Duy đến",
+    "object": "29/12/2023"
+  },
+  {
+    "subject": "Nguyễn Ngọc Duy",
+    "predicate": "đào tạo tại",
+    "object": "Đại học Y Hà Nội"
+  },
+  {
+    "subject": "Nguyễn Ngọc Duy",
+    "predicate": "được cấp bằng ngày",
+    "object": "29/12/2023"
+  },
+  {
+    "subject": "Nguyễn Ngọc Duy",
+    "predicate": "có số hiệu bằng",
+    "object": "YHN2 005839"
+  },
+  {
+    "subject": "Rung nhĩ từ lý thuyết đến thực hành",
+    "predicate": "is a type of",
+    "object": "Sách Chuyên Khảo"
+  },
+  {
+    "subject": "Rung nhĩ từ lý thuyết đến thực hành",
+    "predicate": "published by",
+    "object": "Nhà Xuất Bản Y Học"
+  },
+  {
+    "subject": "Rung nhĩ từ lý thuyết đến thực hành",
+    "predicate": "publication year",
+    "object": "2021"
+  },
+  {
+    "subject": "Rung nhĩ từ lý thuyết đến thực hành",
+    "predicate": "has ISBN",
+    "object": "978-604-66-5257-1"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "is co-editor of",
+    "object": "Rung nhĩ từ lý thuyết đến thực hành"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "contributed to",
+    "object": "Rung nhĩ từ lý thuyết đến thực hành Chương 1 (tr.29-39)"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "contributed to",
+    "object": "Rung nhĩ từ lý thuyết đến thực hành Chương 2 (tr.40-55)"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "contributed to",
+    "object": "Rung nhĩ từ lý thuyết đến thực hành Chương 3 (tr.56-70)"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "contributed to",
+    "object": "Rung nhĩ từ lý thuyết đến thực hành Chương 4 (tr.71-85)"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "contributed to",
+    "object": "Rung nhĩ từ lý thuyết đến thực hành Chương 8 (tr.244-267)"
+  },
+  {
+    "subject": "Rung nhĩ từ lý thuyết đến thực hành",
+    "predicate": "confirmed by",
+    "object": "329/VNC-HLĐT"
+  },
+  {
+    "subject": "329/VNC-HLĐT",
+    "predicate": "confirmation date",
+    "object": "2023-10-30"
+  },
+  {
+    "subject": "Điện tim đồ từ lý thuyết đến thực hành",
+    "predicate": "is a type of",
+    "object": "Sách Chuyên Khảo"
+  },
+  {
+    "subject": "Điện tim đồ từ lý thuyết đến thực hành",
+    "predicate": "published by",
+    "object": "Nhà Xuất Bản Y Học"
+  },
+  {
+    "subject": "Điện tim đồ từ lý thuyết đến thực hành",
+    "predicate": "publication year",
+    "object": "2023"
+  },
+  {
+    "subject": "Điện tim đồ từ lý thuyết đến thực hành",
+    "predicate": "has ISBN",
+    "object": "978-604-66-6308-9"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "is co-editor of",
+    "object": "Điện tim đồ từ lý thuyết đến thực hành"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "contributed to",
+    "object": "Điện tim đồ từ lý thuyết đến thực hành Chương II (tr.28-41)"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "contributed to",
+    "object": "Điện tim đồ từ lý thuyết đến thực hành Chương IV (tr.42-67)"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "contributed to",
+    "object": "Điện tim đồ từ lý thuyết đến thực hành Chương VII (119169)"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "contributed to",
+    "object": "Điện tim đồ từ lý thuyết đến thực hành Chương XII(tr.317-335)"
+  },
+  {
+    "subject": "Điện tim đồ từ lý thuyết đến thực hành",
+    "predicate": "confirmed by",
+    "object": "329/VNC-HLĐT"
+  },
+  {
+    "subject": "Nghiên cứu biến đổi vận động xoắn của thất trái bằng siêu âm tim đánh dấu mô ở bệnh nhân suy tim mạn tính",
+    "predicate": "is a type of",
+    "object": "Đề tài cấp cơ sở"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "is principal investigator of",
+    "object": "Nghiên cứu biến đổi vận động xoắn của thất trái bằng siêu âm tim đánh dấu mô ở bệnh nhân suy tim mạn tính"
+  },
+  {
+    "subject": "Nghiên cứu biến đổi vận động xoắn của thất trái bằng siêu âm tim đánh dấu mô ở bệnh nhân suy tim mạn tính",
+    "predicate": "has project code",
+    "object": "675/QĐ-BV108"
+  },
+  {
+    "subject": "Nghiên cứu biến đổi vận động xoắn của thất trái bằng siêu âm tim đánh dấu mô ở bệnh nhân suy tim mạn tính",
+    "predicate": "period of execution",
+    "object": "2013-2014"
+  },
+  {
+    "subject": "Nghiên cứu biến đổi vận động xoắn của thất trái bằng siêu âm tim đánh dấu mô ở bệnh nhân suy tim mạn tính",
+    "predicate": "accepted date",
+    "object": "2014-04-14"
+  },
+  {
+    "subject": "Nghiên cứu biến đổi vận động xoắn của thất trái bằng siêu âm tim đánh dấu mô ở bệnh nhân suy tim mạn tính",
+    "predicate": "classification",
+    "object": "Xuất sắc"
+  },
+  {
+    "subject": "Nghiên cứu mối liên quan giữa một số chỉ số hình thái và chức năng nhĩ trái bằng siêu âm tim đánh dấu mô với chỉ số NTproBNP ở bệnh nhân suy tim có EF bảo tồn",
+    "predicate": "is a type of",
+    "object": "Đề tài cấp cơ sở"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "is principal investigator of",
+    "object": "Nghiên cứu mối liên quan giữa một số chỉ số hình thái và chức năng nhĩ trái bằng siêu âm tim đánh dấu mô với chỉ số NTproBNP ở bệnh nhân suy tim có EF bảo tồn"
+  },
+  {
+    "subject": "Nghiên cứu mối liên quan giữa một số chỉ số hình thái và chức năng nhĩ trái bằng siêu âm tim đánh dấu mô với chỉ số NTproBNP ở bệnh nhân suy tim có EF bảo tồn",
+    "predicate": "has project code",
+    "object": "5913/QĐ-BV108"
+  },
+  {
+    "subject": "Nghiên cứu mối liên quan giữa một số chỉ số hình thái và chức năng nhĩ trái bằng siêu âm tim đánh dấu mô với chỉ số NTproBNP ở bệnh nhân suy tim có EF bảo tồn",
+    "predicate": "period of execution",
+    "object": "2020-2022"
+  },
+  {
+    "subject": "Nghiên cứu mối liên quan giữa một số chỉ số hình thái và chức năng nhĩ trái bằng siêu âm tim đánh dấu mô với chỉ số NTproBNP ở bệnh nhân suy tim có EF bảo tồn",
+    "predicate": "accepted date",
+    "object": "2022-05-30"
+  },
+  {
+    "subject": "Nghiên cứu mối liên quan giữa một số chỉ số hình thái và chức năng nhĩ trái bằng siêu âm tim đánh dấu mô với chỉ số NTproBNP ở bệnh nhân suy tim có EF bảo tồn",
+    "predicate": "classification",
+    "object": "Đạt"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "received award",
+    "object": "Giải nhất Nhà Nghiên Cứu Trẻ"
+  },
+  {
+    "subject": "Giải nhất Nhà Nghiên Cứu Trẻ",
+    "predicate": "year",
+    "object": "2016"
+  },
+  {
+    "subject": "Giải nhất Nhà Nghiên Cứu Trẻ",
+    "predicate": "at event",
+    "object": "Đại Hội Tim Mạch Quốc Gia"
+  },
+  {
+    "subject": "Giải nhất Nhà Nghiên Cứu Trẻ",
+    "predicate": "for research topic",
+    "object": "Nghiên cứu xây dựng mô hình dự báo huyết khối tiểu nhĩ trái bằng siêu âm tim ở bệnh nhân rung nhĩ không do bệnh van tim"
+  },
+  {
+    "subject": "Nghiên cứu xây dựng mô hình dự báo huyết khối tiểu nhĩ trái bằng siêu âm tim ở bệnh nhân rung nhĩ không do bệnh van tim",
+    "predicate": "presented by",
+    "object": "Hội Tim Mạch Quốc Gia Việt Nam"
+  },
+  {
+    "subject": "Hội Tim Mạch Quốc Gia Việt Nam",
+    "predicate": "represented",
+    "object": "Việt Nam"
+  },
+  {
+    "subject": "Nghiên cứu xây dựng mô hình dự báo huyết khối tiểu nhĩ trái bằng siêu âm tim ở bệnh nhân rung nhĩ không do bệnh van tim",
+    "predicate": "presented at event",
+    "object": "Đại Hội Liên Đoàn Tim Mạch Đông Nam Á"
+  },
+  {
+    "subject": "Đại Hội Liên Đoàn Tim Mạch Đông Nam Á",
+    "predicate": "location",
+    "object": "Brunei"
+  },
+  {
+    "subject": "Đại Hội Liên Đoàn Tim Mạch Đông Nam Á",
+    "predicate": "year",
+    "object": "2017"
+  },
+  {
+    "subject": "Nghiên cứu xây dựng mô hình dự báo huyết khối tiểu nhĩ trái bằng siêu âm tim ở bệnh nhân rung nhĩ không do bệnh van tim",
+    "predicate": "received award",
+    "object": "Giải nhất của Hội Thi Sáng Tạo Tuổi Trẻ Trong Quân Đội"
+  },
+  {
+    "subject": "Giải nhất của Hội Thi Sáng Tạo Tuổi Trẻ Trong Quân Đội",
+    "predicate": "year",
+    "object": "2018"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "received award",
+    "object": "Huy Chương Tuổi Trẻ Sáng Tạo"
+  },
+  {
+    "subject": "Huy Chương Tuổi Trẻ Sáng Tạo",
+    "predicate": "awarded by",
+    "object": "Trung Ương Đoàn TNCS Hồ Chí Minh"
+  },
+  {
+    "subject": "Huy Chương Tuổi Trẻ Sáng Tạo",
+    "predicate": "year",
+    "object": "2018"
+  },
+  {
+    "subject": "Nghiên cứu tình trạng kháng insulin ở bệnh nhân bệnh động mạch vành",
+    "predicate": "published in",
+    "object": "Tạp Chí Y Dược Lâm Sàng 108"
+  },
+  {
+    "subject": "Tạp Chí Y Dược Lâm Sàng 108",
+    "predicate": "has ISSN",
+    "object": "1859-2872"
+  },
+  {
+    "subject": "Nghiên cứu tình trạng kháng insulin ở bệnh nhân bệnh động mạch vành",
+    "predicate": "volume/issue/pages",
+    "object": "Tập 4 - Số 4/2009, 14-23"
+  },
+  {
+    "subject": "Nghiên cứu tình trạng kháng insulin ở bệnh nhân bệnh động mạch vành",
+    "predicate": "publication date",
+    "object": "2009-04"
+  },
+  {
+    "subject": "Giá trị chẩn đoán bệnh động mạch vành không triệu chứng của siêu âm tim gắng sức bằng Dobutamine ở bệnh nhân đái tháo đường type 2",
+    "predicate": "published in",
+    "object": "Tạp Chí Y Dược Lâm Sàng 108"
+  },
+  {
+    "subject": "Giá trị chẩn đoán bệnh động mạch vành không triệu chứng của siêu âm tim gắng sức bằng Dobutamine ở bệnh nhân đái tháo đường type 2",
+    "predicate": "volume/issue/pages",
+    "object": "Tập 5 số đặc biệt, tháng 12/2010, 14-21"
+  },
+  {
+    "subject": "Giá trị chẩn đoán bệnh động mạch vành không triệu chứng của siêu âm tim gắng sức bằng Dobutamine ở bệnh nhân đái tháo đường type 2",
+    "predicate": "publication date",
+    "object": "2010-12"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "is main author of",
+    "object": "Cơn đau ngực biến thể Prinzmetal: lâm sàng và điều trị"
+  },
+  {
+    "subject": "Cơn đau ngực biến thể Prinzmetal: lâm sàng và điều trị",
+    "predicate": "published in",
+    "object": "Tạp Chí Y Dược Lâm Sàng 108"
+  },
+  {
+    "subject": "Cơn đau ngực biến thể Prinzmetal: lâm sàng và điều trị",
+    "predicate": "volume/issue/pages",
+    "object": "Tập 7 số 4/2012, 1-5"
+  },
+  {
+    "subject": "Cơn đau ngực biến thể Prinzmetal: lâm sàng và điều trị",
+    "predicate": "publication date",
+    "object": "2012-04"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "is main author of",
+    "object": "Nghiên cứu mối liên quan giữa bề dày lớp mỡ thượng tâm mạc và hội chứng chuyển hóa"
+  },
+  {
+    "subject": "Nghiên cứu mối liên quan giữa bề dày lớp mỡ thượng tâm mạc và hội chứng chuyển hóa",
+    "predicate": "published in",
+    "object": "Tạp Chí Y Dược Lâm Sàng 108"
+  },
+  {
+    "subject": "Nghiên cứu mối liên quan giữa bề dày lớp mỡ thượng tâm mạc và hội chứng chuyển hóa",
+    "predicate": "volume/issue/pages",
+    "object": "Tập 7 số 4/2012, 30-35"
+  },
+  {
+    "subject": "Nghiên cứu mối liên quan giữa bề dày lớp mỡ thượng tâm mạc và hội chứng chuyển hóa",
+    "predicate": "publication date",
+    "object": "2012-04"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "is main author of",
+    "object": "Giá trị của siêu âm tim đánh dấu mô tự động (AFI) trong chẩn đoán"
+  },
+  {
+    "subject": "Giá trị của siêu âm tim đánh dấu mô tự động (AFI) trong chẩn đoán",
+    "predicate": "published in",
+    "object": "Tạp Chí Y Dược Lâm Sàng 108"
+  },
+  {
+    "subject": "Giá trị của siêu âm tim đánh dấu mô tự động (AFI) trong chẩn đoán",
+    "predicate": "volume/issue/pages",
+    "object": "Tập 8 số đặc biệt"
+  },
+  {
+    "subject": "Giá trị của siêu âm tim đánh dấu mô tự động (AFI) trong chẩn đoán",
+    "predicate": "publication date",
+    "object": "2013-12"
+  },
+  {
+    "subject": "Giá trị của siêu âm tim đánh dấu mô tự động (AFI) trong chẩn đoán",
+    "predicate": "published in",
+    "object": "Nam"
+  },
+  {
+    "subject": "Nam",
+    "predicate": "has ISSN",
+    "object": "1859-2848"
+  },
+  {
+    "subject": "Giá trị của siêu âm tim đánh dấu mô tự động (AFI) trong chẩn đoán",
+    "predicate": "volume/issue/pages",
+    "object": "Số 69 năm 2015, 119-123"
+  },
+  {
+    "subject": "Giá trị của siêu âm tim đánh dấu mô tự động (AFI) trong chẩn đoán",
+    "predicate": "publication year",
+    "object": "2015"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "is main author of",
+    "object": "Báo cáo trường hợp lâm sàng: Xử lý vỡ động mạch vành trong can thiệp tim mạch"
+  },
+  {
+    "subject": "Báo cáo trường hợp lâm sàng: Xử lý vỡ động mạch vành trong can thiệp tim mạch",
+    "predicate": "published in",
+    "object": "Tạp Chí Y Dược Lâm Sàng 108"
+  },
+  {
+    "subject": "Báo cáo trường hợp lâm sàng: Xử lý vỡ động mạch vành trong can thiệp tim mạch",
+    "predicate": "volume/issue/pages",
+    "object": "Tập 10 – Số 1/2015, 30-34"
+  },
+  {
+    "subject": "Báo cáo trường hợp lâm sàng: Xử lý vỡ động mạch vành trong can thiệp tim mạch",
+    "predicate": "publication year",
+    "object": "2015"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "is main author of",
+    "object": "Reference and reliability of speckle tracking echocardiography for assessment of left atrial function in subjects without cardiovascular diseases"
+  },
+  {
+    "subject": "Reference and reliability of speckle tracking echocardiography for assessment of left atrial function in subjects without cardiovascular diseases",
+    "predicate": "published in",
+    "object": "Tạp Chí Y Dược Lâm Sàng 108"
+  },
+  {
+    "subject": "Reference and reliability of speckle tracking echocardiography for assessment of left atrial function in subjects without cardiovascular diseases",
+    "predicate": "volume/issue/pages",
+    "object": "Số tiếng anh Tập 11 - tháng 4/2016, 40-46"
+  },
+  {
+    "subject": "Reference and reliability of speckle tracking echocardiography for assessment of left atrial function in subjects without cardiovascular diseases",
+    "predicate": "publication date",
+    "object": "2016-04"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "is main author of",
+    "object": "Phối hợp bóng cắt và hệ thống khoa cắt mảng vữa xơ trong điều trị tổn thương thân chung động mạch vành tim bị vôi hóa nặng"
+  },
+  {
+    "subject": "Phối hợp bóng cắt và hệ thống khoa cắt mảng vữa xơ trong điều trị tổn thương thân chung động mạch vành tim bị vôi hóa nặng",
+    "predicate": "published in",
+    "object": "Tạp Chí Y Dược Học Quân Sự"
+  },
+  {
+    "subject": "Tạp Chí Y Dược Học Quân Sự",
+    "predicate": "has ISSN",
+    "object": "1859-0748"
+  },
+  {
+    "subject": "Phối hợp bóng cắt và hệ thống khoa cắt mảng vữa xơ trong điều trị tổn thương thân chung động mạch vành tim bị vôi hóa nặng",
+    "predicate": "volume/issue/pages",
+    "object": "Số 41 tháng 4/2016, 150-157"
+  },
+  {
+    "subject": "Phối hợp bóng cắt và hệ thống khoa cắt mảng vữa xơ trong điều trị tổn thương thân chung động mạch vành tim bị vôi hóa nặng",
+    "predicate": "publication date",
+    "object": "2016-04"
+  },
+  {
+    "subject": "Ứng viên",
+    "predicate": "is main author of",
+    "object": "Bóc tách động mạch vành tự nhiên: nhân một trường hợp lâm sàng điều trị bằng can thiệp qua da."
+  },
+  {
+    "subject": "Bóc tách động mạch vành tự nhiên: nhân một trường hợp lâm sàng điều trị bằng can thiệp qua da.",
+    "predicate": "published in",
+    "object": "Tạp Chí Y Dược Học Quân Sự"
+  },
+  {
+    "subject": "Bóc tách động mạch vành tự nhiên: nhân một trường hợp lâm sàng điều trị bằng can thiệp qua da.",
+    "predicate": "volume/issue/pages",
+    "object": "Tập 41 số tháng 7 năm 2016"
+  },
+  {
+    "subject": "Bóc tách động mạch vành tự nhiên: nhân một trường hợp lâm sàng điều trị bằng can thiệp qua da.",
+    "predicate": "publication date",
+    "object": "2016-07"
+  },
+  {
+    "subject": "Tạp chí Y dược học quân sự",
+    "predicate": "has ISSN",
+    "object": "1859-0748"
+  },
+  {
+    "subject": "Tạp chí Y dược học quân sự",
+    "predicate": "has volume",
+    "object": "41"
+  },
+  {
+    "subject": "Tạp chí Y dược học quân sự",
+    "predicate": "has issue",
+    "object": "July 2016"
+  },
+  {
+    "subject": "Tạp chí Y dược học quân sự",
+    "predicate": "has pages",
+    "object": "225-230"
+  },
+  {
+    "subject": "Mối liên quan giữa các chỉ số siêu âm tim đánh dấu mô nhĩ trái với huyết khối tiểu nhĩ trái ở bệnh nhân rung nhĩ không do bệnh van tim",
+    "predicate": "published in",
+    "object": "Tạp chí Y dược lâm sàng 108"
+  },
+  {
+    "subject": "Mối liên quan giữa các chỉ số siêu âm tim đánh dấu mô nhĩ trái với huyết khối tiểu nhĩ trái ở bệnh nhân rung nhĩ không do bệnh van tim",
+    "predicate": "has ISSN",
+    "object": "1859-2872"
+  },
+  {
+    "subject": "Mối liên quan giữa các chỉ số siêu âm tim đánh dấu mô nhĩ trái với huyết khối tiểu nhĩ trái ở bệnh nhân rung nhĩ không do bệnh van tim",
+    "predicate": "has volume",
+    "object": "11"
+  },
+  {
+    "subject": "Mối liên quan giữa các chỉ số siêu âm tim đánh dấu mô nhĩ trái với huyết khối tiểu nhĩ trái ở bệnh nhân rung nhĩ không do bệnh van tim",
+    "predicate": "has issue",
+    "object": "Special Issue 9/2016"
+  },
+  {
+    "subject": "Mối liên quan giữa các chỉ số siêu âm tim đánh dấu mô nhĩ trái với huyết khối tiểu nhĩ trái ở bệnh nhân rung nhĩ không do bệnh van tim",
+    "predicate": "has pages",
+    "object": "1-8"
+  },
+  {
+    "subject": "Mối liên quan giữa các chỉ số siêu âm tim đánh dấu mô nhĩ trái với thang điểm CHA2DS2- VASc ở bệnh nhân rung nhĩ không do bệnh van tim",
+    "predicate": "published in",
+    "object": "Tạp chí Y dược lâm sàng 108"
+  },
+  {
+    "subject": "Mối liên quan giữa các chỉ số siêu âm tim đánh dấu mô nhĩ trái với thang điểm CHA2DS2- VASc ở bệnh nhân rung nhĩ không do bệnh van tim",
+    "predicate": "has ISSN",
+    "object": "1859-2872"
+  },
+  {
+    "subject": "Mối liên quan giữa các chỉ số siêu âm tim đánh dấu mô nhĩ trái với thang điểm CHA2DS2- VASc ở bệnh nhân rung nhĩ không do bệnh van tim",
+    "predicate": "has volume",
+    "object": "12"
+  },
+  {
+    "subject": "Mối liên quan giữa các chỉ số siêu âm tim đánh dấu mô nhĩ trái với thang điểm CHA2DS2- VASc ở bệnh nhân rung nhĩ không do bệnh van tim",
+    "predicate": "has issue",
+    "object": "9/2017"
+  },
+  {
+    "subject": "Mối liên quan giữa các chỉ số siêu âm tim đánh dấu mô nhĩ trái với thang điểm CHA2DS2- VASc ở bệnh nhân rung nhĩ không do bệnh van tim",
+    "predicate": "has pages",
+    "object": "36-41"
+  },
+  {
+    "subject": "Mối liên quan giữa các chỉ số siêu âm tim kích thước nhĩ trái với mức độ âm cuộn tự nhiên ở bệnh nhân rung nhĩ không do bệnh van tim",
+    "predicate": "published in",
+    "object": "Tạp chí Y dược lâm sàng 108"
+  },
+  {
+    "subject": "Mối liên quan giữa các chỉ số siêu âm tim kích thước nhĩ trái với mức độ âm cuộn tự nhiên ở bệnh nhân rung nhĩ không do bệnh van tim",
+    "predicate": "has ISSN",
+    "object": "1859-2872"
+  },
+  {
+    "subject": "Mối liên quan giữa các chỉ số siêu âm tim kích thước nhĩ trái với mức độ âm cuộn tự nhiên ở bệnh nhân rung nhĩ không do bệnh van tim",
+    "predicate": "has volume",
+    "object": "12"
+  },
+  {
+    "subject": "Mối liên quan giữa các chỉ số siêu âm tim kích thước nhĩ trái với mức độ âm cuộn tự nhiên ở bệnh nhân rung nhĩ không do bệnh van tim",
+    "predicate": "has issue",
+    "object": "Special Issue November 2017"
+  },
+  {
+    "subject": "Mối liên quan giữa các chỉ số siêu âm tim kích thước nhĩ trái với mức độ âm cuộn tự nhiên ở bệnh nhân rung nhĩ không do bệnh van tim",
+    "predicate": "has pages",
+    "object": "170-175"
+  },
+  {
+    "subject": "Khảo sát một số đặc điểm lâm sàng và cận lâm sàng bệnh nhân nhồi máu cơ tim có biến chứng cơ học tại Bệnh viện Trung ương Quân đội 108",
+    "predicate": "published in",
+    "object": "Tạp chí Y dược lâm sàng 108"
+  },
+  {
+    "subject": "Khảo sát một số đặc điểm lâm sàng và cận lâm sàng bệnh nhân nhồi máu cơ tim có biến chứng cơ học tại Bệnh viện Trung ương Quân đội 108",
+    "predicate": "has ISSN",
+    "object": "1859-2872"
+  },
+  {
+    "subject": "Khảo sát một số đặc điểm lâm sàng và cận lâm sàng bệnh nhân nhồi máu cơ tim có biến chứng cơ học tại Bệnh viện Trung ương Quân đội 108",
+    "predicate": "has volume",
+    "object": "12"
+  },
+  {
+    "subject": "Khảo sát một số đặc điểm lâm sàng và cận lâm sàng bệnh nhân nhồi máu cơ tim có biến chứng cơ học tại Bệnh viện Trung ương Quân đội 108",
+    "predicate": "has issue",
+    "object": "Special Issue November 2017"
+  },
+  {
+    "subject": "Khảo sát một số đặc điểm lâm sàng và cận lâm sàng bệnh nhân nhồi máu cơ tim có biến chứng cơ học tại Bệnh viện Trung ương Quân đội 108",
+    "predicate": "has pages",
+    "object": "159-170"
+  },
+  {
+    "subject": "Mối liên quan giữa các chỉ số siêu âm tim với mức độ âm cuộn tự nhiên ở bệnh nhân rung nhĩ không do bệnh van tim",
+    "predicate": "published in",
+    "object": "Tạp chí Y dược lâm sàng 108"
+  },
+  {
+    "subject": "Mối liên quan giữa các chỉ số siêu âm tim với mức độ âm cuộn tự nhiên ở bệnh nhân rung nhĩ không do bệnh van tim",
+    "predicate": "has ISSN",
+    "object": "1859-2872"
+  },
+  {
+    "subject": "Mối liên quan giữa các chỉ số siêu âm tim với mức độ âm cuộn tự nhiên ở bệnh nhân rung nhĩ không do bệnh van tim",
+    "predicate": "has volume",
+    "object": "12"
+  },
+  {
+    "subject": "Mối liên quan giữa các chỉ số siêu âm tim với mức độ âm cuộn tự nhiên ở bệnh nhân rung nhĩ không do bệnh van tim",
+    "predicate": "has issue",
+    "object": "Special Issue December 2017"
+  },
+  {
+    "subject": "Mối liên quan giữa các chỉ số siêu âm tim với mức độ âm cuộn tự nhiên ở bệnh nhân rung nhĩ không do bệnh van tim",
+    "predicate": "has pages",
+    "object": "35-40"
+  },
+  {
+    "subject": "So sánh một số mô hình dự báo đột quị não ở bệnh nhân rung nhĩ không do bệnh van tim",
+    "predicate": "published in",
+    "object": "Tạp chí Y dược lâm sàng 108"
+  },
+  {
+    "subject": "So sánh một số mô hình dự báo đột quị não ở bệnh nhân rung nhĩ không do bệnh van tim",
+    "predicate": "has ISSN",
+    "object": "1859-2872"
+  },
+  {
+    "subject": "So sánh một số mô hình dự báo đột quị não ở bệnh nhân rung nhĩ không do bệnh van tim",
+    "predicate": "has volume",
+    "object": "12"
+  },
+  {
+    "subject": "So sánh một số mô hình dự báo đột quị não ở bệnh nhân rung nhĩ không do bệnh van tim",
+    "predicate": "has issue",
+    "object": "Special Issue December 2017"
+  },
+  {
+    "subject": "So sánh một số mô hình dự báo đột quị não ở bệnh nhân rung nhĩ không do bệnh van tim",
+    "predicate": "has pages",
+    "object": "159-163"
+  },
+  {
+    "subject": "Đánh giá chất lượng cuộc sống của bệnh nhân trước và sau điều trị cơn nhịp nhanh kịch phát trên thất bằng sóng có tần số radio bằng thang điểm EQ-5D-3l",
+    "predicate": "published in",
+    "object": "Tạp chí Y dược lâm sàng 108"
+  },
+  {
+    "subject": "Đánh giá chất lượng cuộc sống của bệnh nhân trước và sau điều trị cơn nhịp nhanh kịch phát trên thất bằng sóng có tần số radio bằng thang điểm EQ-5D-3l",
+    "predicate": "has ISSN",
+    "object": "1859-2872"
+  },
+  {
+    "subject": "Đánh giá chất lượng cuộc sống của bệnh nhân trước và sau điều trị cơn nhịp nhanh kịch phát trên thất bằng sóng có tần số radio bằng thang điểm EQ-5D-3l",
+    "predicate": "has volume",
+    "object": "12"
+  },
+  {
+    "subject": "Đánh giá chất lượng cuộc sống của bệnh nhân trước và sau điều trị cơn nhịp nhanh kịch phát trên thất bằng sóng có tần số radio bằng thang điểm EQ-5D-3l",
+    "predicate": "has issue",
+    "object": "Special Issue December 2017"
+  },
+  {
+    "subject": "Đánh giá chất lượng cuộc sống của bệnh nhân trước và sau điều trị cơn nhịp nhanh kịch phát trên thất bằng sóng có tần số radio bằng thang điểm EQ-5D-3l",
+    "predicate": "has pages",
+    "object": "85-91"
+  },
+  {
+    "subject": "Novel Models for the prediction of left atrial appendage thrombus in patients with chronic non- valvular atrial fibrillation",
+    "predicate": "published in",
+    "object": "Tạp chí Y dược lâm sàng 108"
+  },
+  {
+    "subject": "Novel Models for the prediction of left atrial appendage thrombus in patients with chronic non- valvular atrial fibrillation",
+    "predicate": "has ISSN",
+    "object": "1859-2872"
+  },
+  {
+    "subject": "Novel Models for the prediction of left atrial appendage thrombus in patients with chronic non- valvular atrial fibrillation",
+    "predicate": "has volume",
+    "object": "13"
+  },
+  {
+    "subject": "Novel Models for the prediction of left atrial appendage thrombus in patients with chronic non- valvular atrial fibrillation",
+    "predicate": "has issue",
+    "object": "Special Issue 8/2018"
+  },
+  {
+    "subject": "Novel Models for the prediction of left atrial appendage thrombus in patients with chronic non- valvular atrial fibrillation",
+    "predicate": "has pages",
+    "object": "19-26"
+  },
+  {
+    "subject": "Novel Models for the prediction of left atrial appendage thrombus in patients with chronic non- valvular atrial fibrillation",
+    "predicate": "published in year",
+    "object": "2018"
+  },
+  {
+    "subject": "Novel Models for the prediction of left atrial appendage thrombus in patients with chronic non- valvular atrial fibrillation",
+    "predicate": "is a type of",
+    "object": "Thesis"
+  },
+  {
+    "subject": "Novel Models for the prediction of left atrial appendage thrombus in patients with chronic non- valvular atrial fibrillation",
+    "predicate": "received",
+    "object": "Recognition"
+  },
+  {
+    "subject": "Novel Models for the prediction of left atrial appendage thrombus in patients with chronic non- valvular atrial fibrillation",
+    "predicate": "has associated year",
+    "object": "2018"
+  },
+  {
+    "subject": "Cardiology Research and Practice Online",
+    "predicate": "has Online ISSN",
+    "object": "20900597"
+  },
+  {
+    "subject": "Cardiology Research and Practice Online",
+    "predicate": "has Print ISSN",
+    "object": "20908016"
+  },
+  {
+    "subject": "Cardiology Research and Practice Online",
+    "predicate": "has Scopus Quartile",
+    "object": "Q2"
+  },
+  {
+    "subject": "Cardiology Research and Practice Online",
+    "predicate": "has H-index",
+    "object": "45"
+  },
+  {
+    "subject": "Cardiology Research and Practice Online",
+    "predicate": "has SJR 2023",
+    "object": "0.52"
+  },
+  {
+    "subject": "Hiệntượng xoay trục điện tim trước và sau can thiệp động mạch vành qua da thì đầu ở bệnh nhân nhồi máu cơ tim cấp",
+    "predicate": "published in",
+    "object": "Cardiology Research and Practice Online"
+  },
+  {
+    "subject": "Hiệntượng xoay trục điện tim trước và sau can thiệp động mạch vành qua da thì đầu ở bệnh nhân nhồi máu cơ tim cấp",
+    "predicate": "has Article ID",
+    "object": "1496535"
+  },
+  {
+    "subject": "Hiệntượng xoay trục điện tim trước và sau can thiệp động mạch vành qua da thì đầu ở bệnh nhân nhồi máu cơ tim cấp",
+    "predicate": "has DOI",
+    "object": "10.1155/2019/1496535"
+  },
+  {
+    "subject": "Hiệntượng xoay trục điện tim trước và sau can thiệp động mạch vành qua da thì đầu ở bệnh nhân nhồi máu cơ tim cấp",
+    "predicate": "published year",
+    "object": "2019"
+  },
+  {
+    "subject": "Tạp chí Y Dược Lâm Sàng 108",
+    "predicate": "has ISSN",
+    "object": "1859-2872"
+  },
+  {
+    "subject": "Mối liên quan giữa chức năng tâm trương thất trái với huyết khối tiểu nhĩ trái ở bệnh nhân rung nhĩ mạn tính không do bệnh van tim",
+    "predicate": "published in",
+    "object": "Tạp chí Y Dược Lâm Sàng 108"
+  },
+  {
+    "subject": "Mối liên quan giữa chức năng tâm trương thất trái với huyết khối tiểu nhĩ trái ở bệnh nhân rung nhĩ mạn tính không do bệnh van tim",
+    "predicate": "published year",
+    "object": "2019"
+  },
+  {
+    "subject": "Mối liên quan giữa chức năng tâm trương thất trái với huyết khối tiểu nhĩ trái ở bệnh nhân rung nhĩ mạn tính không do bệnh van tim",
+    "predicate": "published month",
+    "object": "October"
+  },
+  {
+    "subject": "Mối liên quan giữa chức năng tâm trương thất trái với huyết khối tiểu nhĩ trái ở bệnh nhân rung nhĩ mạn tính không do bệnh van tim",
+    "predicate": "published volume",
+    "object": "14 số đặc biệt"
+  },
+  {
+    "subject": "Mối liên quan giữa chức năng tâm trương thất trái với huyết khối tiểu nhĩ trái ở bệnh nhân rung nhĩ mạn tính không do bệnh van tim",
+    "predicate": "published pages",
+    "object": "126-130"
+  },
+  {
+    "subject": "Tạp chí Y học Việt Nam",
+    "predicate": "has ISSN",
+    "object": "1859-1868"
+  },
+  {
+    "subject": "European Heart Journal - Case Reports",
+    "predicate": "has ISSN",
+    "object": "25142119"
+  },
+  {
+    "subject": "European Heart Journal - Case Reports",
+    "predicate": "has Scopus Quartile",
+    "object": "Q3"
+  },
+  {
+    "subject": "European Heart Journal - Case Reports",
+    "predicate": "has H-index",
+    "object": "16"
+  },
+  {
+    "subject": "European Heart Journal - Case Reports",
+    "predicate": "has SJR 2023",
+    "object": "0.31"
+  },
+  {
+    "subject": "Multiple spontaneous coronary artery dissections associated with intravenous daunorubicin treatment for acute myelocyticleukaemia: a case report",
+    "predicate": "published in",
+    "object": "European Heart Journal - Case Reports"
+  },
+  {
+    "subject": "Multiple spontaneous coronary artery dissections associated with intravenous daunorubicin treatment for acute myelocyticleukaemia: a case report",
+    "predicate": "has URL",
+    "object": "https://academic.oup.com/ehjcr/article/5/1/ytaa427/6042366"
+  },
+  {
+    "subject": "Multiple spontaneous coronary artery dissections associated with intravenous daunorubicin treatment for acute myelocyticleukaemia: a case report",
+    "predicate": "has DOI",
+    "object": "10.1093/ehjcr/ytaa427"
+  },
+  {
+    "subject": "Multiple spontaneous coronary artery dissections associated with intravenous daunorubicin treatment for acute myelocyticleukaemia: a case report",
+    "predicate": "published year",
+    "object": "2020"
+  },
+  {
+    "subject": "Multiple spontaneous coronary artery dissections associated with intravenous daunorubicin treatment for acute myelocyticleukaemia: a case report",
+    "predicate": "published month",
+    "object": "December"
+  },
+  {
+    "subject": "Mối tương quan giữa nồng độ đỉnh của men CK-MB huyết tương với sự xoay trục điện tim ở bệnh nhân nhồi máu cơ tim cấp được can thiệp thì đầu qua da",
+    "predicate": "published in",
+    "object": "Cardiology Research and Practice Online"
+  },
+  {
+    "subject": "Mối tương quan giữa nồng độ đỉnh của men CK-MB huyết tương với sự xoay trục điện tim ở bệnh nhân nhồi máu cơ tim cấp được can thiệp thì đầu qua da",
+    "predicate": "has Article ID",
+    "object": "8496351"
+  },
+  {
+    "subject": "Mối tương quan giữa nồng độ đỉnh của men CK-MB huyết tương với sự xoay trục điện tim ở bệnh nhân nhồi máu cơ tim cấp được can thiệp thì đầu qua da",
+    "predicate": "has DOI",
+    "object": "10.1155/2021/8496351"
+  },
+  {
+    "subject": "Mối tương quan giữa nồng độ đỉnh của men CK-MB huyết tương với sự xoay trục điện tim ở bệnh nhân nhồi máu cơ tim cấp được can thiệp thì đầu qua da",
+    "predicate": "published year",
+    "object": "2021"
+  },
+  {
+    "subject": "Mối tương quan giữa nồng độ đỉnh của men CK-MB huyết tương với sự xoay trục điện tim ở bệnh nhân nhồi máu cơ tim cấp được can thiệp thì đầu qua da",
+    "predicate": "has pages",
+    "object": "6"
+  },
+  {
+    "subject": "Mối tương quan giữa nồng độ đỉnh của men CK-MB huyết tương với sự xoay trục điện tim ở bệnh nhân nhồi máu cơ tim cấp được can thiệp thì đầu qua da",
+    "predicate": "has URL",
+    "object": "https://onlinelibrary.wiley.com/doi/10.1155/2021/8496351"
+  },
+  {
+    "subject": "Đánh giá một số thông số về sức căng và vận động xoắn của thất trái bằng siêu âm tim đánh dấu mô 3D ở bệnh nhân suy tim mạn tính",
+    "predicate": "published in",
+    "object": "Tạp chí Y Dược Lâm Sàng 108"
+  },
+  {
+    "subject": "Đánh giá một số thông số về sức căng và vận động xoắn của thất trái bằng siêu âm tim đánh dấu mô 3D ở bệnh nhân suy tim mạn tính",
+    "predicate": "published year",
+    "object": "2021"
+  },
+  {
+    "subject": "Đánh giá một số thông số về sức căng và vận động xoắn của thất trái bằng siêu âm tim đánh dấu mô 3D ở bệnh nhân suy tim mạn tính",
+    "predicate": "published month",
+    "object": "April"
+  },
+  {
+    "subject": "Đánh giá một số thông số về sức căng và vận động xoắn của thất trái bằng siêu âm tim đánh dấu mô 3D ở bệnh nhân suy tim mạn tính",
+    "predicate": "published volume",
+    "object": "16 số đặc biệt"
+  },
+  {
+    "subject": "Đánh giá một số thông số về sức căng và vận động xoắn của thất trái bằng siêu âm tim đánh dấu mô 3D ở bệnh nhân suy tim mạn tính",
+    "predicate": "published pages",
+    "object": "230-235"
+  },
+  {
+    "subject": "Mối tương quan giữa các thông số biến dạng thất trái đo trên siêu âm đánh dấu mô 3D với phân suất tống máu thất trái ở bệnh nhân suy tim mạn tính",
+    "predicate": "published in",
+    "object": "Tạp chí Y Dược Lâm Sàng 108"
+  },
+  {
+    "subject": "Mối tương quan giữa các thông số biến dạng thất trái đo trên siêu âm đánh dấu mô 3D với phân suất tống máu thất trái ở bệnh nhân suy tim mạn tính",
+    "predicate": "published year",
+    "object": "2021"
+  },
+  {
+    "subject": "Mối tương quan giữa các thông số biến dạng thất trái đo trên siêu âm đánh dấu mô 3D với phân suất tống máu thất trái ở bệnh nhân suy tim mạn tính",
+    "predicate": "published month",
+    "object": "April"
+  },
+  {
+    "subject": "Mối tương quan giữa các thông số biến dạng thất trái đo trên siêu âm đánh dấu mô 3D với phân suất tống máu thất trái ở bệnh nhân suy tim mạn tính",
+    "predicate": "published volume",
+    "object": "16 số 4"
+  },
+  {
+    "subject": "Mối tương quan giữa các thông số biến dạng thất trái đo trên siêu âm đánh dấu mô 3D với phân suất tống máu thất trái ở bệnh nhân suy tim mạn tính",
+    "predicate": "published pages",
+    "object": "1-8"
+  },
+  {
+    "subject": "Mối tương quan giữa các thông số biến dạng thất trái đo trên siêu âm đánh dấu mô 3D với phân suất tống máu thất trái ở bệnh nhân suy tim mạn tính",
+    "predicate": "published in",
+    "object": "Tạp chí Y học Việt Nam"
+  },
+  {
+    "subject": "Mối tương quan giữa các thông số biến dạng thất trái đo trên siêu âm đánh dấu mô 3D với phân suất tống máu thất trái ở bệnh nhân suy tim mạn tính",
+    "predicate": "published month",
+    "object": "June"
+  },
+  {
+    "subject": "Mối tương quan giữa các thông số biến dạng thất trái đo trên siêu âm đánh dấu mô 3D với phân suất tống máu thất trái ở bệnh nhân suy tim mạn tính",
+    "predicate": "published volume",
+    "object": "503 số 2"
+  },
+  {
+    "subject": "Mối tương quan giữa các thông số biến dạng thất trái đo trên siêu âm đánh dấu mô 3D với phân suất tống máu thất trái ở bệnh nhân suy tim mạn tính",
+    "predicate": "published pages",
+    "object": "19-22"
+  },
+  {
+    "subject": "Management of iatrogenic right ventricular puncture: a case report",
+    "predicate": "published in",
+    "object": "Tạp chí Y Dược Lâm Sàng 108"
+  },
+  {
+    "subject": "Management of iatrogenic right ventricular puncture: a case report",
+    "predicate": "published year",
+    "object": "2021"
+  },
+  {
+    "subject": "Management of iatrogenic right ventricular puncture: a case report",
+    "predicate": "published month",
+    "object": "November"
+  },
+  {
+    "subject": "Management of iatrogenic right ventricular puncture: a case report",
+    "predicate": "published volume",
+    "object": "Số tiếng Anh, 16"
+  },
+  {
+    "subject": "Management of iatrogenic right ventricular puncture: a case report",
+    "predicate": "published pages",
+    "object": "56-59"
+  },
+  {
+    "subject": "Treatment of left ventricular thrombus by rivaroxaban: a case report",
+    "predicate": "published in",
+    "object": "Tạp chí Y Dược Lâm Sàng 108"
+  },
+  {
+    "subject": "Treatment of left ventricular thrombus by rivaroxaban: a case report",
+    "predicate": "published year",
+    "object": "2021"
+  },
+  {
+    "subject": "Treatment of left ventricular thrombus by rivaroxaban: a case report",
+    "predicate": "published month",
+    "object": "November"
+  },
+  {
+    "subject": "Treatment of left ventricular thrombus by rivaroxaban: a case report",
+    "predicate": "published volume",
+    "object": "Số tiếng Anh, 16"
+  },
+  {
+    "subject": "Treatment of left ventricular thrombus by rivaroxaban: a case report",
+    "predicate": "published pages",
+    "object": "64-67"
+  },
+  {
+    "subject": "Đánh giá sự thay đổi chất lượng cuộc sống của bệnh nhân suy tim mạn tính được áp dụng phương pháp tập thở cơ hoành",
+    "predicate": "published in",
+    "object": "Tạp chí Y học Việt Nam"
+  },
+  {
+    "subject": "Đánh giá sự thay đổi chất lượng cuộc sống của bệnh nhân suy tim mạn tính được áp dụng phương pháp tập thở cơ hoành",
+    "predicate": "published year",
+    "object": "2022"
+  },
+  {
+    "subject": "Đánh giá sự thay đổi chất lượng cuộc sống của bệnh nhân suy tim mạn tính được áp dụng phương pháp tập thở cơ hoành",
+    "predicate": "published month",
+    "object": "February"
+  },
+  {
+    "subject": "Đánh giá sự thay đổi chất lượng cuộc sống của bệnh nhân suy tim mạn tính được áp dụng phương pháp tập thở cơ hoành",
+    "predicate": "published volume",
+    "object": "1"
+  },
+  {
+    "subject": "Journal of American College of Cardiology: Case Reports",
+    "predicate": "has ISSN",
+    "object": "2666-0849"
+  },
+  {
+    "subject": "Journal of American College of Cardiology: Case Reports",
+    "predicate": "has Scopus Quartile",
+    "object": "Q3"
+  },
+  {
+    "subject": "Journal of American College of Cardiology: Case Reports",
+    "predicate": "has H-index",
+    "object": "10"
+  },
+  {
+    "subject": "Journal of American College of Cardiology: Case Reports",
+    "predicate": "has SJR 2023",
+    "object": "0.37"
+  },
+  {
+    "subject": "Multivessel Coronary Artery Disease in a Patient With Noncompaction Cardiomyopathy With Coronary Artery-to-Left Ventricleistulas",
+    "predicate": "published in",
+    "object": "Journal of American College of Cardiology: Case Reports"
+  },
+  {
+    "subject": "Multivessel Coronary Artery Disease in a Patient With Noncompaction Cardiomyopathy With Coronary Artery-to-Left Ventricleistulas",
+    "predicate": "has URL",
+    "object": "https://www.jacc.org/doi/10.1016/j.jaccas.2022.01.020"
+  },
+  {
+    "subject": "Multivessel Coronary Artery Disease in a Patient With Noncompaction Cardiomyopathy With Coronary Artery-to-Left Ventricleistulas",
+    "predicate": "has DOI",
+    "object": "10.1016/j.jaccas.2022.01.020"
+  },
+  {
+    "subject": "Multivessel Coronary Artery Disease in a Patient With Noncompaction Cardiomyopathy With Coronary Artery-to-Left Ventricleistulas",
+    "predicate": "published year",
+    "object": "2022"
+  },
+  {
+    "subject": "Multivessel Coronary Artery Disease in a Patient With Noncompaction Cardiomyopathy With Coronary Artery-to-Left Ventricleistulas",
+    "predicate": "published month",
+    "object": "March"
+  },
+  {
+    "subject": "Multivessel Coronary Artery Disease in a Patient With Noncompaction Cardiomyopathy With Coronary Artery-to-Left Ventricleistulas",
+    "predicate": "published volume",
+    "object": "4 Number 6"
+  },
+  {
+    "subject": "Mối liên quan giữa một số chỉ số siêu âm tim nhĩ trái và nồng độ NT-proBNP ở bệnh nhân suy tim có phân suất tống máu bảo tồn",
+    "predicate": "published in",
+    "object": "Tạp chí Y học Việt Nam"
+  },
+  {
+    "subject": "Mối liên quan giữa một số chỉ số siêu âm tim nhĩ trái và nồng độ NT-proBNP ở bệnh nhân suy tim có phân suất tống máu bảo tồn",
+    "predicate": "published year",
+    "object": "2022"
+  },
+  {
+    "subject": "Mối liên quan giữa một số chỉ số siêu âm tim nhĩ trái và nồng độ NT-proBNP ở bệnh nhân suy tim có phân suất tống máu bảo tồn",
+    "predicate": "published month",
+    "object": "June"
+  },
+  {
+    "subject": "Mối liên quan giữa một số chỉ số siêu âm tim nhĩ trái và nồng độ NT-proBNP ở bệnh nhân suy tim có phân suất tống máu bảo tồn",
+    "predicate": "published volume",
+    "object": "515 số 2"
+  },
+  {
+    "subject": "Mối liên quan giữa một số chỉ số siêu âm tim nhĩ trái và nồng độ NT-proBNP ở bệnh nhân suy tim có phân suất tống máu bảo tồn",
+    "predicate": "published pages",
+    "object": "281-284"
+  },
+  {
+    "subject": "Tạp chí Y Dược Học Quân Sự",
+    "predicate": "has ISSN",
+    "object": "1859-0748"
+  },
+  {
+    "subject": "Mối liên quan giữa một số chỉ số siêu âm tim nhĩ trái và nồng độ NT-proBNP ở bệnh nhân suy tim có phân suất tống máu bảo tồn",
+    "predicate": "published in",
+    "object": "Tạp chí Y Dược Học Quân Sự"
+  },
+  {
+    "subject": "Mối liên quan giữa một số chỉ số siêu âm tim nhĩ trái và nồng độ NT-proBNP ở bệnh nhân suy tim có phân suất tống máu bảo tồn",
+    "predicate": "published volume",
+    "object": "5"
+  },
+  {
+    "subject": "Mối liên quan giữa một số chỉ số siêu âm tim nhĩ trái và nồng độ NT-proBNP ở bệnh nhân suy tim có phân suất tống máu bảo tồn",
+    "predicate": "published pages",
+    "object": "140"
+  },
+  {
+    "subject": "World Journal of Nuclear Medicine",
+    "predicate": "has ISSN",
+    "object": "1450-1147"
+  },
+  {
+    "subject": "Prognostic Role of Diastolic Left Ventricular Mechanical Dyssynchrony by Gated Single Photon Emission Computed Tomography Myocardial Perfusion Imaging in Post-Myocardial Infarction",
+    "predicate": "published in",
+    "object": "World Journal of Nuclear Medicine"
+  },
+  {
+    "subject": "Prognostic Role of Diastolic Left Ventricular Mechanical Dyssynchrony by Gated Single Photon Emission Computed Tomography Myocardial Perfusion Imaging in Post-Myocardial Infarction",
+    "predicate": "has URL",
+    "object": "https://www.thiemeconnect.com/products/ejournals/pdf/10.1055/s-00431764304.pdf"
+  },
+  {
+    "subject": "Prognostic Role of Diastolic Left Ventricular Mechanical Dyssynchrony by Gated Single Photon Emission Computed Tomography Myocardial Perfusion Imaging in Post-Myocardial Infarction",
+    "predicate": "has DOI",
+    "object": "10.1055/s-0043-1764304"
+  },
+  {
+    "subject": "Prognostic Role of Diastolic Left Ventricular Mechanical Dyssynchrony by Gated Single Photon Emission Computed Tomography Myocardial Perfusion Imaging in Post-Myocardial Infarction",
+    "predicate": "published year",
+    "object": "2023"
+  },
+  {
+    "subject": "Prognostic Role of Diastolic Left Ventricular Mechanical Dyssynchrony by Gated Single Photon Emission Computed Tomography Myocardial Perfusion Imaging in Post-Myocardial Infarction",
+    "predicate": "published volume",
+    "object": "22"
+  },
+  {
+    "subject": "Prognostic Role of Diastolic Left Ventricular Mechanical Dyssynchrony by Gated Single Photon Emission Computed Tomography Myocardial Perfusion Imaging in Post-Myocardial Infarction",
+    "predicate": "published pages",
+    "object": "108–113"
+  },
+  {
+    "subject": "Frontiers in Cardiovascular Medicine",
+    "predicate": "has ISSN",
+    "object": "2297055X"
+  },
+  {
+    "subject": "Frontiers in Cardiovascular Medicine",
+    "predicate": "has Scopus Quartile",
+    "object": "Q2"
+  },
+  {
+    "subject": "Frontiers in Cardiovascular Medicine",
+    "predicate": "has H-index",
+    "object": "69"
+  },
+  {
+    "subject": "Frontiers in Cardiovascular Medicine",
+    "predicate": "has SJR 2023",
+    "object": "0.86"
+  },
+  {
+    "subject": "Frontiers in Cardiovascular Medicine",
+    "predicate": "is indexed by",
+    "object": "SCIE"
+  },
+  {
+    "subject": "Progressive alterations of left atrial and ventricular volume and strain across chronic kidney disease",
+    "predicate": "published in",
+    "object": "Frontiers in Cardiovascular Medicine"
+  },
+  {
+    "subject": "Progressive alterations of left atrial and ventricular volume and strain across chronic kidney disease",
+    "predicate": "has DOI",
+    "object": "10.3389/fcvm.2023.119742"
+  },
+  {
+    "subject": "Progressive alterations of left atrial and ventricular volume and strain across chronic kidney disease",
+    "predicate": "published year",
+    "object": "2023"
+  },
+  {
+    "subject": "Progressive alterations of left atrial and ventricular volume and strain across chronic kidney disease",
+    "predicate": "has URL",
+    "object": "https://www.frontiersin.org/articles/10.3389/fcvm.2023.1197427/full"
+  },
+  {
+    "subject": "American Journal of Case Reports",
+    "predicate": "has ISSN",
+    "object": "19415923"
+  },
+  {
+    "subject": "American Journal of Case Reports",
+    "predicate": "has Scopus Quartile",
+    "object": "Q3"
+  },
+  {
+    "subject": "American Journal of Case Reports",
+    "predicate": "has H-index",
+    "object": "27"
+  },
+  {
+    "subject": "American Journal of Case Reports",
+    "predicate": "has SJR 2023",
+    "object": "0.28"
+  },
+  {
+    "subject": "Two Cases of Management of Coronary Artery Perforation During Percutaneous Coronary Intervention Using Injection of Combined Histoacryl (n-Butyl-2-Cyanoacrylate) and Lipiodol (Ethiodized Oil)",
+    "predicate": "published in",
+    "object": "American Journal of Case Reports"
+  },
+  {
+    "subject": "Two Cases of Management of Coronary Artery Perforation During Percutaneous Coronary Intervention Using Injection of Combined Histoacryl (n-Butyl-2-Cyanoacrylate) and Lipiodol (Ethiodized Oil)",
+    "predicate": "has URL",
+    "object": "https://amjcaserep.com/abstract/full/idArt/938861"
+  },
+  {
+    "subject": "Two Cases of Management of Coronary Artery Perforation During Percutaneous Coronary Intervention Using Injection of Combined Histoacryl (n-Butyl-2-Cyanoacrylate) and Lipiodol (Ethiodized Oil)",
+    "predicate": "published year",
+    "object": "2023"
+  },
+  {
+    "subject": "Two Cases of Management of Coronary Artery Perforation During Percutaneous Coronary Intervention Using Injection of Combined Histoacryl (n-Butyl-2-Cyanoacrylate) and Lipiodol (Ethiodized Oil)",
+    "predicate": "published volume",
+    "object": "24"
+  },
+  {
+    "subject": "Two Cases of Management of Coronary Artery Perforation During Percutaneous Coronary Intervention Using Injection of Combined Histoacryl (n-Butyl-2-Cyanoacrylate) and Lipiodol (Ethiodized Oil)",
+    "predicate": "has Article ID",
+    "object": "e938861"
+  },
+  {
+    "subject": "Two Cases of Management of Coronary Artery Perforation During Percutaneous Coronary Intervention Using Injection of Combined Histoacryl (n-Butyl-2-Cyanoacrylate) and Lipiodol (Ethiodized Oil)",
+    "predicate": "has DOI",
+    "object": "10.12659/AJCR.938"
+  },
+  {
+    "subject": "International Cardiovascular Research Journal",
+    "predicate": "has ISSN",
+    "object": "22519149"
+  },
+  {
+    "subject": "International Cardiovascular Research Journal",
+    "predicate": "has Scopus Quartile",
+    "object": "Q4"
+  },
+  {
+    "subject": "International Cardiovascular Research Journal",
+    "predicate": "has H-index",
+    "object": "15"
+  },
+  {
+    "subject": "International Cardiovascular Research Journal",
+    "predicate": "has SJR 2023",
+    "object": "0.11"
+  },
+  {
+    "subject": "Prognostic Value of SYNTAX Scores for Predicting Major Cardiac Adverse Events in Patients with Acute Myocardial Infarction Treated with Primary Percutaneous Coronary Intervention",
+    "predicate": "published in",
+    "object": "International Cardiovascular Research Journal"
+  },
+  {
+    "subject": "Prognostic Value of SYNTAX Scores for Predicting Major Cardiac Adverse Events in Patients with Acute Myocardial Infarction Treated with Primary Percutaneous Coronary Intervention",
+    "predicate": "has URL",
+    "object": "https://brieflands.com/articles/ircrj136694.pdf"
+  },
+  {
+    "subject": "Prognostic Value of SYNTAX Scores for Predicting Major Cardiac Adverse Events in Patients with Acute Myocardial Infarction Treated with Primary Percutaneous Coronary Intervention",
+    "predicate": "published year",
+    "object": "2023"
+  },
+  {
+    "subject": "Prognostic Value of SYNTAX Scores for Predicting Major Cardiac Adverse Events in Patients with Acute Myocardial Infarction Treated with Primary Percutaneous Coronary Intervention",
+    "predicate": "published month",
+    "object": "April"
+  },
+  {
+    "subject": "Prognostic Value of SYNTAX Scores for Predicting Major Cardiac Adverse Events in Patients with Acute Myocardial Infarction Treated with Primary Percutaneous Coronary Intervention",
+    "predicate": "published volume",
+    "object": "17(1)"
+  },
+  {
+    "subject": "Prognostic Value of SYNTAX Scores for Predicting Major Cardiac Adverse Events in Patients with Acute Myocardial Infarction Treated with Primary Percutaneous Coronary Intervention",
+    "predicate": "published pages",
+    "object": "2-8"
+  },
+  {
+    "subject": "Prognostic Value of SYNTAX Scores for Predicting Major Cardiac Adverse Events in Patients with Acute Myocardial Infarction Treated with Primary Percutaneous Coronary Intervention",
+    "predicate": "has reference ID",
+    "object": "icrj.13664"
+  },
+  {
+    "subject": "Thực trạng tuân thủ điều trị của người bệnh đái tháo đường type 2 được điều trị ngoại trú bằng metformin tại Bệnh viện Trung ương Quân đội",
+    "predicate": "published in",
+    "object": "Tạp chí Y học Việt Nam"
+  },
+  {
+    "subject": "Thực trạng tuân thủ điều trị của người bệnh đái tháo đường type 2 được điều trị ngoại trú bằng metformin tại Bệnh viện Trung ương Quân đội",
+    "predicate": "published year",
+    "object": "2023"
+  },
+  {
+    "subject": "Thực trạng tuân thủ điều trị của người bệnh đái tháo đường type 2 được điều trị ngoại trú bằng metformin tại Bệnh viện Trung ương Quân đội",
+    "predicate": "published month",
+    "object": "June"
+  },
+  {
+    "subject": "Thực trạng tuân thủ điều trị của người bệnh đái tháo đường type 2 được điều trị ngoại trú bằng metformin tại Bệnh viện Trung ương Quân đội",
+    "predicate": "published volume",
+    "object": "527 số 1B"
+  },
+  {
+    "subject": "Thực trạng tuân thủ điều trị của người bệnh đái tháo đường type 2 được điều trị ngoại trú bằng metformin tại Bệnh viện Trung ương Quân đội",
+    "predicate": "published pages",
+    "object": "265-268"
+  },
+  {
+    "subject": "Nghiên cứu một số yếu tố liên quan đến tuân thủ dinh dưỡng của người bệnh đái tháo đường type 2 được điều trị ngoại trú bằng metformin tại Bệnh viện Trung ương Quân đội 108",
+    "predicate": "published in",
+    "object": "Tạp chí Y Dược Lâm Sàng 108"
+  },
+  {
+    "subject": "Nghiên cứu một số yếu tố liên quan đến tuân thủ dinh dưỡng của người bệnh đái tháo đường type 2 được điều trị ngoại trú bằng metformin tại Bệnh viện Trung ương Quân đội 108",
+    "predicate": "published year",
+    "object": "2023"
+  },
+  {
+    "subject": "Nghiên cứu một số yếu tố liên quan đến tuân thủ dinh dưỡng của người bệnh đái tháo đường type 2 được điều trị ngoại trú bằng metformin tại Bệnh viện Trung ương Quân đội 108",
+    "predicate": "published volume",
+    "object": "17 số 3"
+  },
+  {
+    "subject": "Nghiên cứu một số yếu tố liên quan đến tuân thủ dinh dưỡng của người bệnh đái tháo đường type 2 được điều trị ngoại trú bằng metformin tại Bệnh viện Trung ương Quân đội 108",
+    "predicate": "published pages",
+    "object": "36-40"
+  },
+  {
+    "subject": "Tìm hiểu mối liên quan giữa một số yếu tố siêu âm tim nhĩ trái ở bệnh nhân suy thận mạn tính",
+    "predicate": "published in",
+    "object": "Tạp chí Y học Việt Nam"
+  },
+  {
+    "subject": "Tìm hiểu mối liên quan giữa một số yếu tố siêu âm tim nhĩ trái ở bệnh nhân suy thận mạn tính",
+    "predicate": "published year",
+    "object": "2023"
+  },
+  {
+    "subject": "Tìm hiểu mối liên quan giữa một số yếu tố siêu âm tim nhĩ trái ở bệnh nhân suy thận mạn tính",
+    "predicate": "published month",
+    "object": "June"
+  },
+  {
+    "subject": "Tìm hiểu mối liên quan giữa một số yếu tố siêu âm tim nhĩ trái ở bệnh nhân suy thận mạn tính",
+    "predicate": "published volume",
+    "object": "527 số 1B"
+  },
+  {
+    "subject": "Kinh nghiệm can thiệp thân chung động mạch vành trái tại Bệnh viện Trung ương Quân đội 108",
+    "predicate": "published in",
+    "object": "Tạp chí Y Dược Lâm Sàng 108"
+  },
+  {
+    "subject": "Kinh nghiệm can thiệp thân chung động mạch vành trái tại Bệnh viện Trung ương Quân đội 108",
+    "predicate": "published year",
+    "object": "2023"
+  },
+  {
+    "subject": "Kinh nghiệm can thiệp thân chung động mạch vành trái tại Bệnh viện Trung ương Quân đội 108",
+    "predicate": "published volume",
+    "object": "18 số 4"
+  },
+  {
+    "subject": "Kinh nghiệm can thiệp thân chung động mạch vành trái tại Bệnh viện Trung ương Quân đội 108",
+    "predicate": "published pages",
+    "object": "19-25"
+  },
+  {
+    "subject": "Kinh nghiệm can thiệp thân chung động mạch vành trái tại Bệnh viện Trung ương Quân đội 108",
+    "predicate": "published month",
+    "object": "June"
+  },
+  {
+    "subject": "Kinh nghiệm can thiệp thân chung động mạch vành trái tại Bệnh viện Trung ương Quân đội 108",
+    "predicate": "published pages",
+    "object": "163-168"
+  },
+  {
+    "subject": "Đánh giá chỉ số sức căng thất trái bằng siêu âm tim đánh dấu mô ở bệnh nhân suy tim có tổn thương thận",
+    "predicate": "published in",
+    "object": "Tạp chí Y học Việt Nam"
+  },
+  {
+    "subject": "Đánh giá chỉ số sức căng thất trái bằng siêu âm tim đánh dấu mô ở bệnh nhân suy tim có tổn thương thận",
+    "predicate": "published year",
+    "object": "2023"
+  },
+  {
+    "subject": "Đánh giá chỉ số sức căng thất trái bằng siêu âm tim đánh dấu mô ở bệnh nhân suy tim có tổn thương thận",
+    "predicate": "published month",
+    "object": "November"
+  },
+  {
+    "subject": "Đánh giá chỉ số sức căng thất trái bằng siêu âm tim đánh dấu mô ở bệnh nhân suy tim có tổn thương thận",
+    "predicate": "published volume",
+    "object": "532 số 2"
+  },
+  {
+    "subject": "Đánh giá chỉ số sức căng thất trái bằng siêu âm tim đánh dấu mô ở bệnh nhân suy tim có tổn thương thận",
+    "predicate": "published pages",
+    "object": "227-232"
+  },
+  {
+    "subject": "European Journal of Case Reports in Internal Medicine",
+    "predicate": "has ISSN",
+    "object": "22842594"
+  },
+  {
+    "subject": "European Journal of Case Reports in Internal Medicine",
+    "predicate": "has Scopus Quartile",
+    "object": "Q3"
+  },
+  {
+    "subject": "European Journal of Case Reports in Internal Medicine",
+    "predicate": "has H-index",
+    "object": "17"
+  },
+  {
+    "subject": "European Journal of Case Reports in Internal Medicine",
+    "predicate": "has SJR 2023",
+    "object": "0.26"
+  },
+  {
+    "subject": "Successful chemotherapy treatment for a tricuspid valvular stenosis patient due to right ventricular lymphoma",
+    "predicate": "published in",
+    "object": "European Journal of Case Reports in Internal Medicine"
+  },
+  {
+    "subject": "Successful chemotherapy treatment for a tricuspid valvular stenosis patient due to right ventricular lymphoma",
+    "predicate": "has URL",
+    "object": "https://www.ejcrim.com/index.php/EJCRIM/article/view/4451/3908"
+  },
+  {
+    "subject": "Successful chemotherapy treatment for a tricuspid valvular stenosis patient due to right ventricular lymphoma",
+    "predicate": "has DOI",
+    "object": "10.12890/2024_0044"
+  },
+  {
+    "subject": "Successful chemotherapy treatment for a tricuspid valvular stenosis patient due to right ventricular lymphoma",
+    "predicate": "published year",
+    "object": "2024"
+  },
+  {
+    "subject": "Successful chemotherapy treatment for a tricuspid valvular stenosis patient due to right ventricular lymphoma",
+    "predicate": "published month",
+    "object": "February"
+  },
+  {
+    "subject": "Successful chemotherapy treatment for a tricuspid valvular stenosis patient due to right ventricular lymphoma",
+    "predicate": "published volume",
+    "object": "11"
+  },
+  {
+    "subject": "Journal of Medical Cases",
+    "predicate": "has Print ISSN",
+    "object": "1923-4155"
+  },
+  {
+    "subject": "Journal of Medical Cases",
+    "predicate": "has Online ISSN",
+    "object": "1923-4163"
+  },
+  {
+    "subject": "Journal of Medical Cases",
+    "predicate": "has Scopus Quartile",
+    "object": "Q4"
+  },
+  {
+    "subject": "Journal of Medical Cases",
+    "predicate": "has H-index",
+    "object": "6"
+  },
+  {
+    "subject": "Journal of Medical Cases",
+    "predicate": "has SJR 2023",
+    "object": "0.2"
+  },
+  {
+    "subject": "Norepinephrine and Dobutamine-induced dynamic left ventricular outflow tract obstruction caused",
+    "predicate": "published in",
+    "object": "Journal of Medical Cases"
+  },
+  {
+    "subject": "Norepinephrine and Dobutamine-induced dynamic left ventricular outflow tract obstruction caused",
+    "predicate": "has URL",
+    "object": "https://www.journalmc.org/index.php/JMC/article/view/4204/3573"
+  },
+  {
+    "subject": "Norepinephrine and Dobutamine-induced dynamic left ventricular outflow tract obstruction caused",
+    "predicate": "published year",
+    "object": "2024"
+  },
+  {
+    "subject": "Norepinephrine and Dobutamine-induced dynamic left ventricular outflow tract obstruction caused",
+    "predicate": "published month",
+    "object": "April"
+  },
+  {
+    "subject": "Journal of Experimental and Clinical Medicine (JECM)",
+    "predicate": "has ISSN",
+    "object": "13094483"
+  },
+  {
+    "subject": "Journal of Experimental and Clinical Medicine (JECM)",
+    "predicate": "has E-ISSN",
+    "object": "13095129"
+  },
+  {
+    "subject": "Journal of Experimental and Clinical Medicine (JECM)",
+    "predicate": "has Scopus Quartile",
+    "object": "Q4"
+  },
+  {
+    "subject": "Journal of Experimental and Clinical Medicine (JECM)",
+    "predicate": "has H-index",
+    "object": "9"
+  },
+  {
+    "subject": "Journal of Experimental and Clinical Medicine (JECM)",
+    "predicate": "has SJR 2023",
+    "object": "0.13"
+  },
+  {
+    "subject": "Outcomes of Endovenous laser ablation using a 1470-Nm for treatment of incompetent great saphenous veins: real-world data",
+    "predicate": "published in",
+    "object": "Journal of Experimental and Clinical Medicine (JECM)"
+  },
+  {
+    "subject": "Outcomes of Endovenous laser ablation using a 1470-Nm for treatment of incompetent great saphenous veins: real-world data",
+    "predicate": "has URL",
+    "object": "https://dergipark.org.tr"
+  },
+  {
+    "subject": "Outcomes of Endovenous laser ablation using a 1470-Nm for treatment of incompetent great saphenous veins: real-world data",
+    "predicate": "published year",
+    "object": "2024"
+  },
+  {
+    "subject": "Outcomes of Endovenous laser ablation using a 1470-Nm for treatment of incompetent great saphenous veins: real-world data",
+    "predicate": "published month",
+    "object": "May"
+  },
+  {
+    "subject": "Outcomes of Endovenous laser ablation using a 1470-Nm for treatment of incompetent great saphenous veins: real-world data",
+    "predicate": "published pages",
+    "object": "53-60"
+  },
+  {
+    "subject": "Kinh nghiệm bước đầu thực hiện kĩ thuật và kết quả ngắn hạn can thiệp cấy van động mạch chủ qua ống thông tại Bệnh viện Trung ương Quân đội 108",
+    "predicate": "published in",
+    "object": "Tạp chí Y học Việt Nam"
+  },
+  {
+    "subject": "Kinh nghiệm bước đầu thực hiện kĩ thuật và kết quả ngắn hạn can thiệp cấy van động mạch chủ qua ống thông tại Bệnh viện Trung ương Quân đội 108",
+    "predicate": "published year",
+    "object": "2024"
+  },
+  {
+    "subject": "Kinh nghiệm bước đầu thực hiện kĩ thuật và kết quả ngắn hạn can thiệp cấy van động mạch chủ qua ống thông tại Bệnh viện Trung ương Quân đội 108",
+    "predicate": "published volume",
+    "object": "536 số 1B"
+  },
+  {
+    "subject": "Kinh nghiệm bước đầu thực hiện kĩ thuật và kết quả ngắn hạn can thiệp cấy van động mạch chủ qua ống thông tại Bệnh viện Trung ương Quân đội 108",
+    "predicate": "published pages",
+    "object": "159-163"
+  },
+  {
+    "subject": "Nghiên cứu chỉ số tương hợp thất phải – động mạch phổi bằng siêu âm tim trước và sau phẫu thuật van ở bệnh nhân hở van hai lá thực thể",
+    "predicate": "published in",
+    "object": "Tạp chí Y Dược Lâm Sàng 108"
+  },
+  {
+    "subject": "Nghiên cứu chỉ số tương hợp thất phải – động mạch phổi bằng siêu âm tim trước và sau phẫu thuật van ở bệnh nhân hở van hai lá thực thể",
+    "predicate": "published year",
+    "object": "2024"
+  },
+  {
+    "subject": "Nghiên cứu chỉ số tương hợp thất phải – động mạch phổi bằng siêu âm tim trước và sau phẫu thuật van ở bệnh nhân hở van hai lá thực thể",
+    "predicate": "published month",
+    "object": "May"
+  },
+  {
+    "subject": "Nghiên cứu chỉ số tương hợp thất phải – động mạch phổi bằng siêu âm tim trước và sau phẫu thuật van ở bệnh nhân hở van hai lá thực thể",
+    "predicate": "published volume",
+    "object": "19 số 2"
+  },
+  {
+    "subject": "Nghiên cứu chỉ số tương hợp thất phải – động mạch phổi bằng siêu âm tim trước và sau phẫu thuật van ở bệnh nhân hở van hai lá thực thể",
+    "predicate": "published pages",
+    "object": "114-118"
+  },
+  {
+    "subject": "Khảo sát tỉ lệ đạt LDL-C mục tiêu theo khuyến cáo ở bệnh nhân nhồi máu cơ tim cấp điều trị tại Bệnh viện Trung ương Quân đội 108",
+    "predicate": "published in",
+    "object": "Tạp chí Y Dược Lâm Sàng 108"
+  },
+  {
+    "subject": "Khảo sát tỉ lệ đạt LDL-C mục tiêu theo khuyến cáo ở bệnh nhân nhồi máu cơ tim cấp điều trị tại Bệnh viện Trung ương Quân đội 108",
+    "predicate": "published year",
+    "object": "2024"
+  },
+  {
+    "subject": "Khảo sát tỉ lệ đạt LDL-C mục tiêu theo khuyến cáo ở bệnh nhân nhồi máu cơ tim cấp điều trị tại Bệnh viện Trung ương Quân đội 108",
+    "predicate": "published month",
+    "object": "May"
+  },
+  {
+    "subject": "Khảo sát tỉ lệ đạt LDL-C mục tiêu theo khuyến cáo ở bệnh nhân nhồi máu cơ tim cấp điều trị tại Bệnh viện Trung ương Quân đội 108",
+    "predicate": "published volume",
+    "object": "19 số 2"
+  },
+  {
+    "subject": "Khảo sát tỉ lệ đạt LDL-C mục tiêu theo khuyến cáo ở bệnh nhân nhồi máu cơ tim cấp điều trị tại Bệnh viện Trung ương Quân đội 108",
+    "predicate": "published pages",
+    "object": "32-37"
+  },
+  {
+    "subject": "Role of right ventricular–pulmonary artery coupling in patients with heart failure with reduced ejection fraction",
+    "predicate": "published in",
+    "object": "Tạp chí Y học Việt Nam"
+  },
+  {
+    "subject": "Role of right ventricular–pulmonary artery coupling in patients with heart failure with reduced ejection fraction",
+    "predicate": "published year",
+    "object": "2024"
+  },
+  {
+    "subject": "Role of right ventricular–pulmonary artery coupling in patients with heart failure with reduced ejection fraction",
+    "predicate": "published month",
+    "object": "May"
+  },
+  {
+    "subject": "Role of right ventricular–pulmonary artery coupling in patients with heart failure with reduced ejection fraction",
+    "predicate": "published volume",
+    "object": "1 (tiếng Anh)"
+  },
+  {
+    "subject": "Role of right ventricular–pulmonary artery coupling in patients with heart failure with reduced ejection fraction",
+    "predicate": "published pages",
+    "object": "65-70"
   }
 ]

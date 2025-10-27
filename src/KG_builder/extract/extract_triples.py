@@ -1,6 +1,6 @@
 from typing import List, Dict
 import logging
-from llm.base.base_model import BaseLLM
+from KG_builder.llm.base.base_model import BaseLLM
 from dotenv import load_dotenv
 import os
 import json
