@@ -1,0 +1,5 @@
+# Qwen parameters
+DEVICE_MAP = "auto"
+MAX_NEW_TOKENS = 3000
+TEMPERATURE = 0.7
+REPETITION_PENALTY = 1.2

@@ -45,11 +45,11 @@ def _strip_headers_footers(lines: List[str]) -> List[str]:
     out: List[str] = []
     for ln in lines:
         raw = ln.strip()
-        if re.fullmatch(r"(?:page|trang)\s*\d+\s*", raw, re.IGNORECASE):
+        if re.fullmatch(r"(?:page|trang)\s*\d+\s*", raw, re.IGNORECASE): # remove page
             continue
-        if re.fullmatch(r"\d{1,3}", raw):
+        if re.fullmatch(r"\d{1,3}", raw): # remove number only line
             continue
-        if re.fullmatch(r"[-–—]{3,}", raw):
+        if re.fullmatch(r"[-–—]{3,}", raw): # remove -- only line
             continue
         out.append(ln)
     return out
@@ -65,19 +65,25 @@ def _join_softwraps(lines: List[str]) -> List[str]:
     for ln in lines:
         s = ln.strip()
         if not s:
-            continue
+            continue # bỏ qua dòng trống
+        # Nếu dòng bắt đầu là mục liệt kê hoặc kết thúc bằng dấu “:”
+        # => coi như bắt đầu đoạn mới
         if re.match(r"^(\d+\.|[-*•])\s+", s) or s.endswith(":"):
             if cur:
                 buf.append(cur.strip())
                 cur = ""
             buf.append(s)
             continue
+        # Nếu dòng trước đó không kết thúc bằng dấu câu (., !, ?, ;, :)
+        # => ghép dòng hiện tại vào
         if cur and not re.search(r"[.!?;:]$", cur):
             cur += " " + s
         else:
+            # Nếu dòng trước đó đã kết thúc -> lưu lại, bắt đầu dòng mới
             if cur:
                 buf.append(cur.strip())
             cur = s
+    # Sau vòng lặp, nếu còn sót dòng cuối -> thêm vào
     if cur:
         buf.append(cur.strip())
     return buf
@@ -255,3 +261,8 @@ __all__ = [
     "has_structured_extractor",
     "get_pdf_pages",
 ]
+
+context = extract_context_from_pdf(
+    "D:/fico/DỰ_ÁN/pdf_data/(16843789737439_28_06_2024_09_15)hoang-duong-viet-anh-1984-01-12-1719540941.pdf"
+)
+print(context)

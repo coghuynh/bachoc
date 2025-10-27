@@ -5,7 +5,7 @@ import logging
 import json
 import os
 from dotenv import load_dotenv
-from KG_builder.utils.llm_utils import CostModel
+from llm.cost.cost_model import CostModel
 from KG_builder.utils.clean_data import clean_vn_text
 import pandas as pd
 import google.genai
@@ -74,7 +74,7 @@ def extract_entities(text: str, schema: str) -> List[Any]:
         }, 
         {
             "model_name": "gemini-2.0-flash",
-            "API_KEY": os.environ["OPENAI"],
+            "API_KEY": os.environ["GEMINI_API_KEY"],
             "system_prompt": system_prompt,
             "context_template": context_template
         },

@@ -2,6 +2,11 @@ from typing import List, Callable
 from dotenv import load_dotenv
 from google import genai
 from abc import ABC, abstractmethod
+import torch
+from llm.free.free_model import QwenModel
+from sentence_transformers import SentenceTransformer
+
+load_dotenv()
 
 def cosine_similarity(a, b):
     import numpy as np
@@ -68,6 +73,44 @@ class CostEmbeddingModel(EmbeddingModel):
         return ret
     
     
+class QwenEmbedding:
+    def __init__(self, **args):
+        self.model = QwenModel(**args)
+        
+    def encode(self, text: str):
+        input = self.model.tokenizer([text], return_tensors="pt").to(self.model.instance.device)
+        with torch.no_grad():
+            outputs = self.model.instance.model(**input, output_hidden_states=True)
+            hidden = outputs.last_hidden_state
+            embeddings = hidden.mean(dim=1)
+            print(embeddings.shape)
+        return embeddings.cpu().numpy()
+    
+    def similarity(self, defi1: list[str], defi2: list[str], similarity_func: Callable[[List[float], List[float]], float]):
+        first_def = self.encode(defi1)
+        second_def = self.encode(defi2)
+        
+        ret = [
+            [similarity_func(emb_1, emb_2) for emb_2 in second_def] for emb_1 in first_def
+        ]
+        
+        return ret
+    
+class IntFloatEmbedding:
+    def __init__(self, **args):
+        self.args = args
+        self.name = args.get("model_name")
+        self.model = SentenceTransformer(self.name)
+    
+    def similarity(self, defi1: list[str], defi2: list[str]):
+        format_defi1 = ["query: " + text for text in defi1]
+        format_defi2 = ["query: " + text for text in defi2]
+        first_def = self.model.encode(format_defi1)
+        second_def = self.model.encode(format_defi2)
+        
+        similarities = self.model.similarity(first_def, second_def)
+        return similarities
+        
 if __name__ == "__main__":
     t_1 = [
         "Hello. How are you?",
@@ -80,11 +123,21 @@ if __name__ == "__main__":
     ]
         
     embed_config = {
-        "model_name" : "gemini-embedding-001"
+        "model_name" : "Qwen/Qwen2.5-0.5B-Instruct"
     }
     
-    embed_model = EmbeddingModel(**embed_config)
+    embed_model = QwenEmbedding(**embed_config)
     
     print(embed_model.similarity(
         t_1, t_2, cosine_similarity
+    ))
+    
+    multilingual_config = {
+        "model_name": "intfloat/multilingual-e5-large"
+    }
+    
+    multilingual_model = IntFloatEmbedding(**multilingual_config)
+    
+    print(multilingual_model.similarity(
+        t_1, t_2
     ))

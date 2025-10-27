@@ -222,3 +222,7 @@ def clean_json_string(s: str) -> str:
     # Sửa lỗi thiếu dấu phẩy giữa các cặp key-value
     s = re.sub(r'"\s*([\w_]+)"\s*"', r'", "\1"', s)
     return s.strip()
+
+def json_valid(raw_resp: str) -> str:
+    raw_resp = raw_resp.strip("`").replace("json", "").strip()
+    return raw_resp

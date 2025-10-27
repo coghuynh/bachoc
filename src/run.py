@@ -2,7 +2,7 @@ from KG_builder.builder import KG_builder
 import argparse
 from dotenv import load_dotenv
 import json
-
+from KG_builder.utils.clean_data import clean_vn_text
 
 
 if __name__ == "__main__":
@@ -37,8 +37,6 @@ if __name__ == "__main__":
     
     corpus =  open(param["data"], "r").read()
     
-    from KG_builder.utils.clean_data import clean_vn_text
-    
     corpus = clean_vn_text(corpus)
     
     print(corpus)
@@ -55,9 +53,9 @@ if __name__ == "__main__":
     
     # # print(
     new_triples = builder.run(corpus, chunks_config)
-    builder.write_schema("new_relationship_v2.0.csv")
+    builder.write_schema("new_relationship_v3.0.csv")
     # import json
     
-    with open("new_triples_v2.0.json", "w", encoding="utf-8") as f:
+    with open("new_triples_v3.0.json", "w", encoding="utf-8") as f:
         json.dump(new_triples, f, ensure_ascii=False, indent=2)
 

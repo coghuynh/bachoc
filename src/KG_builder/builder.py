@@ -71,7 +71,7 @@ class KG_builder:
         mxCor = 0.0
         new_type = ""
         for type_name, embed in self.entities_embed_schema.items():
-            correlation = consine_similarity(entity_embed, embed) 
+            correlation = cosine_similarity(entity_embed, embed) 
             if correlation > mxCor:
                 mxCor = correlation
                 new_type = type_name
