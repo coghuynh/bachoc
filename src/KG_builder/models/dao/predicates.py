@@ -2,6 +2,7 @@ from typing import Optional, List, Dict, Any
 from KG_builder.models.dao.base import BaseDAO, now_iso, iso_to_datetime
 from KG_builder.utils.embedding_utils import to_blob, from_blob
 from KG_builder.models.schema import Predicate
+from KG_builder.utils.utils import hash_id
 import numpy as np
 
 class PredicatesDAO(BaseDAO):
@@ -28,7 +29,9 @@ class PredicatesDAO(BaseDAO):
         name: str,
         definition: str,
         embedding: Optional[np.ndarray] = None, 
-    ):
+    ) -> str:
+        if not id:
+            id = hash_id("P", name)
         blob, dim = to_blob(embedding)
         ts = now_iso()
         
@@ -43,6 +46,7 @@ class PredicatesDAO(BaseDAO):
             created_at=excluded.created_at,
             updated_at=excluded.updated_at
         """, (id, name, definition, blob, dim, ts, ts))
+        return id
         
     def get(self, id: str) -> Predicate:
         rows = self.db.query("SELECT * FROM predicates WHERE id=? AND (removed_at IS NULL)", (id, ))

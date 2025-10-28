@@ -1,7 +1,9 @@
 from KG_builder.models.dao.base import BaseDAO, now_iso, iso_to_datetime
 from typing import List
 from KG_builder.models.schema import Triple
+from KG_builder.utils.utils import hash_id
 import sqlite3
+
 
 
 class TriplesDAO(BaseDAO):
@@ -34,7 +36,9 @@ class TriplesDAO(BaseDAO):
         subject_id: str,
         predicate_id: str,
         object_id: str,
-    ):
+    ) -> str:
+        if not id:
+            id = hash_id("T", f"{subject_id}, {predicate_id}, {object_id}")
         try:
             self.db.execute("""
             INSERT INTO triples(id, subject_id, predicate_id, object_id, created_at, removed_at, updated_at)
@@ -47,6 +51,7 @@ class TriplesDAO(BaseDAO):
             """, (id, subject_id, predicate_id, object_id, now_iso(), now_iso()))
         except sqlite3.IntegrityError:
             print("Duplicate triple ignored.")
+        return id
             
     def get(self, id: str) -> Triple:
         rows = self.db.query("SELECT * FROM triples WHERE id=? AND (removed_at IS NULL)", (id,))

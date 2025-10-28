@@ -2,6 +2,7 @@ from typing import Optional, List, Dict, Any
 from KG_builder.models.dao.base import BaseDAO, now_iso, iso_to_datetime
 from KG_builder.utils.embedding_utils import to_blob, from_blob
 from KG_builder.models.schema import Entity
+from KG_builder.utils.utils import hash_id
 import numpy as np
 
 class EntitiesDAO(BaseDAO):
@@ -25,13 +26,15 @@ class EntitiesDAO(BaseDAO):
     def upsert(
         self,
         *,
-        id: str,
+        id: str = None,
         name: str,
         subject_or_object: str = "both",
         description: str = "",
         embedding: Optional[np.ndarray] = None,
         source: str = ""
-    ):
+    ) -> str:
+        if not id:
+            id = hash_id("E", name)
         blob, dim = to_blob(embedding)
         ts = now_iso()
         self.db.execute("""
@@ -46,6 +49,7 @@ class EntitiesDAO(BaseDAO):
           source=excluded.source,
           updated_at=excluded.updated_at
         """, (id, name, subject_or_object, description, blob, dim, source, ts, ts))
+        return id
 
     def get(self, id: str) -> Entity:
         rows = self.db.query("SELECT * FROM entities WHERE id=? AND (removed_at IS NULL)", (id,))
