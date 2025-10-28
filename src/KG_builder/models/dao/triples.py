@@ -90,6 +90,23 @@ class TriplesDAO(BaseDAO):
             
         return out
     
+    def get_all(self) -> List[Triple]:
+        rows = self.db.query(
+            "SELECT * FROM triples WHERE (removed_at IS NULL)",
+            (),
+        )
+        out = []
+        for r in rows:
+            out.append(Triple(
+                id=r["id"],
+                subject_id=r["subject_id"],
+                predicate_id=r["predicate_id"],
+                object_id=r["object_id"],
+                created_at=iso_to_datetime(r["created_at"]),
+                updated_at=iso_to_datetime(r["updated_at"])
+            ))  
+        return out
+    
 if __name__ == "__main__":
     from KG_builder.models.db import DB
     from KG_builder.models.dao.entities import EntitiesDAO

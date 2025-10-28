@@ -1,7 +1,7 @@
 import logging
 from typing import Dict, List
 from KG_builder.utils.clean_data import read_schema, chunk_corpus, write_schema
-from KG_builder.utils.embedding_utils import CostEmbeddingModel, cosine_similarity
+from KG_builder.embedding.ops import CostEmbeddingModel, cosine_similarity
 from KG_builder.extract.extract_triples import extract_triples
 from KG_builder.extract.definition import collect_definition
 from KG_builder.prompts.prompts import DEFINITION_PROMPT, EXTRACT_TRIPLE_PROMPT

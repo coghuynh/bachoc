@@ -1,6 +1,6 @@
 from typing import Optional, List, Dict, Any
 from KG_builder.models.dao.base import BaseDAO, now_iso, iso_to_datetime
-from KG_builder.utils.embedding_utils import to_blob, from_blob
+from KG_builder.embedding.ops import to_blob, from_blob
 from KG_builder.models.schema import Predicate
 from KG_builder.utils.utils import hash_id
 import numpy as np
@@ -71,6 +71,23 @@ class PredicatesDAO(BaseDAO):
         rows = self.db.query(
             "SELECT * FROM predicates WHERE name LIKE ? AND (removed_at IS NULL) ORDER BY name LIMIT ?",
             (f"%{q}%", limit),
+        )
+        out = []
+        for r in rows:
+            out.append(Predicate(
+                id = r["id"],
+                name = r["name"],
+                definition = r["definition"],
+                embedding=from_blob(r["embedding"], r["embedding_dim"]),
+                created_at=iso_to_datetime(r["created_at"]),
+                updated_at=iso_to_datetime(r["updated_at"])
+            ))   
+        return out
+    
+    def get_all(self) -> List[Predicate]:
+        rows = self.db.query(
+            "SELECT * FROM predicates WHERE (removed_at IS NULL)",
+            (),
         )
         out = []
         for r in rows:

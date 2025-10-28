@@ -1,4 +1,4 @@
-from abc import ABC
+from abc import ABC, abstractmethod
 from KG_builder.utils.clean_data import json_valid
 
 
@@ -22,10 +22,8 @@ class BaseLLM(ABC):
 
         return response
     
-    
-    def generate_response(self, context: str, **args):
-        """Implementation for generating response for cost models"""
-        pass
+    @abstractmethod
+    def generate_response(self, context: str, **args): ...
     
     
     def _format_context(self, context: str, **args) -> str:
@@ -33,3 +31,5 @@ class BaseLLM(ABC):
         if args["context_template"]:
             return args["context_template"].format(context=context)
         return context
+    
+
