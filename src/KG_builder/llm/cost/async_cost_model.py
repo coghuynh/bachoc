@@ -94,6 +94,8 @@ class AsyncGPTModel(AsyncBaseLLM):
         @perf
         async def async_query(llm: AsyncGeminiModel, chats):
             resp = await asyncio.gather(*[llm.chat(c) for c in chats])
+            for r in resp:
+                print(r)
             
         
         # query(inst, chats)
