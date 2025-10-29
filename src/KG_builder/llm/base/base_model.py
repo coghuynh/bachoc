@@ -28,7 +28,7 @@ class BaseLLM(ABC):
     
     def _format_context(self, context: str, **args) -> str:
         """Format context using template if available"""
-        if args["context_template"]:
+        if args.get("context_template"):
             return args["context_template"].format(context=context)
         return context
     

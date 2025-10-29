@@ -4,32 +4,10 @@ from numpy.typing import NDArray
 import numpy as np
 from google import genai
 import asyncio
-import time
-from functools import wraps
-import inspect
+from KG_builder.utils.utils import perf
 
 
-def perf(func):
-    if inspect.iscoroutinefunction(func):
-        @wraps(func)
-        async def wrapper(*args, **kwargs):
-            start = time.perf_counter()
-            try:
-                return await func(*args, **kwargs)
-            finally:
-                elapsed = time.perf_counter() - start
-                print(f"{func.__name__} took {elapsed:.6f}s")
-        return wrapper
-    else:
-        @wraps(func)
-        def wrapper(*args, **kwargs):
-            start = time.perf_counter()
-            try:
-                return func(*args, **kwargs)
-            finally:
-                elapsed = time.perf_counter() - start
-                print(f"{func.__name__} took {elapsed:.6f}s")
-        return wrapper
+
 
 class GeminiEmbedModel(BaseEmbed):
     
