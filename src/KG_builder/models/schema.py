@@ -10,7 +10,6 @@ class Entity:
     name: str
     subject_or_object: str
     description: str
-    embedding: NDArray[np.float32] | None
     source: str
     created_at: datetime
     updated_at: datetime
@@ -21,7 +20,6 @@ class Predicate:
     id: str
     name: str
     definition: str
-    embedding: NDArray[np.float32] | None
     created_at: datetime
     updated_at: datetime
     

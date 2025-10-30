@@ -1,4 +1,4 @@
-from typing import Optional, List, Dict, Any
+from typing import List, Iterable, Tuple
 from KG_builder.models.dao.base import BaseDAO, now_iso, iso_to_datetime
 from KG_builder.embedding.ops import to_blob, from_blob
 from KG_builder.models.schema import Entity
@@ -9,18 +9,25 @@ class EntitiesDAO(BaseDAO):
     def create_table(self):
         self.db.execute("""
         CREATE TABLE IF NOT EXISTS entities (
-          id TEXT PRIMARY KEY,
-          name TEXT NOT NULL,
-          subject_or_object TEXT CHECK(subject_or_object IN ('subject','object','both')) NOT NULL DEFAULT 'both',
-          description TEXT,
-          embedding BLOB,
-          embedding_dim INTEGER,
-          source TEXT,
-          created_at TEXT NOT NULL,
-          removed_at TEXT,
-          updated_at TEXT NOT NULL
+            id TEXT PRIMARY KEY,
+            name TEXT NOT NULL,
+            subject_or_object TEXT CHECK(subject_or_object IN ('subject','object','both')) NOT NULL DEFAULT 'both',
+            description TEXT,
+            source TEXT,
+            created_at TEXT NOT NULL,
+            removed_at TEXT,
+            updated_at TEXT NOT NULL
         );
         """)
+        
+        self.db.execute("""          
+        CREATE TABLE IF NOT EXISTS entity_faiss_map (
+            faiss_id TEXT PRIMARY KEY,
+            entity_id TEXT UNIQUE NOT NULL,
+            FOREIGN KEY (entity_id) REFERENCES entities(id) ON DELETE CASCADE
+        );                
+        """)
+        self.db.execute("PRAGMA foreign_keys=ON")
         self.db.execute("CREATE INDEX IF NOT EXISTS idx_entities_name ON entities(name);")
 
     def upsert(
@@ -30,25 +37,21 @@ class EntitiesDAO(BaseDAO):
         name: str,
         subject_or_object: str = "both",
         description: str = "",
-        embedding: Optional[np.ndarray] = None,
         source: str = ""
     ) -> str:
         if not id:
             id = hash_id("E", name)
-        blob, dim = to_blob(embedding)
         ts = now_iso()
         self.db.execute("""
-        INSERT INTO entities(id, name, subject_or_object, description, embedding, embedding_dim, source, created_at, removed_at, updated_at)
-        VALUES (?, ?, ?, ?, ?, ?, ?, ?, NULL, ?)
+        INSERT INTO entities(id, name, subject_or_object, description, source, created_at, removed_at, updated_at)
+        VALUES (?, ?, ?, ?, ?, ?, NULL, ?)
         ON CONFLICT(id) DO UPDATE SET
           name=excluded.name,
           subject_or_object=excluded.subject_or_object,
           description=excluded.description,
-          embedding=excluded.embedding,
-          embedding_dim=excluded.embedding_dim,
           source=excluded.source,
           updated_at=excluded.updated_at
-        """, (id, name, subject_or_object, description, blob, dim, source, ts, ts))
+        """, (id, name, subject_or_object, description, source, ts, ts))
         return id
 
     def get(self, id: str) -> Entity:
@@ -61,11 +64,22 @@ class EntitiesDAO(BaseDAO):
             "name": r["name"],
             "subject_or_object": r["subject_or_object"],
             "description": r["description"],
-            "embedding": from_blob(r["embedding"], r["embedding_dim"]),
             "source": r["source"],
             "created_at": iso_to_datetime(r["created_at"]),
             "updated_at": iso_to_datetime(r["updated_at"]),
         })
+        
+    def map_faiss_ids(self, pairs: Iterable[Tuple[str, str]]):
+        self.db.conn.executemany("""
+        INSERT OR REPLACE INTO entity_faiss_map(faiss_id, entity_id) VALUES (?,?)
+        """, pairs)
+        
+    def get_entity_id(self, faiss_id: str) -> str:
+        rows = self.db.query("SELECT * FROM entity_faiss_map WHERE faiss_id=?", (faiss_id,))
+        if not rows:
+            return None
+        r = rows[0]
+        return r["entity_id"]
 
     def soft_delete(self, id: str):
         self.db.execute("UPDATE entities SET removed_at=?, updated_at=? WHERE id=?",
@@ -83,7 +97,6 @@ class EntitiesDAO(BaseDAO):
                 "name": r["name"],
                 "subject_or_object": r["subject_or_object"],
                 "description": r["description"],
-                "embedding": None,  
                 "source": r["source"],
                 "created_at": iso_to_datetime(r["created_at"]),
                 "updated_at": iso_to_datetime(r["updated_at"]),
@@ -102,7 +115,6 @@ class EntitiesDAO(BaseDAO):
                 "name": r["name"],
                 "subject_or_object": r["subject_or_object"],
                 "description": r["description"],
-                "embedding": None,  
                 "source": r["source"],
                 "created_at": iso_to_datetime(r["created_at"]),
                 "updated_at": iso_to_datetime(r["updated_at"]),
@@ -110,55 +122,71 @@ class EntitiesDAO(BaseDAO):
         return out
     
     
-# if __name__ == "__main__":
-    # from KG_builder.models.db import DB
+    
+if __name__ == "__main__":
+    
+    from KG_builder.models.db import DB
+    
+    db: DB = DB(":memory:")
+    entity_dao: EntitiesDAO = EntitiesDAO(db)
+    
+    with entity_dao.db.transaction():
 
-    # # Simple smoke test for PredicatesDAO
-    # db = DB()
-    # dao = PredicatesDAO(db)
+    
+        entity_dao.create_table()
 
-    # # Ensure table exists
-    # dao.create_table()
+    
+        e1 = entity_dao.upsert(name="Albert Einstein", description="Physicist, relativity")
+        e2 = entity_dao.upsert(name="Marie Curie", description="Chemist, radioactivity", subject_or_object="subject")
+        
 
-    # # Insert a few rows
-    # import numpy as np
-    # emb = np.array([0.1, 0.2, 0.3], dtype=np.float32)
+    with entity_dao.db.transaction():
+        print(e1, e2)
+        
+        pairs = [("101", e1), ("102", e2)]
 
-    # with dao.db.transaction():
-    #     dao.upsert(
-    #         id="p_is_a",
-    #         name="is_a",
-    #         definition="Type/subclass relation",
-    #         embedding=emb,
-    #     )
-    #     dao.upsert(
-    #         id="p_part_of",
-    #         name="part_of",
-    #         definition="Part-whole relation",
-    #         embedding=emb,
-    #     )
-    #     dao.upsert(
-    #         id="p_related_to",
-    #         name="related_to",
-    #         definition="Generic relatedness",
-    #         embedding=None,
-    #     )
+        entity_dao.map_faiss_ids(pairs)
 
-    # # Get by id
-    # got = dao.get("p_is_a")
-    # assert got is not None, "get() should return a Predicate"
-    # assert got.name == "is_a"
-    # print("get() OK:", got)
+    
+    got = entity_dao.get(e1)
+    assert got is not None and got.name == "Albert Einstein"
+    print("get() works")
 
-    # # List by name (LIKE)
-    # listed = dao.list_by_name("of", limit=10)
-    # assert any(p.name == "part_of" for p in listed), "list_by_name() should include 'part_of'"
-    # print("list_by_name() OK:", [p.name for p in listed])
+    
+    lst = entity_dao.list_by_name("Marie Curie")
+    for e in lst:
+        print(e)
+    assert any(e.name == "Marie Curie" for e in lst)
+    print("list_by_name() works")
 
-    # # Soft-delete and verify it no longer appears
-    # dao.soft_delete("p_related_to")
-    # none_after_delete = dao.get("p_related_to")
-    # assert none_after_delete is None, "soft_delete() should hide the row"
-    # print("soft_delete() OK")
+    
+    cur = entity_dao.db.execute("SELECT * FROM entity_faiss_map ORDER BY faiss_id")
+    rows = cur.fetchall()
+    assert len(rows) == 2
+    assert rows[0][1] == e1 and rows[1][1] == e2
+    print("map_faiss_ids() insert verified")
 
-    # print("All PredicatesDAO smoke tests passed.")
+
+    eid = entity_dao.get_entity_id("101")
+    assert eid == e1, f"Expected {e1}, got {eid}"
+    print("get_entity_id() works")
+
+
+    entity_dao.soft_delete(e2)
+    deleted = entity_dao.get(e2)
+    assert deleted is None
+    print("soft_delete() works")
+
+
+    all_entities = entity_dao.get_all()
+    ids = [e.id for e in all_entities]
+    
+    for e in all_entities:
+        print(e.name)
+    assert e1 in ids and e2 not in ids
+    print("get_all() works (excludes deleted)")
+
+    print("\nAll EntitiesDAO + FAISS map tests passed successfully!")
+    
+    
+        

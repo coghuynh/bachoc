@@ -7,6 +7,10 @@ import asyncio
 import os
 
 
+from dotenv import load_dotenv
+
+load_dotenv()
+
 class AsyncCostModel(AsyncBaseLLM):
     """Paid API models (GPT, Gemini)"""
     def __init__(self, **args):

@@ -4,58 +4,126 @@ from numpy.typing import NDArray
 import numpy as np
 from google import genai
 import asyncio
-from KG_builder.utils.utils import perf
+from time import perf_counter, sleep
+import os
 
+from dotenv import load_dotenv
 
+load_dotenv()
 
 
 class GeminiEmbedModel(BaseEmbed):
-    
-    def __init__(self, 
-                 *,
-                 model_name: str = "gemini-embedding-001"
-        ):
-        self.model = genai.Client()        
+    MAX_BATCH = 100
+
+    def __init__(
+        self,
+        *,
+        model_name: str = "gemini-embedding-001",
+        requests_per_minute: int | None = None,
+    ):
+        self.model = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
         self.model_name = model_name
-        
-    
+        self._lock = asyncio.Lock()
+        self._rpm = requests_per_minute
+        if self._rpm and self._rpm > 0:
+            self._min_interval = 60.0 / self._rpm
+        else:
+            self._min_interval = 0.0
+        self._last_request: float = 0.0
+
     async def encode(self, context: List[str]) -> NDArray[np.float32]:
+        if not context:
+            return np.empty((0, 0), dtype=np.float32)
+
         loop = asyncio.get_event_loop()
-        
-        resp = await loop.run_in_executor( 
-            None, 
-            lambda: 
-                self.model.models.embed_content(
-                model = self.model_name,
-                contents= context
-            )
-        )
-        
-        emb = np.array([e.values for e in resp.embeddings], dtype=np.float32)
-        return emb
+        vectors: List[np.ndarray] = []
+
+        for start in range(0, len(context), self.MAX_BATCH):
+            batch = context[start : start + self.MAX_BATCH]
+
+            def _embed_items(items: List[str] = batch):
+                response = self.model.models.embed_content(
+                    model=self.model_name,
+                    contents=items,
+                )
+                return [np.asarray(embedding.values, dtype=np.float32) for embedding in response.embeddings]
+
+            async with self._lock:
+                await self._respect_rate_limit()
+                batch_vectors = await loop.run_in_executor(None, _embed_items)
+                self._last_request = perf_counter()
+            vectors.extend(batch_vectors)
+
+        if not vectors:
+            return np.empty((0, 0), dtype=np.float32)
+
+        return np.vstack(vectors)
+
+    async def _respect_rate_limit(self) -> None:
+        if self._min_interval <= 0:
+            return
+        now = perf_counter()
+        elapsed = now - self._last_request
+        wait_time = self._min_interval - elapsed
+        if wait_time > 0:
+            await asyncio.sleep(wait_time)
 
 
 class NonAsyncGeminiEmbedModel:
-    
-    def __init__(self, 
-                 *,
-                 model_name: str = "gemini-embedding-001"
-        ):
-        self.model = genai.Client()        
+    MAX_BATCH = 100
+
+    def __init__(
+        self,
+        *,
+        model_name: str = "gemini-embedding-001",
+        requests_per_minute: int | None = None,
+    ):
+        self.model = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
         self.model_name = model_name
-        
-    
+        self._rpm = requests_per_minute
+        if self._rpm and self._rpm > 0:
+            self._min_interval = 60.0 / self._rpm
+        else:
+            self._min_interval = 0.0
+        self._last_request: float = 0.0
+
     def encode(self, context: List[str]) -> NDArray[np.float32]:
-        
-        
-        
-        resp =  self.model.models.embed_content(
-                model = self.model_name,
-                contents= context
+        if not context:
+            return np.empty((0, 0), dtype=np.float32)
+
+        vectors: List[np.ndarray] = []
+        for start in range(0, len(context), self.MAX_BATCH):
+            batch = context[start : start + self.MAX_BATCH]
+            self._respect_rate_limit_sync()
+            response = self.model.models.embed_content(
+                model=self.model_name,
+                contents=batch,
             )
-        
-        emb = np.array([e.values for e in resp.embeddings], dtype=np.float32)
-        return emb
+            vectors.extend(np.asarray(embedding.values, dtype=np.float32) for embedding in response.embeddings)
+            self._last_request = perf_counter()
+
+        if not vectors:
+            return np.empty((0, 0), dtype=np.float32)
+
+        return np.vstack(vectors)
+
+    async def _respect_rate_limit(self) -> None:
+        if self._min_interval <= 0:
+            return
+        now = perf_counter()
+        elapsed = now - self._last_request
+        wait_time = self._min_interval - elapsed
+        if wait_time > 0:
+            await asyncio.sleep(wait_time)
+
+    def _respect_rate_limit_sync(self) -> None:
+        if self._min_interval <= 0:
+            return
+        now = perf_counter()
+        elapsed = now - self._last_request
+        wait_time = self._min_interval - elapsed
+        if wait_time > 0:
+            sleep(wait_time)
     
     
 if __name__ == "__main__":
