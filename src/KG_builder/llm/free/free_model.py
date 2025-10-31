@@ -1,4 +1,4 @@
-from llm.base.base_model import BaseLLM
+from KG_builder.llm.base.base_model import BaseLLM
 from KG_builder.config import DEVICE_MAP, TEMPERATURE, MAX_NEW_TOKENS, REPETITION_PENALTY
 from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch

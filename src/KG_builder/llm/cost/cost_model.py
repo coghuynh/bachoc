@@ -1,7 +1,7 @@
-from llm.base.base_model import BaseLLM
+from KG_builder.llm.base.base_model import BaseLLM
 from google import genai
 from google.genai.types import GenerateContentConfig
-# from openai import OpenAI
+from openai import OpenAI
 import os
 
 class CostModel(BaseLLM):
@@ -18,7 +18,7 @@ class GeminiModel(CostModel):
         
     def generate_response(self, context: str, **args):
         config = GenerateContentConfig(
-            system_instruction=args["system"],
+            system_instruction=args.get("system"),
         )
         response = self.instance.models.generate_content(
             model=self.name,
@@ -38,7 +38,7 @@ class GPTModel(CostModel):
         response = self.client.responses.create(
             model=self.name,
             messages=[
-                {"role": "system", "content" : args["system"]},
+                {"role": "system", "content" : args.get("system")},
                 {"role": "user", "content" : context}
             ]
         )
