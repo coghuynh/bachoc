@@ -13,7 +13,7 @@
 - Gộp toàn bộ triple, loại bản sao và lọc trường thiếu.
 - Chuẩn hóa predicate:
   - Thu thập danh sách predicate mới → gọi `async_collect_definition()` để sinh định nghĩa.
-  - Embed định nghĩa (hoặc tên) → tìm láng giềng gần nhất trong index → tái sử dụng predicate cũ nếu cosine ≥ `threshold`, ngược lại tạo mới (DAO + index).
+  - Embed định nghĩa và tên → tìm láng giềng gần nhất trong index → tái sử dụng predicate cũ nếu cosine ≥ `threshold`, ngược lại tạo mới (DAO + index).
 - Chuẩn hóa entity:
   - Embed subject/object → tìm trong entity index → reuse khi đạt ngưỡng, ngược lại upsert vào DB + cập nhật index.
 - Mỗi triple được ánh xạ sang ID nội bộ (`entity_id`, `predicate_id`, `triple_id`) và ghi vào bảng `triples`.
