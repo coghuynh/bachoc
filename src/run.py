@@ -85,7 +85,7 @@ def main() -> None:
     elapsed = perf_counter() - start
 
     args.output_triples.parent.mkdir(parents=True, exist_ok=True)
-    with args.output_triples.open("w", encoding="utf-8") as fh:
+    with args.output_triples.open("a", encoding="utf-8") as fh:
         json.dump(triples, fh, ensure_ascii=False, indent=2)
 
     if args.output_schema:
