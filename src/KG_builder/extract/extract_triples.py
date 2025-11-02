@@ -13,7 +13,9 @@ def extract_triples(context: str, llm: BaseLLM,  **args) -> List[Dict[str, str]]
 
     try:
         response = llm.chat(context, json_return=True, **args)
+        print(f"response: {response}")
         res = json.loads(response)
+        print(res)
     except Exception as e:
         logging.exception(f"Message: {e}")
         
