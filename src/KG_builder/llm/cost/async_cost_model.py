@@ -2,7 +2,7 @@
 from KG_builder.llm.base.async_base_mode import AsyncBaseLLM
 from google import genai
 from google.genai.types import GenerateContentConfig
-from openai import OpenAI
+# from openai import OpenAI
 import asyncio
 import os
 

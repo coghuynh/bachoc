@@ -9,13 +9,11 @@ from KG_builder.utils.llm_utils import load_model
 from KG_builder.prompts.prompts import EXTRACT_TRIPLE_PROMPT
 from KG_builder.llm.cost.async_cost_model import AsyncCostModel
 
-def extract_triples(context: str, llm: BaseLLM,  **args) -> List[Dict[str, str]]:
-
+def extract_triples(messages: dict[str, any], llm: BaseLLM,  **args) -> List[Dict[str, str]]:
     try:
-        response = llm.chat(context, json_return=True, **args)
-        print(f"response: {response}")
+        response = llm.generate_response(messages, **args)
+        print(response)
         res = json.loads(response)
-        print(res)
     except Exception as e:
         logging.exception(f"Message: {e}")
         

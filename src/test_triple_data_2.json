@@ -1,0 +1,543 @@
+{
+    "triples": [
+        {
+            "subject": {
+                "name": "TRAN HONG DANG"
+            },
+            "predicate": {
+                "name": "is_main_author_of"
+            },
+            "object": {
+                "name": "A Study on Methods to Enhance the Stability of Riverbanks in Seaport Areas"
+            }
+        },
+        {
+            "subject": {
+                "name": "A Study on Methods to Enhance the Stability of Riverbanks in Seaport Areas"
+            },
+            "predicate": {
+                "name": "has_number_of_authors"
+            },
+            "object": {
+                "name": "3"
+            }
+        },
+        {
+            "subject": {
+                "name": "A Study on Methods to Enhance the Stability of Riverbanks in Seaport Areas"
+            },
+            "predicate": {
+                "name": "published_in_journal"
+            },
+            "object": {
+                "name": "International Journal of Scientific Research in Science, Engineering and Technology ISSN 2395-1990 (P) 2394-4099 (Ο)"
+            }
+        },
+        {
+            "subject": {
+                "name": "A Study on Methods to Enhance the Stability of Riverbanks in Seaport Areas"
+            },
+            "predicate": {
+                "name": "has_journal_ranking"
+            },
+            "object": {
+                "name": "N/A"
+            }
+        },
+        {
+            "subject": {
+                "name": "A Study on Methods to Enhance the Stability of Riverbanks in Seaport Areas"
+            },
+            "predicate": {
+                "name": "has_total_citation"
+            },
+            "object": {
+                "name": "0"
+            }
+        },
+        {
+            "subject": {
+                "name": "A Study on Methods to Enhance the Stability of Riverbanks in Seaport Areas"
+            },
+            "predicate": {
+                "name": "published_date"
+            },
+            "object": {
+                "name": "6/2023"
+            }
+        },
+        {
+            "subject": {
+                "name": "A Study on Methods to Enhance the Stability of Riverbanks in Seaport Areas"
+            },
+            "predicate": {
+                "name": "volume_issue_pages"
+            },
+            "object": {
+                "name": "Vol. 10, Iss. 3 pp. 372-379"
+            }
+        },
+        {
+            "subject": {
+                "name": "TRAN HONG DANG"
+            },
+            "predicate": {
+                "name": "is_main_author_of"
+            },
+            "object": {
+                "name": "Combined prefabrication vertical drain (PVD) with variable preloading and vacuuming method to improve soft ground in the Mekong Delta"
+            }
+        },
+        {
+            "subject": {
+                "name": "Combined prefabrication vertical drain (PVD) with variable preloading and vacuuming method to improve soft ground in the Mekong Delta"
+            },
+            "predicate": {
+                "name": "has_number_of_authors"
+            },
+            "object": {
+                "name": "3"
+            }
+        },
+        {
+            "subject": {
+                "name": "Combined prefabrication vertical drain (PVD) with variable preloading and vacuuming method to improve soft ground in the Mekong Delta"
+            },
+            "predicate": {
+                "name": "published_in_journal"
+            },
+            "object": {
+                "name": "International Journal of Scientific Research in Science, Engineering and Technology ISSN 2395-1990 (P) 2394-4099 (Ο)"
+            }
+        },
+        {
+            "subject": {
+                "name": "Combined prefabrication vertical drain (PVD) with variable preloading and vacuuming method to improve soft ground in the Mekong Delta"
+            },
+            "predicate": {
+                "name": "has_journal_ranking"
+            },
+            "object": {
+                "name": "N/A"
+            }
+        },
+        {
+            "subject": {
+                "name": "Combined prefabrication vertical drain (PVD) with variable preloading and vacuuming method to improve soft ground in the Mekong Delta"
+            },
+            "predicate": {
+                "name": "has_total_citation"
+            },
+            "object": {
+                "name": "0"
+            }
+        },
+        {
+            "subject": {
+                "name": "Combined prefabrication vertical drain (PVD) with variable preloading and vacuuming method to improve soft ground in the Mekong Delta"
+            },
+            "predicate": {
+                "name": "published_date"
+            },
+            "object": {
+                "name": "6/2023"
+            }
+        },
+        {
+            "subject": {
+                "name": "Combined prefabrication vertical drain (PVD) with variable preloading and vacuuming method to improve soft ground in the Mekong Delta"
+            },
+            "predicate": {
+                "name": "volume_issue_pages"
+            },
+            "object": {
+                "name": "Vol. 10, Iss. 3 pp. 455-463"
+            }
+        },
+        {
+            "subject": {
+                "name": "TRAN HONG DANG"
+            },
+            "predicate": {
+                "name": "is_main_author_of"
+            },
+            "object": {
+                "name": "Soft Ground Improvement below Bridge Approach Foundation using Cement Deep Mixing columns combined with Geotextile"
+            }
+        },
+        {
+            "subject": {
+                "name": "Soft Ground Improvement below Bridge Approach Foundation using Cement Deep Mixing columns combined with Geotextile"
+            },
+            "predicate": {
+                "name": "has_number_of_authors"
+            },
+            "object": {
+                "name": "2"
+            }
+        },
+        {
+            "subject": {
+                "name": "Soft Ground Improvement below Bridge Approach Foundation using Cement Deep Mixing columns combined with Geotextile"
+            },
+            "predicate": {
+                "name": "published_in_journal"
+            },
+            "object": {
+                "name": "Journal of Applied Engineering Science ISSN 1451-4117 (P) 1821-3197 (Ο)"
+            }
+        },
+        {
+            "subject": {
+                "name": "Soft Ground Improvement below Bridge Approach Foundation using Cement Deep Mixing columns combined with Geotextile"
+            },
+            "predicate": {
+                "name": "has_journal_ranking"
+            },
+            "object": {
+                "name": "Scopus, Q3"
+            }
+        },
+        {
+            "subject": {
+                "name": "Soft Ground Improvement below Bridge Approach Foundation using Cement Deep Mixing columns combined with Geotextile"
+            },
+            "predicate": {
+                "name": "has_total_citation"
+            },
+            "object": {
+                "name": "0"
+            }
+        },
+        {
+            "subject": {
+                "name": "Soft Ground Improvement below Bridge Approach Foundation using Cement Deep Mixing columns combined with Geotextile"
+            },
+            "predicate": {
+                "name": "published_date"
+            },
+            "object": {
+                "name": "6/2023"
+            }
+        },
+        {
+            "subject": {
+                "name": "Soft Ground Improvement below Bridge Approach Foundation using Cement Deep Mixing columns combined with Geotextile"
+            },
+            "predicate": {
+                "name": "volume_issue_pages"
+            },
+            "object": {
+                "name": "Vol. 21, No. 2, pp. 491-500"
+            }
+        },
+        {
+            "subject": {
+                "name": "TRAN HONG DANG"
+            },
+            "predicate": {
+                "name": "is_main_author_of"
+            },
+            "object": {
+                "name": "Mechanism of cement deep mixing and design method improving soft ground in Mekong Delta"
+            }
+        },
+        {
+            "subject": {
+                "name": "Mechanism of cement deep mixing and design method improving soft ground in Mekong Delta"
+            },
+            "predicate": {
+                "name": "has_number_of_authors"
+            },
+            "object": {
+                "name": "1"
+            }
+        },
+        {
+            "subject": {
+                "name": "Mechanism of cement deep mixing and design method improving soft ground in Mekong Delta"
+            },
+            "predicate": {
+                "name": "published_in_journal"
+            },
+            "object": {
+                "name": "International Journal of Scientific Research in Science, Engineering and Technology ISSN 2395-1990 (P)"
+            }
+        },
+        {
+            "subject": {
+                "name": "Mechanism of cement deep mixing and design method improving soft ground in Mekong Delta"
+            },
+            "predicate": {
+                "name": "has_journal_ranking"
+            },
+            "object": {
+                "name": "N/A"
+            }
+        },
+        {
+            "subject": {
+                "name": "Mechanism of cement deep mixing and design method improving soft ground in Mekong Delta"
+            },
+            "predicate": {
+                "name": "has_total_citation"
+            },
+            "object": {
+                "name": "0"
+            }
+        },
+        {
+            "subject": {
+                "name": "Mechanism of cement deep mixing and design method improving soft ground in Mekong Delta"
+            },
+            "predicate": {
+                "name": "published_date"
+            },
+            "object": {
+                "name": "10/2023"
+            }
+        },
+        {
+            "subject": {
+                "name": "Mechanism of cement deep mixing and design method improving soft ground in Mekong Delta"
+            },
+            "predicate": {
+                "name": "volume_issue_pages"
+            },
+            "object": {
+                "name": "Vol. 10, Iss. 5 pp. 150-158"
+            }
+        },
+        {
+            "subject": {
+                "name": "TRAN HONG DANG"
+            },
+            "predicate": {
+                "name": "is_main_author_of"
+            },
+            "object": {
+                "name": "An analytical stabilization of landslide on road foundation soft ground improvement by SDCM columns"
+            }
+        },
+        {
+            "subject": {
+                "name": "An analytical stabilization of landslide on road foundation soft ground improvement by SDCM columns"
+            },
+            "predicate": {
+                "name": "has_number_of_authors"
+            },
+            "object": {
+                "name": "3"
+            }
+        },
+        {
+            "subject": {
+                "name": "An analytical stabilization of landslide on road foundation soft ground improvement by SDCM columns"
+            },
+            "predicate": {
+                "name": "published_in_journal"
+            },
+            "object": {
+                "name": "International Journal of Scientific Research in Science, Engineering and Technology ISSN 2395-1990 (P) 2394-4099 (Ο)"
+            }
+        },
+        {
+            "subject": {
+                "name": "An analytical stabilization of landslide on road foundation soft ground improvement by SDCM columns"
+            },
+            "predicate": {
+                "name": "has_journal_ranking"
+            },
+            "object": {
+                "name": "N/A"
+            }
+        },
+        {
+            "subject": {
+                "name": "An analytical stabilization of landslide on road foundation soft ground improvement by SDCM columns"
+            },
+            "predicate": {
+                "name": "has_total_citation"
+            },
+            "object": {
+                "name": "0"
+            }
+        },
+        {
+            "subject": {
+                "name": "An analytical stabilization of landslide on road foundation soft ground improvement by SDCM columns"
+            },
+            "predicate": {
+                "name": "published_date"
+            },
+            "object": {
+                "name": "11/2023"
+            }
+        },
+        {
+            "subject": {
+                "name": "An analytical stabilization of landslide on road foundation soft ground improvement by SDCM columns"
+            },
+            "predicate": {
+                "name": "volume_issue_pages"
+            },
+            "object": {
+                "name": "Vol. 10, Iss. 6 pp. 71-76"
+            }
+        },
+        {
+            "subject": {
+                "name": "TRAN HONG DANG"
+            },
+            "predicate": {
+                "name": "is_main_author_of"
+            },
+            "object": {
+                "name": "Exploring optimal Cement Deep Mixing column arrangements for soft ground improvement: A simplified approach investigation"
+            }
+        },
+        {
+            "subject": {
+                "name": "Exploring optimal Cement Deep Mixing column arrangements for soft ground improvement: A simplified approach investigation"
+            },
+            "predicate": {
+                "name": "has_number_of_authors"
+            },
+            "object": {
+                "name": "1"
+            }
+        },
+        {
+            "subject": {
+                "name": "Exploring optimal Cement Deep Mixing column arrangements for soft ground improvement: A simplified approach investigation"
+            },
+            "predicate": {
+                "name": "published_in_journal"
+            },
+            "object": {
+                "name": "International Journal of Scientific Research in Science, Engineering and Technology ISSN 2395-1990 (P) 2394-4099 (Ο)"
+            }
+        },
+        {
+            "subject": {
+                "name": "Exploring optimal Cement Deep Mixing column arrangements for soft ground improvement: A simplified approach investigation"
+            },
+            "predicate": {
+                "name": "has_journal_ranking"
+            },
+            "object": {
+                "name": "N/A"
+            }
+        },
+        {
+            "subject": {
+                "name": "Exploring optimal Cement Deep Mixing column arrangements for soft ground improvement: A simplified approach investigation"
+            },
+            "predicate": {
+                "name": "has_total_citation"
+            },
+            "object": {
+                "name": "0"
+            }
+        },
+        {
+            "subject": {
+                "name": "Exploring optimal Cement Deep Mixing column arrangements for soft ground improvement: A simplified approach investigation"
+            },
+            "predicate": {
+                "name": "published_date"
+            },
+            "object": {
+                "name": "1/2024"
+            }
+        },
+        {
+            "subject": {
+                "name": "Exploring optimal Cement Deep Mixing column arrangements for soft ground improvement: A simplified approach investigation"
+            },
+            "predicate": {
+                "name": "volume_issue_pages"
+            },
+            "object": {
+                "name": "Vol.11, Iss. 1 pp. 1-7"
+            }
+        },
+        {
+            "subject": {
+                "name": "TRAN HONG DANG"
+            },
+            "predicate": {
+                "name": "is_main_author_of"
+            },
+            "object": {
+                "name": "An investigation of Cement Deep Mixing columns stabilization in the road foundation along the Cho Gao canal"
+            }
+        },
+        {
+            "subject": {
+                "name": "An investigation of Cement Deep Mixing columns stabilization in the road foundation along the Cho Gao canal"
+            },
+            "predicate": {
+                "name": "has_number_of_authors"
+            },
+            "object": {
+                "name": "1"
+            }
+        },
+        {
+            "subject": {
+                "name": "An investigation of Cement Deep Mixing columns stabilization in the road foundation along the Cho Gao canal"
+            },
+            "predicate": {
+                "name": "published_in_journal"
+            },
+            "object": {
+                "name": "International Journal of GEOMATE ISSN 2186-2982 (P) 2186-2990 (Ο)"
+            }
+        },
+        {
+            "subject": {
+                "name": "An investigation of Cement Deep Mixing columns stabilization in the road foundation along the Cho Gao canal"
+            },
+            "predicate": {
+                "name": "has_journal_ranking"
+            },
+            "object": {
+                "name": "Scopus, Q3"
+            }
+        },
+        {
+            "subject": {
+                "name": "An investigation of Cement Deep Mixing columns stabilization in the road foundation along the Cho Gao canal"
+            },
+            "predicate": {
+                "name": "has_total_citation"
+            },
+            "object": {
+                "name": "0"
+            }
+        },
+        {
+            "subject": {
+                "name": "An investigation of Cement Deep Mixing columns stabilization in the road foundation along the Cho Gao canal"
+            },
+            "predicate": {
+                "name": "published_date"
+            },
+            "object": {
+                "name": "02/2024"
+            }
+        },
+        {
+            "subject": {
+                "name": "An investigation of Cement Deep Mixing columns stabilization in the road foundation along the Cho Gao canal"
+            },
+            "predicate": {
+                "name": "volume_issue_pages"
+            },
+            "object": {
+                "name": "Vol. 26, Iss. 114, pp. 1-8"
+            }
+        }
+    ]
+}

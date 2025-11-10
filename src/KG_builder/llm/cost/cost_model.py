@@ -1,12 +1,16 @@
 from KG_builder.llm.base.base_model import BaseLLM
 from google import genai
+from google.genai import types
 from google.genai.types import GenerateContentConfig
-from openai import OpenAI
+# from openai import OpenAI
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 class CostModelAPIError(Exception):
     pass
-
+    
 class CostModel(BaseLLM):
     """Paid API models (GPT, Gemini)"""
     def __init__(self, **args):
@@ -26,14 +30,29 @@ class GeminiModel(CostModel):
         
         except Exception as e:
             raise CostModelAPIError(f"Failed to connect to Gemini: {str(e)}")
+
+
+    def generate_response(self, messages: dict | list, **args):
+        response_format = args.get("response_format")
         
+        config_params: dict[str, any] = {}
         
-    def generate_response(self, context: str, **args):
-        config = GenerateContentConfig(
-            system_instruction=args["system"],
-            response_mime_type="application/json",
-            response_schema=args["triple_type"]
-        )
+        if isinstance(messages, dict): # for basic response
+            system_instruction = messages.get("system_instruction")
+            context = messages.get("context")
+            
+            if system_instruction:
+                config_params["system_instruction"] = system_instruction
+        else: # for pdf file response
+            context = messages
+            
+        if response_format is not None and response_format["type"] == "json_object":
+            config_params["response_mime_type"] = "application/json"
+            if "response_schema" in response_format:
+                config_params["response_schema"] = response_format["response_schema"]
+                
+        config = GenerateContentConfig(**config_params)
+        
         try:
             response = self.instance.models.generate_content(
                 model=self.name,

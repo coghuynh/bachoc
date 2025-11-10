@@ -1,0 +1,752 @@
+{
+    "triples": [
+        {
+            "subject": {
+                "name": "TRAN HONG DANG"
+            },
+            "predicate": {
+                "name": "is_main_author_of"
+            },
+            "object": {
+                "name": "Xác định mô-đun đàn hồi của nền đường đất đắp vùng đồng bằng sông Cửu Long bằng thí nghiệm ba trục"
+            }
+        },
+        {
+            "subject": {
+                "name": "Xác định mô-đun đàn hồi của nền đường đất đắp vùng đồng bằng sông Cửu Long bằng thí nghiệm ba trục"
+            },
+            "predicate": {
+                "name": "has_total_authors"
+            },
+            "object": {
+                "name": "2"
+            }
+        },
+        {
+            "subject": {
+                "name": "Xác định mô-đun đàn hồi của nền đường đất đắp vùng đồng bằng sông Cửu Long bằng thí nghiệm ba trục"
+            },
+            "predicate": {
+                "name": "published_in_journal"
+            },
+            "object": {
+                "name": "Tạp chí Giao thông vận tải-Bộ Giao thông vận tải ISSN 2354-0818"
+            }
+        },
+        {
+            "subject": {
+                "name": "Xác định mô-đun đàn hồi của nền đường đất đắp vùng đồng bằng sông Cửu Long bằng thí nghiệm ba trục"
+            },
+            "predicate": {
+                "name": "has_journal_ranking"
+            },
+            "object": {
+                "name": "N/A"
+            }
+        },
+        {
+            "subject": {
+                "name": "Xác định mô-đun đàn hồi của nền đường đất đắp vùng đồng bằng sông Cửu Long bằng thí nghiệm ba trục"
+            },
+            "predicate": {
+                "name": "has_total_citation"
+            },
+            "object": {
+                "name": "0"
+            }
+        },
+        {
+            "subject": {
+                "name": "Xác định mô-đun đàn hồi của nền đường đất đắp vùng đồng bằng sông Cửu Long bằng thí nghiệm ba trục"
+            },
+            "predicate": {
+                "name": "has_volume_issue_pages"
+            },
+            "object": {
+                "name": "Số 735, trang 92-95"
+            }
+        },
+        {
+            "subject": {
+                "name": "Xác định mô-đun đàn hồi của nền đường đất đắp vùng đồng bằng sông Cửu Long bằng thí nghiệm ba trục"
+            },
+            "predicate": {
+                "name": "has_published_date"
+            },
+            "object": {
+                "name": "11/2023"
+            }
+        },
+        {
+            "subject": {
+                "name": "TRAN HONG DANG"
+            },
+            "predicate": {
+                "name": "is_main_author_of"
+            },
+            "object": {
+                "name": "Nghiên cứu biến dạng mặt đường trong giải pháp khoan kích ngâm hệ thống xử lý nước"
+            }
+        },
+        {
+            "subject": {
+                "name": "Nghiên cứu biến dạng mặt đường trong giải pháp khoan kích ngâm hệ thống xử lý nước"
+            },
+            "predicate": {
+                "name": "has_total_authors"
+            },
+            "object": {
+                "name": "2"
+            }
+        },
+        {
+            "subject": {
+                "name": "Nghiên cứu biến dạng mặt đường trong giải pháp khoan kích ngâm hệ thống xử lý nước"
+            },
+            "predicate": {
+                "name": "published_in_journal"
+            },
+            "object": {
+                "name": "Tạp chí xây dựng-Bộ Xây dựng ISSN 3734-9888"
+            }
+        },
+        {
+            "subject": {
+                "name": "Nghiên cứu biến dạng mặt đường trong giải pháp khoan kích ngâm hệ thống xử lý nước"
+            },
+            "predicate": {
+                "name": "has_journal_ranking"
+            },
+            "object": {
+                "name": "N/A"
+            }
+        },
+        {
+            "subject": {
+                "name": "Nghiên cứu biến dạng mặt đường trong giải pháp khoan kích ngâm hệ thống xử lý nước"
+            },
+            "predicate": {
+                "name": "has_total_citation"
+            },
+            "object": {
+                "name": "0"
+            }
+        },
+        {
+            "subject": {
+                "name": "Nghiên cứu biến dạng mặt đường trong giải pháp khoan kích ngâm hệ thống xử lý nước"
+            },
+            "predicate": {
+                "name": "has_volume_issue_pages"
+            },
+            "object": {
+                "name": "Số 11/2023, trang 52-55"
+            }
+        },
+        {
+            "subject": {
+                "name": "Nghiên cứu biến dạng mặt đường trong giải pháp khoan kích ngâm hệ thống xử lý nước"
+            },
+            "predicate": {
+                "name": "has_published_date"
+            },
+            "object": {
+                "name": "11/2023"
+            }
+        },
+        {
+            "subject": {
+                "name": "TRAN HONG DANG"
+            },
+            "predicate": {
+                "name": "is_main_author_of"
+            },
+            "object": {
+                "name": "Tính toán ổn định nền đất đắp khi thi công bằng phương pháp đắp theo giai đoạn"
+            }
+        },
+        {
+            "subject": {
+                "name": "Tính toán ổn định nền đất đắp khi thi công bằng phương pháp đắp theo giai đoạn"
+            },
+            "predicate": {
+                "name": "has_total_authors"
+            },
+            "object": {
+                "name": "2"
+            }
+        },
+        {
+            "subject": {
+                "name": "Tính toán ổn định nền đất đắp khi thi công bằng phương pháp đắp theo giai đoạn"
+            },
+            "predicate": {
+                "name": "published_in_journal"
+            },
+            "object": {
+                "name": "Tạp chí xây dựng-Bộ Xây dựng ISSN 3734-9888"
+            }
+        },
+        {
+            "subject": {
+                "name": "Tính toán ổn định nền đất đắp khi thi công bằng phương pháp đắp theo giai đoạn"
+            },
+            "predicate": {
+                "name": "has_journal_ranking"
+            },
+            "object": {
+                "name": "N/A"
+            }
+        },
+        {
+            "subject": {
+                "name": "Tính toán ổn định nền đất đắp khi thi công bằng phương pháp đắp theo giai đoạn"
+            },
+            "predicate": {
+                "name": "has_total_citation"
+            },
+            "object": {
+                "name": "0"
+            }
+        },
+        {
+            "subject": {
+                "name": "Tính toán ổn định nền đất đắp khi thi công bằng phương pháp đắp theo giai đoạn"
+            },
+            "predicate": {
+                "name": "has_volume_issue_pages"
+            },
+            "object": {
+                "name": "Số 1/2024, trang 72-75"
+            }
+        },
+        {
+            "subject": {
+                "name": "Tính toán ổn định nền đất đắp khi thi công bằng phương pháp đắp theo giai đoạn"
+            },
+            "predicate": {
+                "name": "has_published_date"
+            },
+            "object": {
+                "name": "01/2024"
+            }
+        },
+        {
+            "subject": {
+                "name": "TRAN HONG DANG"
+            },
+            "predicate": {
+                "name": "is_main_author_of"
+            },
+            "object": {
+                "name": "Sử dụng tia X-ray CT phân tích ảnh hưởng của đất trương nở đến khối lượng riêng đất trộn xi măng"
+            }
+        },
+        {
+            "subject": {
+                "name": "Sử dụng tia X-ray CT phân tích ảnh hưởng của đất trương nở đến khối lượng riêng đất trộn xi măng"
+            },
+            "predicate": {
+                "name": "has_total_authors"
+            },
+            "object": {
+                "name": "1"
+            }
+        },
+        {
+            "subject": {
+                "name": "Sử dụng tia X-ray CT phân tích ảnh hưởng của đất trương nở đến khối lượng riêng đất trộn xi măng"
+            },
+            "predicate": {
+                "name": "published_in_journal"
+            },
+            "object": {
+                "name": "Tạp chí Giao thông vận tải-Bộ Giao thông vận tải ISSN 2354-0818"
+            }
+        },
+        {
+            "subject": {
+                "name": "Sử dụng tia X-ray CT phân tích ảnh hưởng của đất trương nở đến khối lượng riêng đất trộn xi măng"
+            },
+            "predicate": {
+                "name": "has_journal_ranking"
+            },
+            "object": {
+                "name": "N/A"
+            }
+        },
+        {
+            "subject": {
+                "name": "Sử dụng tia X-ray CT phân tích ảnh hưởng của đất trương nở đến khối lượng riêng đất trộn xi măng"
+            },
+            "predicate": {
+                "name": "has_total_citation"
+            },
+            "object": {
+                "name": "0"
+            }
+        },
+        {
+            "subject": {
+                "name": "Sử dụng tia X-ray CT phân tích ảnh hưởng của đất trương nở đến khối lượng riêng đất trộn xi măng"
+            },
+            "predicate": {
+                "name": "has_volume_issue_pages"
+            },
+            "object": {
+                "name": "Số 739, trang 27-30"
+            }
+        },
+        {
+            "subject": {
+                "name": "Sử dụng tia X-ray CT phân tích ảnh hưởng của đất trương nở đến khối lượng riêng đất trộn xi măng"
+            },
+            "predicate": {
+                "name": "has_published_date"
+            },
+            "object": {
+                "name": "03/2024"
+            }
+        },
+        {
+            "subject": {
+                "name": "TRAN HONG DANG"
+            },
+            "predicate": {
+                "name": "is_main_author_of"
+            },
+            "object": {
+                "name": "Phân tích khả năng chịu tải của cọc theo thời gian từ kết quả thí nghiệm xuyên tĩnh có đo áp lực nước lỗ rỗng (CPTu)"
+            }
+        },
+        {
+            "subject": {
+                "name": "Phân tích khả năng chịu tải của cọc theo thời gian từ kết quả thí nghiệm xuyên tĩnh có đo áp lực nước lỗ rỗng (CPTu)"
+            },
+            "predicate": {
+                "name": "has_total_authors"
+            },
+            "object": {
+                "name": "2"
+            }
+        },
+        {
+            "subject": {
+                "name": "Phân tích khả năng chịu tải của cọc theo thời gian từ kết quả thí nghiệm xuyên tĩnh có đo áp lực nước lỗ rỗng (CPTu)"
+            },
+            "predicate": {
+                "name": "published_in_journal"
+            },
+            "object": {
+                "name": "Tạp chí Giao thông vận tải-Bộ Giao thông vận tải ISSN 2354-0818"
+            }
+        },
+        {
+            "subject": {
+                "name": "Phân tích khả năng chịu tải của cọc theo thời gian từ kết quả thí nghiệm xuyên tĩnh có đo áp lực nước lỗ rỗng (CPTu)"
+            },
+            "predicate": {
+                "name": "has_journal_ranking"
+            },
+            "object": {
+                "name": "N/A"
+            }
+        },
+        {
+            "subject": {
+                "name": "Phân tích khả năng chịu tải của cọc theo thời gian từ kết quả thí nghiệm xuyên tĩnh có đo áp lực nước lỗ rỗng (CPTu)"
+            },
+            "predicate": {
+                "name": "has_total_citation"
+            },
+            "object": {
+                "name": "0"
+            }
+        },
+        {
+            "subject": {
+                "name": "Phân tích khả năng chịu tải của cọc theo thời gian từ kết quả thí nghiệm xuyên tĩnh có đo áp lực nước lỗ rỗng (CPTu)"
+            },
+            "predicate": {
+                "name": "has_volume_issue_pages"
+            },
+            "object": {
+                "name": "Số 740, trang 104-107"
+            }
+        },
+        {
+            "subject": {
+                "name": "Phân tích khả năng chịu tải của cọc theo thời gian từ kết quả thí nghiệm xuyên tĩnh có đo áp lực nước lỗ rỗng (CPTu)"
+            },
+            "predicate": {
+                "name": "has_published_date"
+            },
+            "object": {
+                "name": "04/2024"
+            }
+        },
+        {
+            "subject": {
+                "name": "Study on Using Laboratory Model to Research for Bearing Capacity of Soft Ground Improved by Deep Cement Mixing Columns due to Embankment Load with Different Montmorillonite Contents"
+            },
+            "predicate": {
+                "name": "has_total_authors"
+            },
+            "object": {
+                "name": "4"
+            }
+        },
+        {
+            "subject": {
+                "name": "Study on Using Laboratory Model to Research for Bearing Capacity of Soft Ground Improved by Deep Cement Mixing Columns due to Embankment Load with Different Montmorillonite Contents"
+            },
+            "predicate": {
+                "name": "published_in_journal"
+            },
+            "object": {
+                "name": "ISBN: 978-1-5386-6757-6"
+            }
+        },
+        {
+            "subject": {
+                "name": "Study on Using Laboratory Model to Research for Bearing Capacity of Soft Ground Improved by Deep Cement Mixing Columns due to Embankment Load with Different Montmorillonite Contents"
+            },
+            "predicate": {
+                "name": "has_journal_ranking"
+            },
+            "object": {
+                "name": "Scopus"
+            }
+        },
+        {
+            "subject": {
+                "name": "Study on Using Laboratory Model to Research for Bearing Capacity of Soft Ground Improved by Deep Cement Mixing Columns due to Embankment Load with Different Montmorillonite Contents"
+            },
+            "predicate": {
+                "name": "has_total_citation"
+            },
+            "object": {
+                "name": "0"
+            }
+        },
+        {
+            "subject": {
+                "name": "Study on Using Laboratory Model to Research for Bearing Capacity of Soft Ground Improved by Deep Cement Mixing Columns due to Embankment Load with Different Montmorillonite Contents"
+            },
+            "predicate": {
+                "name": "has_volume_issue_pages"
+            },
+            "object": {
+                "name": "pp. 121-127"
+            }
+        },
+        {
+            "subject": {
+                "name": "Study on Using Laboratory Model to Research for Bearing Capacity of Soft Ground Improved by Deep Cement Mixing Columns due to Embankment Load with Different Montmorillonite Contents"
+            },
+            "predicate": {
+                "name": "has_published_date"
+            },
+            "object": {
+                "name": "9/2018"
+            }
+        },
+        {
+            "subject": {
+                "name": "TRAN HONG DANG"
+            },
+            "predicate": {
+                "name": "is_main_author_of"
+            },
+            "object": {
+                "name": "Nonlinear FEM analysis of cement column configuration in the foundation improved by deep mixing method"
+            }
+        },
+        {
+            "subject": {
+                "name": "Nonlinear FEM analysis of cement column configuration in the foundation improved by deep mixing method"
+            },
+            "predicate": {
+                "name": "has_total_authors"
+            },
+            "object": {
+                "name": "2"
+            }
+        },
+        {
+            "subject": {
+                "name": "Nonlinear FEM analysis of cement column configuration in the foundation improved by deep mixing method"
+            },
+            "predicate": {
+                "name": "published_in_journal"
+            },
+            "object": {
+                "name": "Strength of Materials and Theory of Structure ISSN 2410-2547"
+            }
+        },
+        {
+            "subject": {
+                "name": "Nonlinear FEM analysis of cement column configuration in the foundation improved by deep mixing method"
+            },
+            "predicate": {
+                "name": "has_journal_ranking"
+            },
+            "object": {
+                "name": "ISI (ESCI)"
+            }
+        },
+        {
+            "subject": {
+                "name": "Nonlinear FEM analysis of cement column configuration in the foundation improved by deep mixing method"
+            },
+            "predicate": {
+                "name": "has_total_citation"
+            },
+            "object": {
+                "name": "0"
+            }
+        },
+        {
+            "subject": {
+                "name": "Nonlinear FEM analysis of cement column configuration in the foundation improved by deep mixing method"
+            },
+            "predicate": {
+                "name": "has_volume_issue_pages"
+            },
+            "object": {
+                "name": "No. 100 pp. 18-26"
+            }
+        },
+        {
+            "subject": {
+                "name": "Nonlinear FEM analysis of cement column configuration in the foundation improved by deep mixing method"
+            },
+            "predicate": {
+                "name": "has_published_date"
+            },
+            "object": {
+                "name": "6/2018"
+            }
+        },
+        {
+            "subject": {
+                "name": "Study on Stress Distribution in Soft Ground Consolidated with Deep Cement Mixing Columns under Road Embankment"
+            },
+            "predicate": {
+                "name": "has_total_authors"
+            },
+            "object": {
+                "name": "2"
+            }
+        },
+        {
+            "subject": {
+                "name": "Study on Stress Distribution in Soft Ground Consolidated with Deep Cement Mixing Columns under Road Embankment"
+            },
+            "predicate": {
+                "name": "published_in_journal"
+            },
+            "object": {
+                "name": "Civil Engineering and Architecture ISSN 2332-1091 (P) 2332-1121 (Ο)"
+            }
+        },
+        {
+            "subject": {
+                "name": "Study on Stress Distribution in Soft Ground Consolidated with Deep Cement Mixing Columns under Road Embankment"
+            },
+            "predicate": {
+                "name": "has_journal_ranking"
+            },
+            "object": {
+                "name": "Scopus, Q3 CiteScore 1.2 H-index 12"
+            }
+        },
+        {
+            "subject": {
+                "name": "Study on Stress Distribution in Soft Ground Consolidated with Deep Cement Mixing Columns under Road Embankment"
+            },
+            "predicate": {
+                "name": "has_total_citation"
+            },
+            "object": {
+                "name": "0"
+            }
+        },
+        {
+            "subject": {
+                "name": "Study on Stress Distribution in Soft Ground Consolidated with Deep Cement Mixing Columns under Road Embankment"
+            },
+            "predicate": {
+                "name": "has_volume_issue_pages"
+            },
+            "object": {
+                "name": "Vol. 8, No. 6, pp. 1251-1265"
+            }
+        },
+        {
+            "subject": {
+                "name": "Study on Stress Distribution in Soft Ground Consolidated with Deep Cement Mixing Columns under Road Embankment"
+            },
+            "predicate": {
+                "name": "has_published_date"
+            },
+            "object": {
+                "name": "11/2020"
+            }
+        },
+        {
+            "subject": {
+                "name": "TRAN HONG DANG"
+            },
+            "predicate": {
+                "name": "is_main_author_of"
+            },
+            "object": {
+                "name": "A study on the calculation of deformation of cement deep mixing columns that stabilize soil erosion and landslides on river roads"
+            }
+        },
+        {
+            "subject": {
+                "name": "A study on the calculation of deformation of cement deep mixing columns that stabilize soil erosion and landslides on river roads"
+            },
+            "predicate": {
+                "name": "has_total_authors"
+            },
+            "object": {
+                "name": "2"
+            }
+        },
+        {
+            "subject": {
+                "name": "A study on the calculation of deformation of cement deep mixing columns that stabilize soil erosion and landslides on river roads"
+            },
+            "predicate": {
+                "name": "published_in_journal"
+            },
+            "object": {
+                "name": "International Journal of GEOMATE ISSN 2186-2982 (P) 2186-2990 (Ο)"
+            }
+        },
+        {
+            "subject": {
+                "name": "A study on the calculation of deformation of cement deep mixing columns that stabilize soil erosion and landslides on river roads"
+            },
+            "predicate": {
+                "name": "has_journal_ranking"
+            },
+            "object": {
+                "name": "Scopus, Q3"
+            }
+        },
+        {
+            "subject": {
+                "name": "A study on the calculation of deformation of cement deep mixing columns that stabilize soil erosion and landslides on river roads"
+            },
+            "predicate": {
+                "name": "has_total_citation"
+            },
+            "object": {
+                "name": "0"
+            }
+        },
+        {
+            "subject": {
+                "name": "A study on the calculation of deformation of cement deep mixing columns that stabilize soil erosion and landslides on river roads"
+            },
+            "predicate": {
+                "name": "has_volume_issue_pages"
+            },
+            "object": {
+                "name": "Vol 23, Iss. 100,"
+            }
+        },
+        {
+            "subject": {
+                "name": "A study on the calculation of deformation of cement deep mixing columns that stabilize soil erosion and landslides on river roads"
+            },
+            "predicate": {
+                "name": "has_published_date"
+            },
+            "object": {
+                "name": "12/2022"
+            }
+        },
+        {
+            "subject": {
+                "name": "TRAN HONG DANG"
+            },
+            "predicate": {
+                "name": "is_main_author_of"
+            },
+            "object": {
+                "name": "The effect of pile driving process on stress and strain of neighboring building's foundations: An application in Vietnam"
+            }
+        },
+        {
+            "subject": {
+                "name": "The effect of pile driving process on stress and strain of neighboring building's foundations: An application in Vietnam"
+            },
+            "predicate": {
+                "name": "has_total_authors"
+            },
+            "object": {
+                "name": "2"
+            }
+        },
+        {
+            "subject": {
+                "name": "The effect of pile driving process on stress and strain of neighboring building's foundations: An application in Vietnam"
+            },
+            "predicate": {
+                "name": "published_in_journal"
+            },
+            "object": {
+                "name": "International Journal of GEOMATE ISSN 2186-2982 (P) 2186-2990 (Ο)"
+            }
+        },
+        {
+            "subject": {
+                "name": "The effect of pile driving process on stress and strain of neighboring building's foundations: An application in Vietnam"
+            },
+            "predicate": {
+                "name": "has_journal_ranking"
+            },
+            "object": {
+                "name": "Scopus, Q3"
+            }
+        },
+        {
+            "subject": {
+                "name": "The effect of pile driving process on stress and strain of neighboring building's foundations: An application in Vietnam"
+            },
+            "predicate": {
+                "name": "has_total_citation"
+            },
+            "object": {
+                "name": "0"
+            }
+        },
+        {
+            "subject": {
+                "name": "The effect of pile driving process on stress and strain of neighboring building's foundations: An application in Vietnam"
+            },
+            "predicate": {
+                "name": "has_volume_issue_pages"
+            },
+            "object": {
+                "name": "Vol. 24, Iss. 104, pp. 1-10"
+            }
+        },
+        {
+            "subject": {
+                "name": "The effect of pile driving process on stress and strain of neighboring building's foundations: An application in Vietnam"
+            },
+            "predicate": {
+                "name": "has_published_date"
+            },
+            "object": {
+                "name": "4/2023"
+            }
+        }
+    ]
+}

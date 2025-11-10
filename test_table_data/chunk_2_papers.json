@@ -1,0 +1,104 @@
+{
+  "papers": [
+    {
+      "title": "Xác định mô-đun đàn hồi của nền đường đất đắp vùng đồng bằng sông Cửu Long bằng thí nghiệm ba trục",
+      "num_authors": 2,
+      "is_main_author": true,
+      "journal_name_ISSN": "Tạp chí Giao thông vận tải-Bộ Giao thông vận tải ISSN 2354-0818",
+      "journal_ranking": "N/A",
+      "citation_count": 0,
+      "volume_issue_pages": "Số 735, trang 92-95",
+      "published_date": "11/2023"
+    },
+    {
+      "title": "Nghiên cứu biến dạng mặt đường trong giải pháp khoan kích ngâm hệ thống xử lý nước",
+      "num_authors": 2,
+      "is_main_author": true,
+      "journal_name_ISSN": "Tạp chí xây dựng-Bộ Xây dựng ISSN 3734-9888",
+      "journal_ranking": "N/A",
+      "citation_count": 0,
+      "volume_issue_pages": "Số 11/2023, trang 52-55",
+      "published_date": "11/2023"
+    },
+    {
+      "title": "Tính toán ổn định nền đất đắp khi thi công bằng phương pháp đắp theo giai đoạn",
+      "num_authors": 2,
+      "is_main_author": true,
+      "journal_name_ISSN": "Tạp chí xây dựng-Bộ Xây dựng ISSN 3734-9888",
+      "journal_ranking": "N/A",
+      "citation_count": 0,
+      "volume_issue_pages": "Số 1/2024, trang 72-75",
+      "published_date": "01/2024"
+    },
+    {
+      "title": "Sử dụng tia X-ray CT phân tích ảnh hưởng của đất trương nở đến khối lượng riêng đất trộn xi măng",
+      "num_authors": 1,
+      "is_main_author": true,
+      "journal_name_ISSN": "Tạp chí Giao thông vận tải-Bộ Giao thông vận tải ISSN 2354-0818",
+      "journal_ranking": "N/A",
+      "citation_count": 0,
+      "volume_issue_pages": "Số 739, trang 27-30",
+      "published_date": "03/2024"
+    },
+    {
+      "title": "Phân tích khả năng chịu tải của cọc theo thời gian từ kết quả thí nghiệm xuyên tĩnh có đo áp lực nước lỗ rỗng (CPTu)",
+      "num_authors": 2,
+      "is_main_author": true,
+      "journal_name_ISSN": "Tạp chí Giao thông vận tải-Bộ Giao thông vận tải ISSN 2354-0818",
+      "journal_ranking": "N/A",
+      "citation_count": 0,
+      "volume_issue_pages": "Số 740, trang 104-107",
+      "published_date": "04/2024"
+    },
+    {
+      "title": "Study on Using Laboratory Model to Research for Bearing Capacity of Soft Ground Improved by Deep Cement Mixing Columns due to Embankment Load with Different Montmorillonite Contents",
+      "num_authors": 4,
+      "is_main_author": false,
+      "journal_name_ISSN": "ISBN: 978-1-5386-6757-6",
+      "journal_ranking": "Scopus",
+      "citation_count": 0,
+      "volume_issue_pages": "pp. 121-127",
+      "published_date": "9/2018"
+    },
+    {
+      "title": "Nonlinear FEM analysis of cement column configuration in the foundation improved by deep mixing method",
+      "num_authors": 2,
+      "is_main_author": true,
+      "journal_name_ISSN": "Strength of Materials and Theory of Structure ISSN 2410-2547",
+      "journal_ranking": "ISI (ESCI)",
+      "citation_count": 0,
+      "volume_issue_pages": "No. 100 pp. 18-26",
+      "published_date": "6/2018"
+    },
+    {
+      "title": "Study on Stress Distribution in Soft Ground Consolidated with Deep Cement Mixing Columns under Road Embankment",
+      "num_authors": 2,
+      "is_main_author": false,
+      "journal_name_ISSN": "Civil Engineering and Architecture ISSN 2332-1091 (P) 2332-1121 (Ο)",
+      "journal_ranking": "Scopus, Q3 CiteScore 1.2 H-index 12",
+      "citation_count": 0,
+      "volume_issue_pages": "Vol. 8, No. 6, pp. 1251-1265",
+      "published_date": "11/2020"
+    },
+    {
+      "title": "A study on the calculation of deformation of cement deep mixing columns that stabilize soil erosion and landslides on river roads",
+      "num_authors": 2,
+      "is_main_author": true,
+      "journal_name_ISSN": "International Journal of GEOMATE ISSN 2186-2982 (P) 2186-2990 (Ο)",
+      "journal_ranking": "Scopus, Q3",
+      "citation_count": 0,
+      "volume_issue_pages": "Vol 23, Iss. 100,",
+      "published_date": "12/2022"
+    },
+    {
+      "title": "The effect of pile driving process on stress and strain of neighboring building's foundations: An application in Vietnam",
+      "num_authors": 2,
+      "is_main_author": true,
+      "journal_name_ISSN": "International Journal of GEOMATE ISSN 2186-2982 (P) 2186-2990 (Ο)",
+      "journal_ranking": "Scopus, Q3",
+      "citation_count": 0,
+      "volume_issue_pages": "Vol. 24, Iss. 104, pp. 1-10",
+      "published_date": "4/2023"
+    }
+  ]
+}
