@@ -1,9 +1,16 @@
 from KG_builder.llm.base.base_model import BaseLLM
 from google import genai
+from google.genai import types
 from google.genai.types import GenerateContentConfig
-from openai import OpenAI
+# from openai import OpenAI
 import os
+from dotenv import load_dotenv
 
+load_dotenv()
+
+class CostModelAPIError(Exception):
+    pass
+    
 class CostModel(BaseLLM):
     """Paid API models (GPT, Gemini)"""
     def __init__(self, **args):
@@ -13,26 +20,64 @@ class CostModel(BaseLLM):
 class GeminiModel(CostModel):
     def __init__(self, **args):
         super().__init__(**args)
-        self.instance = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
+        self.api_key = os.environ["GEMINI_API_KEY"]
         
+        if not self.api_key:
+            raise ValueError("Set api key in .env file of pass an valid api key")
         
-    def generate_response(self, context: str, **args):
-        config = GenerateContentConfig(
-            system_instruction=args.get("system"),
-        )
-        response = self.instance.models.generate_content(
-            model=self.name,
-            contents=context, 
-            config=config
-        )
+        try: 
+            self.instance = genai.Client(api_key=self.api_key)
         
-        return response.text
+        except Exception as e:
+            raise CostModelAPIError(f"Failed to connect to Gemini: {str(e)}")
+
+
+    def generate_response(self, messages: dict | list, **args):
+        response_format = args.get("response_format")
+        
+        config_params: dict[str, any] = {}
+        
+        if isinstance(messages, dict): # for basic response
+            system_instruction = messages.get("system_instruction")
+            context = messages.get("context")
+            
+            if system_instruction:
+                config_params["system_instruction"] = system_instruction
+        else: # for pdf file response
+            context = messages
+            
+        if response_format is not None and response_format["type"] == "json_object":
+            config_params["response_mime_type"] = "application/json"
+            if "response_schema" in response_format:
+                config_params["response_schema"] = response_format["response_schema"]
+                
+        config = GenerateContentConfig(**config_params)
+        
+        try:
+            response = self.instance.models.generate_content(
+                model=self.name,
+                contents=context, 
+                config=config
+            )
+            # check if text in response format
+            if hasattr(response, "text"):
+                return response.text
+            
+            # check if candidate in response format
+            elif hasattr(response, "candidate") and response.candidates():
+                return response.candidates[0].content.parts[0].text
+            
+            else:
+                raise CostModelAPIError("No valid response from Gemini")
+        
+        except Exception as e:
+            raise CostModelAPIError(f"Error: {str(e)}")
     
     
 class GPTModel(CostModel):
     def __init__(self, **args):
         super().__init__(**args)
-        self.client = OpenAI(api_key=os.environ["OPENAI"])
+        # self.client = OpenAI(api_key=os.environ["OPENAI"])
         
     def generate_response(self, context: str, **args):
         response = self.client.responses.create(

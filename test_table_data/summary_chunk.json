@@ -1,0 +1,158 @@
+{
+  "projects": [
+    {
+      "title": "Ảnh hưởng của hàm lượng Montmorillonite trong đất đến độ bền cơ học của cọc đất - xi măng dùng xử lý nền móng công trình xây dựng trên đất yếu",
+      "role": "Co-Investigator",
+      "project_code": "431/HĐ-ĐHTG",
+      "management_level": "Trường Đại học Tiền Giang",
+      "period": "10/2011 - 09/2012",
+      "acceptance_date": "29/11/2012",
+      "rating": "Excellent"
+    },
+    {
+      "title": "Nghiên cứu sự ảnh hưởng của khoáng vật Montmorillonite đến sức chịu tải của nền đất yếu gia cố cột đất trộn xi măng bằng mô hình trong phòng thí nghiệm",
+      "role": "Principal Investigator",
+      "project_code": "166/HĐ-ĐHTG",
+      "management_level": "Trường Đại học Tiền Giang",
+      "period": "05/2016-04/2017",
+      "acceptance_date": "27/04/2017",
+      "rating": "Excellent"
+    },
+    {
+      "title": "Nghiên cứu ảnh hưởng của khoáng vật Montmorillonite đến cường độ chịu nén nhằm tối ưu hóa trụ đất xi măng trong xử lý nền công trình giao thông Đồng bằng sông Cửu Long",
+      "role": "Co-Investigator",
+      "project_code": "DT 194071",
+      "management_level": "Bộ Giao thông vận tải",
+      "period": "01/2019-12/2019",
+      "acceptance_date": "04/01/2020",
+      "rating": "Achieved (mức A)"
+    },
+    {
+      "title": "Nghiên cứu ứng suất và biến dạng của nền móng công trình lân cận do ảnh hưởng của quá trình thi công ép cọc",
+      "role": "Principal Investigator",
+      "project_code": "159/HĐ-ĐHTG",
+      "management_level": "Trường Đại học Tiền Giang",
+      "period": "11/2021 - 08/2022",
+      "acceptance_date": "15/08/2022",
+      "rating": "Good"
+    },
+    {
+      "title": "Áp dụng mô hình CDIO để xây dựng các chương trình đào tạo tiên tiến nhằm đào tạo nguồn nhân lực chất lượng cao cho Tiền Giang",
+      "role": "Key Member",
+      "project_code": "ĐTKTXH 04/21",
+      "management_level": "Tỉnh Tiền Giang",
+      "period": "06/2021-11/2023",
+      "acceptance_date": "30/05/2024",
+      "rating": "Achieved"
+    }
+  ],
+  "books": [
+    {
+      "title": "Gia cố nền đất yếu bằng trụ đất xi măng",
+      "type": "Textbook",
+      "publisher": "Nhà xuất bản Khoa học và Kỹ thuật",
+      "publish_year": "2019",
+      "num_authors": 2,
+      "is_editor_in_chief": false,
+      "compiled_pages": "17-133",
+      "verification_document_id": "01/GXN-ĐHTG"
+    },
+    {
+      "title": "Ảnh hưởng của khoáng vật Montmorillonite đến tính chất cơ học của trụ đất xi măng",
+      "type": "Textbook",
+      "publisher": "Nhà xuất bản xây dựng",
+      "publish_year": "2019",
+      "num_authors": 2,
+      "is_editor_in_chief": false,
+      "compiled_pages": "18-98",
+      "verification_document_id": "02/GXN-ĐHTG"
+    },
+    {
+      "title": "Thực nghiệm đánh giá Mô đun đàn hồi của đất đắp nền đường khi thay đổi độ ẩm và thành phần hạt",
+      "type": "Textbook",
+      "publisher": "Nhà xuất bản Khoa học và Kỹ thuật",
+      "publish_year": "2022",
+      "num_authors": 3,
+      "is_editor_in_chief": false,
+      "compiled_pages": "11-48",
+      "verification_document_id": "03/GXN-ĐHTG"
+    },
+    {
+      "title": "Phòng chống xói lở cống vùng đồng bằng sông Cửu Long",
+      "type": "Textbook",
+      "publisher": "Nhà xuất bản Khoa học và Kỹ thuật",
+      "publish_year": "2022",
+      "num_authors": 2,
+      "is_editor_in_chief": false,
+      "compiled_pages": "53-80",
+      "verification_document_id": "04/GXN-ĐHTG"
+    }
+  ],
+  "patents": [
+    {
+      "title": "Effect of montmorillonite content on the bearing capacity of soft ground improved by cement deep mixing columns",
+      "issuing_authority": "UBND tỉnh Tiền Giang",
+      "issue_date": "13/07/2022",
+      "is_main_inventor": true,
+      "num_inventors": 3
+    }
+  ],
+  "training_programs": [
+    {
+      "title": "Thẩm định chương trình đào tạo ngành Công nghệ kỹ thuật xây dựng, trình độ cao đẳng",
+      "applicant_role": "Participant",
+      "assignment_document_id": "301/QĐ-ĐHTG",
+      "certifying_authority": "Trường Đại học Tiền Giang",
+      "implementation_document_id": "393/QĐ-ĐHTG",
+      "notes": "23/06/2017"
+    },
+    {
+      "title": "Thẩm định chương trình đào tạo theo chuyên ngành xây dựng cầu đường, trình độ đại học",
+      "applicant_role": "Participant",
+      "assignment_document_id": "223/QĐ-ĐHTG",
+      "certifying_authority": "Trường Đại học Tiền Giang",
+      "implementation_document_id": "600/QĐ-ĐHTG",
+      "notes": "20/09/2017"
+    },
+    {
+      "title": "Xây dựng phát triển chương trình đào tạo theo chuẩn đầu ra, các ban giúp việc và các tổ phát triển chương trình đào tạo",
+      "applicant_role": "Participant",
+      "assignment_document_id": "624/QĐ-ĐHTG",
+      "certifying_authority": "Trường Đại học Tiền Giang",
+      "implementation_document_id": "N/A",
+      "notes": "N/A"
+    },
+    {
+      "title": "Lập hồ sơ và đăng ký mở ngành Kỹ thuật xây dựng, trình độ thạc sĩ",
+      "applicant_role": "Participant",
+      "assignment_document_id": "Kế hoạch số 141/KH-ĐHTG",
+      "certifying_authority": "Trường Đại học Tiền Giang",
+      "implementation_document_id": "N/A",
+      "notes": "N/A"
+    },
+    {
+      "title": "Đánh giá chương trình đào tạo Đại học ngành Công nghệ kỹ thuật xây dựng",
+      "applicant_role": "Participant",
+      "assignment_document_id": "206/QĐ-ĐHTG",
+      "certifying_authority": "Trung tâm kiểm định chất lượng giáo dục",
+      "implementation_document_id": "số 58/QĐ-TTKĐ",
+      "notes": "10/02/2023"
+    },
+    {
+      "title": "Hội đồng Khoa học và Đào tạo Trường Đại học Tiền Giang",
+      "applicant_role": "Participant",
+      "assignment_document_id": "379/QĐ-ĐHTG",
+      "certifying_authority": "Trường Đại học Tiền Giang",
+      "implementation_document_id": "N/A",
+      "notes": "N/A"
+    },
+    {
+      "title": "Tổ đảm bảo chất lượng giáo dục tại các đơn vị trực thuộc Trường Đại học Tiền Giang",
+      "applicant_role": "Participant",
+      "assignment_document_id": "449/QĐ-ĐHTG",
+      "certifying_authority": "Trường Đại học Tiền Giang",
+      "implementation_document_id": "N/A",
+      "notes": "N/A"
+    }
+  ]
+}

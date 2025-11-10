@@ -1,0 +1,431 @@
+{
+    "papers": [
+        {
+            "title": "Các yếu tố ảnh hưởng đến cường độ chịu uốn và tương quan giữa cường độ chịu nén nở hông và uốn của vật liệu đất trộn xi măng",
+            "num_authors": 4,
+            "is_main_author": false,
+            "journal_name_ISSN": "Tạp chí địa kỹ thuật-Viện địa kỹ thuật ISSN 0868-279X",
+            "journal_ranking": "N/A",
+            "citation_count": 0,
+            "volume_issue_pages": "Tập 14, số 4, trang 23-28",
+            "published_date": "4/2010"
+        },
+        {
+            "title": "Nghiên cứu ảnh hưởng của hàm lượng Montmorillonite đến tính chất cơ học của đất trộn xi măng",
+            "num_authors": 4,
+            "is_main_author": true,
+            "journal_name_ISSN": "Tạp chí địa kỹ thuật-Viện địa kỹ thuật ISSN 0868-279X",
+            "journal_ranking": "N/A",
+            "citation_count": 0,
+            "volume_issue_pages": "Tập 15, số 4, trang 11-19",
+            "published_date": "4/2011"
+        },
+        {
+            "title": "Nghiên cứu nguyên nhân và đề xuất giải pháp chống xói lở cống Mồng Gà, huyện Cần Giuộc, tỉnh Long An",
+            "num_authors": 2,
+            "is_main_author": true,
+            "journal_name_ISSN": "Tạp chí xây dựng-Bộ Xây dựng ISSN 0866-0762",
+            "journal_ranking": "N/A",
+            "citation_count": 0,
+            "volume_issue_pages": "Tập 57, số 6, trang 06-09",
+            "published_date": "6/2018"
+        },
+        {
+            "title": "Nghiên cứu sự phân bố tải trọng trong quá trình làm việc của móng bè cọc",
+            "num_authors": 2,
+            "is_main_author": true,
+            "journal_name_ISSN": "Tạp chí Vật liệu và Xây dựng-Bộ Xây dựng ISSN 1859-0381X",
+            "journal_ranking": "N/A",
+            "citation_count": 0,
+            "volume_issue_pages": "Số 4/2021, trang 67-72",
+            "published_date": "8/2021"
+        },
+        {
+            "title": "Nghiên cứu giải pháp xử lý nền bằng trụ đất xi măng cho công trình bể chứa xăng dầu ở Tiền Giang",
+            "num_authors": 2,
+            "is_main_author": true,
+            "journal_name_ISSN": "Tạp chí Vật liệu và Xây dựng-Bộ Xây dựng ISSN 1859-0381X",
+            "journal_ranking": "N/A",
+            "citation_count": 0,
+            "volume_issue_pages": "Số 4/2021, trang 84-89",
+            "published_date": "8/2021"
+        },
+        {
+            "title": "Gia cố nền đất yếu bằng trụ đất xi măng cho móng công trình dân dụng ở Tiền Giang",
+            "num_authors": 2,
+            "is_main_author": true,
+            "journal_name_ISSN": "Tạp chí xây dựng-Bộ Xây dựng ISSN 3734-9888",
+            "journal_ranking": "N/A",
+            "citation_count": 0,
+            "volume_issue_pages": "Số 4, trang 74-77",
+            "published_date": "4/2022"
+        },
+        {
+            "title": "Nghiên cứu các yếu tố ảnh hưởng đến cường độ chịu nén của mẫu đất trộn xi măng",
+            "num_authors": 2,
+            "is_main_author": true,
+            "journal_name_ISSN": "Tạp chí xây dựng-Bộ Xây dựng ISSN 3734-9888",
+            "journal_ranking": "N/A",
+            "citation_count": 0,
+            "volume_issue_pages": "Số 4, trang 93-97",
+            "published_date": "4/2022"
+        },
+        {
+            "title": "Phương pháp thiết kế đơn giản trụ đất xi măng trong gia cố nền đường đất yếu",
+            "num_authors": 1,
+            "is_main_author": true,
+            "journal_name_ISSN": "Tạp chí Vật liệu và Xây dựng-Bộ Xây dựng ISSN 1859-0381X",
+            "journal_ranking": "N/A",
+            "citation_count": 0,
+            "volume_issue_pages": "Tập 12, số 3, trang 33-37",
+            "published_date": "6/2022"
+        },
+        {
+            "title": "Nghiên cứu sự làm việc đồng thời của cọc, móng và nền đất trong móng bè cọc",
+            "num_authors": 2,
+            "is_main_author": true,
+            "journal_name_ISSN": "Tạp chí xây dựng-Bộ Xây dựng ISSN 3734-9888",
+            "journal_ranking": "N/A",
+            "citation_count": 0,
+            "volume_issue_pages": "Số 5/2023, trang 76-79",
+            "published_date": "5/2023"
+        },
+        {
+            "title": "Nghiên cứu trạng thái ứng suất - biến dạng của móng cọc bê tông cốt thép bằng phần tử hữu hạn 3D",
+            "num_authors": 2,
+            "is_main_author": true,
+            "journal_name_ISSN": "Tạp chí xây dựng-Bộ Xây dựng ISSN 3734-9888",
+            "journal_ranking": "N/A",
+            "citation_count": 0,
+            "volume_issue_pages": "Số 6/2023, trang 96-99",
+            "published_date": "6/2023"
+        },
+        {
+            "title": "Xác định mô-đun đàn hồi của nền đường đất đắp vùng đồng bằng sông Cửu Long bằng thí nghiệm ba trục",
+            "num_authors": 2,
+            "is_main_author": true,
+            "journal_name_ISSN": "Tạp chí Giao thông vận tải-Bộ Giao thông vận tải ISSN 2354-0818",
+            "journal_ranking": "N/A",
+            "citation_count": 0,
+            "volume_issue_pages": "Số 735, trang 92-95",
+            "published_date": "11/2023"
+        },
+        {
+            "title": "Nghiên cứu biến dạng mặt đường trong giải pháp khoan kích ngâm hệ thống xử lý nước",
+            "num_authors": 2,
+            "is_main_author": true,
+            "journal_name_ISSN": "Tạp chí xây dựng-Bộ Xây dựng ISSN 3734-9888",
+            "journal_ranking": "N/A",
+            "citation_count": 0,
+            "volume_issue_pages": "Số 11/2023, trang 52-55",
+            "published_date": "11/2023"
+        },
+        {
+            "title": "Tính toán ổn định nền đất đắp khi thi công bằng phương pháp đắp theo giai đoạn",
+            "num_authors": 2,
+            "is_main_author": true,
+            "journal_name_ISSN": "Tạp chí xây dựng-Bộ Xây dựng ISSN 3734-9888",
+            "journal_ranking": "N/A",
+            "citation_count": 0,
+            "volume_issue_pages": "Số 1/2024, trang 72-75",
+            "published_date": "01/2024"
+        },
+        {
+            "title": "Sử dụng tia X-ray CT phân tích ảnh hưởng của đất trương nở đến khối lượng riêng đất trộn xi măng",
+            "num_authors": 1,
+            "is_main_author": true,
+            "journal_name_ISSN": "Tạp chí Giao thông vận tải-Bộ Giao thông vận tải ISSN 2354-0818",
+            "journal_ranking": "N/A",
+            "citation_count": 0,
+            "volume_issue_pages": "Số 739, trang 27-30",
+            "published_date": "03/2024"
+        },
+        {
+            "title": "Phân tích khả năng chịu tải của cọc theo thời gian từ kết quả thí nghiệm xuyên tĩnh có đo áp lực nước lỗ rỗng (CPTu)",
+            "num_authors": 2,
+            "is_main_author": true,
+            "journal_name_ISSN": "Tạp chí Giao thông vận tải-Bộ Giao thông vận tải ISSN 2354-0818",
+            "journal_ranking": "N/A",
+            "citation_count": 0,
+            "volume_issue_pages": "Số 740, trang 104-107",
+            "published_date": "04/2024"
+        },
+        {
+            "title": "Study on Using Laboratory Model to Research for Bearing Capacity of Soft Ground Improved by Deep Cement Mixing Columns due to Embankment Load with Different Montmorillonite Contents",
+            "num_authors": 4,
+            "is_main_author": false,
+            "journal_name_ISSN": "ISBN: 978-1-5386-6757-6",
+            "journal_ranking": "Scopus",
+            "citation_count": 0,
+            "volume_issue_pages": "pp. 121-127",
+            "published_date": "9/2018"
+        },
+        {
+            "title": "Nonlinear FEM analysis of cement column configuration in the foundation improved by deep mixing method",
+            "num_authors": 2,
+            "is_main_author": true,
+            "journal_name_ISSN": "Strength of Materials and Theory of Structure ISSN 2410-2547",
+            "journal_ranking": "ISI (ESCI)",
+            "citation_count": 0,
+            "volume_issue_pages": "No. 100 pp. 18-26",
+            "published_date": "6/2018"
+        },
+        {
+            "title": "Study on Stress Distribution in Soft Ground Consolidated with Deep Cement Mixing Columns under Road Embankment",
+            "num_authors": 2,
+            "is_main_author": false,
+            "journal_name_ISSN": "Civil Engineering and Architecture ISSN 2332-1091 (P) 2332-1121 (Ο)",
+            "journal_ranking": "Scopus, Q3 CiteScore 1.2 H-index 12",
+            "citation_count": 0,
+            "volume_issue_pages": "Vol. 8, No. 6, pp. 1251-1265",
+            "published_date": "11/2020"
+        },
+        {
+            "title": "A study on the calculation of deformation of cement deep mixing columns that stabilize soil erosion and landslides on river roads",
+            "num_authors": 2,
+            "is_main_author": true,
+            "journal_name_ISSN": "International Journal of GEOMATE ISSN 2186-2982 (P) 2186-2990 (Ο)",
+            "journal_ranking": "Scopus, Q3",
+            "citation_count": 0,
+            "volume_issue_pages": "Vol 23, Iss. 100,",
+            "published_date": "12/2022"
+        },
+        {
+            "title": "The effect of pile driving process on stress and strain of neighboring building's foundations: An application in Vietnam",
+            "num_authors": 2,
+            "is_main_author": true,
+            "journal_name_ISSN": "International Journal of GEOMATE ISSN 2186-2982 (P) 2186-2990 (Ο)",
+            "journal_ranking": "Scopus, Q3",
+            "citation_count": 0,
+            "volume_issue_pages": "Vol. 24, Iss. 104, pp. 1-10",
+            "published_date": "4/2023"
+        },
+        {
+            "title": "A Study on Methods to Enhance the Stability of Riverbanks in Seaport Areas",
+            "num_authors": 3,
+            "is_main_author": true,
+            "journal_name_ISSN": "International Journal of Scientific Research in Science, Engineering and Technology ISSN 2395-1990 (P) 2394-4099 (Ο)",
+            "journal_ranking": "N/A",
+            "citation_count": 0,
+            "volume_issue_pages": "Vol. 10, Iss. 3 pp. 372-379",
+            "published_date": "6/2023"
+        },
+        {
+            "title": "Combined prefabrication vertical drain (PVD) with variable preloading and vacuuming method to improve soft ground in the Mekong Delta",
+            "num_authors": 3,
+            "is_main_author": true,
+            "journal_name_ISSN": "International Journal of Scientific Research in Science, Engineering and Technology ISSN 2395-1990 (P) 2394-4099 (Ο)",
+            "journal_ranking": "N/A",
+            "citation_count": 0,
+            "volume_issue_pages": "Vol. 10, Iss. 3 pp. 455-463",
+            "published_date": "6/2023"
+        },
+        {
+            "title": "Soft Ground Improvement below Bridge Approach Foundation using Cement Deep Mixing columns combined with Geotextile",
+            "num_authors": 2,
+            "is_main_author": true,
+            "journal_name_ISSN": "Journal of Applied Engineering Science ISSN 1451-4117 (P) 1821-3197 (Ο)",
+            "journal_ranking": "Scopus, Q3",
+            "citation_count": 0,
+            "volume_issue_pages": "Vol. 21, No. 2, pp. 491-500",
+            "published_date": "6/2023"
+        },
+        {
+            "title": "Mechanism of cement deep mixing and design method improving soft ground in Mekong Delta",
+            "num_authors": 1,
+            "is_main_author": true,
+            "journal_name_ISSN": "International Journal of Scientific Research in Science, Engineering and Technology ISSN 2395-1990 (P)",
+            "journal_ranking": "N/A",
+            "citation_count": 0,
+            "volume_issue_pages": "Vol. 10, Iss. 5 pp. 150-158",
+            "published_date": "10/2023"
+        },
+        {
+            "title": "An analytical stabilization of landslide on road foundation soft ground improvement by SDCM columns",
+            "num_authors": 3,
+            "is_main_author": true,
+            "journal_name_ISSN": "International Journal of Scientific Research in Science, Engineering and Technology ISSN 2395-1990 (P) 2394-4099 (Ο)",
+            "journal_ranking": "N/A",
+            "citation_count": 0,
+            "volume_issue_pages": "Vol. 10, Iss. 6 pp. 71-76",
+            "published_date": "11/2023"
+        },
+        {
+            "title": "Exploring optimal Cement Deep Mixing column arrangements for soft ground improvement: A simplified approach investigation",
+            "num_authors": 1,
+            "is_main_author": true,
+            "journal_name_ISSN": "International Journal of Scientific Research in Science, Engineering and Technology ISSN 2395-1990 (P) 2394-4099 (Ο)",
+            "journal_ranking": "N/A",
+            "citation_count": 0,
+            "volume_issue_pages": "Vol.11, Iss. 1 pp. 1-7",
+            "published_date": "1/2024"
+        },
+        {
+            "title": "An investigation of Cement Deep Mixing columns stabilization in the road foundation along the Cho Gao canal",
+            "num_authors": 1,
+            "is_main_author": true,
+            "journal_name_ISSN": "International Journal of GEOMATE ISSN 2186-2982 (P) 2186-2990 (Ο)",
+            "journal_ranking": "Scopus, Q3",
+            "citation_count": 0,
+            "volume_issue_pages": "Vol. 26, Iss. 114, pp. 1-8",
+            "published_date": "02/2024"
+        }
+    ],
+    "projects": [
+        {
+            "title": "Ảnh hưởng của hàm lượng Montmorillonite trong đất đến độ bền cơ học của cọc đất - xi măng dùng xử lý nền móng công trình xây dựng trên đất yếu",
+            "role": "Co-Investigator",
+            "project_code": "431/HĐ-ĐHTG",
+            "management_level": "Trường Đại học Tiền Giang",
+            "period": "10/2011 - 09/2012",
+            "acceptance_date": "29/11/2012",
+            "rating": "Excellent"
+        },
+        {
+            "title": "Nghiên cứu sự ảnh hưởng của khoáng vật Montmorillonite đến sức chịu tải của nền đất yếu gia cố cột đất trộn xi măng bằng mô hình trong phòng thí nghiệm",
+            "role": "Principal Investigator",
+            "project_code": "166/HĐ-ĐHTG",
+            "management_level": "Trường Đại học Tiền Giang",
+            "period": "05/2016-04/2017",
+            "acceptance_date": "27/04/2017",
+            "rating": "Excellent"
+        },
+        {
+            "title": "Nghiên cứu ảnh hưởng của khoáng vật Montmorillonite đến cường độ chịu nén nhằm tối ưu hóa trụ đất xi măng trong xử lý nền công trình giao thông Đồng bằng sông Cửu Long",
+            "role": "Co-Investigator",
+            "project_code": "DT 194071",
+            "management_level": "Bộ Giao thông vận tải",
+            "period": "01/2019-12/2019",
+            "acceptance_date": "04/01/2020",
+            "rating": "Achieved (mức A)"
+        },
+        {
+            "title": "Nghiên cứu ứng suất và biến dạng của nền móng công trình lân cận do ảnh hưởng của quá trình thi công ép cọc",
+            "role": "Principal Investigator",
+            "project_code": "159/HĐ-ĐHTG",
+            "management_level": "Trường Đại học Tiền Giang",
+            "period": "11/2021 - 08/2022",
+            "acceptance_date": "15/08/2022",
+            "rating": "Good"
+        },
+        {
+            "title": "Áp dụng mô hình CDIO để xây dựng các chương trình đào tạo tiên tiến nhằm đào tạo nguồn nhân lực chất lượng cao cho Tiền Giang",
+            "role": "Key Member",
+            "project_code": "ĐTKTXH 04/21",
+            "management_level": "Tỉnh Tiền Giang",
+            "period": "06/2021-11/2023",
+            "acceptance_date": "30/05/2024",
+            "rating": "Achieved"
+        }
+    ],
+    "books": [
+        {
+            "title": "Gia cố nền đất yếu bằng trụ đất xi măng",
+            "type": "Textbook",
+            "publisher": "Nhà xuất bản Khoa học và Kỹ thuật",
+            "publish_year": "2019",
+            "num_authors": 2,
+            "is_editor_in_chief": false,
+            "compiled_pages": "17-133",
+            "verification_document_id": "01/GXN-ĐHTG"
+        },
+        {
+            "title": "Ảnh hưởng của khoáng vật Montmorillonite đến tính chất cơ học của trụ đất xi măng",
+            "type": "Textbook",
+            "publisher": "Nhà xuất bản xây dựng",
+            "publish_year": "2019",
+            "num_authors": 2,
+            "is_editor_in_chief": false,
+            "compiled_pages": "18-98",
+            "verification_document_id": "02/GXN-ĐHTG"
+        },
+        {
+            "title": "Thực nghiệm đánh giá Mô đun đàn hồi của đất đắp nền đường khi thay đổi độ ẩm và thành phần hạt",
+            "type": "Textbook",
+            "publisher": "Nhà xuất bản Khoa học và Kỹ thuật",
+            "publish_year": "2022",
+            "num_authors": 3,
+            "is_editor_in_chief": false,
+            "compiled_pages": "11-48",
+            "verification_document_id": "03/GXN-ĐHTG"
+        },
+        {
+            "title": "Phòng chống xói lở cống vùng đồng bằng sông Cửu Long",
+            "type": "Textbook",
+            "publisher": "Nhà xuất bản Khoa học và Kỹ thuật",
+            "publish_year": "2022",
+            "num_authors": 2,
+            "is_editor_in_chief": false,
+            "compiled_pages": "53-80",
+            "verification_document_id": "04/GXN-ĐHTG"
+        }
+    ],
+    "patents": [
+        {
+            "title": "Effect of montmorillonite content on the bearing capacity of soft ground improved by cement deep mixing columns",
+            "issuing_authority": "UBND tỉnh Tiền Giang",
+            "issue_date": "13/07/2022",
+            "is_main_inventor": true,
+            "num_inventors": 3
+        }
+    ],
+    "achievements": null,
+    "training_programs": [
+        {
+            "title": "Thẩm định chương trình đào tạo ngành Công nghệ kỹ thuật xây dựng, trình độ cao đẳng",
+            "applicant_role": "Participant",
+            "assignment_document_id": "301/QĐ-ĐHTG",
+            "certifying_authority": "Trường Đại học Tiền Giang",
+            "implementation_document_id": "393/QĐ-ĐHTG",
+            "notes": "23/06/2017"
+        },
+        {
+            "title": "Thẩm định chương trình đào tạo theo chuyên ngành xây dựng cầu đường, trình độ đại học",
+            "applicant_role": "Participant",
+            "assignment_document_id": "223/QĐ-ĐHTG",
+            "certifying_authority": "Trường Đại học Tiền Giang",
+            "implementation_document_id": "600/QĐ-ĐHTG",
+            "notes": "20/09/2017"
+        },
+        {
+            "title": "Xây dựng phát triển chương trình đào tạo theo chuẩn đầu ra, các ban giúp việc và các tổ phát triển chương trình đào tạo",
+            "applicant_role": "Participant",
+            "assignment_document_id": "624/QĐ-ĐHTG",
+            "certifying_authority": "Trường Đại học Tiền Giang",
+            "implementation_document_id": "N/A",
+            "notes": "N/A"
+        },
+        {
+            "title": "Lập hồ sơ và đăng ký mở ngành Kỹ thuật xây dựng, trình độ thạc sĩ",
+            "applicant_role": "Participant",
+            "assignment_document_id": "Kế hoạch số 141/KH-ĐHTG",
+            "certifying_authority": "Trường Đại học Tiền Giang",
+            "implementation_document_id": "N/A",
+            "notes": "N/A"
+        },
+        {
+            "title": "Đánh giá chương trình đào tạo Đại học ngành Công nghệ kỹ thuật xây dựng",
+            "applicant_role": "Participant",
+            "assignment_document_id": "206/QĐ-ĐHTG",
+            "certifying_authority": "Trung tâm kiểm định chất lượng giáo dục",
+            "implementation_document_id": "số 58/QĐ-TTKĐ",
+            "notes": "10/02/2023"
+        },
+        {
+            "title": "Hội đồng Khoa học và Đào tạo Trường Đại học Tiền Giang",
+            "applicant_role": "Participant",
+            "assignment_document_id": "379/QĐ-ĐHTG",
+            "certifying_authority": "Trường Đại học Tiền Giang",
+            "implementation_document_id": "N/A",
+            "notes": "N/A"
+        },
+        {
+            "title": "Tổ đảm bảo chất lượng giáo dục tại các đơn vị trực thuộc Trường Đại học Tiền Giang",
+            "applicant_role": "Participant",
+            "assignment_document_id": "449/QĐ-ĐHTG",
+            "certifying_authority": "Trường Đại học Tiền Giang",
+            "implementation_document_id": "N/A",
+            "notes": "N/A"
+        }
+    ]
+}

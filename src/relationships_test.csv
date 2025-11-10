@@ -1,0 +1,25 @@
+Type,Definition
+học đại học tại,Indicates the university or institution where a person completed their undergraduate education.
+học ngành,Specifies the academic discipline or field of study a person pursued during their education.
+công tác tại,Denotes the organization or institution where a person is or was employed.
+tọa lạc tại,"Indicates the geographical location or address of an entity (e.g., a university, an organization)."
+chuyên ngành,Specifies the area of expertise or specialization within a broader field of study or work.
+thực tập tại,Indicates the organization or institution where a person completed a formal internship.
+nghiên cứu tại,Denotes the institution or facility where a person conducted their research activities.
+giữ chức vụ,Specifies the formal title or role a person occupied within an organization.
+có địa chỉ,Provides the physical mailing or street address of an person/entity.
+có số điện thoại,Provides the contact telephone number of an person/entity.
+thỉnh giảng tại,Indicates the institution where a person gave lectures on a non-permanent or temporary basis.
+được cấp bằng,Specifies the degree or certification received by a person.
+được bổ nhiệm chức danh PGS vào,Indicates the year or date when a person was formally given the academic title of Associate Professor.
+đăng ký xét đạt tiêu chuẩn chức danh Phó Giáo Sư tại HĐGS cơ sở,Indicates the local/institutional council where the person submitted their application for the Associate Professor title review.
+"Đăng ký xét đạt tiêu chuẩn chức danh Phó Giáo Sư tại HĐGS ngành, liên ngành",Indicates the national/specialized council where the person submitted their application for the Associate Professor title review.
+chủ yếu nghiên cứu,Specifies the main focus area or subject of a person's research activities.
+đã hướng dẫn,"Indicates the number of theses, dissertations, or students a person successfully advised."
+đã công bố,"Indicates the number of scientific articles, papers, or works a person has released."
+đã hoàn thành,Indicates the number of research projects or tasks that have been finished.
+là tác giả chính,Specifies the number of publications where the person holds the primary authorship role.
+đã xuất bản,Indicates the number of books or specialized texts a person has released.
+đã được cấp,"Indicates the number of patents, useful solutions, or intellectual property rights a person has obtained."
+đạt giải thưởng quốc gia quốc tế,Denotes the number of national or international accolades or prizes received for artistic or athletic achievements.
+được khen thưởng,"Indicates the number of commendations, certificates of merit, or official recognition received."

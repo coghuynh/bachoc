@@ -33,19 +33,3 @@ def load_async_model(model_name: str) -> AsyncBaseLLM:
         if key in lower_name:
             return cls(model_name=model_name)
     raise ValueError(f"Unknown model: {model_name}")    
-
-
-if __name__ == "__main__":
-    
-    llm = load_model("gemini-2.0-flash")
-    
-    # Test 3
-    config = {
-        "system": "You are my assistance. Just return JSON format by my context I give you",
-        "context_template": "{context}"
-    }
-    
-    print(llm.chat(
-        "My name is Dang. My hobby is playing games.", json_return=True, **config
-    ))
-               

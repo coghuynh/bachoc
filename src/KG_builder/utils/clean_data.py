@@ -7,10 +7,7 @@ def clean_vn_text(text: str) -> str:
     # Chuẩn hóa xuống dòng
     text = text.replace("\r\n", "\n").replace("\r", "\n")
 
-    # 1) Xóa tag [PAGE ...]
-    text = re.sub(r"\[PAGE\s*\d+\]\s*\n?", "", text, flags=re.IGNORECASE)
-
-    # 2) Bỏ header lặp lại ở đầu trang (tuỳ biến pattern cho tài liệu của bạn)
+    # 2) Bỏ header lặp lại ở đầu trang
     text = re.sub(
         r"(?:^|\n)\s*Ban hành kèm theo Công văn số:[^\n]*\n",
         "\n",

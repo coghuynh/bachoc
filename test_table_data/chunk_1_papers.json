@@ -1,0 +1,104 @@
+{
+  "papers": [
+    {
+      "title": "Các yếu tố ảnh hưởng đến cường độ chịu uốn và tương quan giữa cường độ chịu nén nở hông và uốn của vật liệu đất trộn xi măng",
+      "num_authors": 4,
+      "is_main_author": false,
+      "journal_name_ISSN": "Tạp chí địa kỹ thuật-Viện địa kỹ thuật ISSN 0868-279X",
+      "journal_ranking": "N/A",
+      "citation_count": 0,
+      "volume_issue_pages": "Tập 14, số 4, trang 23-28",
+      "published_date": "4/2010"
+    },
+    {
+      "title": "Nghiên cứu ảnh hưởng của hàm lượng Montmorillonite đến tính chất cơ học của đất trộn xi măng",
+      "num_authors": 4,
+      "is_main_author": true,
+      "journal_name_ISSN": "Tạp chí địa kỹ thuật-Viện địa kỹ thuật ISSN 0868-279X",
+      "journal_ranking": "N/A",
+      "citation_count": 0,
+      "volume_issue_pages": "Tập 15, số 4, trang 11-19",
+      "published_date": "4/2011"
+    },
+    {
+      "title": "Nghiên cứu nguyên nhân và đề xuất giải pháp chống xói lở cống Mồng Gà, huyện Cần Giuộc, tỉnh Long An",
+      "num_authors": 2,
+      "is_main_author": true,
+      "journal_name_ISSN": "Tạp chí xây dựng-Bộ Xây dựng ISSN 0866-0762",
+      "journal_ranking": "N/A",
+      "citation_count": 0,
+      "volume_issue_pages": "Tập 57, số 6, trang 06-09",
+      "published_date": "6/2018"
+    },
+    {
+      "title": "Nghiên cứu sự phân bố tải trọng trong quá trình làm việc của móng bè cọc",
+      "num_authors": 2,
+      "is_main_author": true,
+      "journal_name_ISSN": "Tạp chí Vật liệu và Xây dựng-Bộ Xây dựng ISSN 1859-0381X",
+      "journal_ranking": "N/A",
+      "citation_count": 0,
+      "volume_issue_pages": "Số 4/2021, trang 67-72",
+      "published_date": "8/2021"
+    },
+    {
+      "title": "Nghiên cứu giải pháp xử lý nền bằng trụ đất xi măng cho công trình bể chứa xăng dầu ở Tiền Giang",
+      "num_authors": 2,
+      "is_main_author": true,
+      "journal_name_ISSN": "Tạp chí Vật liệu và Xây dựng-Bộ Xây dựng ISSN 1859-0381X",
+      "journal_ranking": "N/A",
+      "citation_count": 0,
+      "volume_issue_pages": "Số 4/2021, trang 84-89",
+      "published_date": "8/2021"
+    },
+    {
+      "title": "Gia cố nền đất yếu bằng trụ đất xi măng cho móng công trình dân dụng ở Tiền Giang",
+      "num_authors": 2,
+      "is_main_author": true,
+      "journal_name_ISSN": "Tạp chí xây dựng-Bộ Xây dựng ISSN 3734-9888",
+      "journal_ranking": "N/A",
+      "citation_count": 0,
+      "volume_issue_pages": "Số 4, trang 74-77",
+      "published_date": "4/2022"
+    },
+    {
+      "title": "Nghiên cứu các yếu tố ảnh hưởng đến cường độ chịu nén của mẫu đất trộn xi măng",
+      "num_authors": 2,
+      "is_main_author": true,
+      "journal_name_ISSN": "Tạp chí xây dựng-Bộ Xây dựng ISSN 3734-9888",
+      "journal_ranking": "N/A",
+      "citation_count": 0,
+      "volume_issue_pages": "Số 4, trang 93-97",
+      "published_date": "4/2022"
+    },
+    {
+      "title": "Phương pháp thiết kế đơn giản trụ đất xi măng trong gia cố nền đường đất yếu",
+      "num_authors": 1,
+      "is_main_author": true,
+      "journal_name_ISSN": "Tạp chí Vật liệu và Xây dựng-Bộ Xây dựng ISSN 1859-0381X",
+      "journal_ranking": "N/A",
+      "citation_count": 0,
+      "volume_issue_pages": "Tập 12, số 3, trang 33-37",
+      "published_date": "6/2022"
+    },
+    {
+      "title": "Nghiên cứu sự làm việc đồng thời của cọc, móng và nền đất trong móng bè cọc",
+      "num_authors": 2,
+      "is_main_author": true,
+      "journal_name_ISSN": "Tạp chí xây dựng-Bộ Xây dựng ISSN 3734-9888",
+      "journal_ranking": "N/A",
+      "citation_count": 0,
+      "volume_issue_pages": "Số 5/2023, trang 76-79",
+      "published_date": "5/2023"
+    },
+    {
+      "title": "Nghiên cứu trạng thái ứng suất - biến dạng của móng cọc bê tông cốt thép bằng phần tử hữu hạn 3D",
+      "num_authors": 2,
+      "is_main_author": true,
+      "journal_name_ISSN": "Tạp chí xây dựng-Bộ Xây dựng ISSN 3734-9888",
+      "journal_ranking": "N/A",
+      "citation_count": 0,
+      "volume_issue_pages": "Số 6/2023, trang 96-99",
+      "published_date": "6/2023"
+    }
+  ]
+}

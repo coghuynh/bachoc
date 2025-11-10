@@ -1,0 +1,774 @@
+{
+    "triples": [
+        {
+            "subject": {
+                "name": "TRAN HONG DANG"
+            },
+            "predicate": {
+                "name": "is_author_of"
+            },
+            "object": {
+                "name": "Các yếu tố ảnh hưởng đến cường độ chịu uốn và tương quan giữa cường độ chịu nén nở hông và uốn của vật liệu đất trộn xi măng"
+            }
+        },
+        {
+            "subject": {
+                "name": "Các yếu tố ảnh hưởng đến cường độ chịu uốn và tương quan giữa cường độ chịu nén nở hông và uốn của vật liệu đất trộn xi măng"
+            },
+            "predicate": {
+                "name": "has_number_of_authors"
+            },
+            "object": {
+                "name": "4"
+            }
+        },
+        {
+            "subject": {
+                "name": "TRAN HONG DANG"
+            },
+            "predicate": {
+                "name": "is_not_main_author_of"
+            },
+            "object": {
+                "name": "Các yếu tố ảnh hưởng đến cường độ chịu uốn và tương quan giữa cường độ chịu nén nở hông và uốn của vật liệu đất trộn xi măng"
+            }
+        },
+        {
+            "subject": {
+                "name": "Các yếu tố ảnh hưởng đến cường độ chịu uốn và tương quan giữa cường độ chịu nén nở hông và uốn của vật liệu đất trộn xi măng"
+            },
+            "predicate": {
+                "name": "published_in_journal"
+            },
+            "object": {
+                "name": "Tạp chí địa kỹ thuật-Viện địa kỹ thuật ISSN 0868-279X"
+            }
+        },
+        {
+            "subject": {
+                "name": "Các yếu tố ảnh hưởng đến cường độ chịu uốn và tương quan giữa cường độ chịu nén nở hông và uốn của vật liệu đất trộn xi măng"
+            },
+            "predicate": {
+                "name": "has_total_citation"
+            },
+            "object": {
+                "name": "0"
+            }
+        },
+        {
+            "subject": {
+                "name": "Các yếu tố ảnh hưởng đến cường độ chịu uốn và tương quan giữa cường độ chịu nén nở hông và uốn của vật liệu đất trộn xi măng"
+            },
+            "predicate": {
+                "name": "published_date"
+            },
+            "object": {
+                "name": "4/2010"
+            }
+        },
+        {
+            "subject": {
+                "name": "Các yếu tố ảnh hưởng đến cường độ chịu uốn và tương quan giữa cường độ chịu nén nở hông và uốn của vật liệu đất trộn xi măng"
+            },
+            "predicate": {
+                "name": "volume_issue_pages"
+            },
+            "object": {
+                "name": "Tập 14, số 4, trang 23-28"
+            }
+        },
+        {
+            "subject": {
+                "name": "TRAN HONG DANG"
+            },
+            "predicate": {
+                "name": "is_author_of"
+            },
+            "object": {
+                "name": "Nghiên cứu ảnh hưởng của hàm lượng Montmorillonite đến tính chất cơ học của đất trộn xi măng"
+            }
+        },
+        {
+            "subject": {
+                "name": "Nghiên cứu ảnh hưởng của hàm lượng Montmorillonite đến tính chất cơ học của đất trộn xi măng"
+            },
+            "predicate": {
+                "name": "has_number_of_authors"
+            },
+            "object": {
+                "name": "4"
+            }
+        },
+        {
+            "subject": {
+                "name": "TRAN HONG DANG"
+            },
+            "predicate": {
+                "name": "is_main_author_of"
+            },
+            "object": {
+                "name": "Nghiên cứu ảnh hưởng của hàm lượng Montmorillonite đến tính chất cơ học của đất trộn xi măng"
+            }
+        },
+        {
+            "subject": {
+                "name": "Nghiên cứu ảnh hưởng của hàm lượng Montmorillonite đến tính chất cơ học của đất trộn xi măng"
+            },
+            "predicate": {
+                "name": "published_in_journal"
+            },
+            "object": {
+                "name": "Tạp chí địa kỹ thuật-Viện địa kỹ thuật ISSN 0868-279X"
+            }
+        },
+        {
+            "subject": {
+                "name": "Nghiên cứu ảnh hưởng của hàm lượng Montmorillonite đến tính chất cơ học của đất trộn xi măng"
+            },
+            "predicate": {
+                "name": "has_total_citation"
+            },
+            "object": {
+                "name": "0"
+            }
+        },
+        {
+            "subject": {
+                "name": "Nghiên cứu ảnh hưởng của hàm lượng Montmorillonite đến tính chất cơ học của đất trộn xi măng"
+            },
+            "predicate": {
+                "name": "published_date"
+            },
+            "object": {
+                "name": "4/2011"
+            }
+        },
+        {
+            "subject": {
+                "name": "Nghiên cứu ảnh hưởng của hàm lượng Montmorillonite đến tính chất cơ học của đất trộn xi măng"
+            },
+            "predicate": {
+                "name": "volume_issue_pages"
+            },
+            "object": {
+                "name": "Tập 15, số 4, trang 11-19"
+            }
+        },
+        {
+            "subject": {
+                "name": "TRAN HONG DANG"
+            },
+            "predicate": {
+                "name": "is_author_of"
+            },
+            "object": {
+                "name": "Nghiên cứu nguyên nhân và đề xuất giải pháp chống xói lở cống Mồng Gà, huyện Cần Giuộc, tỉnh Long An"
+            }
+        },
+        {
+            "subject": {
+                "name": "Nghiên cứu nguyên nhân và đề xuất giải pháp chống xói lở cống Mồng Gà, huyện Cần Giuộc, tỉnh Long An"
+            },
+            "predicate": {
+                "name": "has_number_of_authors"
+            },
+            "object": {
+                "name": "2"
+            }
+        },
+        {
+            "subject": {
+                "name": "TRAN HONG DANG"
+            },
+            "predicate": {
+                "name": "is_main_author_of"
+            },
+            "object": {
+                "name": "Nghiên cứu nguyên nhân và đề xuất giải pháp chống xói lở cống Mồng Gà, huyện Cần Giuộc, tỉnh Long An"
+            }
+        },
+        {
+            "subject": {
+                "name": "Nghiên cứu nguyên nhân và đề xuất giải pháp chống xói lở cống Mồng Gà, huyện Cần Giuộc, tỉnh Long An"
+            },
+            "predicate": {
+                "name": "published_in_journal"
+            },
+            "object": {
+                "name": "Tạp chí xây dựng-Bộ Xây dựng ISSN 0866-0762"
+            }
+        },
+        {
+            "subject": {
+                "name": "Nghiên cứu nguyên nhân và đề xuất giải pháp chống xói lở cống Mồng Gà, huyện Cần Giuộc, tỉnh Long An"
+            },
+            "predicate": {
+                "name": "has_total_citation"
+            },
+            "object": {
+                "name": "0"
+            }
+        },
+        {
+            "subject": {
+                "name": "Nghiên cứu nguyên nhân và đề xuất giải pháp chống xói lở cống Mồng Gà, huyện Cần Giuộc, tỉnh Long An"
+            },
+            "predicate": {
+                "name": "published_date"
+            },
+            "object": {
+                "name": "6/2018"
+            }
+        },
+        {
+            "subject": {
+                "name": "Nghiên cứu nguyên nhân và đề xuất giải pháp chống xói lở cống Mồng Gà, huyện Cần Giuộc, tỉnh Long An"
+            },
+            "predicate": {
+                "name": "volume_issue_pages"
+            },
+            "object": {
+                "name": "Tập 57, số 6, trang 06-09"
+            }
+        },
+        {
+            "subject": {
+                "name": "TRAN HONG DANG"
+            },
+            "predicate": {
+                "name": "is_author_of"
+            },
+            "object": {
+                "name": "Nghiên cứu sự phân bố tải trọng trong quá trình làm việc của móng bè cọc"
+            }
+        },
+        {
+            "subject": {
+                "name": "Nghiên cứu sự phân bố tải trọng trong quá trình làm việc của móng bè cọc"
+            },
+            "predicate": {
+                "name": "has_number_of_authors"
+            },
+            "object": {
+                "name": "2"
+            }
+        },
+        {
+            "subject": {
+                "name": "TRAN HONG DANG"
+            },
+            "predicate": {
+                "name": "is_main_author_of"
+            },
+            "object": {
+                "name": "Nghiên cứu sự phân bố tải trọng trong quá trình làm việc của móng bè cọc"
+            }
+        },
+        {
+            "subject": {
+                "name": "Nghiên cứu sự phân bố tải trọng trong quá trình làm việc của móng bè cọc"
+            },
+            "predicate": {
+                "name": "published_in_journal"
+            },
+            "object": {
+                "name": "Tạp chí Vật liệu và Xây dựng-Bộ Xây dựng ISSN 1859-0381X"
+            }
+        },
+        {
+            "subject": {
+                "name": "Nghiên cứu sự phân bố tải trọng trong quá trình làm việc của móng bè cọc"
+            },
+            "predicate": {
+                "name": "has_total_citation"
+            },
+            "object": {
+                "name": "0"
+            }
+        },
+        {
+            "subject": {
+                "name": "Nghiên cứu sự phân bố tải trọng trong quá trình làm việc của móng bè cọc"
+            },
+            "predicate": {
+                "name": "published_date"
+            },
+            "object": {
+                "name": "8/2021"
+            }
+        },
+        {
+            "subject": {
+                "name": "Nghiên cứu sự phân bố tải trọng trong quá trình làm việc của móng bè cọc"
+            },
+            "predicate": {
+                "name": "volume_issue_pages"
+            },
+            "object": {
+                "name": "Số 4/2021, trang 67-72"
+            }
+        },
+        {
+            "subject": {
+                "name": "TRAN HONG DANG"
+            },
+            "predicate": {
+                "name": "is_author_of"
+            },
+            "object": {
+                "name": "Nghiên cứu giải pháp xử lý nền bằng trụ đất xi măng cho công trình bể chứa xăng dầu ở Tiền Giang"
+            }
+        },
+        {
+            "subject": {
+                "name": "Nghiên cứu giải pháp xử lý nền bằng trụ đất xi măng cho công trình bể chứa xăng dầu ở Tiền Giang"
+            },
+            "predicate": {
+                "name": "has_number_of_authors"
+            },
+            "object": {
+                "name": "2"
+            }
+        },
+        {
+            "subject": {
+                "name": "TRAN HONG DANG"
+            },
+            "predicate": {
+                "name": "is_main_author_of"
+            },
+            "object": {
+                "name": "Nghiên cứu giải pháp xử lý nền bằng trụ đất xi măng cho công trình bể chứa xăng dầu ở Tiền Giang"
+            }
+        },
+        {
+            "subject": {
+                "name": "Nghiên cứu giải pháp xử lý nền bằng trụ đất xi măng cho công trình bể chứa xăng dầu ở Tiền Giang"
+            },
+            "predicate": {
+                "name": "published_in_journal"
+            },
+            "object": {
+                "name": "Tạp chí Vật liệu và Xây dựng-Bộ Xây dựng ISSN 1859-0381X"
+            }
+        },
+        {
+            "subject": {
+                "name": "Nghiên cứu giải pháp xử lý nền bằng trụ đất xi măng cho công trình bể chứa xăng dầu ở Tiền Giang"
+            },
+            "predicate": {
+                "name": "has_total_citation"
+            },
+            "object": {
+                "name": "0"
+            }
+        },
+        {
+            "subject": {
+                "name": "Nghiên cứu giải pháp xử lý nền bằng trụ đất xi măng cho công trình bể chứa xăng dầu ở Tiền Giang"
+            },
+            "predicate": {
+                "name": "published_date"
+            },
+            "object": {
+                "name": "8/2021"
+            }
+        },
+        {
+            "subject": {
+                "name": "Nghiên cứu giải pháp xử lý nền bằng trụ đất xi măng cho công trình bể chứa xăng dầu ở Tiền Giang"
+            },
+            "predicate": {
+                "name": "volume_issue_pages"
+            },
+            "object": {
+                "name": "Số 4/2021, trang 84-89"
+            }
+        },
+        {
+            "subject": {
+                "name": "TRAN HONG DANG"
+            },
+            "predicate": {
+                "name": "is_author_of"
+            },
+            "object": {
+                "name": "Gia cố nền đất yếu bằng trụ đất xi măng cho móng công trình dân dụng ở Tiền Giang"
+            }
+        },
+        {
+            "subject": {
+                "name": "Gia cố nền đất yếu bằng trụ đất xi măng cho móng công trình dân dụng ở Tiền Giang"
+            },
+            "predicate": {
+                "name": "has_number_of_authors"
+            },
+            "object": {
+                "name": "2"
+            }
+        },
+        {
+            "subject": {
+                "name": "TRAN HONG DANG"
+            },
+            "predicate": {
+                "name": "is_main_author_of"
+            },
+            "object": {
+                "name": "Gia cố nền đất yếu bằng trụ đất xi măng cho móng công trình dân dụng ở Tiền Giang"
+            }
+        },
+        {
+            "subject": {
+                "name": "Gia cố nền đất yếu bằng trụ đất xi măng cho móng công trình dân dụng ở Tiền Giang"
+            },
+            "predicate": {
+                "name": "published_in_journal"
+            },
+            "object": {
+                "name": "Tạp chí xây dựng-Bộ Xây dựng ISSN 3734-9888"
+            }
+        },
+        {
+            "subject": {
+                "name": "Gia cố nền đất yếu bằng trụ đất xi măng cho móng công trình dân dụng ở Tiền Giang"
+            },
+            "predicate": {
+                "name": "has_total_citation"
+            },
+            "object": {
+                "name": "0"
+            }
+        },
+        {
+            "subject": {
+                "name": "Gia cố nền đất yếu bằng trụ đất xi măng cho móng công trình dân dụng ở Tiền Giang"
+            },
+            "predicate": {
+                "name": "published_date"
+            },
+            "object": {
+                "name": "4/2022"
+            }
+        },
+        {
+            "subject": {
+                "name": "Gia cố nền đất yếu bằng trụ đất xi măng cho móng công trình dân dụng ở Tiền Giang"
+            },
+            "predicate": {
+                "name": "volume_issue_pages"
+            },
+            "object": {
+                "name": "Số 4, trang 74-77"
+            }
+        },
+        {
+            "subject": {
+                "name": "TRAN HONG DANG"
+            },
+            "predicate": {
+                "name": "is_author_of"
+            },
+            "object": {
+                "name": "Nghiên cứu các yếu tố ảnh hưởng đến cường độ chịu nén của mẫu đất trộn xi măng"
+            }
+        },
+        {
+            "subject": {
+                "name": "Nghiên cứu các yếu tố ảnh hưởng đến cường độ chịu nén của mẫu đất trộn xi măng"
+            },
+            "predicate": {
+                "name": "has_number_of_authors"
+            },
+            "object": {
+                "name": "2"
+            }
+        },
+        {
+            "subject": {
+                "name": "TRAN HONG DANG"
+            },
+            "predicate": {
+                "name": "is_main_author_of"
+            },
+            "object": {
+                "name": "Nghiên cứu các yếu tố ảnh hưởng đến cường độ chịu nén của mẫu đất trộn xi măng"
+            }
+        },
+        {
+            "subject": {
+                "name": "Nghiên cứu các yếu tố ảnh hưởng đến cường độ chịu nén của mẫu đất trộn xi măng"
+            },
+            "predicate": {
+                "name": "published_in_journal"
+            },
+            "object": {
+                "name": "Tạp chí xây dựng-Bộ Xây dựng ISSN 3734-9888"
+            }
+        },
+        {
+            "subject": {
+                "name": "Nghiên cứu các yếu tố ảnh hưởng đến cường độ chịu nén của mẫu đất trộn xi măng"
+            },
+            "predicate": {
+                "name": "has_total_citation"
+            },
+            "object": {
+                "name": "0"
+            }
+        },
+        {
+            "subject": {
+                "name": "Nghiên cứu các yếu tố ảnh hưởng đến cường độ chịu nén của mẫu đất trộn xi măng"
+            },
+            "predicate": {
+                "name": "published_date"
+            },
+            "object": {
+                "name": "4/2022"
+            }
+        },
+        {
+            "subject": {
+                "name": "Nghiên cứu các yếu tố ảnh hưởng đến cường độ chịu nén của mẫu đất trộn xi măng"
+            },
+            "predicate": {
+                "name": "volume_issue_pages"
+            },
+            "object": {
+                "name": "Số 4, trang 93-97"
+            }
+        },
+        {
+            "subject": {
+                "name": "TRAN HONG DANG"
+            },
+            "predicate": {
+                "name": "is_author_of"
+            },
+            "object": {
+                "name": "Phương pháp thiết kế đơn giản trụ đất xi măng trong gia cố nền đường đất yếu"
+            }
+        },
+        {
+            "subject": {
+                "name": "Phương pháp thiết kế đơn giản trụ đất xi măng trong gia cố nền đường đất yếu"
+            },
+            "predicate": {
+                "name": "has_number_of_authors"
+            },
+            "object": {
+                "name": "1"
+            }
+        },
+        {
+            "subject": {
+                "name": "TRAN HONG DANG"
+            },
+            "predicate": {
+                "name": "is_main_author_of"
+            },
+            "object": {
+                "name": "Phương pháp thiết kế đơn giản trụ đất xi măng trong gia cố nền đường đất yếu"
+            }
+        },
+        {
+            "subject": {
+                "name": "Phương pháp thiết kế đơn giản trụ đất xi măng trong gia cố nền đường đất yếu"
+            },
+            "predicate": {
+                "name": "published_in_journal"
+            },
+            "object": {
+                "name": "Tạp chí Vật liệu và Xây dựng-Bộ Xây dựng ISSN 1859-0381X"
+            }
+        },
+        {
+            "subject": {
+                "name": "Phương pháp thiết kế đơn giản trụ đất xi măng trong gia cố nền đường đất yếu"
+            },
+            "predicate": {
+                "name": "has_total_citation"
+            },
+            "object": {
+                "name": "0"
+            }
+        },
+        {
+            "subject": {
+                "name": "Phương pháp thiết kế đơn giản trụ đất xi măng trong gia cố nền đường đất yếu"
+            },
+            "predicate": {
+                "name": "published_date"
+            },
+            "object": {
+                "name": "6/2022"
+            }
+        },
+        {
+            "subject": {
+                "name": "Phương pháp thiết kế đơn giản trụ đất xi măng trong gia cố nền đường đất yếu"
+            },
+            "predicate": {
+                "name": "volume_issue_pages"
+            },
+            "object": {
+                "name": "Tập 12, số 3, trang 33-37"
+            }
+        },
+        {
+            "subject": {
+                "name": "TRAN HONG DANG"
+            },
+            "predicate": {
+                "name": "is_author_of"
+            },
+            "object": {
+                "name": "Nghiên cứu sự làm việc đồng thời của cọc, móng và nền đất trong móng bè cọc"
+            }
+        },
+        {
+            "subject": {
+                "name": "Nghiên cứu sự làm việc đồng thời của cọc, móng và nền đất trong móng bè cọc"
+            },
+            "predicate": {
+                "name": "has_number_of_authors"
+            },
+            "object": {
+                "name": "2"
+            }
+        },
+        {
+            "subject": {
+                "name": "TRAN HONG DANG"
+            },
+            "predicate": {
+                "name": "is_main_author_of"
+            },
+            "object": {
+                "name": "Nghiên cứu sự làm việc đồng thời của cọc, móng và nền đất trong móng bè cọc"
+            }
+        },
+        {
+            "subject": {
+                "name": "Nghiên cứu sự làm việc đồng thời của cọc, móng và nền đất trong móng bè cọc"
+            },
+            "predicate": {
+                "name": "published_in_journal"
+            },
+            "object": {
+                "name": "Tạp chí xây dựng-Bộ Xây dựng ISSN 3734-9888"
+            }
+        },
+        {
+            "subject": {
+                "name": "Nghiên cứu sự làm việc đồng thời của cọc, móng và nền đất trong móng bè cọc"
+            },
+            "predicate": {
+                "name": "has_total_citation"
+            },
+            "object": {
+                "name": "0"
+            }
+        },
+        {
+            "subject": {
+                "name": "Nghiên cứu sự làm việc đồng thời của cọc, móng và nền đất trong móng bè cọc"
+            },
+            "predicate": {
+                "name": "published_date"
+            },
+            "object": {
+                "name": "5/2023"
+            }
+        },
+        {
+            "subject": {
+                "name": "Nghiên cứu sự làm việc đồng thời của cọc, móng và nền đất trong móng bè cọc"
+            },
+            "predicate": {
+                "name": "volume_issue_pages"
+            },
+            "object": {
+                "name": "Số 5/2023, trang 76-79"
+            }
+        },
+        {
+            "subject": {
+                "name": "TRAN HONG DANG"
+            },
+            "predicate": {
+                "name": "is_author_of"
+            },
+            "object": {
+                "name": "Nghiên cứu trạng thái ứng suất - biến dạng của móng cọc bê tông cốt thép bằng phần tử hữu hạn 3D"
+            }
+        },
+        {
+            "subject": {
+                "name": "Nghiên cứu trạng thái ứng suất - biến dạng của móng cọc bê tông cốt thép bằng phần tử hữu hạn 3D"
+            },
+            "predicate": {
+                "name": "has_number_of_authors"
+            },
+            "object": {
+                "name": "2"
+            }
+        },
+        {
+            "subject": {
+                "name": "TRAN HONG DANG"
+            },
+            "predicate": {
+                "name": "is_main_author_of"
+            },
+            "object": {
+                "name": "Nghiên cứu trạng thái ứng suất - biến dạng của móng cọc bê tông cốt thép bằng phần tử hữu hạn 3D"
+            }
+        },
+        {
+            "subject": {
+                "name": "Nghiên cứu trạng thái ứng suất - biến dạng của móng cọc bê tông cốt thép bằng phần tử hữu hạn 3D"
+            },
+            "predicate": {
+                "name": "published_in_journal"
+            },
+            "object": {
+                "name": "Tạp chí xây dựng-Bộ Xây dựng ISSN 3734-9888"
+            }
+        },
+        {
+            "subject": {
+                "name": "Nghiên cứu trạng thái ứng suất - biến dạng của móng cọc bê tông cốt thép bằng phần tử hữu hạn 3D"
+            },
+            "predicate": {
+                "name": "has_total_citation"
+            },
+            "object": {
+                "name": "0"
+            }
+        },
+        {
+            "subject": {
+                "name": "Nghiên cứu trạng thái ứng suất - biến dạng của móng cọc bê tông cốt thép bằng phần tử hữu hạn 3D"
+            },
+            "predicate": {
+                "name": "published_date"
+            },
+            "object": {
+                "name": "6/2023"
+            }
+        },
+        {
+            "subject": {
+                "name": "Nghiên cứu trạng thái ứng suất - biến dạng của móng cọc bê tông cốt thép bằng phần tử hữu hạn 3D"
+            },
+            "predicate": {
+                "name": "volume_issue_pages"
+            },
+            "object": {
+                "name": "Số 6/2023, trang 96-99"
+            }
+        }
+    ]
+}
