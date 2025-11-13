@@ -1,0 +1,116 @@
+{
+  "triples": [
+    {
+      "subject": "ĐỖ VĂN CHIẾN",
+      "predicate": "sinh ngày",
+      "object": "17 - 11 - 1980",
+      "metadata": {
+        "source": "2. Ngày tháng năm sinh: 17 - 11 - 1980"
+      }
+    },
+    {
+      "subject": "ĐỖ VĂN CHIẾN",
+      "predicate": "giới tính",
+      "object": "Nam",
+      "metadata": {
+        "source": "Nam"
+      }
+    },
+    {
+      "subject": "ĐỖ VĂN CHIẾN",
+      "predicate": "quốc tịch",
+      "object": "Việt Nam",
+      "metadata": {
+        "source": "Quốc tịch: Việt Nam"
+      }
+    },
+    {
+      "subject": "ĐỖ VĂN CHIẾN",
+      "predicate": "dân tộc",
+      "object": "Kinh",
+      "metadata": {
+        "source": "Dân tộc: Kinh"
+      }
+    },
+    {
+      "subject": "ĐỖ VĂN CHIẾN",
+      "predicate": "tôn giáo",
+      "object": "Không có",
+      "metadata": {
+        "source": "Tôn giáo: Không có"
+      }
+    },
+    {
+      "subject": "ĐỖ VĂN CHIẾN",
+      "predicate": "là đảng viên của",
+      "object": "Đảng Cộng sản Việt Nam",
+      "metadata": {
+        "source": "Đảng viên Đảng Cộng sản Việt Nam"
+      }
+    },
+    {
+      "subject": "ĐỖ VĂN CHIẾN",
+      "predicate": "quê quán",
+      "object": "Hoằng Thắng, Hoằng Hóa, Thanh Hóa",
+      "metadata": {
+        "source": "Quê quán (xã/phường, huyện/quận, tỉnh/thành phố):\nHoằng Thắng, Hoằng Hóa, Thanh Hóa"
+      }
+    },
+    {
+      "subject": "ĐỖ VĂN CHIẾN",
+      "predicate": "nơi đăng ký hộ khẩu thường trú",
+      "object": "Căn hộ 15R09, TN HH báo LĐ&XH, phường Yên Hòa, Quận Cầu Giấy, Hà Nội",
+      "metadata": {
+        "source": "Nơi đăng ký hộ khẩu thường trú (số nhà, phố/thôn, xã/phường, huyện/quận, tỉnh/thành\nphố): Căn hộ 15R09, TN HH báo LĐ&XH, phường Yên Hòa, Quận Cầu Giấy, Hà Nội."
+      }
+    },
+    {
+      "subject": "ĐỖ VĂN CHIẾN",
+      "predicate": "địa chỉ liên hệ",
+      "object": "Căn hộ 15R09, TN HH báo LĐ&XH, phường Yên Hòa, Quận Cầu Giấy, Hà Nội",
+      "metadata": {
+        "source": "Địa chỉ liên hệ (ghi rõ, đầy đủ để liên hệ được qua Bưu điện):\nĐỗ Văn Chiến Căn hộ 15R09, TN HH báo LĐ&XH, phường Yên Hòa, Quận Cầu Giấy, Hà Nội."
+      }
+    },
+    {
+      "subject": "ĐỖ VĂN CHIẾN",
+      "predicate": "số điện thoại nhà riêng",
+      "object": "0982851506",
+      "metadata": {
+        "source": "Điện thoại nhà riêng: 0982851506"
+      }
+    },
+    {
+      "subject": "ĐỖ VĂN CHIẾN",
+      "predicate": "số điện thoại di động",
+      "object": "0982851506",
+      "metadata": {
+        "source": "Điện thoại di động: 0982851506"
+      }
+    },
+    {
+      "subject": "ĐỖ VĂN CHIẾN",
+      "predicate": "email",
+      "object": "dovanchien108.cmh@gmail.com",
+      "metadata": {
+        "source": "E-mail:\ndovanchien108.cmh@gmail.com"
+      }
+    },
+    {
+      "subject": "ĐỖ VĂN CHIẾN",
+      "predicate": "email",
+      "object": "vmechiendo@yahoo.com",
+      "metadata": {
+        "source": "E-mail:vmechiendo@yahoo.com"
+      }
+    },
+    {
+      "subject": "ĐỖ VĂN CHIẾN",
+      "predicate": "email",
+      "object": "vmechiendo@gmail.com",
+      "metadata": {
+        "source": "E-mail:vmechiendo@gmail.com"
+      }
+    }
+  ]
+}

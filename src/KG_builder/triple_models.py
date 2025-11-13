@@ -1,17 +1,8 @@
 from pydantic import BaseModel, Field
 from typing import Optional
-from datetime import datetime
 
 class Metadata(BaseModel):
     """Represents provenance and quality metadata for extracted knowledge graph elements"""
-    start_date: Optional[datetime] = Field(
-        default=None,
-        description="The earliest date associated with the extracted information (e.g., the start of a project, publication date, etc.). Can be None if not available."
-    )
-    end_date: Optional[datetime] = Field(
-        default=None,
-        description="The latest date associated with the extracted information (e.g., project end date, validity expiration, etc.). Can be None if not applicable."
-    )
     source: str = Field(
         ...,
         description=(

@@ -1,0 +1,212 @@
+{
+  "triples": [
+    {
+      "subject": "TRAN HONG DANG",
+      "predicate": "được cấp",
+      "object": "bằng Đại học Y khoa quốc gia Volgograd",
+      "metadata": {
+        "source": "Được cấp bằng Đại học Y khoa quốc gia Volgograd (LB Nga) ngày 22 tháng 6 năm 2006;"
+      }
+    },
+    {
+      "subject": "bằng Đại học Y khoa quốc gia Volgograd",
+      "predicate": "có số hiệu",
+      "object": "DIS 0012833",
+      "metadata": {
+        "source": "số hiệu bằng: DIS 0012833;"
+      }
+    },
+    {
+      "subject": "bằng Đại học Y khoa quốc gia Volgograd",
+      "predicate": "ngành",
+      "object": "Y",
+      "metadata": {
+        "source": "ngành: Y, chuyên ngành: Bác sĩ Đa khoa;"
+      }
+    },
+    {
+      "subject": "bằng Đại học Y khoa quốc gia Volgograd",
+      "predicate": "chuyên ngành",
+      "object": "Bác sĩ Đa khoa",
+      "metadata": {
+        "source": "ngành: Y, chuyên ngành: Bác sĩ Đa khoa;"
+      }
+    },
+    {
+      "subject": "bằng Đại học Y khoa quốc gia Volgograd",
+      "predicate": "được cấp tại",
+      "object": "Trường Đại Học Y quốc gia Volgograd, LB Nga",
+      "metadata": {
+        "source": "Nơi cấp bằng ĐH (trường, nước): Trường Đại Học Y quốc gia Volgograd, LB Nga."
+      }
+    },
+    {
+      "subject": "TRAN HONG DANG",
+      "predicate": "được cấp",
+      "object": "bằng Tiến Sĩ",
+      "metadata": {
+        "source": "Được cấp bằng Tiến Sĩ ngày 1 tháng 11 năm 2018;"
+      }
+    },
+    {
+      "subject": "bằng Tiến Sĩ",
+      "predicate": "có số hiệu",
+      "object": "000003",
+      "metadata": {
+        "source": "số hiệu bằng: 000003;"
+      }
+    },
+    {
+      "subject": "bằng Tiến Sĩ",
+      "predicate": "ngành",
+      "object": "Y học",
+      "metadata": {
+        "source": "ngành: Y học;"
+      }
+    },
+    {
+      "subject": "bằng Tiến Sĩ",
+      "predicate": "chuyên ngành",
+      "object": "Nội Tim Mạch",
+      "metadata": {
+        "source": "chuyên ngành: Nội Tim Mạch;"
+      }
+    },
+    {
+      "subject": "bằng Tiến Sĩ",
+      "predicate": "được cấp tại",
+      "object": "Viện nghiên cứu khoa học y dược lâm sàng 108",
+      "metadata": {
+        "source": "Nơi cấp bằng TS (trường, nước): Viện nghiên cứu khoa học y dược lâm sàng 108."
+      }
+    },
+    {
+      "subject": "TRAN HONG DANG",
+      "predicate": "Đăng ký xét đạt tiêu chuẩn chức danh Phó Giáo Sư tại HĐGS cơ sở",
+      "object": "Viện nghiên cứu khoa học y dược lâm sàng 108",
+      "metadata": {
+        "source": "Đăng ký xét đạt tiêu chuẩn chức danh Phó Giáo Sư tại HĐGS cơ sở: Viện nghiên\ncứu khoa học y dược lâm sàng 108."
+      }
+    },
+    {
+      "subject": "TRAN HONG DANG",
+      "predicate": "Đăng ký xét đạt tiêu chuẩn chức danh Phó Giáo Sư tại HĐGS ngành, liên ngành",
+      "object": "Y học",
+      "metadata": {
+        "source": "Đăng ký xét đạt tiêu chuẩn chức danh Phó Giáo Sư tại HĐGS ngành, liên ngành: Y học"
+      }
+    },
+    {
+      "subject": "TRAN HONG DANG",
+      "predicate": "chủ yếu nghiên cứu",
+      "object": "Hình thái và chức năng của nhĩ trái trong một số bệnh lý tim mạch",
+      "metadata": {
+        "source": "- Hướng NC 1: Hình thái và chức năng của nhĩ trái trong một số bệnh lý tim mạch."
+      }
+    },
+    {
+      "subject": "TRAN HONG DANG",
+      "predicate": "chủ yếu nghiên cứu",
+      "object": "Suy tim và một số bệnh lý liên quan đến suy tim",
+      "metadata": {
+        "source": "- Hướng NC 2: Suy tim và một số bệnh lý liên quan đến suy tim"
+      }
+    },
+    {
+      "subject": "TRAN HONG DANG",
+      "predicate": "chủ yếu nghiên cứu",
+      "object": "Rối loạn chuyển hóa (béo phì, đái tháo đường, tăng huyết áp, rối\nloạn chuyển hoá lipid) và một số bệnh lý mạch máu (động mạch vành, động - tĩnh mạch chi dưới)",
+      "metadata": {
+        "source": "- Hướng NC 3: Rối loạn chuyển hóa (béo phì, đái tháo đường, tăng huyết áp, rối\nloạn chuyển hoá lipid) và một số bệnh lý mạch máu (động mạch vành, động - tĩnh mạch chi dưới)."
+      }
+    },
+    {
+      "subject": "TRAN HONG DANG",
+      "predicate": "đã hướng dẫn bảo vệ thành công luận văn",
+      "object": "05 luận văn ThS (của HVCH)",
+      "metadata": {
+        "source": "- Đã hướng dẫn: 05 HVCH bảo vệ thành công luận văn ThS"
+      }
+    },
+    {
+      "subject": "TRAN HONG DANG",
+      "predicate": "đã hướng dẫn bảo vệ thành công luận văn",
+      "object": "01 luận văn BSCK cấp 2 (của học viên chuyên khoa 2)",
+      "metadata": {
+        "source": "và 01 học viên chuyên khoa 2\nbảo vệ thành công luận văn BSCK cấp 2."
+      }
+    },
+    {
+      "subject": "TRAN HONG DANG",
+      "predicate": "đã hoàn thành đề tài NCKH từ cấp cơ sở trở lên",
+      "object": "02 đề tài cấp cơ sở",
+      "metadata": {
+        "source": "- Đã hoàn thành đề tài NCKH từ cấp cơ sở trở lên: 02 đề tài cấp cơ sở;"
+      }
+    },
+    {
+      "subject": "TRAN HONG DANG",
+      "predicate": "đã công bố",
+      "object": "55 bài báo khoa học",
+      "metadata": {
+        "source": "- Đã công bố 55 bài báo khoa học, trong đó 11 bài báo khoa học trên tạp chí quốc tế uy tín"
+      }
+    },
+    {
+      "subject": "TRAN HONG DANG",
+      "predicate": "đã công bố",
+      "object": "11 bài báo khoa học trên tạp chí quốc tế uy tín",
+      "metadata": {
+        "source": "- Đã công bố 55 bài báo khoa học, trong đó 11 bài báo khoa học trên tạp chí quốc tế uy tín"
+      }
+    },
+    {
+      "subject": "TRAN HONG DANG",
+      "predicate": "là tác giả chính của",
+      "object": "10 bài báo quốc tế uy tín",
+      "metadata": {
+        "source": "(10 bài báo quốc tế uy tín là tác giả chính)."
+      }
+    },
+    {
+      "subject": "TRAN HONG DANG",
+      "predicate": "đã xuất bản",
+      "object": "02 sách chuyên khảo",
+      "metadata": {
+        "source": "- Số lượng sách đã xuất bản sách phục vụ đào tạo, đều thuộc nhà xuất bản có uy tín: 02 sách\nchuyên khảo (NXB Y học)."
+      }
+    },
+    {
+      "subject": "02 sách chuyên khảo",
+      "predicate": "thuộc",
+      "object": "NXB Y học",
+      "metadata": {
+        "source": "- Số lượng sách đã xuất bản sách phục vụ đào tạo, đều thuộc nhà xuất bản có uy tín: 02 sách\nchuyên khảo (NXB Y học)."
+      }
+    },
+    {
+      "subject": "TRAN HONG DANG",
+      "predicate": "đạt giải thưởng quốc gia quốc tế",
+      "object": "Giải nhất nhà nghiên cứu trẻ của Hội Tim mạch Việt Nam năm 2016",
+      "metadata": {
+        "source": "- Giải nhất nhà nghiên cứu trẻ của Hội Tim mạch Việt Nam năm 2016."
+      }
+    },
+    {
+      "subject": "TRAN HONG DANG",
+      "predicate": "đạt giải thưởng quốc gia quốc tế",
+      "object": "Giải nhì nhà nghiên cứu trẻ của Liên đoàn Tim mạch Đông Nam Á năm 2017",
+      "metadata": {
+        "source": "- Giải nhì nhà nghiên cứu trẻ của Liên đoàn Tim mạch Đông Nam Á năm 2017"
+      }
+    },
+    {
+      "subject": "TRAN HONG DANG",
+      "predicate": "đạt giải thưởng quốc gia quốc tế",
+      "object": "Giải nhất Sáng tạo tuổi trẻ trong quân đội năm 2018",
+      "metadata": {
+        "source": "- Giải nhất Sáng tạo tuổi trẻ trong quân đội năm 2018."
+      }
+    }
+  ]
+}
