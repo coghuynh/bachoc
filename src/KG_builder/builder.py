@@ -35,9 +35,6 @@ class KnowledgeGraphBuilder:
         self.relations_schema_path = Path(args["relation_schema"])
         self.threshold = float(args.get("threshold", 0.7))
 
-        self.entities_schema = read_schema(str(self.entities_schema_path))
-        self.relations_schema = read_schema(str(self.relations_schema_path))
-
         self.extract_triples_model = load_async_model(args["triples_model"])
         self.definition_model = load_async_model(args["definition_model"])
         embedding_name = args.get("embedding_model", "Qwen/Qwen2.5-0.5B-Instruct")
