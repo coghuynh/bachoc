@@ -31,4 +31,8 @@ class LLMTriple(BaseModel):
     )
     
 class TripleList(BaseModel):
+    main_subject: str = Field(
+        ...,
+        description="The full name of the primary individual or entity being described throughout the document. This individual serves as the central subject for most personal and career-related triples."
+    )
     triples: list[LLMTriple]

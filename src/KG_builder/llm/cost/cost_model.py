@@ -17,6 +17,32 @@ class CostModel(BaseLLM):
         super().__init__(**args)
     
 
+def _reformat_messages(messages: list):
+    """
+    Reformat messages for Gemini.
+
+    Args:
+        messages: The list of messages provided in the request.
+
+    Returns:
+        tuple: (system_instruction, contents_list)
+    """
+    system_instruction = None
+    contexts = []
+
+    for message in messages:
+        if message["role"] == "system":
+            system_instruction = message["content"]
+        else:
+            context = types.Content(
+                parts=[types.Part(text=message["content"])],
+                role=message["role"],
+            )
+            contexts.append(context)
+
+    return system_instruction, contexts
+
+
 class GeminiModel(CostModel):
     def __init__(self, **args):
         super().__init__(**args)
@@ -32,18 +58,17 @@ class GeminiModel(CostModel):
             raise CostModelAPIError(f"Failed to connect to Gemini: {str(e)}")
 
 
-    def generate_response(self, messages: dict | list, **args):
+    def generate_response(self, messages: list, **args):
         response_format = args.get("response_format")
         
         config_params: dict[str, any] = {}
         
-        if isinstance(messages, dict): # for basic response
-            system_instruction = messages.get("system_instruction")
-            context = messages.get("context")
+        system_instruction, context = _reformat_messages(messages)
             
-            if system_instruction:
-                config_params["system_instruction"] = system_instruction
-        else: # for pdf file response
+        if system_instruction:
+            config_params["system_instruction"] = system_instruction
+            
+        else: # for pdf file response, if no system instruction in message
             context = messages
             
         if response_format is not None and response_format["type"] == "json_object":
