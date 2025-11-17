@@ -85,7 +85,7 @@ class TripleExtraction:
 
 if __name__ == "__main__":
     llm = load_model("gemini-2.0-flash")
-    with open("./data/(17191314786197_30_06_2024_20_04)nguyen-van-tuan-1975-11-18-1719752669.txt", "r", encoding="utf-8") as f:
+    with open("./data/(17193813255334_29_06_2024_21_44)nguyen-thi-khanh-van-1969-09-02-1719672266.txt", "r", encoding="utf-8") as f:
         text = f.read()
     
     cleaned_text = clean_vn_text(text)
@@ -100,7 +100,7 @@ if __name__ == "__main__":
     
     for section in SECTIONS_DEFINITION:
         section_text = extract_specific_sections(text, section["start_word"], section["end_word"])
-        
+        print(section_text)
         builder.add_stage(
             stage=Stage(
                 text=section_text,
@@ -112,13 +112,13 @@ if __name__ == "__main__":
             )
         )
     
-    output_file = "./output/triples_4.json"
+    # output_file = "./output/triples_4.json"
     
-    start = time.perf_counter()
+    # start = time.perf_counter()
     
-    results = builder.run(output_path=output_file)
+    # results = builder.run(output_path=output_file)
     
-    end = time.perf_counter()
-    run_time = end - start
-    print(f"Triples extraction completes in {run_time}")
-    print(f"Saved to: ", output_file)
+    # end = time.perf_counter()
+    # run_time = end - start
+    # print(f"Triples extraction completes in {run_time}")
+    # print(f"Saved to: ", output_file)
