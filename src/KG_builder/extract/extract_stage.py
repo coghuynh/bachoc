@@ -85,7 +85,7 @@ class TripleExtraction:
 
 if __name__ == "__main__":
     llm = load_model("gemini-2.0-flash")
-    with open("../data/(16844277137145_29_06_2024_20_12)do-van-chien-1980-11-17-1719666757.txt", "r", encoding="utf-8") as f:
+    with open("./data/(17191314786197_30_06_2024_20_04)nguyen-van-tuan-1975-11-18-1719752669.txt", "r", encoding="utf-8") as f:
         text = f.read()
     
     cleaned_text = clean_vn_text(text)
@@ -112,7 +112,7 @@ if __name__ == "__main__":
             )
         )
     
-    output_file = "../output/triples_2.json"
+    output_file = "./output/triples_4.json"
     
     start = time.perf_counter()
     
