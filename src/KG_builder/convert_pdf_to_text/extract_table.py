@@ -5,8 +5,6 @@ import json
 from google.genai import types
 from KG_builder.prompts.prompts import (
     EXTRACT_TABLE_PAPER_INFO,
-    EXTRACT_TRIPLE_FROM_TABLE_PROMPT,
-    EXTRACT_TRIPLE_FROM_TABLE_USER_PROMPT,
     EXTRACT_TRIPLE_FROM_PAPER_PROMPT,
     EXTRACT_TRIPLE_FROM_PAPER_USER_PROMPT
 )
@@ -225,34 +223,3 @@ def extract_table_from_pdf(pdf_path: str, genai: GeminiModel):
 # parsed = json.loads(table_data)  # chuyển sang dict
 # with open('table_data_1.json', 'w', encoding='utf-8') as f:
 #     json.dump(parsed, f, ensure_ascii=False, indent=4)
-
-
-if __name__ == "__main__":
-    llm = load_model("gemini-2.0-flash")
-    response_format = {
-        "type": "json_object",
-        "response_mime_type": "application/json",
-        "response_schema": TripleList
-    }
-    
-    folder_path = "D:/fico/DỰ_ÁN/test_table_data"
-
-    for idx, filename in enumerate(os.listdir(folder_path)):
-        if "paper" in filename:
-            filepath = os.path.join(folder_path, filename)
-            
-            with open(filepath, 'r', encoding='utf-8') as f:
-                extracted_data = json.load(f)
-                json_string = json.dumps(extracted_data, indent=2, ensure_ascii=False)
-                
-                messages = {
-                    "system_instruction": EXTRACT_TRIPLE_FROM_PAPER_PROMPT.format(),
-                    "context": EXTRACT_TRIPLE_FROM_PAPER_USER_PROMPT.format(
-                        main_subject="TRAN HONG DANG",
-                        context=json_string
-                    )
-                }
-                response = extract_triples(messages, llm, response_format=response_format)
-                
-                with open(f"test_triple_data_{idx}.json", 'w', encoding='utf-8') as f:
-                    json.dump(response, f, ensure_ascii=False, indent=4)

@@ -85,7 +85,7 @@ EXTRACT_TRIPLE_PERSONAL_INFO_PROMPT = """
     ## TASK
     Extract all personal information as triples where:
     - **Subject**: ALWAYS the main person's full name (identified in step 1)
-    - **Predicate**: Standardized relationship/property name
+    - **Predicate**: Choose EXACTLY ONE from the predefined list of relations provided. Do not create new relation.
     - **Object**: The attribute value containing personal info
 
     ## EXTRACTION GUIDELINES
@@ -102,6 +102,7 @@ EXTRACT_TRIPLE_PERSONAL_INFO_PROMPT = """
         - Organizational affiliations (party membership, profession)
         - Location information (birthplace, registered residence, contact address)
         - Contact details (phone numbers, email addresses)
+        
     - **Only** extract meaningful triples containing meaningful information to build knowledge graph
     
     ### 2. Metadata Requirements
@@ -110,36 +111,25 @@ EXTRACT_TRIPLE_PERSONAL_INFO_PROMPT = """
     ## SPECIAL HANDLING FOR VIETNAMESE TEXT
     1. **Names**: Preserve Vietnamese proper name capitalization (e.g., "Đỗ Văn Chiến")
     2. **Diacritics**: Maintain all Vietnamese diacritical marks accurately
+    3. **Preserve**: Preserve all predicates, objects in Vietnamese.
     
     ## REQUIRED OUTPUT FORMAT
     ```json
+        "main_subject": "Đỗ Văn Chiến",
+        "triples": 
         [
             {{
-                "subject": {{
-                    "name": "Đỗ Văn Chiến"
-                }},
-                "predicate": {{
-                    "name": "has_birth_date"
-                }},
-                "object": {{
-                    "name": "17-11-1980"
-                }},
+                "subject": "Đỗ Văn Chiến",
+                "predicate": "sinh ngày",
+                "object": "17-11-1980",
                 "metadata": {{
-                    "page": 1,
-                    "confidence": 1,
                     "source": "Ngày tháng năm sinh: 17 - 11 - 1980"
                 }}
             }},
             {{
-                "subject": {{
-                    "name": "Đỗ Văn Chiến"
-                }},
-                "predicate": {{
-                    "name": "was_born_in"
-                }},
-                "object": {{
-                    "name": "Hoằng Thắng, Hoằng Hóa, Thanh Hóa"
-                }},
+                "subject": "Đỗ Văn Chiến",
+                "predicate": "quê quán",
+                "object": "Hoằng Thắng, Hoằng Hóa, Thanh Hóa",
                 "metadata": {{
                     "source": "Quê quán (xã/phường, huyện/quận, tỉnh/thành phố): Hoằng Thắng, Hoằng Hóa, Thanh Hóa"
                 }}
@@ -148,12 +138,17 @@ EXTRACT_TRIPLE_PERSONAL_INFO_PROMPT = """
     ```
 """
     
-EXTRACT_TRIPLE_PERSONAL_INFO_USER_PROMPT = """
+EXTRACT_TRIPLE_USER_PROMPT = """
     Extract relational triples from the following text.
     Return only the JSON array of triples, no explanation.
     
+    Main subject:
+    {main_subject}
+    
+    List predicates:
+    {predicates}
     Text:
-    {context}
+    {text}
     """
 
 
@@ -163,22 +158,28 @@ EXTRACT_TRIPLE_WORKING_INFO_PROMPT = """
     ## CRITICAL RULE: SUBJECT IDENTIFICATION
     
     **FIRST STEP - IDENTIFY THE MAIN SUBJECT:**
-    1. According to the main subject given, this becomes the **SUBJECT for ALL triples** in this document
+        1. According to the main subject given, this becomes the **DEFAULT SUBJECT** for triples where the subject is not explicitly named in the source text.
+        2. The Subject should be **flexibly chosen** to make the triple semantically meaningful. The Main Subject's full name is preferred only when the fact clearly relates to their personal attributes (e.g., career, education, demographics) **OR when the fact describes a high-level personal achievement (e.g., received degree, was appointed)**.
 
     ## TASK
     Extract all personal information as triples where:
-    - **Subject**: ALWAYS the main person's full name (identified in step 1)
-    - **Predicate**: Standardized relationship/property name
-    - **Object**: The attribute value containing personal info
+    - **Subject**: 
+      - Should be the **most appropriate entity** based on the context of the sentence (e.g., an institution, a degree, or the Main Subject).
+      - Use the Main Subject's full name only when the predicate describes a personal relationship (e.g., "công tác tại," "được cấp") or when the subject is not mentioned.
+    - **Predicate**: 
+      - Prefer predicates from the predefined list when applicable
+      - Use meaningful Vietnamese predicates for other relationships, **Must** base on the word from the text.
+    - **Object**: The attribute value or related entity
 
     ## EXTRACTION GUIDELINES
 
     ### 1. Triple Construction Rules
     - **One fact per triple** → Each triple represents a single, atomic fact.
-    - **Subject consistency** → All triples use the same main subject.
     - **Multiple values** → Create separate triples for multiple entities (e.g., multiple universities or awards).
     - **Date handling** → Preserve date ranges in the form “From <Month-Year> to <Month-Year>”.
     - **Keep original Vietnamese text** for all proper names (schools, hospitals, institutions, awards).
+    - **Avoid Trivial Classification**: Do not extract triples where the predicate is simply a general classifier like "là" (is/is a) and the object is a category already implied by the subject's name (e.g., "Trường Đại học X" is "cơ sở giáo dục đại học"). Focus on relational facts.
+    - **Quantity Handling**: When the Object is a countable number, the Object MUST include the unit of count or the type of item (e.g., "05 luận văn ThS", "02 đề tài cấp cơ sở", "55 bài báo khoa học")
 
     ### 2. Focus on Capturing
 
@@ -191,13 +192,13 @@ EXTRACT_TRIPLE_WORKING_INFO_PROMPT = """
 
     #### Professional & Academic Career
     - Job titles, positions, departments, and affiliated institutions.
-    - Time spans of employment or service.
     - Current position and current workplace.
-    - Academic teaching or guest lecturing roles.
 
     #### Research
     - Research directions, topics, or fields.
-    - Supervised students or trainees.
+    - **Supervision & Mentoring:** Triples related to advising students or trainees.
+        - **CRITICAL RULE for Supervision:** The **Object** must include **both the quantity and the type/level of the thesis/trainee** (e.g., "05 luận văn ThS (của HVCH)", "01 luận văn BSCK cấp 2 (của học viên chuyên khoa 2)").
+        - Predicate for supervision must be specific (e.g., "đã hướng dẫn bảo vệ thành công luận văn").
     - Research projects or scientific works completed.
 
     #### Publications & Academic Output
@@ -209,11 +210,15 @@ EXTRACT_TRIPLE_WORKING_INFO_PROMPT = """
     - Include both national and international awards.
 
     #### Academic Titles & Credentials
-    - Degrees awarded (Bachelor, PhD, etc.) with issue date, specialization, and issuing institution.
+    - Degrees awarded (Bachelor, PhD, etc.).
     - Registration or recognition of academic ranks (e.g., Associate Professor).
+    - Degrees and Registration or recognition of academic ranks with issue date, specialization(chuyên ngành), and issuing institution, certificate number(số hiệu bằng), major(ngành).
+    These triples **must** use the exact word, phrase in the text as predicates. (e.g., "số hiệu bằng" -> "có số hiệu") 
 
     #### Organizational Relationships
     - Relationships between institutions (e.g., “Viện Tim Mạch” thuộc “Bệnh viện TƯQĐ 108”).
+    - Relationships between institutions and locations. (e.g., "Trường Đại học Y Sydney, Úc -> "Trường Đại học Y Sydney" ở "Úc"). **For location details, prefer "tọa lạc ở" (located in) for city/country and "có địa chỉ" (has address) for specific street address.**
+    - Consider the meaning of institutions, organizations to construct relationships. (e.g., "Viện NCKH y dược lâm sàng 108" does not belong to any universities)
 
     ### 3. Metadata Requirements
     For every triple, include:
@@ -225,43 +230,71 @@ EXTRACT_TRIPLE_WORKING_INFO_PROMPT = """
     3. **No translation**: Do not translate proper nouns or institution names.
     
     ## REQUIRED OUTPUT FORMAT
-    * **Input data**: "Từ tháng 9/1998 đến tháng 9/1999: Học đại học tại Trường Đại Học Y Hà Nội, ngành học: Bác sĩ đa khoa, hệ chính quy."
+    * **Input data**: "Từ tháng 9/2006 đến tháng 5/2008: Bác sĩ khoa Nội Tim mạch, Viện Tim Mạch, Bệnh Viện TƯQĐ 108. Được cấp bằng Tiến Sĩ ngày 1 tháng 11 năm 2018; số hiệu bằng: 000003; ngành: Y học;
+chuyên ngành: Nội Tim Mạch; Nơi cấp bằng TS (trường, nước): Viện nghiên cứu khoa học y dược lâm sàng 108."
     ```json
     {{
         [
             {{
-                "subject": {{
-                    "name": "Đỗ Văn Chiến"
-                }},
-                "predicate": {{
-                    "name": "studied_at"
-                }},
-                "object": {{
-                    "name": "Trường Đại học Y Hà Nội (ngành Bác sĩ đa khoa, hệ chính quy)"
-                }},
+                "subject": "Đỗ Văn Chiến",
+                "predicate": "công tác vị trí",
+                "object": "Bác sĩ",
                 "metadata": {{
-                    "page": "2",
-                    "confidence": "1",
-                    "start_date": "9/1998",
-                    "end_date": "9/1999",
-                    "source": "Từ tháng 9/1998 đến tháng 9/1999: Học đại học tại Trường Đại Học Y Hà Nội, ngành học: Bác sĩ đa khoa, hệ chính quy.",
+                    "source": "Từ tháng 9/2006 đến tháng 5/2008: Bác sĩ khoa Nội Tim mạch, Viện Tim Mạch, Bệnh Viện TƯQĐ 108."
                 }}
-            }}
+            }},
+            {{
+                "subject": "Đỗ Văn Chiến",
+                "predicate": "công tác tại",
+                "object": "khoa Nội Tim mạch",
+                "metadata": {{
+                    "source": "Từ tháng 9/2006 đến tháng 5/2008: Bác sĩ khoa Nội Tim mạch, Viện Tim Mạch, Bệnh Viện TƯQĐ 108."
+                }}
+            }},
+            {{
+                "subject": "khoa Nội Tim mạch",
+                "predicate": "thuộc",
+                "object": "Viện Tim Mạch",
+                "metadata": {{
+                    "source": "Từ tháng 9/2006 đến tháng 5/2008: Bác sĩ khoa Nội Tim mạch, Viện Tim Mạch, Bệnh Viện TƯQĐ 108."
+                }}
+            }},
+            {{
+                "subject": "Viện Tim Mạch",
+                "predicate": "thuộc",
+                "object": "Bệnh Viện TƯQĐ 108",
+                "metadata": {{
+                    "source": "Từ tháng 9/2006 đến tháng 5/2008: Bác sĩ khoa Nội Tim mạch, Viện Tim Mạch, Bệnh Viện TƯQĐ 108.",
+                }}
+            }},
+            {{
+                "subject": "Đỗ Văn Chiến",
+                "predicate": "được cấp",
+                "object": "bằng Tiến sĩ",
+                "metadata": {{
+                    "source": "Được cấp bằng Tiến Sĩ ngày 1 tháng 11 năm 2018.",
+                }}
+            }},
+            {{
+                "subject": "bằng Tiến sĩ",
+                "predicate": "có số hiệu",
+                "object": "000003",
+                "metadata": {{
+                    "source": "Được cấp bằng Tiến Sĩ ngày 1 tháng 11 năm 2018; số hiệu bằng: 000003.",
+                }}
+            }},
+            {{
+                "subject": "bằng Tiến sĩ",
+                "predicate": "ngành",
+                "object": "Y",
+                "metadata": {{
+                    "source": "Được cấp bằng Tiến Sĩ ngày 1 tháng 11 năm 2018; số hiệu bằng: 000003; ngành: Y học.",
+                }}
+            }},
         ]
     }}
     ```
 """
-EXTRACT_TRIPLE_WORKING_INFO_USER_PROMPT = """
-    Extract relational triples from the following text.
-    Return only the JSON array of triples, no explanation.
-    
-    Main subject:
-    {main_subject}
-    
-    Text:
-    {context}
-"""
-
 
 # TODO: them prompt cho extract table tu pdf.
 EXTRACT_TABLE_PAPER_INFO = """
@@ -296,233 +329,4 @@ EXTRACT_TABLE_PAPER_INFO = """
     5. Ensure you specifically locate and extract the data contained in the section titled/subtitled "Bằng độc quyền sáng chế, giải pháp hữu ích" and map it to the Patent schema.
     6. **Ensure Book Extraction:** You must specifically locate and extract the data contained in the section related to "Biên soạn sách phục vụ đào tạo từ trình độ đại học trở lên"
     Begin the extraction process now.
-"""
-
-# extract triples tu table data
-EXTRACT_TRIPLE_FROM_TABLE_PROMPT = """
-You are an expert Data Normalization and Knowledge Graph (KG) Agent. Your task is to process the structured JSON data provided, representing an applicant's academic and scientific portfolio, and transform it into a set of well-defined Subject-Predicate-Object (SPO) Triples.
-
-
-### I. DATA CONTEXT AND INPUT STRUCTURE
-
-You will receive a JSON dictionary containing academic/research data with the following possible sections:
-- papers: Published research papers
-- books: Published books or book chapters
-- patents: Patents and innovations
-- training_programs: Educational program development activities
-- projects: Research/technology projects
-- achievements: Awards and recognitions
-
-### II. CRITICAL SUBJECT IDENTIFICATION
-According to the main subject given, this becomes the **Applicant** in this document
-
-## TASK
-
-Extract **ALL** academic/research data as triples where:
-- **Subject**: Either the Applicant or paper title, project title, etc.
-- **Predicate**: Standardized, meaningful, logical relationship, **derived from JSON keys**
-- **Object**: The value or related entity
-    
-### III. TRIPLE GENERATION GUIDELINES AND SUBJECT ASSIGNMENT GUIDELINES
-
-#### A. Subject Assignment Rules (Priority):
-
-* **Rule 1 (Applicant Focus):** If the Predicate describes a **relationship**, **role**, or **direct contribution** of the applicant (e.g., authorship, chief editor status, participation), the Subject MUST be the **Applicant (<ABC>)**.
-These include:
-- Authorship relationships (is author, is main author, is co-author)
-- Editorial roles (is editor-in-chief, is editor)
-- Inventor status (is inventor, is main inventor)
-- Project participation (is principal investigator, is member)
-- Achievements (received award, achieved recognition)
-
-* **Rule 2 (Work Focus):** If the Predicate describes an **attribute** or **metadata** of the work itself (e.g., ranking, year, code, document ID, journal name), the Subject MUST be the **Title of the Work** (Paper Title, Project Title, Book Title, etc.).
-These include:
-- Publication details (journal name, publisher, ISSN)
-- Metadata (ranking, volume, pages, code)
-- Dates (publication date, issue date, acceptance date)
-- Counts (number of authors, citation count, number of contributors)
-- Classifications (type, level, rating)
-- Document identifiers (verification IDs, assignment documents)
-
-#### B. Triple Construction Rules
-
-- **Predicate** must be meaningful, logical, and based on the context of the data key and **Subject(applicant or title)**. Focus on the json keys to extract **ALL Predicates**. 
-Consider the **meaning** of the JSON key, not just its name. Use clear, descriptive verbs or verb phrases. 
-- **Object** must be meaningful, if object is N/A, **PASS** it. 
-
-### IV. REQUIRED OUTPUT FORMAT
-* **Input Data:** `title`: "Thẩm định chương trình đào tạo...", `applicant_role`: "Participant", `assignment_document_id`: "301/QĐ-ĐHTG", `certifying_authority`: "Trường Đại học Tiền Giang"
-
-Return a JSON array of triples:
-```json
-    [
-        {{
-            "subject": {{
-                "name": "Đỗ Văn Chiến"
-            }},
-            "predicate": {{
-                "name": "participated_in_program"
-            }},
-            "object": {{
-                "name": "Thẩm định chương trình đào tạo..."
-            }}
-        }},
-        {{
-            "subject": {{
-                "name": "Thẩm định chương trình đào tạo..."
-            }},
-            "predicate": {{
-                "name": "assigned_in_doc"
-            }},
-            "object": {{
-                "name": "Quyết định số 301/QĐ-ĐHTG ngày 30/05/2017"
-            }}
-        }},
-        {{
-            "subject": {{
-                "name": "Thẩm định chương trình đào tạo..."
-            }},
-            "predicate": {{
-                "name": "certified_by"
-            }},
-            "object": {{
-                "name": "Trường Đại học Tiền Giang"
-            }}
-        }},
-        {{
-            "subject": {{
-                "name": "Đỗ Văn Chiến"
-            }},
-            "predicate": {{
-                "name": "is_main_author_of"
-            }},
-            "object": {{
-                "name": "Nghiên cứu ảnh hưởng..."
-            }}
-        }},
-        {{
-            "subject": {{
-                "name": ""Gia cố nền đất yếu bằng trụ đất xi măng""
-            }},
-            "predicate": {{
-                "name": "published_by"
-            }},
-            "object": {{
-                "name": "Nhà xuất bản Khoa học và Kỹ thuật"
-            }}
-        }}
-    ]
-```
-"""
-
-EXTRACT_TRIPLE_FROM_TABLE_USER_PROMPT = """
-    Extract relational triples from the following text.
-    Return only the JSON array of triples, no explanation.
-    
-    Main subject:
-    {main_subject}
-    
-    Text:
-    {context}
-"""
-
-EXTRACT_TRIPLE_FROM_PAPER_PROMPT = """
-You are an expert Data Normalization and Knowledge Graph (KG) Agent. Your task is to process the structured JSON data provided, representing an applicant's academic and scientific portfolio, and transform it into a set of well-defined Subject-Predicate-Object (SPO) Triples.
-
-
-### I. DATA CONTEXT AND INPUT STRUCTURE
-
-You will receive a JSON dictionary containing academic/research data with the following possible sections:
-- papers: Published research papers
-
-### II. CRITICAL SUBJECT IDENTIFICATION
-According to the main subject given, this becomes the **Applicant** in this document
-
-## TASK
-
-Extract **ALL** academic/research data as triples where:
-- **Subject**: Either the Applicant or paper title.
-- **Predicate**: Standardized, meaningful, logical relationship, **derived from JSON keys**
-- **Object**: The value or related entity
-    
-### III. TRIPLE GENERATION GUIDELINES AND SUBJECT ASSIGNMENT GUIDELINES
-
-#### A. Subject Assignment Rules (Priority):
-
-* **Rule 1 (Applicant Focus):** If the Predicate describes a **relationship**, **role**, or **direct contribution** of the applicant (e.g., authorship, the Subject MUST be the **Applicant (<ABC>)**.
-These include:
-- Authorship relationships (is author, is main author, is co-author)
-
-* **Rule 2 (Work Focus):** If the Predicate describes an **attribute** or **metadata** of the work itself (e.g., ranking, journal name), the Subject MUST be the **Title of the Work** (Paper Title).
-These include:
-- Publication details (journal name, ISSN)
-- Metadata (ranking, volume, pages, code)
-- Dates (publication date, issue date, acceptance date)
-- Counts (number of authors, citation count, number of contributors)
-
-#### B. Triple Construction Rules
-
-- **Predicate** must be meaningful, logical, and **based** on the context of the data key and **Subject(applicant or title)**. Focus on the json keys to extract **ALL Predicates**. 
-Consider the **meaning** of the JSON key, not just its name. Ask what meaning it really is. Use clear, descriptive verbs or verb phrases.
-- **Object** must be meaningful, if object is N/A, **PASS** it. 
-
-### IV. REQUIRED OUTPUT FORMAT
-* **Input Data:** 
-      "title": "Nghiên cứu ảnh hưởng của hàm lượng Montmorillonite đến tính chất cơ học của đất trộn xi măng",
-      "num_authors": 4,
-      "is_main_author": true,
-      "journal_name_ISSN": "Tạp chí địa kỹ thuật-Viện địa kỹ thuật ISSN 0868-279X",
-      "journal_ranking": "N/A",
-      "citation_count": 0,
-      "volume_issue_pages": "Tập 15, số 4, trang 11-19",
-      "published_date": "4/2011"
-
-Return a JSON array of triples:
-```json
-    [
-        {{
-            "subject": {{
-                "name": "Đỗ Văn Chiến"
-            }},
-            "predicate": {{
-                "name": "is_main_author_of"
-            }},
-            "object": {{
-                "name": "Nghiên cứu ảnh hưởng của hàm lượng Montmorillonite đến tính chất cơ học của đất trộn xi măng"
-            }}
-        }},
-        {{
-            "subject": {{
-                "name": "Nghiên cứu ảnh hưởng của hàm lượng Montmorillonite đến tính chất cơ học của đất trộn xi măng"
-            }},
-            "predicate": {{
-                "name": "published_in_journal"
-            }},
-            "object": {{
-                "name": "Tạp chí địa kỹ thuật-Viện địa kỹ thuật ISSN 0868-279X"
-            }}
-        }},
-        {{
-            "subject": {{
-                "name": "Nghiên cứu ảnh hưởng của hàm lượng Montmorillonite đến tính chất cơ học của đất trộn xi măng"
-            }},
-            "predicate": {{
-                "name": "has_total_citation"
-            }},
-            "object": {{
-                "name": "0"
-            }}
-        }}
-    ]
-```
-"""
-EXTRACT_TRIPLE_FROM_PAPER_USER_PROMPT = """
-    Extract relational triples from the following text.
-    Return only the JSON array of triples, no explanation.
-    
-    Main subject:
-    {main_subject}
-    
-    Text:
-    {context}
 """
